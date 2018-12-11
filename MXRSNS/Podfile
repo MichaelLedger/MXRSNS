@@ -1,5 +1,7 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
 
 target 'MXRSNS' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
@@ -7,6 +9,13 @@ target 'MXRSNS' do
 
   # Pods for MXRSNS
   pod 'AFNetworking', '~>3.1.0'  
+  pod 'FMDB', '~>2.7.2'
+  pod 'LKDBHelper', '~>2.4.7'
+  pod 'Masonry', '~>1.1.0'
+  pod 'SDWebImage', '~>4.4.0'
+  pod 'MBProgressHUD', '~>1.1.0'
+  pod 'AlicloudMAN', '~>1.0.10'
+  pod 'UMengAnalytics', '~>4.2.4'
 
   target 'MXRSNSTests' do
     inherit! :search_paths

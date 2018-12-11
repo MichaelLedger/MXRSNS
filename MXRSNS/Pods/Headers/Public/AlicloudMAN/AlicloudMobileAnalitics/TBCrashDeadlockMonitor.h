@@ -1,0 +1,1 @@
+../../../../AlicloudMAN/man/AlicloudMobileAnalitics.framework/Headers/TBCrashDeadlockMonitor.h

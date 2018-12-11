@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MXRLoadFailedView">
+            <rect key="frame" x="0.0" y="0.0" width="900" height="344"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Az-RL-CNx">
+                    <rect key="frame" x="0.0" y="70.5" width="900" height="203.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="好像网络连接有问题" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="127" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-7U-DMN">
+                            <rect key="frame" x="376.5" y="135" width="147" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_load_net_failed.png" translatesAutoresizingMaskIntoConstraints="NO" id="E6s-2v-Ibe">
+                            <rect key="frame" x="395" y="0.0" width="110" height="110"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-nu-dXT">
+                            <rect key="frame" x="413" y="169.5" width="74" height="34"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="点击重试">
+                                <color key="titleColor" red="0.023529411764705882" green="0.46666666666666667" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="4rt-J7-pAv"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="E6s-2v-Ibe" firstAttribute="top" secondItem="9Az-RL-CNx" secondAttribute="top" id="7jr-Ft-fDk"/>
+                        <constraint firstItem="VUE-7U-DMN" firstAttribute="top" secondItem="E6s-2v-Ibe" secondAttribute="bottom" constant="25" id="Gwk-3I-aS7"/>
+                        <constraint firstItem="VUE-7U-DMN" firstAttribute="centerX" secondItem="9Az-RL-CNx" secondAttribute="centerX" id="Ku3-yG-zeA"/>
+                        <constraint firstItem="ebv-nu-dXT" firstAttribute="centerX" secondItem="9Az-RL-CNx" secondAttribute="centerX" id="WgL-fx-xe5"/>
+                        <constraint firstItem="E6s-2v-Ibe" firstAttribute="centerX" secondItem="9Az-RL-CNx" secondAttribute="centerX" id="ch1-L7-Ooa"/>
+                        <constraint firstAttribute="bottom" secondItem="ebv-nu-dXT" secondAttribute="bottom" id="sex-JK-1sU"/>
+                        <constraint firstItem="ebv-nu-dXT" firstAttribute="top" secondItem="VUE-7U-DMN" secondAttribute="bottom" constant="15" id="w5N-46-28P"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9Az-RL-CNx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jNa-4x-l3r"/>
+                <constraint firstItem="9Az-RL-CNx" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="p7P-RJ-ttn"/>
+                <constraint firstItem="9Az-RL-CNx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uj6-u5-RvT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="infoLabel" destination="VUE-7U-DMN" id="BIj-oc-viE"/>
+                <outlet property="tryAgainButton" destination="ebv-nu-dXT" id="zuQ-ZP-Sie"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="-60"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_load_net_failed.png" width="110" height="110"/>
+    </resources>
+</document>

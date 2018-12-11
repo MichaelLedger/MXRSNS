@@ -10,8 +10,138 @@
 		83ADE3B52339AC8760CE79EF /* libPods-MXRSNSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF7157B76DE27E9260450E /* libPods-MXRSNSUITests.a */; };
 		8B6D92F0735E276180E764D8 /* libPods-MXRSNSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3C1F27D48F9F84DD218D8 /* libPods-MXRSNSTests.a */; };
 		8E9B44CF219F54438C795891 /* libPods-MXRSNS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 024DA5B747E6454F6F48E146 /* libPods-MXRSNS.a */; };
+		AA1F042F21BFD9C4006B3E73 /* MXRBookSNSDetailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039021BFD9C3006B3E73 /* MXRBookSNSDetailManager.m */; };
+		AA1F043021BFD9C4006B3E73 /* MXRBookSNSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039121BFD9C3006B3E73 /* MXRBookSNSDetailController.m */; };
+		AA1F043121BFD9C4006B3E73 /* MXRBookSNSDetailCommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039521BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.m */; };
+		AA1F043221BFD9C4006B3E73 /* MXRBookSNSDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039621BFD9C3006B3E73 /* MXRBookSNSDetailModel.m */; };
+		AA1F043321BFD9C4006B3E73 /* MXRBookSNSDetailCommentListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039821BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.m */; };
+		AA1F043421BFD9C4006B3E73 /* MXRBookSNSDetailDynamicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039921BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.m */; };
+		AA1F043521BFD9C4006B3E73 /* MXRBookSNSPraiseListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F039F21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.m */; };
+		AA1F043621BFD9C4006B3E73 /* MXRBookSNSPraiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03A021BFD9C3006B3E73 /* MXRBookSNSPraiseModel.m */; };
+		AA1F043721BFD9C4006B3E73 /* MXRSNSCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03A221BFD9C3006B3E73 /* MXRSNSCommentView.m */; };
+		AA1F043821BFD9C4006B3E73 /* MXRBookSNSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03A321BFD9C3006B3E73 /* MXRBookSNSDetailViewController.m */; };
+		AA1F043921BFD9C4006B3E73 /* MXRSNSCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03A421BFD9C3006B3E73 /* MXRSNSCommentView.xib */; };
+		AA1F043A21BFD9C4006B3E73 /* MXRBookSNSDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03A521BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.xib */; };
+		AA1F043B21BFD9C4006B3E73 /* MXRBookSNSDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03A621BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.m */; };
+		AA1F043C21BFD9C4006B3E73 /* MXRBookSNSDetailFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03A921BFD9C3006B3E73 /* MXRBookSNSDetailFootView.xib */; };
+		AA1F043D21BFD9C4006B3E73 /* MXRDynamicHasDeleteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03AA21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.xib */; };
+		AA1F043E21BFD9C4006B3E73 /* MXRBookSNSDetailFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03AE21BFD9C3006B3E73 /* MXRBookSNSDetailFootView.m */; };
+		AA1F043F21BFD9C4006B3E73 /* MXRDynamicHasDeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03AF21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.m */; };
+		AA1F044021BFD9C4006B3E73 /* MXRBookSNSSendDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03B321BFD9C3006B3E73 /* MXRBookSNSSendDetailController.m */; };
+		AA1F044121BFD9C4006B3E73 /* MXRBookSNSSendDetailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03B521BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.m */; };
+		AA1F044221BFD9C4006B3E73 /* MXRSearchTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03B821BFD9C3006B3E73 /* MXRSearchTopicModel.m */; };
+		AA1F044321BFD9C4006B3E73 /* MXRQiNiuUploadTokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03B921BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.m */; };
+		AA1F044421BFD9C4006B3E73 /* MXRBookStarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03BA21BFD9C3006B3E73 /* MXRBookStarModel.m */; };
+		AA1F044521BFD9C4006B3E73 /* MXRBookSNSUploadImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03BD21BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.m */; };
+		AA1F044621BFD9C4006B3E73 /* MXRBookSNSSendDetailProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03BE21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.m */; };
+		AA1F044721BFD9C4006B3E73 /* MXRSNSSendStateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03C221BFD9C3006B3E73 /* MXRSNSSendStateViewController.xib */; };
+		AA1F044821BFD9C4006B3E73 /* MXRSNSSendStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03C421BFD9C3006B3E73 /* MXRSNSSendStateViewController.m */; };
+		AA1F044921BFD9C4006B3E73 /* MXRBookSNSSearchZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03C821BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.m */; };
+		AA1F044A21BFD9C4006B3E73 /* MXRSNSSearchBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03C921BFD9C3006B3E73 /* MXRSNSSearchBookCell.xib */; };
+		AA1F044B21BFD9C4006B3E73 /* MXRBookSNSSearchBookBeforeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03CA21BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.m */; };
+		AA1F044C21BFD9C4006B3E73 /* MXRBookSNSSearchZoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03CB21BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.xib */; };
+		AA1F044D21BFD9C5006B3E73 /* MXRSNSSearchBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03CC21BFD9C3006B3E73 /* MXRSNSSearchBookViewController.m */; };
+		AA1F044E21BFD9C5006B3E73 /* MXRSNSSearchBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03CD21BFD9C3006B3E73 /* MXRSNSSearchBookCell.m */; };
+		AA1F044F21BFD9C5006B3E73 /* MXRSNSSearchNoBookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03CE21BFD9C3006B3E73 /* MXRSNSSearchNoBookView.xib */; };
+		AA1F045021BFD9C5006B3E73 /* MXRSearchBookFromBookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03CF21BFD9C3006B3E73 /* MXRSearchBookFromBookStore.m */; };
+		AA1F045121BFD9C5006B3E73 /* MXRSearchBookFromBookStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03D121BFD9C3006B3E73 /* MXRSearchBookFromBookStore.xib */; };
+		AA1F045221BFD9C5006B3E73 /* MXRBookSNSSearchBookBeforeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03D221BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.xib */; };
+		AA1F045321BFD9C5006B3E73 /* MXRSNSSearchNoBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03D421BFD9C3006B3E73 /* MXRSNSSearchNoBookView.m */; };
+		AA1F045421BFD9C5006B3E73 /* MXRBookSNSSearchBookAfterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03D921BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.m */; };
+		AA1F045521BFD9C5006B3E73 /* MXRBookSNSSearchBookAfterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03DA21BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.xib */; };
+		AA1F045621BFD9C5006B3E73 /* MXRSearchTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03DD21BFD9C3006B3E73 /* MXRSearchTopicViewController.m */; };
+		AA1F045721BFD9C5006B3E73 /* MXRSearchTopicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03DE21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.xib */; };
+		AA1F045821BFD9C5006B3E73 /* MXRSearchTopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03DF21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.m */; };
+		AA1F045921BFD9C5006B3E73 /* MXRAllTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03E121BFD9C3006B3E73 /* MXRAllTopicViewController.m */; };
+		AA1F045A21BFD9C5006B3E73 /* MXRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03E321BFD9C3006B3E73 /* MXRTextView.m */; };
+		AA1F045B21BFD9C5006B3E73 /* MXRHaveDoneSelectImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03E521BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.m */; };
+		AA1F045C21BFD9C5006B3E73 /* MXRHaveDoneSelectImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03E621BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.xib */; };
+		AA1F045D21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03E921BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.xib */; };
+		AA1F045E21BFD9C5006B3E73 /* MXRSNSPraiseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03EA21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.xib */; };
+		AA1F045F21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03EB21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.m */; };
+		AA1F046021BFD9C5006B3E73 /* MXRSNSPraiseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03EC21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.m */; };
+		AA1F046121BFD9C5006B3E73 /* MXRTopicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03F121BFD9C3006B3E73 /* MXRTopicsController.m */; };
+		AA1F046221BFD9C5006B3E73 /* MXRTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03F521BFD9C3006B3E73 /* MXRTopicModel.m */; };
+		AA1F046321BFD9C5006B3E73 /* MXRTopicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03F621BFD9C3006B3E73 /* MXRTopicProxy.m */; };
+		AA1F046421BFD9C5006B3E73 /* MXRTopicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03F921BFD9C3006B3E73 /* MXRTopicMainViewController.m */; };
+		AA1F046521BFD9C5006B3E73 /* MXRTopicMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F03FA21BFD9C3006B3E73 /* MXRTopicMainViewController.xib */; };
+		AA1F046621BFD9C5006B3E73 /* MXRBookSNSController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F03FD21BFD9C3006B3E73 /* MXRBookSNSController.m */; };
+		AA1F046721BFD9C5006B3E73 /* MXRSNSShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040321BFD9C3006B3E73 /* MXRSNSShareModel.m */; };
+		AA1F046821BFD9C5006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040421BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m */; };
+		AA1F046921BFD9C5006B3E73 /* MXRBookSNSBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040521BFD9C3006B3E73 /* MXRBookSNSBannerModel.m */; };
+		AA1F046A21BFD9C5006B3E73 /* MXRBookSNSCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040621BFD9C3006B3E73 /* MXRBookSNSCommentModel.m */; };
+		AA1F046B21BFD9C5006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040721BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m */; };
+		AA1F046C21BFD9C5006B3E73 /* MXRSNSBlackListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040821BFD9C3006B3E73 /* MXRSNSBlackListModel.m */; };
+		AA1F046D21BFD9C5006B3E73 /* MXRBookSNSModelProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F040921BFD9C3006B3E73 /* MXRBookSNSModelProxy.m */; };
+		AA1F046E21BFD9C5006B3E73 /* MXRBookSNSUserHandleMomentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041221BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.m */; };
+		AA1F046F21BFD9C5006B3E73 /* MXRBookSNSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041321BFD9C4006B3E73 /* MXRBookSNSTableViewCell.m */; };
+		AA1F047021BFD9C5006B3E73 /* MXRBookSNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041521BFD9C4006B3E73 /* MXRBookSNSViewController.m */; };
+		AA1F047121BFD9C5006B3E73 /* MXRPreviewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041721BFD9C4006B3E73 /* MXRPreviewImageViewController.m */; };
+		AA1F047221BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041821BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.m */; };
+		AA1F047321BFD9C5006B3E73 /* MXRBookSNSMomentImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041921BFD9C4006B3E73 /* MXRBookSNSMomentImageView.m */; };
+		AA1F047421BFD9C5006B3E73 /* MXRBookSNSForwardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.m */; };
+		AA1F047521BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F041B21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib */; };
+		AA1F047621BFD9C5006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041C21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m */; };
+		AA1F047721BFD9C5006B3E73 /* MXRBookSNSHeadVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F041D21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.m */; };
+		AA1F047821BFD9C5006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F041E21BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib */; };
+		AA1F047921BFD9C5006B3E73 /* MXRQuestionBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F042021BFD9C4006B3E73 /* MXRQuestionBanner.m */; };
+		AA1F047A21BFD9C5006B3E73 /* MXRQuestionBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F042121BFD9C4006B3E73 /* MXRQuestionBannerCell.m */; };
+		AA1F047B21BFD9C5006B3E73 /* MXRBookSNSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F042221BFD9C4006B3E73 /* MXRBookSNSTableViewCell.xib */; };
+		AA1F047C21BFD9C5006B3E73 /* MXRBookSNSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F042321BFD9C4006B3E73 /* MXRBookSNSViewController.xib */; };
+		AA1F047D21BFD9C5006B3E73 /* MXRBookSNSForwardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F042421BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.xib */; };
+		AA1F047E21BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F042521BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m */; };
+		AA1F047F21BFD9C5006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F042721BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m */; };
+		AA1F048021BFD9C5006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F042E21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib */; };
+		AA1F04A821BFD9F2006B3E73 /* MXRGetLocalImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F048321BFD9F2006B3E73 /* MXRGetLocalImageController.m */; };
+		AA1F04A921BFD9F2006B3E73 /* MXRSelectImageLocalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F048521BFD9F2006B3E73 /* MXRSelectImageLocalManager.m */; };
+		AA1F04AA21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F048A21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.m */; };
+		AA1F04AB21BFD9F2006B3E73 /* MXRImageInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F048B21BFD9F2006B3E73 /* MXRImageInformationModel.m */; };
+		AA1F04AC21BFD9F2006B3E73 /* MXRLocalAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F048D21BFD9F2006B3E73 /* MXRLocalAlbumModel.m */; };
+		AA1F04AD21BFD9F2006B3E73 /* MXRShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F048F21BFD9F2006B3E73 /* MXRShowAlertView.m */; };
+		AA1F04AE21BFD9F2006B3E73 /* MXRSelecImageLocalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F049121BFD9F2006B3E73 /* MXRSelecImageLocalCell.m */; };
+		AA1F04AF21BFD9F2006B3E73 /* MXRALbumInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F049221BFD9F2006B3E73 /* MXRALbumInformationCell.m */; };
+		AA1F04B021BFD9F2006B3E73 /* MXRShareVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F049321BFD9F2006B3E73 /* MXRShareVideoViewController.m */; };
+		AA1F04B121BFD9F2006B3E73 /* MXRPreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F049421BFD9F2006B3E73 /* MXRPreViewViewController.m */; };
+		AA1F04B221BFD9F2006B3E73 /* MXRShareVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F049521BFD9F2006B3E73 /* MXRShareVideoViewController.xib */; };
+		AA1F04B321BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F049621BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib */; };
+		AA1F04B421BFD9F2006B3E73 /* MXRPreviewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F049721BFD9F2006B3E73 /* MXRPreviewVideoCell.m */; };
+		AA1F04B521BFD9F2006B3E73 /* MXRALbumInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F049821BFD9F2006B3E73 /* MXRALbumInformationCell.xib */; };
+		AA1F04B621BFD9F2006B3E73 /* MXRAlbumListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F049921BFD9F2006B3E73 /* MXRAlbumListViewController.xib */; };
+		AA1F04B721BFD9F2006B3E73 /* MXRPreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F049A21BFD9F2006B3E73 /* MXRPreViewCell.m */; };
+		AA1F04B821BFD9F2006B3E73 /* MXRPreViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F049D21BFD9F2006B3E73 /* MXRPreViewViewController.xib */; };
+		AA1F04B921BFD9F2006B3E73 /* MXRAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04A021BFD9F2006B3E73 /* MXRAlbumListViewController.m */; };
+		AA1F04BA21BFD9F2006B3E73 /* MXRShowAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F04A121BFD9F2006B3E73 /* MXRShowAlertView.xib */; };
+		AA1F04BB21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F04A421BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib */; };
+		AA1F04BC21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04A521BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m */; };
+		AA1F04C021BFDA5E006B3E73 /* MXRUserHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04BF21BFDA5E006B3E73 /* MXRUserHeaderView.m */; };
+		AA1F04C421BFDA8E006B3E73 /* MXRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04C321BFDA8D006B3E73 /* MXRLabel.m */; };
+		AA1F04C821BFDAF8006B3E73 /* BookInfoForShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04C721BFDAF8006B3E73 /* BookInfoForShelf.m */; };
+		AA1F04CC21BFDB84006B3E73 /* MXRCopySysytemActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04CA21BFDB84006B3E73 /* MXRCopySysytemActionSheet.m */; };
+		AA1F04D121BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04CE21BFDBDB006B3E73 /* MXRPhotoPreviewGuideView.m */; };
+		AA1F04D221BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F04D021BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.xib */; };
+		AA1F04D521BFDC61006B3E73 /* MXRLocalResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04D321BFDC60006B3E73 /* MXRLocalResourceManager.m */; };
+		AA1F04DD21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04D821BFDD20006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.m */; };
+		AA1F04DE21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04D921BFDD20006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.m */; };
+		AA1F04DF21BFDD21006B3E73 /* MXRChatLoadMoreDataHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04DA21BFDD20006B3E73 /* MXRChatLoadMoreDataHeader.m */; };
+		AA1F04E221BFDF88006B3E73 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04E021BFDF87006B3E73 /* NSBundle+MJRefresh.m */; };
+		AA1F04E521BFE308006B3E73 /* MXRSubjectInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04E321BFE307006B3E73 /* MXRSubjectInfoModel.m */; };
+		AA1F04F321BFE32B006B3E73 /* YYPhotoBrowserTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04E821BFE32A006B3E73 /* YYPhotoBrowserTranslation.m */; };
+		AA1F04F421BFE32B006B3E73 /* YYPhotoBrowserMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04EB21BFE32A006B3E73 /* YYPhotoBrowserMainScrollView.m */; };
+		AA1F04F521BFE32B006B3E73 /* YYPhotoBrowserSubScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04EC21BFE32A006B3E73 /* YYPhotoBrowserSubScrollView.m */; };
+		AA1F04F621BFE32B006B3E73 /* YYPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04ED21BFE32A006B3E73 /* YYPhotoCollectionViewCell.m */; };
+		AA1F04F721BFE32B006B3E73 /* YYPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04F121BFE32A006B3E73 /* YYPhotoBrowserViewController.m */; };
+		AA1F04FA21BFE376006B3E73 /* UIView+YYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04F821BFE375006B3E73 /* UIView+YYExtension.m */; };
+		AA1F04FF21BFE59E006B3E73 /* MXRTopSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F04FD21BFE59D006B3E73 /* MXRTopSearchView.xib */; };
+		AA1F050021BFE59E006B3E73 /* MXRTopSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F04FE21BFE59E006B3E73 /* MXRTopSearchView.m */; };
+		AA1F050821BFE632006B3E73 /* MXRAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F050221BFE632006B3E73 /* MXRAudioManager.m */; };
+		AA1F050921BFE632006B3E73 /* MXRMp4Play.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F050421BFE632006B3E73 /* MXRMp4Play.m */; };
+		AA1F050A21BFE632006B3E73 /* Mp3Mp4PlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F050521BFE632006B3E73 /* Mp3Mp4PlayManager.m */; };
+		AA1F050E21BFE7A4006B3E73 /* MXRSNSSendMsgGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1F050B21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.xib */; };
+		AA1F050F21BFE7A4006B3E73 /* MXRSNSSendMsgGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F050C21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.m */; };
+		AA1F051321BFE880006B3E73 /* NSDictionary+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F051221BFE87F006B3E73 /* NSDictionary+URL.m */; };
+		AA1F051721BFEB0E006B3E73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1F051521BFEB0D006B3E73 /* Localizable.strings */; };
+		AA1F051821BFEB0E006B3E73 /* Localizable_en.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1F051621BFEB0D006B3E73 /* Localizable_en.strings */; };
 		AAB374E121BF9B4C00417161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB374E021BF9B4C00417161 /* AppDelegate.m */; };
-		AAB374E421BF9B4C00417161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB374E321BF9B4C00417161 /* ViewController.m */; };
 		AAB374E721BF9B4C00417161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB374E521BF9B4C00417161 /* Main.storyboard */; };
 		AAB374EA21BF9B4C00417161 /* MXRSNS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB374E821BF9B4C00417161 /* MXRSNS.xcdatamodeld */; };
 		AAB374EC21BF9B4E00417161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB374EB21BF9B4E00417161 /* Assets.xcassets */; };
@@ -116,11 +246,237 @@
 		30F3C1F27D48F9F84DD218D8 /* libPods-MXRSNSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXRSNSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BC3D4DE3CA96ED184C9086 /* Pods-MXRSNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXRSNS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXRSNS/Pods-MXRSNS.debug.xcconfig"; sourceTree = "<group>"; };
 		57C56FE9648C37E50CEBD63E /* Pods-MXRSNSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXRSNSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXRSNSUITests/Pods-MXRSNSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA1F038E21BFD9C3006B3E73 /* MXRBookSNSDetailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailManager.h; sourceTree = "<group>"; };
+		AA1F038F21BFD9C3006B3E73 /* MXRBookSNSDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailController.h; sourceTree = "<group>"; };
+		AA1F039021BFD9C3006B3E73 /* MXRBookSNSDetailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailManager.m; sourceTree = "<group>"; };
+		AA1F039121BFD9C3006B3E73 /* MXRBookSNSDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailController.m; sourceTree = "<group>"; };
+		AA1F039421BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailCommentListModel.h; sourceTree = "<group>"; };
+		AA1F039521BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailCommentsModel.m; sourceTree = "<group>"; };
+		AA1F039621BFD9C3006B3E73 /* MXRBookSNSDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailModel.m; sourceTree = "<group>"; };
+		AA1F039721BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailDynamicModel.h; sourceTree = "<group>"; };
+		AA1F039821BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailCommentListModel.m; sourceTree = "<group>"; };
+		AA1F039921BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailDynamicModel.m; sourceTree = "<group>"; };
+		AA1F039A21BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailCommentsModel.h; sourceTree = "<group>"; };
+		AA1F039B21BFD9C3006B3E73 /* MXRBookSNSDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailModel.h; sourceTree = "<group>"; };
+		AA1F039D21BFD9C3006B3E73 /* MXRBookSNSPraiseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSPraiseModel.h; sourceTree = "<group>"; };
+		AA1F039E21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSPraiseListModel.h; sourceTree = "<group>"; };
+		AA1F039F21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSPraiseListModel.m; sourceTree = "<group>"; };
+		AA1F03A021BFD9C3006B3E73 /* MXRBookSNSPraiseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSPraiseModel.m; sourceTree = "<group>"; };
+		AA1F03A221BFD9C3006B3E73 /* MXRSNSCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSCommentView.m; sourceTree = "<group>"; };
+		AA1F03A321BFD9C3006B3E73 /* MXRBookSNSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailViewController.m; sourceTree = "<group>"; };
+		AA1F03A421BFD9C3006B3E73 /* MXRSNSCommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSCommentView.xib; sourceTree = "<group>"; };
+		AA1F03A521BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSDetailTableViewCell.xib; sourceTree = "<group>"; };
+		AA1F03A621BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailTableViewCell.m; sourceTree = "<group>"; };
+		AA1F03A721BFD9C3006B3E73 /* MXRDynamicHasDeleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRDynamicHasDeleteView.h; sourceTree = "<group>"; };
+		AA1F03A821BFD9C3006B3E73 /* MXRBookSNSDetailFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailFootView.h; sourceTree = "<group>"; };
+		AA1F03A921BFD9C3006B3E73 /* MXRBookSNSDetailFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSDetailFootView.xib; sourceTree = "<group>"; };
+		AA1F03AA21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRDynamicHasDeleteView.xib; sourceTree = "<group>"; };
+		AA1F03AB21BFD9C3006B3E73 /* MXRBookSNSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailViewController.h; sourceTree = "<group>"; };
+		AA1F03AC21BFD9C3006B3E73 /* MXRSNSCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSCommentView.h; sourceTree = "<group>"; };
+		AA1F03AD21BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDetailTableViewCell.h; sourceTree = "<group>"; };
+		AA1F03AE21BFD9C3006B3E73 /* MXRBookSNSDetailFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDetailFootView.m; sourceTree = "<group>"; };
+		AA1F03AF21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRDynamicHasDeleteView.m; sourceTree = "<group>"; };
+		AA1F03B221BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSSendDetailManager.h; sourceTree = "<group>"; };
+		AA1F03B321BFD9C3006B3E73 /* MXRBookSNSSendDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSSendDetailController.m; sourceTree = "<group>"; };
+		AA1F03B421BFD9C3006B3E73 /* MXRBookSNSSendDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSSendDetailController.h; sourceTree = "<group>"; };
+		AA1F03B521BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSSendDetailManager.m; sourceTree = "<group>"; };
+		AA1F03B721BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSUploadImageInfo.h; sourceTree = "<group>"; };
+		AA1F03B821BFD9C3006B3E73 /* MXRSearchTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSearchTopicModel.m; sourceTree = "<group>"; };
+		AA1F03B921BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRQiNiuUploadTokenModel.m; sourceTree = "<group>"; };
+		AA1F03BA21BFD9C3006B3E73 /* MXRBookStarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookStarModel.m; sourceTree = "<group>"; };
+		AA1F03BB21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSSendDetailProxy.h; sourceTree = "<group>"; };
+		AA1F03BC21BFD9C3006B3E73 /* MXRSearchTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSearchTopicModel.h; sourceTree = "<group>"; };
+		AA1F03BD21BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSUploadImageInfo.m; sourceTree = "<group>"; };
+		AA1F03BE21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSSendDetailProxy.m; sourceTree = "<group>"; };
+		AA1F03BF21BFD9C3006B3E73 /* MXRBookStarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookStarModel.h; sourceTree = "<group>"; };
+		AA1F03C021BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRQiNiuUploadTokenModel.h; sourceTree = "<group>"; };
+		AA1F03C221BFD9C3006B3E73 /* MXRSNSSendStateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSSendStateViewController.xib; sourceTree = "<group>"; };
+		AA1F03C321BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRHaveDoneSelectImageCell.h; sourceTree = "<group>"; };
+		AA1F03C421BFD9C3006B3E73 /* MXRSNSSendStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSSendStateViewController.m; sourceTree = "<group>"; };
+		AA1F03C521BFD9C3006B3E73 /* MXRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTextView.h; sourceTree = "<group>"; };
+		AA1F03C721BFD9C3006B3E73 /* MXRSNSSearchNoBookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSSearchNoBookView.h; sourceTree = "<group>"; };
+		AA1F03C821BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSSearchZoneView.m; sourceTree = "<group>"; };
+		AA1F03C921BFD9C3006B3E73 /* MXRSNSSearchBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSSearchBookCell.xib; sourceTree = "<group>"; };
+		AA1F03CA21BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSSearchBookBeforeView.m; sourceTree = "<group>"; };
+		AA1F03CB21BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSSearchZoneView.xib; sourceTree = "<group>"; };
+		AA1F03CC21BFD9C3006B3E73 /* MXRSNSSearchBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSSearchBookViewController.m; sourceTree = "<group>"; };
+		AA1F03CD21BFD9C3006B3E73 /* MXRSNSSearchBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSSearchBookCell.m; sourceTree = "<group>"; };
+		AA1F03CE21BFD9C3006B3E73 /* MXRSNSSearchNoBookView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSSearchNoBookView.xib; sourceTree = "<group>"; };
+		AA1F03CF21BFD9C3006B3E73 /* MXRSearchBookFromBookStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSearchBookFromBookStore.m; sourceTree = "<group>"; };
+		AA1F03D021BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSSearchBookAfterView.h; sourceTree = "<group>"; };
+		AA1F03D121BFD9C3006B3E73 /* MXRSearchBookFromBookStore.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSearchBookFromBookStore.xib; sourceTree = "<group>"; };
+		AA1F03D221BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSSearchBookBeforeView.xib; sourceTree = "<group>"; };
+		AA1F03D321BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSSearchZoneView.h; sourceTree = "<group>"; };
+		AA1F03D421BFD9C3006B3E73 /* MXRSNSSearchNoBookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSSearchNoBookView.m; sourceTree = "<group>"; };
+		AA1F03D521BFD9C3006B3E73 /* MXRSearchBookFromBookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSearchBookFromBookStore.h; sourceTree = "<group>"; };
+		AA1F03D621BFD9C3006B3E73 /* MXRSNSSearchBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSSearchBookCell.h; sourceTree = "<group>"; };
+		AA1F03D721BFD9C3006B3E73 /* MXRSNSSearchBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSSearchBookViewController.h; sourceTree = "<group>"; };
+		AA1F03D821BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSSearchBookBeforeView.h; sourceTree = "<group>"; };
+		AA1F03D921BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSSearchBookAfterView.m; sourceTree = "<group>"; };
+		AA1F03DA21BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSSearchBookAfterView.xib; sourceTree = "<group>"; };
+		AA1F03DC21BFD9C3006B3E73 /* MXRAllTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRAllTopicViewController.h; sourceTree = "<group>"; };
+		AA1F03DD21BFD9C3006B3E73 /* MXRSearchTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSearchTopicViewController.m; sourceTree = "<group>"; };
+		AA1F03DE21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSearchTopicTableViewCell.xib; sourceTree = "<group>"; };
+		AA1F03DF21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSearchTopicTableViewCell.m; sourceTree = "<group>"; };
+		AA1F03E021BFD9C3006B3E73 /* MXRSearchTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSearchTopicViewController.h; sourceTree = "<group>"; };
+		AA1F03E121BFD9C3006B3E73 /* MXRAllTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRAllTopicViewController.m; sourceTree = "<group>"; };
+		AA1F03E221BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSearchTopicTableViewCell.h; sourceTree = "<group>"; };
+		AA1F03E321BFD9C3006B3E73 /* MXRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRTextView.m; sourceTree = "<group>"; };
+		AA1F03E421BFD9C3006B3E73 /* MXRSNSSendStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSSendStateViewController.h; sourceTree = "<group>"; };
+		AA1F03E521BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRHaveDoneSelectImageCell.m; sourceTree = "<group>"; };
+		AA1F03E621BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRHaveDoneSelectImageCell.xib; sourceTree = "<group>"; };
+		AA1F03E821BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSPraiseListTableViewCell.h; sourceTree = "<group>"; };
+		AA1F03E921BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSPraiseDetailViewController.xib; sourceTree = "<group>"; };
+		AA1F03EA21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSPraiseListTableViewCell.xib; sourceTree = "<group>"; };
+		AA1F03EB21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSPraiseDetailViewController.m; sourceTree = "<group>"; };
+		AA1F03EC21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSPraiseListTableViewCell.m; sourceTree = "<group>"; };
+		AA1F03ED21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSPraiseDetailViewController.h; sourceTree = "<group>"; };
+		AA1F03F021BFD9C3006B3E73 /* MXRTopicsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTopicsController.h; sourceTree = "<group>"; };
+		AA1F03F121BFD9C3006B3E73 /* MXRTopicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRTopicsController.m; sourceTree = "<group>"; };
+		AA1F03F321BFD9C3006B3E73 /* MXRTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTopicModel.h; sourceTree = "<group>"; };
+		AA1F03F421BFD9C3006B3E73 /* MXRTopicProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTopicProxy.h; sourceTree = "<group>"; };
+		AA1F03F521BFD9C3006B3E73 /* MXRTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRTopicModel.m; sourceTree = "<group>"; };
+		AA1F03F621BFD9C3006B3E73 /* MXRTopicProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRTopicProxy.m; sourceTree = "<group>"; };
+		AA1F03F821BFD9C3006B3E73 /* MXRTopicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTopicMainViewController.h; sourceTree = "<group>"; };
+		AA1F03F921BFD9C3006B3E73 /* MXRTopicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRTopicMainViewController.m; sourceTree = "<group>"; };
+		AA1F03FA21BFD9C3006B3E73 /* MXRTopicMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRTopicMainViewController.xib; sourceTree = "<group>"; };
+		AA1F03FD21BFD9C3006B3E73 /* MXRBookSNSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSController.m; sourceTree = "<group>"; };
+		AA1F03FE21BFD9C3006B3E73 /* MXRBookSNSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSController.h; sourceTree = "<group>"; };
+		AA1F040021BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSMomentStatusNoUploadManager.h; sourceTree = "<group>"; };
+		AA1F040121BFD9C3006B3E73 /* MXRBookSNSModelProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSModelProxy.h; sourceTree = "<group>"; };
+		AA1F040221BFD9C3006B3E73 /* MXRSNSBlackListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSBlackListModel.h; sourceTree = "<group>"; };
+		AA1F040321BFD9C3006B3E73 /* MXRSNSShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSShareModel.m; sourceTree = "<group>"; };
+		AA1F040421BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSMomentStatusNoUploadModel.m; sourceTree = "<group>"; };
+		AA1F040521BFD9C3006B3E73 /* MXRBookSNSBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSBannerModel.m; sourceTree = "<group>"; };
+		AA1F040621BFD9C3006B3E73 /* MXRBookSNSCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSCommentModel.m; sourceTree = "<group>"; };
+		AA1F040721BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSMomentStatusNoUploadManager.m; sourceTree = "<group>"; };
+		AA1F040821BFD9C3006B3E73 /* MXRSNSBlackListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSBlackListModel.m; sourceTree = "<group>"; };
+		AA1F040921BFD9C3006B3E73 /* MXRBookSNSModelProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSModelProxy.m; sourceTree = "<group>"; };
+		AA1F040A21BFD9C3006B3E73 /* MXRBookSNSCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSCommentModel.h; sourceTree = "<group>"; };
+		AA1F040B21BFD9C3006B3E73 /* MXRBookSNSBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSBannerModel.h; sourceTree = "<group>"; };
+		AA1F040C21BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSMomentStatusNoUploadModel.h; sourceTree = "<group>"; };
+		AA1F040D21BFD9C3006B3E73 /* MXRSNSShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSShareModel.h; sourceTree = "<group>"; };
+		AA1F040F21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSHeadVIew.h; sourceTree = "<group>"; };
+		AA1F041021BFD9C4006B3E73 /* MXRQuestionBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRQuestionBannerCell.h; sourceTree = "<group>"; };
+		AA1F041121BFD9C4006B3E73 /* MXRQuestionBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRQuestionBanner.h; sourceTree = "<group>"; };
+		AA1F041221BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSUserHandleMomentView.m; sourceTree = "<group>"; };
+		AA1F041321BFD9C4006B3E73 /* MXRBookSNSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSTableViewCell.m; sourceTree = "<group>"; };
+		AA1F041421BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSDeleteForwardTableViewCell.h; sourceTree = "<group>"; };
+		AA1F041521BFD9C4006B3E73 /* MXRBookSNSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSViewController.m; sourceTree = "<group>"; };
+		AA1F041621BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSMomentImageDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		AA1F041721BFD9C4006B3E73 /* MXRPreviewImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPreviewImageViewController.m; sourceTree = "<group>"; };
+		AA1F041821BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSMomentImageDetailCollection.m; sourceTree = "<group>"; };
+		AA1F041921BFD9C4006B3E73 /* MXRBookSNSMomentImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSMomentImageView.m; sourceTree = "<group>"; };
+		AA1F041A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSForwardTableViewCell.m; sourceTree = "<group>"; };
+		AA1F041B21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSMomentImageDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA1F041C21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSHeadTopicCollectionViewCell.m; sourceTree = "<group>"; };
+		AA1F041D21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSHeadVIew.m; sourceTree = "<group>"; };
+		AA1F041E21BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSDeleteForwardTableViewCell.xib; sourceTree = "<group>"; };
+		AA1F041F21BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSUserHandleMomentView.h; sourceTree = "<group>"; };
+		AA1F042021BFD9C4006B3E73 /* MXRQuestionBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRQuestionBanner.m; sourceTree = "<group>"; };
+		AA1F042121BFD9C4006B3E73 /* MXRQuestionBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRQuestionBannerCell.m; sourceTree = "<group>"; };
+		AA1F042221BFD9C4006B3E73 /* MXRBookSNSTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSTableViewCell.xib; sourceTree = "<group>"; };
+		AA1F042321BFD9C4006B3E73 /* MXRBookSNSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSViewController.xib; sourceTree = "<group>"; };
+		AA1F042421BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSForwardTableViewCell.xib; sourceTree = "<group>"; };
+		AA1F042521BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSMomentImageDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		AA1F042621BFD9C4006B3E73 /* MXRBookSNSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSViewController.h; sourceTree = "<group>"; };
+		AA1F042721BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSDeleteForwardTableViewCell.m; sourceTree = "<group>"; };
+		AA1F042821BFD9C4006B3E73 /* MXRBookSNSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSTableViewCell.h; sourceTree = "<group>"; };
+		AA1F042921BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSHeadTopicCollectionViewCell.h; sourceTree = "<group>"; };
+		AA1F042A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSForwardTableViewCell.h; sourceTree = "<group>"; };
+		AA1F042B21BFD9C4006B3E73 /* MXRBookSNSMomentImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSMomentImageView.h; sourceTree = "<group>"; };
+		AA1F042C21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSMomentImageDetailCollection.h; sourceTree = "<group>"; };
+		AA1F042D21BFD9C4006B3E73 /* MXRPreviewImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPreviewImageViewController.h; sourceTree = "<group>"; };
+		AA1F042E21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRBookSNSHeadTopicCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA1F048321BFD9F2006B3E73 /* MXRGetLocalImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRGetLocalImageController.m; sourceTree = "<group>"; };
+		AA1F048421BFD9F2006B3E73 /* MXRSelectImageLocalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSelectImageLocalManager.h; sourceTree = "<group>"; };
+		AA1F048521BFD9F2006B3E73 /* MXRSelectImageLocalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSelectImageLocalManager.m; sourceTree = "<group>"; };
+		AA1F048621BFD9F2006B3E73 /* MXRGetLocalImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRGetLocalImageController.h; sourceTree = "<group>"; };
+		AA1F048821BFD9F2006B3E73 /* MXRImageInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRImageInformationModel.h; sourceTree = "<group>"; };
+		AA1F048921BFD9F2006B3E73 /* MXRLocalAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRLocalAlbumModel.h; sourceTree = "<group>"; };
+		AA1F048A21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSelectLocalImageProxy.m; sourceTree = "<group>"; };
+		AA1F048B21BFD9F2006B3E73 /* MXRImageInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRImageInformationModel.m; sourceTree = "<group>"; };
+		AA1F048C21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSelectLocalImageProxy.h; sourceTree = "<group>"; };
+		AA1F048D21BFD9F2006B3E73 /* MXRLocalAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRLocalAlbumModel.m; sourceTree = "<group>"; };
+		AA1F048F21BFD9F2006B3E73 /* MXRShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRShowAlertView.m; sourceTree = "<group>"; };
+		AA1F049021BFD9F2006B3E73 /* MXRAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRAlbumListViewController.h; sourceTree = "<group>"; };
+		AA1F049121BFD9F2006B3E73 /* MXRSelecImageLocalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSelecImageLocalCell.m; sourceTree = "<group>"; };
+		AA1F049221BFD9F2006B3E73 /* MXRALbumInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRALbumInformationCell.m; sourceTree = "<group>"; };
+		AA1F049321BFD9F2006B3E73 /* MXRShareVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRShareVideoViewController.m; sourceTree = "<group>"; };
+		AA1F049421BFD9F2006B3E73 /* MXRPreViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPreViewViewController.m; sourceTree = "<group>"; };
+		AA1F049521BFD9F2006B3E73 /* MXRShareVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRShareVideoViewController.xib; sourceTree = "<group>"; };
+		AA1F049621BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSelecImageLocalCell.xib; sourceTree = "<group>"; };
+		AA1F049721BFD9F2006B3E73 /* MXRPreviewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPreviewVideoCell.m; sourceTree = "<group>"; };
+		AA1F049821BFD9F2006B3E73 /* MXRALbumInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRALbumInformationCell.xib; sourceTree = "<group>"; };
+		AA1F049921BFD9F2006B3E73 /* MXRAlbumListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRAlbumListViewController.xib; sourceTree = "<group>"; };
+		AA1F049A21BFD9F2006B3E73 /* MXRPreViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPreViewCell.m; sourceTree = "<group>"; };
+		AA1F049B21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSelectImageLocalViewController.h; sourceTree = "<group>"; };
+		AA1F049C21BFD9F2006B3E73 /* MXRShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRShowAlertView.h; sourceTree = "<group>"; };
+		AA1F049D21BFD9F2006B3E73 /* MXRPreViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPreViewViewController.xib; sourceTree = "<group>"; };
+		AA1F049E21BFD9F2006B3E73 /* MXRALbumInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRALbumInformationCell.h; sourceTree = "<group>"; };
+		AA1F049F21BFD9F2006B3E73 /* MXRSelecImageLocalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSelecImageLocalCell.h; sourceTree = "<group>"; };
+		AA1F04A021BFD9F2006B3E73 /* MXRAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRAlbumListViewController.m; sourceTree = "<group>"; };
+		AA1F04A121BFD9F2006B3E73 /* MXRShowAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRShowAlertView.xib; sourceTree = "<group>"; };
+		AA1F04A221BFD9F2006B3E73 /* MXRPreViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPreViewViewController.h; sourceTree = "<group>"; };
+		AA1F04A321BFD9F2006B3E73 /* MXRShareVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRShareVideoViewController.h; sourceTree = "<group>"; };
+		AA1F04A421BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSelectImageLocalViewController.xib; sourceTree = "<group>"; };
+		AA1F04A521BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSelectImageLocalViewController.m; sourceTree = "<group>"; };
+		AA1F04A621BFD9F2006B3E73 /* MXRPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPreviewCell.h; sourceTree = "<group>"; };
+		AA1F04A721BFD9F2006B3E73 /* MXRPreviewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPreviewVideoCell.h; sourceTree = "<group>"; };
+		AA1F04BE21BFDA5E006B3E73 /* MXRUserHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRUserHeaderView.h; sourceTree = "<group>"; };
+		AA1F04BF21BFDA5E006B3E73 /* MXRUserHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRUserHeaderView.m; sourceTree = "<group>"; };
+		AA1F04C221BFDA8D006B3E73 /* MXRLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRLabel.h; sourceTree = "<group>"; };
+		AA1F04C321BFDA8D006B3E73 /* MXRLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRLabel.m; sourceTree = "<group>"; };
+		AA1F04C621BFDAF8006B3E73 /* BookInfoForShelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfoForShelf.h; sourceTree = "<group>"; };
+		AA1F04C721BFDAF8006B3E73 /* BookInfoForShelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfoForShelf.m; sourceTree = "<group>"; };
+		AA1F04CA21BFDB84006B3E73 /* MXRCopySysytemActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRCopySysytemActionSheet.m; sourceTree = "<group>"; };
+		AA1F04CB21BFDB84006B3E73 /* MXRCopySysytemActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRCopySysytemActionSheet.h; sourceTree = "<group>"; };
+		AA1F04CE21BFDBDB006B3E73 /* MXRPhotoPreviewGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPhotoPreviewGuideView.m; sourceTree = "<group>"; };
+		AA1F04CF21BFDBDB006B3E73 /* MXRPhotoPreviewGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPhotoPreviewGuideView.h; sourceTree = "<group>"; };
+		AA1F04D021BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPhotoPreviewGuideView.xib; sourceTree = "<group>"; };
+		AA1F04D321BFDC60006B3E73 /* MXRLocalResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRLocalResourceManager.m; sourceTree = "<group>"; };
+		AA1F04D421BFDC61006B3E73 /* MXRLocalResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRLocalResourceManager.h; sourceTree = "<group>"; };
+		AA1F04D721BFDD1F006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSLoadDataGifRefreshHeader.h; sourceTree = "<group>"; };
+		AA1F04D821BFDD20006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSLoadDataGifRefreshFooter.m; sourceTree = "<group>"; };
+		AA1F04D921BFDD20006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookSNSLoadDataGifRefreshHeader.m; sourceTree = "<group>"; };
+		AA1F04DA21BFDD20006B3E73 /* MXRChatLoadMoreDataHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRChatLoadMoreDataHeader.m; sourceTree = "<group>"; };
+		AA1F04DB21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookSNSLoadDataGifRefreshFooter.h; sourceTree = "<group>"; };
+		AA1F04DC21BFDD21006B3E73 /* MXRChatLoadMoreDataHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRChatLoadMoreDataHeader.h; sourceTree = "<group>"; };
+		AA1F04E021BFDF87006B3E73 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		AA1F04E121BFDF88006B3E73 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		AA1F04E321BFE307006B3E73 /* MXRSubjectInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSubjectInfoModel.m; sourceTree = "<group>"; };
+		AA1F04E421BFE308006B3E73 /* MXRSubjectInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSubjectInfoModel.h; sourceTree = "<group>"; };
+		AA1F04E821BFE32A006B3E73 /* YYPhotoBrowserTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoBrowserTranslation.m; sourceTree = "<group>"; };
+		AA1F04E921BFE32A006B3E73 /* YYPhotoBrowserTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoBrowserTranslation.h; sourceTree = "<group>"; };
+		AA1F04EB21BFE32A006B3E73 /* YYPhotoBrowserMainScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoBrowserMainScrollView.m; sourceTree = "<group>"; };
+		AA1F04EC21BFE32A006B3E73 /* YYPhotoBrowserSubScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoBrowserSubScrollView.m; sourceTree = "<group>"; };
+		AA1F04ED21BFE32A006B3E73 /* YYPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		AA1F04EE21BFE32A006B3E73 /* YYPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		AA1F04EF21BFE32A006B3E73 /* YYPhotoBrowserSubScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoBrowserSubScrollView.h; sourceTree = "<group>"; };
+		AA1F04F021BFE32A006B3E73 /* YYPhotoBrowserMainScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoBrowserMainScrollView.h; sourceTree = "<group>"; };
+		AA1F04F121BFE32A006B3E73 /* YYPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		AA1F04F221BFE32A006B3E73 /* YYPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		AA1F04F821BFE375006B3E73 /* UIView+YYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYExtension.m"; sourceTree = "<group>"; };
+		AA1F04F921BFE376006B3E73 /* UIView+YYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYExtension.h"; sourceTree = "<group>"; };
+		AA1F04FC21BFE59D006B3E73 /* MXRTopSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTopSearchView.h; sourceTree = "<group>"; };
+		AA1F04FD21BFE59D006B3E73 /* MXRTopSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRTopSearchView.xib; sourceTree = "<group>"; };
+		AA1F04FE21BFE59E006B3E73 /* MXRTopSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRTopSearchView.m; sourceTree = "<group>"; };
+		AA1F050221BFE632006B3E73 /* MXRAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRAudioManager.m; sourceTree = "<group>"; };
+		AA1F050321BFE632006B3E73 /* Mp3Mp4PlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Mp4PlayManager.h; sourceTree = "<group>"; };
+		AA1F050421BFE632006B3E73 /* MXRMp4Play.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRMp4Play.m; sourceTree = "<group>"; };
+		AA1F050521BFE632006B3E73 /* Mp3Mp4PlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Mp4PlayManager.m; sourceTree = "<group>"; };
+		AA1F050621BFE632006B3E73 /* MXRAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRAudioManager.h; sourceTree = "<group>"; };
+		AA1F050721BFE632006B3E73 /* MXRMp4Play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRMp4Play.h; sourceTree = "<group>"; };
+		AA1F050B21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRSNSSendMsgGuideView.xib; sourceTree = "<group>"; };
+		AA1F050C21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRSNSSendMsgGuideView.m; sourceTree = "<group>"; };
+		AA1F050D21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRSNSSendMsgGuideView.h; sourceTree = "<group>"; };
+		AA1F051121BFE87F006B3E73 /* NSDictionary+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URL.h"; sourceTree = "<group>"; };
+		AA1F051221BFE87F006B3E73 /* NSDictionary+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URL.m"; sourceTree = "<group>"; };
+		AA1F051521BFEB0D006B3E73 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AA1F051621BFEB0D006B3E73 /* Localizable_en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable_en.strings; sourceTree = "<group>"; };
 		AAB374DC21BF9B4C00417161 /* MXRSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXRSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB374DF21BF9B4C00417161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAB374E021BF9B4C00417161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AAB374E221BF9B4C00417161 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AAB374E321BF9B4C00417161 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AAB374E621BF9B4C00417161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAB374E921BF9B4C00417161 /* MXRSNS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MXRSNS.xcdatamodel; sourceTree = "<group>"; };
 		AAB374EB21BF9B4E00417161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -348,6 +704,538 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AA1F038B21BFD9C3006B3E73 /* DreamMoments */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F038C21BFD9C3006B3E73 /* BookSNSDetail */,
+				AA1F03B021BFD9C3006B3E73 /* BookSNSSendDetail */,
+				AA1F03E721BFD9C3006B3E73 /* DynamicPraiseDetail */,
+				AA1F03EE21BFD9C3006B3E73 /* Topics */,
+				AA1F03FB21BFD9C3006B3E73 /* BookSNS */,
+			);
+			path = DreamMoments;
+			sourceTree = "<group>";
+		};
+		AA1F038C21BFD9C3006B3E73 /* BookSNSDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F038D21BFD9C3006B3E73 /* Controller */,
+				AA1F039221BFD9C3006B3E73 /* Model */,
+				AA1F03A121BFD9C3006B3E73 /* View */,
+			);
+			path = BookSNSDetail;
+			sourceTree = "<group>";
+		};
+		AA1F038D21BFD9C3006B3E73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F038E21BFD9C3006B3E73 /* MXRBookSNSDetailManager.h */,
+				AA1F038F21BFD9C3006B3E73 /* MXRBookSNSDetailController.h */,
+				AA1F039021BFD9C3006B3E73 /* MXRBookSNSDetailManager.m */,
+				AA1F039121BFD9C3006B3E73 /* MXRBookSNSDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA1F039221BFD9C3006B3E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F039321BFD9C3006B3E73 /* 评论列表 */,
+				AA1F039C21BFD9C3006B3E73 /* 点赞列表 */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1F039321BFD9C3006B3E73 /* 评论列表 */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F039421BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.h */,
+				AA1F039521BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.m */,
+				AA1F039621BFD9C3006B3E73 /* MXRBookSNSDetailModel.m */,
+				AA1F039721BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.h */,
+				AA1F039821BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.m */,
+				AA1F039921BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.m */,
+				AA1F039A21BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.h */,
+				AA1F039B21BFD9C3006B3E73 /* MXRBookSNSDetailModel.h */,
+			);
+			path = "评论列表";
+			sourceTree = "<group>";
+		};
+		AA1F039C21BFD9C3006B3E73 /* 点赞列表 */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F039D21BFD9C3006B3E73 /* MXRBookSNSPraiseModel.h */,
+				AA1F039E21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.h */,
+				AA1F039F21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.m */,
+				AA1F03A021BFD9C3006B3E73 /* MXRBookSNSPraiseModel.m */,
+			);
+			path = "点赞列表";
+			sourceTree = "<group>";
+		};
+		AA1F03A121BFD9C3006B3E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03A221BFD9C3006B3E73 /* MXRSNSCommentView.m */,
+				AA1F03A321BFD9C3006B3E73 /* MXRBookSNSDetailViewController.m */,
+				AA1F03A421BFD9C3006B3E73 /* MXRSNSCommentView.xib */,
+				AA1F03A521BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.xib */,
+				AA1F03A621BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.m */,
+				AA1F03A721BFD9C3006B3E73 /* MXRDynamicHasDeleteView.h */,
+				AA1F03A821BFD9C3006B3E73 /* MXRBookSNSDetailFootView.h */,
+				AA1F03A921BFD9C3006B3E73 /* MXRBookSNSDetailFootView.xib */,
+				AA1F03AA21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.xib */,
+				AA1F03AB21BFD9C3006B3E73 /* MXRBookSNSDetailViewController.h */,
+				AA1F03AC21BFD9C3006B3E73 /* MXRSNSCommentView.h */,
+				AA1F03AD21BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.h */,
+				AA1F03AE21BFD9C3006B3E73 /* MXRBookSNSDetailFootView.m */,
+				AA1F03AF21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA1F03B021BFD9C3006B3E73 /* BookSNSSendDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03B121BFD9C3006B3E73 /* Controller */,
+				AA1F03B621BFD9C3006B3E73 /* Model */,
+				AA1F03C121BFD9C3006B3E73 /* View */,
+			);
+			path = BookSNSSendDetail;
+			sourceTree = "<group>";
+		};
+		AA1F03B121BFD9C3006B3E73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03B221BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.h */,
+				AA1F03B321BFD9C3006B3E73 /* MXRBookSNSSendDetailController.m */,
+				AA1F03B421BFD9C3006B3E73 /* MXRBookSNSSendDetailController.h */,
+				AA1F03B521BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA1F03B621BFD9C3006B3E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03B721BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.h */,
+				AA1F03B821BFD9C3006B3E73 /* MXRSearchTopicModel.m */,
+				AA1F03B921BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.m */,
+				AA1F03BA21BFD9C3006B3E73 /* MXRBookStarModel.m */,
+				AA1F03BB21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.h */,
+				AA1F03BC21BFD9C3006B3E73 /* MXRSearchTopicModel.h */,
+				AA1F03BD21BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.m */,
+				AA1F03BE21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.m */,
+				AA1F03BF21BFD9C3006B3E73 /* MXRBookStarModel.h */,
+				AA1F03C021BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1F03C121BFD9C3006B3E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03C221BFD9C3006B3E73 /* MXRSNSSendStateViewController.xib */,
+				AA1F03C321BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.h */,
+				AA1F03C421BFD9C3006B3E73 /* MXRSNSSendStateViewController.m */,
+				AA1F03C521BFD9C3006B3E73 /* MXRTextView.h */,
+				AA1F03C621BFD9C3006B3E73 /* SearchBook */,
+				AA1F03DB21BFD9C3006B3E73 /* SearchTopic */,
+				AA1F03E321BFD9C3006B3E73 /* MXRTextView.m */,
+				AA1F03E421BFD9C3006B3E73 /* MXRSNSSendStateViewController.h */,
+				AA1F03E521BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.m */,
+				AA1F03E621BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA1F03C621BFD9C3006B3E73 /* SearchBook */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04E421BFE308006B3E73 /* MXRSubjectInfoModel.h */,
+				AA1F04E321BFE307006B3E73 /* MXRSubjectInfoModel.m */,
+				AA1F03C721BFD9C3006B3E73 /* MXRSNSSearchNoBookView.h */,
+				AA1F03C821BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.m */,
+				AA1F03C921BFD9C3006B3E73 /* MXRSNSSearchBookCell.xib */,
+				AA1F03CA21BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.m */,
+				AA1F03CB21BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.xib */,
+				AA1F03CC21BFD9C3006B3E73 /* MXRSNSSearchBookViewController.m */,
+				AA1F03CD21BFD9C3006B3E73 /* MXRSNSSearchBookCell.m */,
+				AA1F03CE21BFD9C3006B3E73 /* MXRSNSSearchNoBookView.xib */,
+				AA1F03CF21BFD9C3006B3E73 /* MXRSearchBookFromBookStore.m */,
+				AA1F03D021BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.h */,
+				AA1F03D121BFD9C3006B3E73 /* MXRSearchBookFromBookStore.xib */,
+				AA1F03D221BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.xib */,
+				AA1F03D321BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.h */,
+				AA1F03D421BFD9C3006B3E73 /* MXRSNSSearchNoBookView.m */,
+				AA1F03D521BFD9C3006B3E73 /* MXRSearchBookFromBookStore.h */,
+				AA1F03D621BFD9C3006B3E73 /* MXRSNSSearchBookCell.h */,
+				AA1F03D721BFD9C3006B3E73 /* MXRSNSSearchBookViewController.h */,
+				AA1F03D821BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.h */,
+				AA1F03D921BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.m */,
+				AA1F03DA21BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.xib */,
+			);
+			path = SearchBook;
+			sourceTree = "<group>";
+		};
+		AA1F03DB21BFD9C3006B3E73 /* SearchTopic */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03DC21BFD9C3006B3E73 /* MXRAllTopicViewController.h */,
+				AA1F03DD21BFD9C3006B3E73 /* MXRSearchTopicViewController.m */,
+				AA1F03DE21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.xib */,
+				AA1F03DF21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.m */,
+				AA1F03E021BFD9C3006B3E73 /* MXRSearchTopicViewController.h */,
+				AA1F03E121BFD9C3006B3E73 /* MXRAllTopicViewController.m */,
+				AA1F03E221BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.h */,
+			);
+			path = SearchTopic;
+			sourceTree = "<group>";
+		};
+		AA1F03E721BFD9C3006B3E73 /* DynamicPraiseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03E821BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.h */,
+				AA1F03E921BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.xib */,
+				AA1F03EA21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.xib */,
+				AA1F03EB21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.m */,
+				AA1F03EC21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.m */,
+				AA1F03ED21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.h */,
+			);
+			path = DynamicPraiseDetail;
+			sourceTree = "<group>";
+		};
+		AA1F03EE21BFD9C3006B3E73 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03EF21BFD9C3006B3E73 /* Controller */,
+				AA1F03F221BFD9C3006B3E73 /* Model */,
+				AA1F03F721BFD9C3006B3E73 /* View */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		AA1F03EF21BFD9C3006B3E73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03F021BFD9C3006B3E73 /* MXRTopicsController.h */,
+				AA1F03F121BFD9C3006B3E73 /* MXRTopicsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA1F03F221BFD9C3006B3E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03F321BFD9C3006B3E73 /* MXRTopicModel.h */,
+				AA1F03F421BFD9C3006B3E73 /* MXRTopicProxy.h */,
+				AA1F03F521BFD9C3006B3E73 /* MXRTopicModel.m */,
+				AA1F03F621BFD9C3006B3E73 /* MXRTopicProxy.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1F03F721BFD9C3006B3E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03F821BFD9C3006B3E73 /* MXRTopicMainViewController.h */,
+				AA1F03F921BFD9C3006B3E73 /* MXRTopicMainViewController.m */,
+				AA1F03FA21BFD9C3006B3E73 /* MXRTopicMainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA1F03FB21BFD9C3006B3E73 /* BookSNS */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03FC21BFD9C3006B3E73 /* Controller */,
+				AA1F03FF21BFD9C3006B3E73 /* Model */,
+				AA1F040E21BFD9C3006B3E73 /* VIew */,
+			);
+			path = BookSNS;
+			sourceTree = "<group>";
+		};
+		AA1F03FC21BFD9C3006B3E73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03FD21BFD9C3006B3E73 /* MXRBookSNSController.m */,
+				AA1F03FE21BFD9C3006B3E73 /* MXRBookSNSController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA1F03FF21BFD9C3006B3E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F040021BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.h */,
+				AA1F040121BFD9C3006B3E73 /* MXRBookSNSModelProxy.h */,
+				AA1F040221BFD9C3006B3E73 /* MXRSNSBlackListModel.h */,
+				AA1F040321BFD9C3006B3E73 /* MXRSNSShareModel.m */,
+				AA1F040421BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m */,
+				AA1F040521BFD9C3006B3E73 /* MXRBookSNSBannerModel.m */,
+				AA1F040621BFD9C3006B3E73 /* MXRBookSNSCommentModel.m */,
+				AA1F040721BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m */,
+				AA1F040821BFD9C3006B3E73 /* MXRSNSBlackListModel.m */,
+				AA1F040921BFD9C3006B3E73 /* MXRBookSNSModelProxy.m */,
+				AA1F040A21BFD9C3006B3E73 /* MXRBookSNSCommentModel.h */,
+				AA1F040B21BFD9C3006B3E73 /* MXRBookSNSBannerModel.h */,
+				AA1F040C21BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.h */,
+				AA1F040D21BFD9C3006B3E73 /* MXRSNSShareModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1F040E21BFD9C3006B3E73 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F050D21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.h */,
+				AA1F050C21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.m */,
+				AA1F050B21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.xib */,
+				AA1F040F21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.h */,
+				AA1F041021BFD9C4006B3E73 /* MXRQuestionBannerCell.h */,
+				AA1F041121BFD9C4006B3E73 /* MXRQuestionBanner.h */,
+				AA1F041221BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.m */,
+				AA1F041321BFD9C4006B3E73 /* MXRBookSNSTableViewCell.m */,
+				AA1F041421BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.h */,
+				AA1F041521BFD9C4006B3E73 /* MXRBookSNSViewController.m */,
+				AA1F041621BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.h */,
+				AA1F041721BFD9C4006B3E73 /* MXRPreviewImageViewController.m */,
+				AA1F041821BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.m */,
+				AA1F041921BFD9C4006B3E73 /* MXRBookSNSMomentImageView.m */,
+				AA1F041A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.m */,
+				AA1F041B21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib */,
+				AA1F041C21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m */,
+				AA1F041D21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.m */,
+				AA1F041E21BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib */,
+				AA1F041F21BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.h */,
+				AA1F042021BFD9C4006B3E73 /* MXRQuestionBanner.m */,
+				AA1F042121BFD9C4006B3E73 /* MXRQuestionBannerCell.m */,
+				AA1F042221BFD9C4006B3E73 /* MXRBookSNSTableViewCell.xib */,
+				AA1F042321BFD9C4006B3E73 /* MXRBookSNSViewController.xib */,
+				AA1F042421BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.xib */,
+				AA1F042521BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m */,
+				AA1F042621BFD9C4006B3E73 /* MXRBookSNSViewController.h */,
+				AA1F042721BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m */,
+				AA1F042821BFD9C4006B3E73 /* MXRBookSNSTableViewCell.h */,
+				AA1F042921BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.h */,
+				AA1F042A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.h */,
+				AA1F042B21BFD9C4006B3E73 /* MXRBookSNSMomentImageView.h */,
+				AA1F042C21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.h */,
+				AA1F042D21BFD9C4006B3E73 /* MXRPreviewImageViewController.h */,
+				AA1F042E21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		AA1F048121BFD9F2006B3E73 /* SelectImageLocal */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F048221BFD9F2006B3E73 /* Controller */,
+				AA1F048721BFD9F2006B3E73 /* Model */,
+				AA1F048E21BFD9F2006B3E73 /* View */,
+			);
+			path = SelectImageLocal;
+			sourceTree = "<group>";
+		};
+		AA1F048221BFD9F2006B3E73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F048321BFD9F2006B3E73 /* MXRGetLocalImageController.m */,
+				AA1F048421BFD9F2006B3E73 /* MXRSelectImageLocalManager.h */,
+				AA1F048521BFD9F2006B3E73 /* MXRSelectImageLocalManager.m */,
+				AA1F048621BFD9F2006B3E73 /* MXRGetLocalImageController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA1F048721BFD9F2006B3E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F048821BFD9F2006B3E73 /* MXRImageInformationModel.h */,
+				AA1F048921BFD9F2006B3E73 /* MXRLocalAlbumModel.h */,
+				AA1F048A21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.m */,
+				AA1F048B21BFD9F2006B3E73 /* MXRImageInformationModel.m */,
+				AA1F048C21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.h */,
+				AA1F048D21BFD9F2006B3E73 /* MXRLocalAlbumModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1F048E21BFD9F2006B3E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F048F21BFD9F2006B3E73 /* MXRShowAlertView.m */,
+				AA1F049021BFD9F2006B3E73 /* MXRAlbumListViewController.h */,
+				AA1F049121BFD9F2006B3E73 /* MXRSelecImageLocalCell.m */,
+				AA1F049221BFD9F2006B3E73 /* MXRALbumInformationCell.m */,
+				AA1F049321BFD9F2006B3E73 /* MXRShareVideoViewController.m */,
+				AA1F049421BFD9F2006B3E73 /* MXRPreViewViewController.m */,
+				AA1F049521BFD9F2006B3E73 /* MXRShareVideoViewController.xib */,
+				AA1F049621BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib */,
+				AA1F049721BFD9F2006B3E73 /* MXRPreviewVideoCell.m */,
+				AA1F049821BFD9F2006B3E73 /* MXRALbumInformationCell.xib */,
+				AA1F049921BFD9F2006B3E73 /* MXRAlbumListViewController.xib */,
+				AA1F049A21BFD9F2006B3E73 /* MXRPreViewCell.m */,
+				AA1F049B21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.h */,
+				AA1F049C21BFD9F2006B3E73 /* MXRShowAlertView.h */,
+				AA1F049D21BFD9F2006B3E73 /* MXRPreViewViewController.xib */,
+				AA1F049E21BFD9F2006B3E73 /* MXRALbumInformationCell.h */,
+				AA1F049F21BFD9F2006B3E73 /* MXRSelecImageLocalCell.h */,
+				AA1F04A021BFD9F2006B3E73 /* MXRAlbumListViewController.m */,
+				AA1F04A121BFD9F2006B3E73 /* MXRShowAlertView.xib */,
+				AA1F04A221BFD9F2006B3E73 /* MXRPreViewViewController.h */,
+				AA1F04A321BFD9F2006B3E73 /* MXRShareVideoViewController.h */,
+				AA1F04A421BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib */,
+				AA1F04A521BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m */,
+				AA1F04A621BFD9F2006B3E73 /* MXRPreviewCell.h */,
+				AA1F04A721BFD9F2006B3E73 /* MXRPreviewVideoCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA1F04BD21BFDA49006B3E73 /* MXRUserHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04BE21BFDA5E006B3E73 /* MXRUserHeaderView.h */,
+				AA1F04BF21BFDA5E006B3E73 /* MXRUserHeaderView.m */,
+			);
+			path = MXRUserHeaderView;
+			sourceTree = "<group>";
+		};
+		AA1F04C121BFDA79006B3E73 /* MXRLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04C221BFDA8D006B3E73 /* MXRLabel.h */,
+				AA1F04C321BFDA8D006B3E73 /* MXRLabel.m */,
+			);
+			path = MXRLabel;
+			sourceTree = "<group>";
+		};
+		AA1F04C521BFDAE8006B3E73 /* MXRBookInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04C621BFDAF8006B3E73 /* BookInfoForShelf.h */,
+				AA1F04C721BFDAF8006B3E73 /* BookInfoForShelf.m */,
+			);
+			path = MXRBookInfo;
+			sourceTree = "<group>";
+		};
+		AA1F04C921BFDB77006B3E73 /* MXRActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04CB21BFDB84006B3E73 /* MXRCopySysytemActionSheet.h */,
+				AA1F04CA21BFDB84006B3E73 /* MXRCopySysytemActionSheet.m */,
+			);
+			path = MXRActionSheet;
+			sourceTree = "<group>";
+		};
+		AA1F04CD21BFDBC7006B3E73 /* MXRPhotoPreviewGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04CF21BFDBDB006B3E73 /* MXRPhotoPreviewGuideView.h */,
+				AA1F04CE21BFDBDB006B3E73 /* MXRPhotoPreviewGuideView.m */,
+				AA1F04D021BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.xib */,
+			);
+			path = MXRPhotoPreviewGuideView;
+			sourceTree = "<group>";
+		};
+		AA1F04D621BFDCFE006B3E73 /* MXRRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04E121BFDF88006B3E73 /* NSBundle+MJRefresh.h */,
+				AA1F04E021BFDF87006B3E73 /* NSBundle+MJRefresh.m */,
+				AA1F04DB21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.h */,
+				AA1F04D821BFDD20006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.m */,
+				AA1F04D721BFDD1F006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.h */,
+				AA1F04D921BFDD20006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.m */,
+				AA1F04DC21BFDD21006B3E73 /* MXRChatLoadMoreDataHeader.h */,
+				AA1F04DA21BFDD20006B3E73 /* MXRChatLoadMoreDataHeader.m */,
+			);
+			path = MXRRefresh;
+			sourceTree = "<group>";
+		};
+		AA1F04E621BFE32A006B3E73 /* YYPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04E721BFE32A006B3E73 /* Translation */,
+				AA1F04EA21BFE32A006B3E73 /* PhotoBrowser */,
+			);
+			path = YYPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AA1F04E721BFE32A006B3E73 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04E821BFE32A006B3E73 /* YYPhotoBrowserTranslation.m */,
+				AA1F04E921BFE32A006B3E73 /* YYPhotoBrowserTranslation.h */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		AA1F04EA21BFE32A006B3E73 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04EB21BFE32A006B3E73 /* YYPhotoBrowserMainScrollView.m */,
+				AA1F04EC21BFE32A006B3E73 /* YYPhotoBrowserSubScrollView.m */,
+				AA1F04ED21BFE32A006B3E73 /* YYPhotoCollectionViewCell.m */,
+				AA1F04EE21BFE32A006B3E73 /* YYPhotoBrowserViewController.h */,
+				AA1F04EF21BFE32A006B3E73 /* YYPhotoBrowserSubScrollView.h */,
+				AA1F04F021BFE32A006B3E73 /* YYPhotoBrowserMainScrollView.h */,
+				AA1F04F121BFE32A006B3E73 /* YYPhotoBrowserViewController.m */,
+				AA1F04F221BFE32A006B3E73 /* YYPhotoCollectionViewCell.h */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AA1F04FB21BFE593006B3E73 /* MXRTopSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04FC21BFE59D006B3E73 /* MXRTopSearchView.h */,
+				AA1F04FE21BFE59E006B3E73 /* MXRTopSearchView.m */,
+				AA1F04FD21BFE59D006B3E73 /* MXRTopSearchView.xib */,
+			);
+			path = MXRTopSearchView;
+			sourceTree = "<group>";
+		};
+		AA1F050121BFE632006B3E73 /* Mp3Mp4Player */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F050221BFE632006B3E73 /* MXRAudioManager.m */,
+				AA1F050321BFE632006B3E73 /* Mp3Mp4PlayManager.h */,
+				AA1F050421BFE632006B3E73 /* MXRMp4Play.m */,
+				AA1F050521BFE632006B3E73 /* Mp3Mp4PlayManager.m */,
+				AA1F050621BFE632006B3E73 /* MXRAudioManager.h */,
+				AA1F050721BFE632006B3E73 /* MXRMp4Play.h */,
+			);
+			path = Mp3Mp4Player;
+			sourceTree = "<group>";
+		};
+		AA1F051021BFE870006B3E73 /* NSDIctionary */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F051121BFE87F006B3E73 /* NSDictionary+URL.h */,
+				AA1F051221BFE87F006B3E73 /* NSDictionary+URL.m */,
+			);
+			path = NSDIctionary;
+			sourceTree = "<group>";
+		};
+		AA1F051421BFEAEF006B3E73 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F051621BFEB0D006B3E73 /* Localizable_en.strings */,
+				AA1F051521BFEB0D006B3E73 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		AA1F051921BFEBD9006B3E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F051421BFEAEF006B3E73 /* Localizable */,
+			);
+			name = "Supporting Files";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		AAB374D321BF9B4C00417161 = {
 			isa = PBXGroup;
 			children = (
@@ -375,10 +1263,9 @@
 			children = (
 				AAB3751521BF9D0400417161 /* Resources */,
 				AAB3751421BF9CFA00417161 /* Sources */,
+				AA1F051921BFEBD9006B3E73 /* Supporting Files */,
 				AAB374DF21BF9B4C00417161 /* AppDelegate.h */,
 				AAB374E021BF9B4C00417161 /* AppDelegate.m */,
-				AAB374E221BF9B4C00417161 /* ViewController.h */,
-				AAB374E321BF9B4C00417161 /* ViewController.m */,
 				AAB374E521BF9B4C00417161 /* Main.storyboard */,
 				AAB374EB21BF9B4E00417161 /* Assets.xcassets */,
 				AAB374ED21BF9B4E00417161 /* LaunchScreen.storyboard */,
@@ -411,6 +1298,7 @@
 		AAB3751421BF9CFA00417161 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F038B21BFD9C3006B3E73 /* DreamMoments */,
 				AAB375B321BFAA8500417161 /* Base */,
 				AAB3771E21BFBA9500417161 /* ClientManager */,
 				AAB3761B21BFBA4F00417161 /* AllNetwok */,
@@ -434,6 +1322,16 @@
 		AAB3751721BF9D5100417161 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F050121BFE632006B3E73 /* Mp3Mp4Player */,
+				AA1F04FB21BFE593006B3E73 /* MXRTopSearchView */,
+				AA1F04E621BFE32A006B3E73 /* YYPhotoBrowser */,
+				AA1F04D621BFDCFE006B3E73 /* MXRRefresh */,
+				AA1F04CD21BFDBC7006B3E73 /* MXRPhotoPreviewGuideView */,
+				AA1F04C921BFDB77006B3E73 /* MXRActionSheet */,
+				AA1F04C521BFDAE8006B3E73 /* MXRBookInfo */,
+				AA1F04C121BFDA79006B3E73 /* MXRLabel */,
+				AA1F04BD21BFDA49006B3E73 /* MXRUserHeaderView */,
+				AA1F048121BFD9F2006B3E73 /* SelectImageLocal */,
 				AAB375E221BFAE3F00417161 /* MXRLoadFailedView */,
 				AAB377A021BFD68300417161 /* AppConfig */,
 				AAB3779921BFC0A800417161 /* CacheData */,
@@ -615,6 +1513,7 @@
 		AAB375A821BFA90200417161 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F051021BFE870006B3E73 /* NSDIctionary */,
 				AAB3779221BFBF9300417161 /* NSObject */,
 				AAB375E921BFAE8600417161 /* UIImage */,
 				AAB375E821BFAE8200417161 /* UIView */,
@@ -701,6 +1600,8 @@
 		AAB375E821BFAE8200417161 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F04F921BFE376006B3E73 /* UIView+YYExtension.h */,
+				AA1F04F821BFE375006B3E73 /* UIView+YYExtension.m */,
 				AAB375F321BFAEA800417161 /* UIView+MXRSnapshot.h */,
 				AAB375F421BFAEA800417161 /* UIView+MXRSnapshot.m */,
 			);
@@ -847,6 +1748,8 @@
 				AAB3774921BFBA9500417161 /* Model */,
 				AAB3774E21BFBA9500417161 /* MXRUserSettingsManager.h */,
 				AAB3774721BFBA9500417161 /* MXRUserSettingsManager.m */,
+				AA1F04D421BFDC61006B3E73 /* MXRLocalResourceManager.h */,
+				AA1F04D321BFDC60006B3E73 /* MXRLocalResourceManager.m */,
 			);
 			path = ClientManager;
 			sourceTree = "<group>";
@@ -953,6 +1856,7 @@
 				AAB374D821BF9B4C00417161 /* Sources */,
 				AAB374D921BF9B4C00417161 /* Frameworks */,
 				AAB374DA21BF9B4C00417161 /* Resources */,
+				433EFCFC3579121819DDD457 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1048,14 +1952,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1F04BA21BFD9F2006B3E73 /* MXRShowAlertView.xib in Resources */,
+				AA1F04B521BFD9F2006B3E73 /* MXRALbumInformationCell.xib in Resources */,
+				AA1F051821BFEB0E006B3E73 /* Localizable_en.strings in Resources */,
+				AA1F047521BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib in Resources */,
+				AA1F045221BFD9C5006B3E73 /* MXRBookSNSSearchBookBeforeView.xib in Resources */,
+				AA1F04FF21BFE59E006B3E73 /* MXRTopSearchView.xib in Resources */,
+				AA1F048021BFD9C5006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib in Resources */,
 				AAB374EF21BF9B4E00417161 /* LaunchScreen.storyboard in Resources */,
 				AAB3756621BFA54800417161 /* readme_base64.rtf in Resources */,
+				AA1F043D21BFD9C4006B3E73 /* MXRDynamicHasDeleteView.xib in Resources */,
 				AAB374EC21BF9B4E00417161 /* Assets.xcassets in Resources */,
+				AA1F04B621BFD9F2006B3E73 /* MXRAlbumListViewController.xib in Resources */,
 				AAB3760E21BFB86B00417161 /* readme_sandbox.rtf in Resources */,
+				AA1F044A21BFD9C4006B3E73 /* MXRSNSSearchBookCell.xib in Resources */,
 				AAB375E621BFAE5C00417161 /* MXRLoadFailedView.xib in Resources */,
 				AAB3760421BFB0B100417161 /* readMe.rtf in Resources */,
+				AA1F047D21BFD9C5006B3E73 /* MXRBookSNSForwardTableViewCell.xib in Resources */,
+				AA1F045521BFD9C5006B3E73 /* MXRBookSNSSearchBookAfterView.xib in Resources */,
+				AA1F043A21BFD9C4006B3E73 /* MXRBookSNSDetailTableViewCell.xib in Resources */,
+				AA1F043C21BFD9C4006B3E73 /* MXRBookSNSDetailFootView.xib in Resources */,
+				AA1F045D21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.xib in Resources */,
 				AAB3778D21BFBEE300417161 /* vcclasslist.plist in Resources */,
+				AA1F047B21BFD9C5006B3E73 /* MXRBookSNSTableViewCell.xib in Resources */,
+				AA1F045121BFD9C5006B3E73 /* MXRSearchBookFromBookStore.xib in Resources */,
+				AA1F044721BFD9C4006B3E73 /* MXRSNSSendStateViewController.xib in Resources */,
+				AA1F050E21BFE7A4006B3E73 /* MXRSNSSendMsgGuideView.xib in Resources */,
 				AAB374E721BF9B4C00417161 /* Main.storyboard in Resources */,
+				AA1F046521BFD9C5006B3E73 /* MXRTopicMainViewController.xib in Resources */,
+				AA1F044C21BFD9C4006B3E73 /* MXRBookSNSSearchZoneView.xib in Resources */,
+				AA1F045C21BFD9C5006B3E73 /* MXRHaveDoneSelectImageCell.xib in Resources */,
+				AA1F04B221BFD9F2006B3E73 /* MXRShareVideoViewController.xib in Resources */,
+				AA1F043921BFD9C4006B3E73 /* MXRSNSCommentView.xib in Resources */,
+				AA1F04BB21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib in Resources */,
+				AA1F051721BFEB0E006B3E73 /* Localizable.strings in Resources */,
+				AA1F044F21BFD9C5006B3E73 /* MXRSNSSearchNoBookView.xib in Resources */,
+				AA1F045E21BFD9C5006B3E73 /* MXRSNSPraiseListTableViewCell.xib in Resources */,
+				AA1F04B321BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib in Resources */,
+				AA1F04B821BFD9F2006B3E73 /* MXRPreViewViewController.xib in Resources */,
+				AA1F047821BFD9C5006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib in Resources */,
+				AA1F047C21BFD9C5006B3E73 /* MXRBookSNSViewController.xib in Resources */,
+				AA1F045721BFD9C5006B3E73 /* MXRSearchTopicTableViewCell.xib in Resources */,
+				AA1F04D221BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,6 +2014,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		433EFCFC3579121819DDD457 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MXRSNS/Pods-MXRSNS-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXRSNS/Pods-MXRSNS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		79AC71301942E60859945754 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1137,77 +2093,173 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1F050F21BFE7A4006B3E73 /* MXRSNSSendMsgGuideView.m in Sources */,
 				AAB3756521BFA54800417161 /* MXRBase64.mm in Sources */,
+				AA1F04CC21BFDB84006B3E73 /* MXRCopySysytemActionSheet.m in Sources */,
 				AAB3760821BFB0FB00417161 /* DeviceIdAndUserAssociationManager.m in Sources */,
 				AAB375F021BFAE9B00417161 /* UIImage+Extend.m in Sources */,
+				AA1F04DF21BFDD21006B3E73 /* MXRChatLoadMoreDataHeader.m in Sources */,
+				AA1F050821BFE632006B3E73 /* MXRAudioManager.m in Sources */,
 				AAB3752221BF9DE900417161 /* MXRHeader.m in Sources */,
+				AA1F047921BFD9C5006B3E73 /* MXRQuestionBanner.m in Sources */,
+				AA1F04A921BFD9F2006B3E73 /* MXRSelectImageLocalManager.m in Sources */,
+				AA1F043721BFD9C4006B3E73 /* MXRSNSCommentView.m in Sources */,
+				AA1F044821BFD9C4006B3E73 /* MXRSNSSendStateViewController.m in Sources */,
 				AAB3755D21BFA4D400417161 /* UserInformation.m in Sources */,
+				AA1F045B21BFD9C5006B3E73 /* MXRHaveDoneSelectImageCell.m in Sources */,
+				AA1F04F721BFE32B006B3E73 /* YYPhotoBrowserViewController.m in Sources */,
 				AAB377AB21BFD68300417161 /* MXRAppConfigModel.m in Sources */,
 				AAB3779821BFC02700417161 /* MXRBaseServiceNetworkManager.m in Sources */,
-				AAB374E421BF9B4C00417161 /* ViewController.m in Sources */,
 				AAB3753021BF9EFB00417161 /* MXRBaseDBModel.m in Sources */,
+				AA1F04C021BFDA5E006B3E73 /* MXRUserHeaderView.m in Sources */,
 				AAB3760D21BFB86B00417161 /* SandboxFile.m in Sources */,
+				AA1F04B121BFD9F2006B3E73 /* MXRPreViewViewController.m in Sources */,
 				AAB3752C21BF9EB200417161 /* MXRUserInfo.m in Sources */,
+				AA1F046021BFD9C5006B3E73 /* MXRSNSPraiseListTableViewCell.m in Sources */,
+				AA1F046921BFD9C5006B3E73 /* MXRBookSNSBannerModel.m in Sources */,
 				AAB3759921BFA6A900417161 /* UICollectionView+Convenience.m in Sources */,
+				AA1F044221BFD9C4006B3E73 /* MXRSearchTopicModel.m in Sources */,
+				AA1F047721BFD9C5006B3E73 /* MXRBookSNSHeadVIew.m in Sources */,
 				AAB375FE21BFAFAE00417161 /* BUUtil.m in Sources */,
+				AA1F04AF21BFD9F2006B3E73 /* MXRALbumInformationCell.m in Sources */,
 				AAB375F521BFAEA800417161 /* UIView+MXRSnapshot.m in Sources */,
+				AA1F045821BFD9C5006B3E73 /* MXRSearchTopicTableViewCell.m in Sources */,
 				AAB3759F21BFA6A900417161 /* MXRFormateUtil.m in Sources */,
+				AA1F047221BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollection.m in Sources */,
+				AA1F04AD21BFD9F2006B3E73 /* MXRShowAlertView.m in Sources */,
 				AAB375AF21BFA91D00417161 /* NSString+NSDate.m in Sources */,
 				AAB3759621BFA6A900417161 /* NSIndexSet+Convenience.m in Sources */,
+				AA1F04AC21BFD9F2006B3E73 /* MXRLocalAlbumModel.m in Sources */,
 				AAB3779C21BFC0B200417161 /* CacheData.m in Sources */,
 				AAB3752421BF9DE900417161 /* MXRNetworkManager.m in Sources */,
+				AA1F046121BFD9C5006B3E73 /* MXRTopicsController.m in Sources */,
+				AA1F045421BFD9C5006B3E73 /* MXRBookSNSSearchBookAfterView.m in Sources */,
+				AA1F046F21BFD9C5006B3E73 /* MXRBookSNSTableViewCell.m in Sources */,
 				AAB3755821BFA41100417161 /* NSObject+MXRModel.m in Sources */,
+				AA1F04DD21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.m in Sources */,
+				AA1F046A21BFD9C5006B3E73 /* MXRBookSNSCommentModel.m in Sources */,
 				AAB3761921BFB98100417161 /* MXRDataAction.m in Sources */,
 				AAB3759821BFA6A900417161 /* NSURL+Ex.m in Sources */,
 				AAB3759D21BFA6A900417161 /* UIViewController+MXRUIFit.m in Sources */,
 				AAB375AE21BFA91D00417161 /* NSString+Ex.m in Sources */,
+				AA1F04C821BFDAF8006B3E73 /* BookInfoForShelf.m in Sources */,
+				AA1F043221BFD9C4006B3E73 /* MXRBookSNSDetailModel.m in Sources */,
 				AAB3777321BFBA9500417161 /* MXRBookReadRecord.m in Sources */,
+				AA1F045F21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.m in Sources */,
+				AA1F045A21BFD9C5006B3E73 /* MXRTextView.m in Sources */,
 				AAB3752121BF9DE900417161 /* NSMutableURLRequest+Ex.m in Sources */,
+				AA1F044521BFD9C4006B3E73 /* MXRBookSNSUploadImageInfo.m in Sources */,
 				AAB3777E21BFBBC200417161 /* MXRDataStatisticsNetworkManager.m in Sources */,
 				AAB375CA21BFAA8500417161 /* MXRDefaultViewController.m in Sources */,
+				AA1F045021BFD9C5006B3E73 /* MXRSearchBookFromBookStore.m in Sources */,
+				AA1F047A21BFD9C5006B3E73 /* MXRQuestionBannerCell.m in Sources */,
+				AA1F046821BFD9C5006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m in Sources */,
 				AAB3752821BF9E4C00417161 /* MXRDeviceUtil.m in Sources */,
+				AA1F047021BFD9C5006B3E73 /* MXRBookSNSViewController.m in Sources */,
+				AA1F043321BFD9C4006B3E73 /* MXRBookSNSDetailCommentListModel.m in Sources */,
 				AAB3759A21BFA6A900417161 /* UIViewController+Ex.m in Sources */,
+				AA1F050021BFE59E006B3E73 /* MXRTopSearchView.m in Sources */,
 				AAB375F921BFAF1000417161 /* GlobalBusyFlag.m in Sources */,
+				AA1F047F21BFD9C5006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m in Sources */,
 				AAB3759C21BFA6A900417161 /* UIViewController+ScreenZoonOut.m in Sources */,
+				AA1F047E21BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m in Sources */,
+				AA1F04E221BFDF88006B3E73 /* NSBundle+MJRefresh.m in Sources */,
 				AAB3755921BFA41100417161 /* MXRClassInfo.m in Sources */,
 				AAB3778A21BFBEE300417161 /* MXROneMinuteDataAnalysis.m in Sources */,
+				AA1F044321BFD9C4006B3E73 /* MXRQiNiuUploadTokenModel.m in Sources */,
+				AA1F04AA21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.m in Sources */,
 				AAB377A921BFD68300417161 /* MXRAppConfigController.m in Sources */,
 				AAB374EA21BF9B4C00417161 /* MXRSNS.xcdatamodeld in Sources */,
+				AA1F04B921BFD9F2006B3E73 /* MXRAlbumListViewController.m in Sources */,
+				AA1F04B721BFD9F2006B3E73 /* MXRPreViewCell.m in Sources */,
+				AA1F04F621BFE32B006B3E73 /* YYPhotoCollectionViewCell.m in Sources */,
 				AAB375A221BFA6A900417161 /* MXRJsonUtil.m in Sources */,
+				AA1F04DE21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.m in Sources */,
 				AAB377AA21BFD68300417161 /* MXRAppConfigProxy.m in Sources */,
+				AA1F043121BFD9C4006B3E73 /* MXRBookSNSDetailCommentsModel.m in Sources */,
+				AA1F043F21BFD9C4006B3E73 /* MXRDynamicHasDeleteView.m in Sources */,
+				AA1F051321BFE880006B3E73 /* NSDictionary+URL.m in Sources */,
+				AA1F043021BFD9C4006B3E73 /* MXRBookSNSDetailController.m in Sources */,
+				AA1F04E521BFE308006B3E73 /* MXRSubjectInfoModel.m in Sources */,
+				AA1F04A821BFD9F2006B3E73 /* MXRGetLocalImageController.m in Sources */,
 				AAB3778B21BFBEE300417161 /* UIViewController+MXROneMinuteDataAnalysis.m in Sources */,
 				AAB3759B21BFA6A900417161 /* MXRAutoCoding.m in Sources */,
 				AAB3759421BFA6A900417161 /* MXRClickUtil.m in Sources */,
+				AA1F046E21BFD9C5006B3E73 /* MXRBookSNSUserHandleMomentView.m in Sources */,
 				AAB375D321BFAA8500417161 /* MXRNavigationViewController.m in Sources */,
 				AAB374F221BF9B4E00417161 /* main.m in Sources */,
 				AAB3755721BFA41100417161 /* NSObject+MXRSecurityCoding.m in Sources */,
+				AA1F046D21BFD9C5006B3E73 /* MXRBookSNSModelProxy.m in Sources */,
 				AAB375A321BFA6A900417161 /* MARDataAnalysis.m in Sources */,
+				AA1F050A21BFE632006B3E73 /* Mp3Mp4PlayManager.m in Sources */,
+				AA1F04AE21BFD9F2006B3E73 /* MXRSelecImageLocalCell.m in Sources */,
+				AA1F045921BFD9C5006B3E73 /* MXRAllTopicViewController.m in Sources */,
 				AAB376EF21BFBA5000417161 /* BasicNetwork.m in Sources */,
+				AA1F047321BFD9C5006B3E73 /* MXRBookSNSMomentImageView.m in Sources */,
+				AA1F044921BFD9C4006B3E73 /* MXRBookSNSSearchZoneView.m in Sources */,
+				AA1F04D121BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.m in Sources */,
 				AAB3778921BFBEE300417161 /* MXROneMinuteNetworkManager.m in Sources */,
 				AAB3759E21BFA6A900417161 /* NSFileManager+MXRExtend.m in Sources */,
 				AAB3756721BFA54800417161 /* GTMBase64.m in Sources */,
+				AA1F044B21BFD9C4006B3E73 /* MXRBookSNSSearchBookBeforeView.m in Sources */,
+				AA1F043821BFD9C4006B3E73 /* MXRBookSNSDetailViewController.m in Sources */,
+				AA1F04C421BFDA8E006B3E73 /* MXRLabel.m in Sources */,
 				AAB3759521BFA6A900417161 /* MXRGlobalUtil.m in Sources */,
+				AA1F044E21BFD9C5006B3E73 /* MXRSNSSearchBookCell.m in Sources */,
 				AAB3756D21BFA5DA00417161 /* MXRAdpterManager.m in Sources */,
+				AA1F042F21BFD9C4006B3E73 /* MXRBookSNSDetailManager.m in Sources */,
 				AAB3759721BFA6A900417161 /* UIView+MXRFrame.m in Sources */,
+				AA1F04D521BFDC61006B3E73 /* MXRLocalResourceManager.m in Sources */,
+				AA1F046321BFD9C5006B3E73 /* MXRTopicProxy.m in Sources */,
+				AA1F044421BFD9C4006B3E73 /* MXRBookStarModel.m in Sources */,
+				AA1F044021BFD9C4006B3E73 /* MXRBookSNSSendDetailController.m in Sources */,
+				AA1F044121BFD9C4006B3E73 /* MXRBookSNSSendDetailManager.m in Sources */,
+				AA1F046421BFD9C5006B3E73 /* MXRTopicMainViewController.m in Sources */,
 				AAB375A721BFA86300417161 /* UIView+MXRGradientBackground.m in Sources */,
 				AAB3779121BFBF1900417161 /* MXRMD5.m in Sources */,
 				AAB3760321BFB0B100417161 /* KeychainItemWrapper.m in Sources */,
 				AAB375F121BFAE9B00417161 /* UIImage+Superposition.m in Sources */,
+				AA1F047121BFD9C5006B3E73 /* MXRPreviewImageViewController.m in Sources */,
 				AAB375F221BFAE9B00417161 /* UIImage+VJDeviceSpecialMedia.m in Sources */,
 				AAB374E121BF9B4C00417161 /* AppDelegate.m in Sources */,
 				AAB375A021BFA6A900417161 /* MXRFileUtil.m in Sources */,
+				AA1F044D21BFD9C5006B3E73 /* MXRSNSSearchBookViewController.m in Sources */,
+				AA1F043521BFD9C4006B3E73 /* MXRBookSNSPraiseListModel.m in Sources */,
 				AAB3777121BFBA9500417161 /* MXRUserSettingsManager.m in Sources */,
+				AA1F044621BFD9C4006B3E73 /* MXRBookSNSSendDetailProxy.m in Sources */,
+				AA1F04B021BFD9F2006B3E73 /* MXRShareVideoViewController.m in Sources */,
+				AA1F04FA21BFE376006B3E73 /* UIView+YYExtension.m in Sources */,
 				AAB3761A21BFB98100417161 /* MXRDataAnalyze.m in Sources */,
+				AA1F043E21BFD9C4006B3E73 /* MXRBookSNSDetailFootView.m in Sources */,
+				AA1F04B421BFD9F2006B3E73 /* MXRPreviewVideoCell.m in Sources */,
+				AA1F045621BFD9C5006B3E73 /* MXRSearchTopicViewController.m in Sources */,
+				AA1F046221BFD9C5006B3E73 /* MXRTopicModel.m in Sources */,
+				AA1F046721BFD9C5006B3E73 /* MXRSNSShareModel.m in Sources */,
+				AA1F045321BFD9C5006B3E73 /* MXRSNSSearchNoBookView.m in Sources */,
+				AA1F043421BFD9C4006B3E73 /* MXRBookSNSDetailDynamicModel.m in Sources */,
 				AAB3759321BFA6A900417161 /* MXRMediaUtil.m in Sources */,
 				AAB3752321BF9DE900417161 /* MXRNetworkResponse.m in Sources */,
+				AA1F046B21BFD9C5006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m in Sources */,
+				AA1F04F521BFE32B006B3E73 /* YYPhotoBrowserSubScrollView.m in Sources */,
+				AA1F047621BFD9C5006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m in Sources */,
+				AA1F04F321BFE32B006B3E73 /* YYPhotoBrowserTranslation.m in Sources */,
 				AAB375A121BFA6A900417161 /* MXRCGUtil.m in Sources */,
+				AA1F050921BFE632006B3E73 /* MXRMp4Play.m in Sources */,
 				AAB375DB21BFAC2E00417161 /* MXRConstant.m in Sources */,
 				AAB3778C21BFBEE300417161 /* MXROneMinuteDataModel.m in Sources */,
+				AA1F046C21BFD9C5006B3E73 /* MXRSNSBlackListModel.m in Sources */,
+				AA1F043B21BFD9C4006B3E73 /* MXRBookSNSDetailTableViewCell.m in Sources */,
 				AAB375D121BFAA8500417161 /* MXRScrollView.m in Sources */,
 				AAB3779521BFBFB100417161 /* NSObject+MAREX.m in Sources */,
 				AAB375E721BFAE5C00417161 /* MXRLoadFailedView.m in Sources */,
+				AA1F04F421BFE32B006B3E73 /* YYPhotoBrowserMainScrollView.m in Sources */,
+				AA1F046621BFD9C5006B3E73 /* MXRBookSNSController.m in Sources */,
 				AAB375DF21BFAE0100417161 /* TTTAttributedLabel.m in Sources */,
+				AA1F047421BFD9C5006B3E73 /* MXRBookSNSForwardTableViewCell.m in Sources */,
+				AA1F043621BFD9C4006B3E73 /* MXRBookSNSPraiseModel.m in Sources */,
+				AA1F04BC21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m in Sources */,
 				AAB376D621BFBA4F00417161 /* NSString+Sha1.m in Sources */,
+				AA1F04AB21BFD9F2006B3E73 /* MXRImageInformationModel.m in Sources */,
 				AAB3761821BFB98100417161 /* MXRCollectionDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1381,6 +2433,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MXRSNS/huashida_home-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"MXRBOOKCITY=1",
+				);
 				INFOPLIST_FILE = MXRSNS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1400,6 +2457,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MXRSNS/huashida_home-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"MXRBOOKCITY=1",
+				);
 				INFOPLIST_FILE = MXRSNS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

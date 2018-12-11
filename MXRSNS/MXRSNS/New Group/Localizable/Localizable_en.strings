@@ -1,0 +1,2020 @@
+/* Localized versions of Info.plist keys */
+
+//MXRQRScanViewController
+/* Localized versions of Info.plist keys */
+
+//MXRQRScanViewController
+"USERKNOWTIPS"="Please Align QR Code/Bar Code within Frame to Scan : )";
+"ACTIVICE_SUCCESS"="Successful Activation";
+"ACTIVICE_FAIL"="Unsuccessful Activation ";
+"DOWNLOAD_ALERT"="Do you want to download《%@》(%@)？";
+"DOWNLOADANDACTIVITE_ALERT"="Activate and Download《%@》？";
+"CAMERAOPEN_ALERT"="Unable to save! No access to Photos. Allow access your photos from device menu: (Settings) – (Privacy) – (Photos) – (Snaplearn)";
+"NOBOOK_ALERT"="Sorry, this book has not been published. You can find other books in our SnapLearn!";
+"NOTSUITCODE_ALERT"="Activation code is invalid. If problem persists, kindly contact \"hello@snaptolearn.com\" for technical support."; // V SP2.0 modify by liulong ref fantao
+"NOCODE_ALERT"="No QR Code Found";
+"BADNET_ALERT"="Poor network detected.";
+"BOOKINBOOKSHELF"="You have saved the book and it could be found in bookshelf";
+"MXRQRScanViewController_QRPreviewModel_Title" = "Detected";
+
+"BOOKINDOWNLIST"="This book is in a queue to download!";
+"KNOWALEADY"="I got it";
+"SCANLOGINFIRST"="You could not use the access code until logging in";
+
+"WATTING"="Waiting";
+"DOWNING"="Downloading";
+"DOWNED"="Downloaded";
+"SUSPEND"="Pausing ";
+"PAYMENT_TITLE"="Bill";
+"CANCEL"="Cancel";
+"OKay"="OK";
+"SURE"="Verification";
+"GOLOGIN"="Go to login";
+"SUBMIT"="Submit";
+"DOWNANDACTIVITY"="Active and Download";
+"ONLYACTIVITY"="Activate Only";
+"DELETE"="Delete";
+"PROMPT"="Notice";
+
+"All_Comment"="All Comments";
+//PopMenuforEdit
+"Out_Of_Memory"="The available capacity is not enough. Please add after clearing the cache";
+"PopMenuforEdit_The_Camera"="Camera";
+"PopMenuforEdit_Photo_Album"="Album";
+"PopMenuforEdit_Vidicon"="Vidicon";
+"PopMenuforEdit_Video"="Video";
+"PopMenuforEdit_Prompt"="Unable to display! No access to Microphone. Allow access your microphone from device menu: (Settings) – (Privacy) – (Microphone) – (Snaplearn)";
+"PopMenuforEdit_Sure"="OK";
+"UnableOpenTheCamera"="Unable to open the camera";
+//BookEx
+"BookEx"="Configuration Information Errors of Video Buttons";
+"BookEx_Error"="Configuration File Errors";
+
+//
+"Replaced_For_Reproduction"="Do you really want to replace the background-image";
+
+//MyDiyBookTableViewCell
+"MyDiyBookTableViewCell_Prompt"="System administrator has removed your book off shelves since the book may not meet our specifications. Please feel free to contact us";
+"MyDiyBookTableViewCell_Warning"="Your book is not approved since it does not meet our standards. You can check the specific rejection reasons in the information center and if you still have any questions, please feel free to contact us ";
+"MyDiyBookTableViewCell_Sure_Shelves"="Do you really want to remove this book off the bookshelf?";
+"MyDiyBookTableViewCell_Shelves"="Remove off shelves";
+"MyDiyBookTableViewCell_Editing"="Editing";
+"Load_End_Uploading_Book"="You can not upload this book until logging in";
+"Is_Reviewing_Book"="This book is in review and you will be informed within the following 2 days. Please pay attention to the notifications. This modification has been saved and you can re-upload it when the review is finished";
+
+
+//TransformTryReadPageViewController
+"Change_Trying_Page"="Change the free trial";
+"None_Net"="No internet";
+"Have_Not_Book"="No book made ";
+//
+
+"UploadDIYMessageViewController_UseMXB_Load"="Upload by spending MXR currency";
+"Use_Instructions"="Instructions";
+"Exchange_MXB"="You currently have %ld MXR currency. It will spend %ld MXR currency on uploading this book and you do not have enough MXR currency. To exchange more MXR currency->";
+"Improve_The_Book_Information"="Improve Book Information";
+"Please_Enter_Title"="Please enter the book name";
+"The_Author"="Author";
+"The_Cover"="Cover page ";
+"Trying_Tead_The_Page"="Trial ";
+"Page_Count"="Page %@";
+"Book_Description"="Book Description";
+"Please_Enter_Book_Introduction"="Please enter the book description…";
+"Please_Enter_Book_Label"="Please label the book";
+"Identify_And_Upload"="Confirm and upload";
+"Estimate_The_Size"="Estimated size：%.1fMB";
+"Uploa_The_4D_Agreement"="Once you upload this book, it means that you agree with the ‘SnapLearn User Upload Agreement’";
+"4D_Users_Upload_Protocol"="SnapLearn User Upload Agreement";
+"Use_MXB_Upload_Book"="You currently have %ld MXR currency and it will spend %ld MXR currency on uploading this book. Please improve the book information and once uploaded, the payments will be deducted from your MXR currency ";
+"Updata_Use_MXB"="You currently have %ld MXR currency and it will spend %ld MXR currency on updating this book. Once updated, the payments will be deducted from your MXR currency ";
+"Updata_Book_Information"="Update Book Information";
+"Please_Add_Book_Information"="Please improve the book information ";
+
+
+
+"Please_Recharge"="There is no enough MXR currency and please recharge more";
+"Suggested_WiFi_Upload"="You are now using 3/4G network and are recommended to upload/download through WiFi";
+"Cancel_The_Upload"="Upload Canceled ";
+"Continue_Upload"="Continue to Upload";
+"Curren_Name_Cannot_Change"="You can not chage current book name";
+
+//MXRAddCommentViewController
+"MXRAddCommentViewController_Add_Char"="Add Text";
+"MXRAddCommentViewController_Input_Char"="Please enter the text and the maximum word count is %i";
+
+//UGCInViewController
+"UGCInViewController_Prompt"="No more than 20 added buttons!";
+
+//ActionObject
+"ActionObject_prompt"="Error, please read the book after downloading it!";
+
+//MXRBottomMultifuctionalView
+"MXRBottomMultifuctionalView_Have_Save"="Save to album";
+"MXRBottomMultifuctionalView_Save_Error"="Fail to be saved to album";
+
+//MXREncyclopediaOfflineView
+"MXREncyclopediaOfflineView_Last_Page"="This is the last page~";
+
+//ImageShowViewController
+"ImageShowViewController_Shoot_failed"="Fail to re-photograph";
+
+//AnimalViewController
+"AnimalViewController_Juan"="%d Roll";
+
+//chat model
+"CHAT_MY_MESSAGE"="My message";
+"CHAT_INPUT_MESSAGE"="Please text the message";
+//MXRChatSingleMediaTableViewCell
+"MXRChatSingleMediaTableViewCellTips"="View Details";
+//MXRChatViewController
+
+
+
+
+
+"MXRChatViewControllerMenuTextCopyTitle"="Copy text";
+"MXRChatViewControllerMenuImageCopyTitle"="Save the image ";
+"MXRChatViewControllerMenuDeleteTitle"="Delete";
+// MXRChatSingleMediaWebViewController
+"MXRChatSingleMediaWebViewControllerTitle"="Details";
+// MXRChatNonsupportTableViewCell
+"MXRChatNonsupportTableViewCellTips"="The current version is unable to view this message ";
+//MXRLetterViewController
+"Letter_Nomore_Data"="——No more ——";
+"Letter_Nomore_Data_Tips"="No more ";
+
+//MXRCommentViewController
+"Comment_Please_InputContent"="Please enter your reply ";
+"Comment_Please_InputComment_Content"="Type your comments here";
+"Comment_Reply_Success"="Comment shared !";
+"Comment_Reply_Failed"="Comment Unsuccessful";
+"Comment_Read_Comment"="View Comments";
+"Comment_Reply_Comment"="Reply Comments";
+"Comment_Report_Comment"="Report Comments";
+"Comment_Delete_Comment"="Delete Comments";
+
+//XinShuViewController
+"XinShuViewController_New_Book"="New Arrivals";
+"XinShuViewController_Book_Download"="Top Downloads";
+"XinShuViewController_Obtain_Failed"="Fail to get new messages! Causes";
+"XinShuViewController_Request_Out_Of_Time"="Request timed out ";
+
+//MXRSearchBookTableViewCell
+"Ten_Thousand"="Ten thousand ";
+"READ"="Read";
+
+//
+"MyDiyBookTableViewCell_User"="Author：%@";
+"MyDiyBookTableViewCell_Size"="Size：%.2f MB";
+
+
+
+
+//MXRDiyBookViewController
+"MXRDiyBookViewController_My_Book"="My writings－1";
+"MXRDiyBookViewController_Tourists"="Visitors";
+"MXRDiyBookViewController_New_Page"="New Page";
+"MXRDiyBookViewController_Add_From_Local"="Add from album";
+"MXRDiyBookViewController_Create_Book"="During Writing";
+"MXRDiyBookViewController_Book_Name"="Please enter the book name";
+
+
+
+//PreviewArViewController
+"PreviewArViewController_Angle"="Angle";
+
+//MXRBottomMultifuctionalView
+"MXRBottomMultifuctionalView_Continue_Take_Pictures"="Continuous photographic mode";
+"MXRBottomMultifuctionalView_Recording"="Record Video";
+"MXRBottomMultifuctionalView_Share"="Share screen capture";
+
+//CaiDan
+"CaiDan_Prompt"="Just introduce me to others and you will be awarded with a 3D egg!";
+"CaiDan_Immediately"="Introduce Immediately ";
+"CaiDan_Later"="Introduce Later";
+"CaiDan_Out_Of"="You have got a 4D egg, get more eggs tomorrow!";
+"CaiDan_Deblock_Success"="Unlocked successfully and the book now is loading in the bookshelf\n you will jump to the bookshelf in 3 seconds…";
+"CaiDan_To_BookShelf"="Go to the bookshelf";
+"CaiDan_Know"="Got it";
+
+//MXRShelfBookCellViewModel
+"MXRShelfBookCellViewModel_No_Read"="Unread";
+"MXRShelfBookCellViewModel_Examine"="Reviewing";
+"MXRShelfBookCellViewModel_Have_Read"="Read %@";
+
+//MXRShelfBookGroupCellViewModel
+"MXRShelfBookGroupCellViewModel_Total_Book"="Totoally %li books";
+
+
+"MXRShelfBookGroupCellViewModel_Test"="Test";
+
+//MXRNewBookShelfViewController
+"MXRBookShelfViewController_Complte"="Finish";
+"MXRBookShelfViewController_DIY"="DIY Book";
+
+//MXRBookShelfMenuView
+"MXRBookShelfMenuView_Clear_Up"="One Click to Clear Up";
+"MXRBookShelfMenuView_Make_Book"="I want to Make a Book";
+"MXRBookShelfMenuView_Uploading"="Uploading";
+"MXRBookShelfMenuView_Compressing"="Compressing";
+
+//BookDownload
+"BookDownload_Error"="DEBUG Error";
+"BookDownload_Download_Error"="Download Error";
+"BookDownload_Book_Shelves"="This book has been removed off the shelves!";
+"BookDownload_Net_Bad"="Poor network detected. Please try again.";
+
+//MXRBookManager
+"MXRBookManager_Uploading"="The book is being uploaded. Are you sure to cancel the upload?";
+"MXRBookManager_Temp_Upload"="Stop uploading";
+"MXRBookManager_Cancle_Upload"="Cancel upload";
+"MXRBookManager_Request_Failed"="《%@》Request failed!";
+"MXRBookManager_Remove"="Do you really want to drop me? I am so sad";
+"MXRBookManager_Look_Again"="Look others";
+"MXRBookManager_Sure_Remove"="Delete";
+"MXRBookManager_Remove_Book"="The book is being uploaded and could not be recovered after deleting, are you sure to delete this book?";
+"MXRBookManager_Remove_OnReview_Book"="The book is under reviewing and could not be recovered after deleting, are you sure to delete this book?";
+"MXRBookManager_InMyDiy_Remove_Diy_Book"="Are you sure to delete this book?？";
+"MXRBookManager_Hui_Ben"="Picture Book";
+"MXRBookManager_Pin_Tu"="Puzzle";
+"MXRBookManager_Ren_Zhi_Ka"="Cognitive card";
+
+
+
+
+
+"MXRBookManager_Book"="Book";
+"MXRBookManager_Prompt_Words"="You need to use it along with《%@》physical objects ";
+"MXRBookManager_Download"="Download directly";
+"MXRBookManager_Buy_Book"="Purchase physical books";
+"MXRBookManager_None_Address"="Currently no links to purchase physical books";
+"MXRBookManager_Updata"="Updating...";
+
+"MXRBookManager_Cancel_Like_ERROR"="Please wait a while before trying again";
+"MXRBookManager_Cancel_Like_Failure_ERROR"="Please wait a while before trying again";
+
+"MXRBookManager_Update_Complete"="《%@》Updated"; // Updated toast
+
+//MXRBookChecker
+"MXRBookChecker_UpData_Prompt"="Upgrade reminder";
+"MXRBookChecker_Prompt"="Point-reading book version must be upgraded to use this book!";
+"MXRBookChecker_Updata_Immadiately"="Upgrade now";
+
+//MXRControl
+"MXRControl_Memory_Warning"="The available capacity is not enough and the book content has been cleaned by system. Please re-operate after clearing the cache ";
+"MXRControl_Open_Failed_Warning"="Fail to open the book. It may be caused by former saving error, please delete this book and made a new one";
+"MXRControl_Dream"="Magic Pen";
+"MXRControl_Resourse_Lose"="The book resources are lost due to the poor internet. Please change an internet and re-download";
+"MXRControl_Again_Download"="Re-download";
+"MXRControl_Know"="Got it";
+"MXRControl_Need_Update_App"="You need to upgrade it to 4D SnapLearn for the following reading";
+"MXRControl_Need_Delete_Book"="Resources expires and could not be opened, please delete it";
+"MXRControl_Update_App"="Upgrade now";
+
+
+
+//faceRecViewWithLite
+"Begain_Recording"="Start recording...";
+"End_Record"="Video recording finished.";
+"Save_failed"="Errors in saving videos to album. Error information：%@";
+"Save_Success"="Saving videos to album successfully.";
+
+//MXROfflineViewController
+"MXROfflineViewController_Out_Of_Time"="Out of time";
+"MXROfflineViewController_Delete_Sure"="All content will be lost after deleting, are you sure to continue deleting？";
+"MXROfflineViewController_Continue"="The configuration of your device is low and it may affect the experience. Are you sure to continue？";
+"MXROfflineViewController_No_Tip"="No more reminders";
+"MXROfflineViewController_Show"="Show";
+"MXROfflineViewController_Hidden"="Hide";
+"MXROfflineViewController_DeleteMarkContent"="The contents of this page will not be visible after deletion and if you need to recover, please contant our administrator";
+"MXROfflineViewController_MarkNoBtnInfo"="No resources in current page";
+"MXROfflineViewController_Audio_None" = "There is no audio on the current page
+";
+//MXRUnlockBookViewController
+"MXRUnlockBookViewController_Unlock"="Unlock 4D picture book";
+"MXRUnlockBookViewController_Unlock_Card"="Unlock 4D cognitive card";
+"MXRUnlockBookViewController_Unlock_Magic_Mirror"="Unlock 4D glasses";
+"MXRUnlockBookViewController_Unlock_Success"="Unlock Successfully";
+
+//MXRBookCoverStateView
+"MXRBookCoverStateView_Begain_Read"="Read";
+"MXRBookCoverStateView_Audit"="Reviewing";
+"MXRBookCoverStateView_Wating"="Waiting";
+
+
+
+"MXRBookCoverStateView_Uploading"="Uploading";
+"MXRBookCoverStateView_Suspended"="Pausing";
+"MXRBookCoverStateView_Compression"="Compressing";
+"MXRBookCoverStateView_Loading"="Loading";
+
+//MXBBookActiveNetwork
+"MXBBookActiveNetwork_Updata_Success"="Successfully upload the activation information of the book";
+"MXBBookActiveNetwork_Updata_Failed"="Fail to upload the activation information";
+"MXBBookActiveNetwork_Obtain_Failed"="Fail to get the activation information";
+"MXBBookActiveNetwork_Net_Failed"="Abnormal network";
+
+//MXBNetwork
+"MXBNetwork_Dlog"="Prevent objects from being released in advance,%s";
+"MXBNetwork_Error"="Service error";
+"MXBNetwork_Server_Error"="Server error:%@";
+"MXBNetwork_Failed"="Service failure";
+"MXBNetwork_Net_Failed"="Network error, please reconnect!";
+"MXBNetwork_Upload_MXB"="Upload the MXR currency, ok";
+"MXBNetwork_Refused_Server"="Service rejection";
+
+//MXBManager
+"MXBManager_Obtion_MXB"="Obain %i MXR currency";
+"MXBManager_Prompt"="Reminder";
+"MXBManager_GivIng_MXB"="First login: give %ld MXR currency as a gift";
+"MXBManager_Receive_MXB"="Receive";
+"MXBManager_Login_Success"="login successfully，reward %ld MXR currency ";
+"MXBManager_Register_Success"="Sign up successfully，reward %ld MXR currency";
+"MXBManager_Problem"="Device ID errors";
+"MXBManager_Upgrade_Success"="Congratulations, you have upgraded successfully and are rewarded by 200 MXR currency ";
+"MXBManager_Share_Success"="Share successfully";
+"MXBManager_Obtain_MXB_Failed"="Fail to obtain MXR currency ";
+
+
+//BookStoreNetwork
+"BookStoreNetwork_Obtain_failed"="Fail to obtain top label! Causes";
+"BookStoreNetwork_Obtain_Advertising_failed"="Fail to obtain advertisements! Causes";
+"BookStoreNetwork_Obtain_List_failed"="Fail to obtain a list of book information! Causes";
+"BookStoreNetwork_Cache_failed"="Cache failed";
+"BookStoreNetwork_Cache_Success"="Cache Successfully";
+"BookStoreNetwork_Data_Error"="Returned json format error";
+"BookStoreNetwork_Search_Error"="Fail to get search words! Causes";
+"BookStoreNetwork_No_Else"="No more";
+"BookStoreNetwork_Obtion_Book_Message_Failed"="Fail to obtain book information! Causes";
+/*
+ *User comments reminder texts
+ */
+"Comment_Delegate_Reply_Content"="Delete the reply or not";
+"Comment_Delegate_Main_Content"="Delete the comment or not ";
+"Delegate"="Delete";
+"DelegateNow"="Delete Immediately";
+"Return"="Back";
+"Book_User_Comment_Reply"="Reply ";
+"Comment_Reply"="Reply ";
+"Comment_Report_Failed"="fail to report ";
+"Comment_Report_Success"="report successfully";
+"Comment_UserComment"="User Comments";
+//CustomButtonForBookList
+"CustomButtonForBookList_Download"="Download";
+"CustomButtonForBookList_ElectronDownload"="Download";
+"CustomButtonForBookList_To_Read"="Read";
+"CustomButtonForBookList_Pause"="Pause";
+"CustomButtonForBookList_Waiting"="Waiting";
+"CustomButtonForBookList_Update"="Update";
+//MXRCommentWebViewController
+"CommentWebView_Please_InpuTContent"="Please fill the comments";
+"MXRCommentWebViewController_Login_Go"="Sign up to competition！";
+"MXRCapsuleToysWebView_Login_Go"="Sign up to lucky draw！";
+"MXRCapsuleToysWebView_Mxb_Task_Prompt"="Children, your dream money is short of money. Go to your task and earn your dream money!";
+"MXRCapsuleToysWebView_Task_Go"="to do the task";
+
+
+//MXRMyMessageController
+"SEND_BUTTON"="Send";
+"SEND_TOTAL"="Send(%ld)";
+"TOTALHAVE"="In Total";
+"PRAISECOUNT"="Number of praises";
+"MXRMyMessageController_DeleteFailed"="Delete unsuccessfully ";
+"MXRMyMessageController_DeleteSuccess"="Delete successfully ";
+"BookDetailComment_Reply_Success"="Reply successfully ";
+"BookDetailComment_Reply_Failure"="Delete unsuccessfully ";
+"BookDetailComment_Say_Something"="Say something...";
+"BookDetailComment_Input_Comment"="Please enter the content";
+"BookDetailComment_RequestData_Failure"="Request date unsuccessfully";
+"BookDetailComment_NoMoreData"="No more";
+"BookDetailComment_NoMoreComment"="No more comments";
+"BookDetailComment_Read_All_Reply"="Check all replys(%d)";
+"BookDetailComment_Reply"="Reply   %@";
+"MXRBookDetailCommCell_Praise_Fail"="Fail to praise ";
+"MXRBookDetailCommCell_UNPraise_Fail"="Fail to withdraw praise";
+"SavePicSuccess"="Save";
+"SavePicFailure"="Fail to save, no access to write";
+"BookDetailComment_CommentTitle"="COMMENTS";
+"BookDetailComment_DetailTitle"="DETAILS";
+"BookDetailComment_BtnTitle_WriteComment"="Write Comments";
+"BookDetailComment_NoComment"="No comments now. Be the first to write one !";
+"MXRBookCommentCellLookMore"="Read more";
+"MXRBookDetailVC_JoinToTopic"="Lots of people are taking about this book now, come and read it!";
+//MXRPageScrollViewController
+"MUST_SET_UP"="You must set up";
+
+//MXRBookStoreViewController
+"MXRBookStoreViewController_Book_Store"="Book store";
+"MXRBookStoreViewController_Recommed_for_you"="Recommendation";
+
+
+//MXRBookTagViewController
+"MXRBookTagViewController_No_Internet"="There is no internet now :(";
+//MXRCommentTableView
+"MXRCommentTableView_Delete_Cancel"="Cancel";
+"Look_The_Picture_To_Tead"="learn characters through pictures";
+"Listen_Sound_Recognition_Image"="Recognize pictures through listening";
+"Intuitive_Cognition"="Intuitive cognition";
+
+
+"BooK_Detail_Comment"="Book Comments";
+"Comment_Accusation"="Report";
+"Shelf"="Bookshelf";
+"BookStore"="Bookstore";
+"Discorver"="Discover";
+"Me"="Profile";
+"Login_Failed_Server_Exception!"="Fail to login, abnormal server!";
+"Login_Faiked_Reason%@"="Fail to login, causes %@";
+"LoginNetworkManager_Acc_Pas_Err"="Email or password error, please re-enter ";
+"LoginNetworkManager_Login_failed_BadNet"="Fail to login, abnormal network!,%@";
+"LoginNetworkManager_Login_failed_BadNetZero"="Fail to login, abnormal network!";
+"LoginNetworkManager_LoginFail"="Fail to login ";
+"LoginNetworkManager_BindFail"="Fail to binding";
+
+"Failed_To_Obtain_Purchase_Records"="Fail to getting purchase history";
+"DeviceIdAndUserAssociationManager_Not_nil"="deviceid could not be empty";
+"UserInformation_Than_Eighteen"="Age: over 18";
+"UserInformation_Zero_Three"="Age: 0－3";
+"UserInformation_ldAge"="Age:%ld-%ld";
+"UserInformation_Age+"="Age: over %@";
+"UserInformation_Age"="Age: %@-%@";
+"UserInformation_female"="Female";
+"UserInformation_male"="Male";
+
+"LoginViewController_Accept_Proto"="By Clicking Sign Up. You agree to SnapLearn’s User Agreement and Privacy Policy";
+"LoginViewController_pas_Least"="Password length: 6-16 digits ";
+"LoginViewController_Pho_Num_UNnil"="The phone number can't be empty ";
+"LoginViewController_Pho_Format_Err"="Incorrect phone number format ";
+"LoginViewController_Ema_Not_Nil"="E-mail address cannot be empty ";
+"LoginViewController_Email_format_Err"="Incorrect E-mail address format ";
+"LoginViewController_Right_Email_Pho"="Please enter corrent phone number or mail address";
+"LoginViewController_Login_Failed"="Login UnSuccessful ";
+"LoginViewController_Login_Succ"="Login Successful ";
+"LoginViewController_Forget_PSW"="Forgot Password";//Forgotten Passwords
+"LoginViewController_Register_Now"="Sign up";//Sign up now
+"LoginViewController_Verification_Code_Login"="verification code Login";
+"LoginViewController_PlzEnterCorrectEmial"="Please enter a valid ‘Email’";
+"LoginViewController_Verification_Code_Sending"="Sending";
+"LoginViewController_Verification_Code_warning"="Please enter verification code";
+
+"MXRPersonViewController_Login_Or_Register"="SIGN IN";//Login/Sign up
+"MXRPersonViewController_Btn_Sign"="Sign in";
+"MXRPersonViewController_Btn_HasSign"="Signed in";
+
+
+
+"GetPasswordViewController_Modify_Password"="Change Password ";
+"GetPasswordViewController_Input_Pass_Agin"="Please enter password again";
+"GetPasswordViewController_Not_Conform"="Entered passwords are different ";
+"GetPasswordViewController_Modify_Succ"="Password has been reset";
+"GetPasswordViewController_ModifyFail_Again"="Fail to change password，please try it later";
+"GetPasswordViewController_Password_NNil"="Passwords cannot be empty ";
+"GetPasswordViewController_NotAll_Kong"="Passwords could not be all Spaces ";
+"GetPasswordViewController_Back_PSW"="retrieve password ";
+"GetPasswordViewController_Input_Num_PSW"="Please enter password with 6 – 16 digits";
+"GetPasswordViewController_Again_Input_PSW"="Please re-enter password";
+
+"MXRChangePassWordViewCon_Pass_Fail"="Wrong Password ";
+"MXRChangePassWordViewCon_Bad_Net"="Poor Network";
+"MXRChangePassWordViewCon_Rig_Pho"="Please enter a corrent phone number";
+"MXRChangePassWordViewController_In_Old_Psw"="Please enter the previous passwords";
+"MXRChangePassWordViewCon_nextstep_error"="Fail to summbit, please try it again later";
+
+"MXRFogertPassWordSecStep_Code"="verification code ";
+"MXRFogertPassWordSecStep_Rec_Code"="receive the verification code on the phone：%@";
+"MXRFogertPassWordSecStep_Cod_Fail"="Wrong verification code ";
+"MXRFogertPassWordSecStep_Cod_Send_Succ"="verification code is sent";
+"MXRFogertPassWordSecStep_Cod_Send_Fail"="fail to send verification code";
+"MXRFogertPassWordSecStep_Have_Send"="Sent";
+"MXRFogertPassWordFirstStepVC_Input_Num"="Please enter the phone number when signing up";
+"MXRFogertPassWordFirstStepVC_Input_Email"="Please enter registered email address";
+"MXRFogertPassWordFirstStepVC_Input_login_Inconsistent"="Inconsistent input number and login number";
+
+
+"MXRChangePassWordViewController_Next_Step"="Next";
+"MXRChangePassWordViewController_Next_Step_Loading"="Next stage...";
+
+"MXRPhoneBandelDetailViewController_Next_Step"="Binding ";
+"MXRPhoneBandelDetailViewController_Next_Step_Loading"="Binding...";
+
+"UserRegisterSecCon_Rec_Cod_Pho"="Phone number to receive verification code：%@";
+"UserRegisterSecCon_Have_Send"="sent     s";
+
+
+
+"UserRegisterSecCon_Cod_Not_Nil"="verification code could not be empty";
+"UserRegisterCon_Loading"="During signing up...";
+"UserRegisterCon_Num_Rep"="Repeated phone number";
+"UserRegisterCon_Fail_Try"="Fail to sign up and please try again";
+"UserRegisterCon_Register_Success"="Registered successfully";
+"UserRegisterCon_Not_Nil"="Nickname could not be empty";
+"UserRegisterCon_Not_All_Space"="Nickname could not be all Space";
+"UserRegisterCon_Least_And_Most"="The nickname should have at least 2 characters and no more than 24 characters";
+"UserRegisterCon_Bad_Net"="Poor network!";
+"UserRegisterCon_Registed_Log"="The phone number has been registered and do you want to log in now?";
+"UserRegisterCon_EmailHasExist"="This email has been registered";
+
+"UserRegisterStepSecondVC_Register"="Sign up";
+"UserRegisterVC_Input_PSW"="Please enter your password with 6 – 16 characters";
+"UserRegisterVC_NickName"="Please enter a nickname with 2 – 24 characters";
+
+"MXRMyComTabViewCell_Comment"="Comments：%@";
+"MXRMyComTabViewCell_Reply"="Reply %@：%@";
+"MXRMyComTabViewCell_Book"="Book：";
+"MXRMyComTabViewCell_Notif"="Notification：";
+"MXRMyComTabViewCell_MyComment"="My comments：%@";
+"MXRMyComTabViewCell_MyComment2"="My comments：";
+"MXRMyComTabViewCell_ComentZer"="My comments";
+"MXRMyComCon_Refresh_Idle"="Pull to refresh...";
+"MXRMyComCon_Refresh_Pull"="Loose and refresh...";
+"MXRMyComCon_Refreshing"="Loading...";
+
+"AuthorizationViewController_MXRT"="Mixed Reality (MXR) Technology ";
+"AuthorizationViewController_Input_Pass"="Please enter the password";
+"AuthorizationViewController_Phone_Num"="Please enter the phone numer";
+"AuthorizationViewController_Email"="Please enter your email";
+"AuthorizationViewController_Get_Con"="To obtain MHTree account, please contant meihuishu@ecnupress.com.cn";
+
+
+"LoginViewController_Third_Login"="Social Login";
+"personchildrenFoucsVC_MyCare_ABun"="My Follow";
+"personchildrenFoucsVC_NoCare_Select"="You do not follow anything; just follow anything you like now";
+"personchildrenFoucsVC_Select_other"="Choose other labels：";
+"ThirdTypeLoginForCloseAlert"="To respond to the real-name policy，please sign up with your phone number. Third-party logins will be available soon.";
+
+"PersonInfoVC_IconSeeting"="Profile Photo Settings";
+"PersonInfoVC_NickName"="Nickname";
+"PersonInfoVC_Gentle"="Gender";
+"PersonInfoVC_Age"="Age";
+"PersonInfoVC_LocalClass"="Grade";
+
+"AuthorViewCont_Authing"="Authorising...";
+"AuthorViewCont_Unlock_Book"="Unlock book";
+"AuthorViewCont_PaWo_unLo_Bo"="Enter account passwords to unlock all 4D picture books";
+"AuthorViewCont_UnLo_All_Suc"="All 4D picture books are unlocked successfully";
+"AuthorViewCont_Acc_Or_Pas_Err"="Entered account or password is wrong";
+"AuthorViewCont_Acc_Auth"="Account Authorisation";
+"AuthorViewCont_MeiHui"="Use MHtree authorized account to download books!";
+"AuthorViewCont_Auth_Succ"="Successful authorisation，all MHtree books are unlocked";
+"AuthorViewCont_Auth_Fail"="Unsuccessful authorization, you do not enter the the correct MHtree account!";
+"AuthorViewCont_Bind_Account"="Bind Account";
+"AuthorViewCont_Bind_Account_Loading"="Binding Account...";
+"AuthorViewCont_Need_Auth_Acc"="You need to use authorized account to download books！";
+"AuthorViewCont_Unlock_Succ"="Unlock Successfully";
+"AuthorViewCont_Acc_Not_Nil"="Account should not be empty!";
+"AuthorViewCont_Acc_Not_Nill"="Passwords should not be empty!";
+
+"MXRPerViewCont_Drea_ShuTong"="MXR Fresher ";
+"MXRPerViewCont_Drea_BaiDing"="MXR Junior ";
+"MXRPerViewCont_Drea_XiuCai"="MXR Sophomore ";
+"MXRPerViewCont_Drea_JuRen"="MXR Second Runner-up ";
+"MXRPerViewCont_Drea_JinShi"="MXR Runner-up ";
+"MXRPerViewCont_Drea_ZhuangYuan"="MXR Champion ";
+"MXRPerViewCont_Drea_Dia"="My MXR Diamond";
+"MXRPerViewCont_ChongZhi"="To recharger";
+"MXRPerViewCont_MyCoin"="My MXR Currency";
+"MXRPerViewCont_Coin_Zone"="MXR Currency Zone";
+"MXRPerViewCont_GoChange"="To Exchange";
+"MXRPerViewCont_MyInviteFirend"="Invite Friends";
+"MXRPerViewCont_MyInviteFirendTips"="Invite friends to win MXR currency";
+"MXRPerViewCont_MyNoti"="Notification";
+"MXRPerViewCont_MyRank"="My Knowledge Tree";
+"MXRPerViewCont_MyTask"="My Tasks";
+"MXRPerViewCont_Mess_Tip"="Message Remider";
+"MXRPerViewCont_My_BookSNS"="My Moments";
+"MXRPerViewCont_Book_My"="My DIY Book";
+"MXRPerViewCont_Book_Buy_Record"="Purchase History";
+"MXRPerViewCont_Exchang_Code"="Activation Code";
+"MXRPerViewCont_Setting"="Settings";
+"MXRPerViewCont_Share"="Share";
+"MXRPerViewCont_Rank_Table"="Rankings";
+"MXRPerViewCont_Login_GetResetMXB"="You can not obtain the MXR currency until logging in"; // Obain MXR currency during rest
+"MXRPerViewCont_Login_Read_Rank"="You can not check the rankings until logging in";
+"MXRPerViewCont_QianDao_Fail"="Fail to check-in. Please try it again later";
+"MXRPerViewCont_Pro_Log_Acc"="To secure your virtual property，please recharge after logging in";
+
+"EarnMengXiangBiCon_Login_Resig"="Sign in and login";
+"EarnMengXiangBiCon_Constant_Qian_Day"="Continuous check-in days:";
+"EarnMengXiangBiCon_Share_To_Fri"="Share to friends";
+"EarnMengXiangBiCon_Share_To_Circle"="Share to my moments";
+"EarnMengXiangBiCon_Reason_Reply"="Feedback";
+"EarnMengXiangBiCon_Join_Acti"="To participate in activities";
+"EarnMengXiangBiCon_Qu_Earn_Coin"="Enter channel code to earn the MXR currency";
+"EarnMengXiangBiCon_Go_Regis"="To sign in";
+"EarnMengXiangBiCon_Go_QianDao"="I want to check in";
+"EarnMengXiangBiCon_Go_Share"="I want to share";
+"EarnMengXiangBiCon_Go_Report"="I want to give feedback";
+"EarnMengXiangBiCon_Go_Join"="I want to join in";
+"EarnMengXiangBiCon_Go_Earn"="I want to earn";
+"EarnMengXiangBiCon_Already_Join"="Participated in";
+"EarnMengXiangBiCon_My_Task"="My tasks";
+"EarnMengXiangBiCon_My_Coin_Count"="My MXR Currency：%ld";
+"EarnMengXiangBiCon_Download_All"="Local Downloads";
+"EarnMengXiangBiCon_Not_In_This"="Not on this device";
+
+"MXRPurchHisCon_Need_Login"="View your download history only after logged in!";
+"MXRPurchHisCon_No_Purch_Record"="You do not have purchase history now";
+//ChangeNikeNameViewController
+"ChangeNikeNameViewCon_MyNickName"="My nickname";
+"ChangeNikeNameViewCon_Modify_Fail"="Modify Unsuccessfully ";
+"ChangeNikeNameViewCon_Modify_Succ"="Modify Successfully";
+"ChangeNikeNameViewCon_MyCare"="Interests";
+
+"ChangeNikeNameViewCon_Select"="Please choose";
+"ChangeNikeNameViewCon_CareSucc"="Concern Successfully";
+//PersonInfoViewController
+"PersonInfoViewController_CurrentAccount"="Current Account";
+"PersonInfoViewCon_Person_Info"="Personal Information";
+"PersonInfoViewCon_Login_Setting"="Please set up after logging in";
+"PersonInfoViewCon_Curr_Account"="Current Account ";
+"PersonInfoViewCon_Take_Photo"="Photograph ";
+"PersonInfoViewCon_Local_Photo"="Local Upload";
+"PersonInfoViewCon_BadNet_SaveFail"="Abnormal Network, Save Unsuccessfully ";
+"PersonInfoViewController_MyFoucs_NoChoose"="Please select labels";
+"PersonInfoViewController_MyFoucs_Count"="No. Labels";
+//ReadLevelViewController
+
+"ReadLevelVC_HowToObtain"="How to get knowledge and improve grades?";
+"ReadLevelVC_ReadOne"="Finish reading a button in the book";
+"ReadLevelVC_InnerContent"="Inside content，";
+"ReadLevelVC_ObatainOneCoin"="You can then get a knowledge point and a MXR coin";
+"ReadLevelVC_fiveHAC"="500 knowledge points could obtain";
+"ReadLevelVC_TenHAC"="1000 knowledge points could obtain";
+"ReadLevelVC_FifHAC"="1500 knowledge points could obtain";
+"ReadLevelVC_TwenHAC"="2000 knowledge points could obtain";
+"ReadLevelVC_ComeOnRead"="Come on, guys, lets read！";
+"ReadLevelViewCont_Defeat"="Excellent，you win %ld%% children";
+"ReadLevelViewCont_NoRead"="You haven’t read any books!";
+"ReadLevelViewCont_Full_Rank"="Full level";
+"ReadLevelViewCont_Distance"="you still need %ld knowledge points to upgrade to level %@ ";
+"ReadLevelViewCont_Title"="My Level";
+
+//AboutOurViewController
+
+
+
+"AboutOurViewConn_More"="Over";
+"AboutOurViewConn_Input"="Please enter content";
+"AboutOurViewConn_LessThree"="No less than three characters";
+"AboutOurViewConn_NoMoreThan"="No more than 250 characters";
+"AboutOurViewConn_Thanks"="Thank you for your feedback";
+"AboutOurViewConn_FeedBack_Success"="You have submitted your feedback，we will deal with it as soon as possible.";
+"AboutOurViewConn_Serviec_Tel"="Service call";
+"AboutOurViewConn_Call"="Call";
+//MXRBookFeedbackViewController
+"MXRBookFeedbackViewCon_FedReward"="Dear users，you can give your feedback here if you have any problem during reading books. ";
+"MXRBookFeedbackViewCon_Reward_OneHund"="Reward you with 100 MXR currency";
+"MXRBookFeedbackViewCon_LogFir"="Please login :)";
+"MXRBookFeedbackViewCon_DisKeyBoard"="Pack up";
+"MXRBookFeedbackViewCon_YourSugg"="Please enter your suggestions...";
+
+
+"SettingVC_Free_Declare"="Disclaimer";
+"SettingVC_Suggestion_Fead"="Feedback";
+"SettingVC_Join_Get_Coin"="Give feedback and you can earn MXR currency";
+"SettingVC_Abount_4DBookStore"="About SnapLearn";
+"SettingVC_TimeTipsString"="Remider of time length";
+"SettingVC_Exchange_Account"="Change account";
+"SettingVC_Logout_Account"="Logout";
+"SettingVC_Enable_WAANNetwork"="Allow operator network download";
+"SettingVC_Enable_WAANNetwork_Subtitle"="Enable this feature to allow mobile downloads";
+"SettingVC_SmoothStyle"="Smooth Mode";
+"SettingVC_SmoothStyle_Subtitle"="Turn on smooth mode to reduce some visual effects to improve the fluency";
+"SettingVC_ARCameraOn"="Camera";
+"SettingVC_ARCameraOn_Subtitle"="Turning the camera off reduces power consumption and heat generation (use Scanning function to turn this feature on)";
+"SettingVC_Help_Center" = "FAQ";
+"MXRSetting_Util_Video_Authority"="Hello friends, your camera is turned off. Please turn on the camera function in APP{%@}-{%@}-{%@}.";
+"MXRSetting_Util_SmoothStyle_CloseTip"="Hello friends, in order for you to read books more smoothly, the system has turned on the \"smooth mode\" for you. Close Please turn off this feature in APP{%@}-{%@}-{%@}";
+
+"DDYVC_tryFail"="Fail to download trials";
+"DDYVC_ClickStarAccount"="Click stars to mark";
+"DDYVC_Book_Introduce"="Book Introduction";
+
+
+
+
+
+//ReportViewController
+"ReportViewCon_RepType"="Report Type";
+"ReportViewCon_Thank_Service_Handle"="Thank you for your help. Our staff will deal with it as soon as possible";
+"ReportViewCon_BadNet_Try"="Poor network, please try it again";
+"ReportViewCon_SelectRepType"="Please select report type";
+//SettingViewController
+"SettingViewCon_Log"="Login";
+"SettingViewCon_Log_loading"="Logging in...";
+"SettingViewCon_GetInfo"="Obtain information...";
+"SettingViewCon_User_Coin"="User ID：%@\r\n Device Indentifier：%@\r\n Tourist ID：%@\r\n MXR Currency: %@";
+"SettingViewCon_Adapt"="Debug";
+"SettingViewCon_CheckLoca_Version"="Verifying local version";
+"SettingViewCon_AlreadyLeast"="It’s the lastest version";
+"SettingViewCon_Find_New"="Find new version";
+"SettingViewCon_TIP"="Reminder";
+"SettingViewCon_FindNew_Update"="Find new version, do you want to update it？";
+"SettingViewCon_UpdateNow"="Update now";
+"SettingViewCon_UpdateDelay"="Update later";
+
+//MXRCommentViewController
+"MXRCommentViewCon_Reply"="Reply %@";
+"MXRCommentViewCon_Sex"="Sex";
+"MXRCommentViewCon_Adver"="Advertisement";
+"MXRCommentViewCon_Rev"="Reactionary ";
+"MXRCommentViewCon_Vio"="Violence ";
+"MXRCommentViewCon_Other"="Others";
+//MXRCommentTableViewCell
+"MXRCommentCell_Name"="Admin";
+"MXRCommentCell_ReplyMe"="Reply to me：%@";
+"MXRCommentCell_ReplyMeZero"="Reply to me：";
+
+"MXRCommentCell_MyBook"="My book：%@";
+"MXRCommentCell_MyBookZero"="My book：";
+"MXRCommentTableViewCell_MyComment"="My comments：%@";
+"MXRCommentTableViewCell_MyCommentZero"="My comments：";
+//MXRMyTaskViewController
+"MXRMyTaskViewController_DayTask"="Daily Tasks";
+"MXRMyTaskViewController_MXBState"="Instructions to earn MXR currency";
+"MXRMyTaskViewController_MXBString"="MXR currency ";
+"MXRMyTaskViewController_RegisterString"="Sign in";
+"MXRMyTaskViewController_QuDaoMaString"="Enter Channel Code";
+"MXRMyTaskViewController_MXBStore"="To check gifts in store";
+"MXRMyTaskViewController_MyTaskTitle"="My Task";
+//
+"ShowMessageContentViewController_Loading"="Loading...";
+"ShowMessageContentViewController_After_Log"="Please login to have full access";
+"ShowMessageContentViewController_Reply"="Reply: %@";
+"ShowMessageContentViewController_Comment_Zero"="Comments";
+"ShowMessageContentViewController_Private_Message"="Private Letter";
+"ShowMessageContentViewController_Comment_Reply"="Reply Comments";
+"ShowMessageContentViewController_Comment_Notify"="Notification";
+"ShowMessageContentViewController_DCoin"="Get it successfully，earn %i MXR currency";
+"ShowMessageContentViewController_Downloading"="It is downloading now！";
+"ShowMessageContentViewController_DownFail"="Download unsuccessfully，this address may be wrong！";
+"ShowMessageContentViewController_Mess_Detail"="Information Details";
+
+
+
+"ShowMessageContentViewController_Save_Img"="Save";
+"ShowMessageContentViewController_Get_Share_Content_Fail"="Unable to share currently";
+
+
+"AboutMXRVC_WeChat_Publish"="WeChat Official Account ：Mixed Reality (MXR) Technology ";
+"AboutMXRVC_Scan_Download"="Scan QR code to download SnapLearn ";
+"AboutMXRVC_ShareEarnCoin"="Share to earn MXR currency";
+"AboutMXRVC_Major_Net"="www.snaptolearn.com";
+"AboutMXRVC_QQ_Group"="Official QQ Group";
+"AboutMXRVC_QQ_Account"="Official QQ Number";
+"AboutOurVC_LinkStyle"="Contact Information ";
+"AboutOurVC_Tel_QQ_WeChat"="Email ";
+"AboutOurVC_Any_Call"="If you have any questions, please call our hotline. ";
+"AboutOurVC_Btn_Submit_Loading"="Submitting...";
+"MXRBookFeedbackVC_FedDeclare"="We will love to hear from you. If you do have any suggestions to make AR a better reading experience or if you are facing any issues, we are sorry to hear that. Do drop us a message and we will revert as soon as we can.";
+"MXRBookFeedbackVC_Suggestion"="Write your suggestions here...";
+"MXRMyMessageViewController_Wri_Com"="Writing comments...";
+
+
+
+
+"MXRMyMessageViewController_Comming"="Writing comments ";
+
+"MXRQRScanViewController_Scan"="Scan";
+"MXRQRScanViewController_Album"="Gallery";
+"ScanAgain"="Rescan";
+"Quit"="Logout";
+"Logout_Message"="Confirm logout ?";
+"MXRUserProtorlViewController_UserProtocol"="User Agreement";
+
+"DDYBookDetailViewController_Wri_ComZero"="Writing comments ";
+"DDYBookDetailViewController_ComZero"="comments ";
+"DDYBookDetailViewController_NPAdre"="No purchase address ";
+"DDYBookDetailViewController_PReal"="Purchase physical books ";
+"DDYBookDetailViewController_PurchaseReal"="Purchase ";
+"DDYBookDetailViewController_FED"="Save to bookshelves";
+"DDYBookDetailViewController_F"="Save to bookshelves ";
+"DDYBookDetailViewController_CollsectSuccess"="Save Successfully";
+"DDYBookDetailViewController_BADNET_Try"="Poor network, please try it again";
+"DDYBookDetailViewController_NoPur"="Currently no purchase physical books ";
+"DDYBookDetailViewController_Million"="(%.1f ten thousand)";
+"DDYBookDetailViewController_Commed"="You have already commented the book ";
+"DDYBookDetailViewController_Subject"="subject: %@";
+"DDYBookDetailViewController_TAge"="Teaching duration: %@years";
+"DDYBookDetailViewController_GentleFe"="Gender: Female";
+"DDYBookDetailViewController_GentleMa"="Gender: Male";
+"DDYBookDetailViewController_Publisher"="Publisher: %@";
+"DDYBookDetailViewController_Read"="Read：%@ ";
+"DDYBookDetailViewController_ReadCount"="%@ People";
+"DDYBookDetailViewController_ReadMill"="Read：%.1f ten thousand ";
+"DDYBookDetailViewController_Download"="Download：%@ ";
+"DDYBookDetailViewController_DownloadCount"="%@ times";
+"DDYBookDetailViewController_CopyRightInfo"="Contents of this book is forbidden for any commercial purposes and does not represent the views of SnapLearn. Snaplearn is not responsible for the accuracy of the content.  If the author or a third party user has and doubt about copyright, please contact the administrator (hello@snaptolearn.com)";
+
+"DDYBookDetailViewController_DownloadM"="Download：%.1f ten thousand ";
+"DDYBookDetailViewController_ZK"="Unfold";
+"DDYBookDetailViewController_SQ"="Fold";
+"DDYBookDetailViewController_GetFail"="Fail to obtain download information";
+"DDYBookDetailViewController_RequestBookDataFail"="Wow，this book is lost!";
+"DDYBookDetailViewController_MatchPhysicalBookBetterTip"="It is better to use it with physical books!";
+"DDYBookDetailViewController_GoodComment"="Wonderful comments (number: %ld)";
+"DDYBookDetailViewController_PublilisherFloatViewTip"="Publisher: %@";
+"DDYBookDetailViewController_LookMore"="Read more";
+"DDYBookDetailViewController_BeginToAnswer"="Start";
+"DDYBookDetailViewController_RecommendBooks"="Related Suggestion";
+"DDYBookDetailViewController_RecommendBooksForAChange"="Refresh";
+"DDYBookDetailViewController_Purchse_Auth"="Authorized account to buy";
+"DDYBookDetailViewController_Free_DownLoad"="Download";
+"DDYBookDetailViewController_ShareOneGetOne"="Free to Get";
+"DDYBookDetailViewController_EnterCode_DownLoad"="activation to download";
+"DDYBookDetailViewController_ScanCode_DownLoad"="Download";
+"DDYBookDetailViewController_AtOnce_Purchase"="purchase at once";
+"DDYBookDetailViewController_PublisherTitle"="Publisher";
+"DDYBookDetailViewController_ReadCountTitle"="Read";
+"DDYBookDetailViewController_DownloadCountTitle"="Downloads";
+
+"WZYShare_ShareFail"="Share unsuccessfully ";
+"WZYShare_NoChat"="Your phone hasn’t installed Wechat ！";
+"WZYShare_NoSina"="our phone hasn’t installed Weibo！";
+"WZYShare_NoQZone"="our phone hasn’t installed QQ！";
+"WZYShare_NotSupport"="The current app version does not support sending e-mails ";
+"WZYShare_NoAccount"="You haven’t set email account";
+"WZYShare_4DStore"="SnapLearn";
+"WZYShare_4DStoreAppe"="SnapLearn《%@》";
+"WZYShare_CopySucc"="Copy successfully";
+
+"CompleteTEXT"="question completion rate ";
+"AccuracyTEXT"="Correct answer rate";
+"MXRExchangeItemView_DreaDia"="%@MXR diamond ";
+
+
+
+
+"MXRBuyViewController_Pay"="Recharge";
+"MXRBuyViewController_Re_Fail"="fail to request an order";
+"MXRBuyViewController_Warm_Tip"="Reminder:";
+"MXRBuyViewController_Rule"="1. MXR diamond in iOS could not be used on non-iOS device";
+"MXRBuyViewControlle_Help"="2. You can recharge MXR diamond in App Store through recharge instructions";
+"MXRBuyViewController_Pay_Help"="recharge instructions";
+"MXRBuyViewController_UnSuppport"="The device does not support the purchase ";
+"MXRBuyViewController_Pay_Succ"="Recharge %@ MXR diamons successfully ";
+"MXRBuyViewController_Impor_Tip"="Important reminder:";
+"MXRBuyViewController_UN_UP_GO"="purchased book will lost if delete/update book, or change device without logging in. Admin suggests that you login now";
+"MXRProductItem_Yuan"="%@Yuan";
+
+"MXRKidSecurityViewController_Over"="Out of time ";
+
+"MXRARViewController_Hide"="Hide";
+"MXRARViewController_Show"="display";
+"MXRARViewController_Angle"="angle";
+"MXRARViewController_Loading"="loading model...";
+"MXRARViewController_AngleDD"="angle %d";
+"MXRARViewController_SaveLocalSucc"="Save to album";
+"MXRARViewController_SaveLocalFail"="fail to be saved to album ";
+"MXRARViewController_Waiting"="please wait...";
+
+"MXRDrawViewController_GoSpur"="You need to activate to enjoy the wonderful  book content。To active now?？";
+"MXRARMXRDrawViewController_Need_Active"="You need to active to experience！";
+"MXRARMXRDrawViewController_Scan_GoSpur"="You need to scan to experience！";
+"MXR4DTimeTableViewController_Scan_GoSpur"="You need to scan to active and experience！";
+
+
+
+"MXRARCognitiveCardBaseViewController_GO_SPUR"="You need to scan the picture to active and experience！";
+"MXRARCognitiveCardBaseViewController_ReCo_GOSPUR"="You need to scan the cognitive card to active and experience！";
+"MXRARCognitiveCardBaseViewController_Return"="This book  is not finished,do you want to return to bookshelf？";
+"MXRARCognitiveCardBaseViewController_NoMoreBook"="No more books";
+"MXRARCognitiveCardBaseViewController_SpecialShareTip"="Wow, excellent，you have learned %ld Chinese characters. Let’s share it";
+"MXRARCognitiveCardBaseViewController_SpecialShareContent"="I have learned %ld Chinese characters. Let’s try it";
+
+"MXRCountDownViewController_TakeARest"="Let your eyes have a rest. You can read it after %ld seconds";
+"MXRCountDownViewController_ExitBook"="Quit";
+
+//TakePhotoViewController
+"TakePhotoViewController_AddIntroduce"="click to describe";
+"TakePhotoViewController_WeiXin"="Wechat";
+"TakePhotoViewController_QQ"="QQ Space";
+"TakePhotoViewController_QQ_Friends"="QQ Friends";
+"TakePhotoViewController_WeChat_Moments"="Moments";
+"TakePhotoViewController_ShareTo"="Share to:";
+"HengPingShowView_shareReturn"="please come back to SnapLearn after sharing to enable Admin to send MXR currency to you!";
+"ShareTipsShareTo"="Share to:";
+
+"MXRInviteFriendAlreadyInvite"="You have invited %ld friends";
+"MXRInviteFriend_Will_Receive_Reward"="Both you and your friends could earn %@ rewards if you invite friends and your friends sign up successfully， ";
+"MXRInviteFriend_Invite_Friend_FaceToFace"="Let’s share it face to face ";
+
+
+
+"MXRInviteFriend_Invite_Friend_Scan"="Invite your friends to the scan it face-to-face ";
+"RecordViewViewControllerWithLite_RecSucc"="Video successfully";
+"RecordViewViewControllerWithLite_Photo_Succ"="Photograph successfully ";
+"RecordViewViewControllerWithLite_AddFail_Try"="Add unsuccessfully，please try it again！";
+"ReceivedMessageManager_BadNet"="There is no network now";
+
+"MXRPersonViewController_InstaceReport"="Continuous check in ";
+
+"MXRPersonShareVC_Get_More_Chance"="Earn MXR currency if invite your friends to use scan-software to scan and download program ";
+"MXRPersonShareVC_share_To"="share it to";
+"MXRPersonShareVC_FriendCircle"="Moments";
+"MXRPersonShareVC_WeChat"="Wechat";
+"MXRPersonShareVC_QQZone"="QQ Space";
+
+
+"ChangeNikeNameVC_InputNickName"="Please enter your nickname";
+"ChangeNikeNameVC_Save"="Save";
+//
+// 3d eggs unlocked
+"COLOREGG_BUY_0"="You have %d MXR currency and it will cost you %dMXR currency to unlock this book. You do not have enough MXR currency";
+"COLOREGG_BUY_1"="You have %d MXR currency and it will cost you %dMXR currency to unlock this book. Do you want to unlock it？";
+"COLOREGG_BUY_2"="You have %@ MXR diamonds and it will cost you %@ MXR diamonds to unlock this book. Do you want to unlock it ";
+"COLOREGG_BUY_3"="You have %@ MXR diamonds and it will cost you %@ MXR diamonds to unlock this book. ou do not have enough MXR diamonds ";
+"COLOREGG_BUY_ALERT_CANCEL"="Cancel";
+"COLOREGG_BUY_ALERT_UNLOCK"="Unlock";
+"COLOREGG_BUY_ALERT_GOTOPAY"="Recharge";
+
+
+
+//我的界面
+"MY_VIEW_MXB"="My MXR currency";
+"MY_DIAMOND_VALUE"="My MXR diamonds:  %@";
+"MY_TREE_OF_KNOWLEDGE"="My knowledge tree";
+"MY_MXB"="MXR currency ";
+"MY_MXZ"="MXR diamond";
+//MXRBuyViewController
+"PAYMENT_FAIL"="Recharge unsuccessfully";
+"PAYMENT_FAIL_CONTENT"="If any questions, please feel free to contact：400-8282-711";
+"PAYMENT_FAIL_OK"="OK";
+"SELECTED_RMB"="Please select recharge amount：";
+"MXRBuyViewController_My_MXZ"="My MXR diamond：";
+
+//MXRCollectionViewController
+"GO_HEALTH_EXAMINATION"="To experience";
+"ALL"="All";
+"REQUEST_FAILED"="Request failed，please try it later";
+"HAVE_DOWN"="Downloaded";
+"MY_BOOK"="My book";
+"MAKE_BOOK"="I want to make a book";
+"QUANTIFIER"="quantity ";
+"CREATE_A_NEW_BOOK"="create a new book";
+"EDIT_EXISTING_BOOKS"="Edit the existing book";
+
+//MXRBookTagViewController
+"MXRBookTagViewController_ALL"="All";
+
+//MXRWebViewController
+"WEBSITE_SOURCE"="The content comes from%@，for any copyright problem, please contact us ";
+"DIY_ARENA"="DIY Area";
+
+//MXR4DTimeTableViewController
+
+"GO_TO_LOGIN_TITLE"="Please login to have full access";
+"GO_TO_LOGIN_CANCEL"="Cancel";
+"GO_TO_LOGIN_CONFIRM"="Login";
+
+//BookDetailViewController
+"HUIFU"="Reply ";
+"PINGLUNCHENGGONG"="Comment Successful";
+"PINGLUNSHIBAI"="Comment Unsuccessful";
+//LoginViewController
+"LOGIN..."="Logging in...";
+
+// To exchange MXR currency
+"EXCHANGE_MXZ_COUNT"="Available MXR diamond%@，to recharge";
+"EXCHANGE_MXZ_COUNT_NOT_ENOUGH"="Available MXR diamond %@，you do not have enough MXR diamond, to recharge";
+"EXCHANGE_BUY_MXZ"="to recharge ";
+"EXCHANGE_MXZ_MAKE_SURE"="Are you sure to use %@MXR diamond to recharge %@ MXR currency？";
+
+// Purchase page
+"PAY_FOR_BUY_FAILURE"="Purchase unsuccessfully!";
+"PAY_FOR_BUY_EXCHANGE"="To exchange";
+"PAY_FOR_BUY_MXZ"="To recharge";
+"PAY_FOR_BUY_EXCHANGE_And_Unlock"="To exchange and unlock";
+"PAY_FOR_BUY_MXZ_And_Unlock"="To recharge and unlock";
+"PAY_FOR_BUY_BOOK"="Purchase this book";
+"PAY_FOR_BUY_CURRENT_MXB"="Current balance：%ld MXR currency";
+"PAY_FOR_BUY_CURRENT_MXZ"="Current balance：%@MXR diamond";
+"MXRBookSNSViewControllerTipsUserHandleLogin"="Please login to have full access";
+
+
+
+"PAY_FOR_MXZ_BUY_MAKE_SURE"="Are you sure to use %@ MXR diamond to purchase this book？";
+"PAY_FOR_MXB_BUY_MAKE_SURE"="Are you sure to use %@ MXR currency to purchase this book？";
+"MXRUnlockBookView_fail"="Unlock unsuccessfully，please try it later";
+
+// Unlock book
+"KID_UNLOCK_TITLE"="Unlock";
+"KID_NO_NETWORK_CANUSE"="Current network is unavailable, please check your network";
+"KID_ID_USECOUNT_BEYOUND"="The number of account use has exceeded upper limit";
+"KID_CAN_NOT_USE_LOCKPSD"="Invalid unlock passwords";
+"KID_LOCKPSD_NULL_TIPS"="Unlock passwords could not be empty";
+// Baby Silkworm reminder
+"CAN_Baby_dead_tips"="You did no feed Baby Silkworm on time, please adopt a new one";
+"CAN_Baby_Tips_Cancel"="Return to bookshelf";
+"CAN_Baby_Tips_Sure"="Re-adopt";
+
+//MXRSearchBookTableViewCell
+"BookClass"="Book Classfication";
+"Classification"="Classfication";
+
+//PreViewActivity
+"PreViewActivity_Prompt"="Loading trial ...";
+"Please_Import_BookName"="Search keyword or book title";
+//ReadTViewController
+"ReadTViewController_Read_Through"="scan ";
+//MXRBookTopView
+"MXRBookTopView_Error"="Error";
+"MXRBookTopView_Hidden"="Hide";
+
+//MXRBookShelfGroupViewController
+"MXRBookShelfGroupViewController_Back"="Touch to return";
+
+
+//MXRShelfHeaderNoDataView
+"MXRShelfHeaderNoDataView_Prompt"="To recent readings";
+//URLInputViewController
+"URLInputViewController_Imput_URL"="Enter website";
+"URLInputViewController_Please_Imput_URL"="Please enter website ";
+"URLInputViewController_Save"="Save";
+
+//MXRAddCommentViewController
+"MXRAddCommentViewController_PlaceHolder"="Add text here (Max 30 characters)";
+
+//MXRUnlockCognitiveSuccessView
+"MXRUnlockCognitiveSuccessView_Prompt"="We will reward you with MXR currency(equivalent to 40 RMB)！The MXR currency could purchase any 4D cognitive card！";
+
+//MXRPayForBuyBookView
+"MXRPayForBuyBookView_Buy_Book"="purchase book";
+
+"Hot_Word"="Recommendation ";
+"Search_History"="Search History";
+"Clean_History_Word"="Clean";
+"SearchViewController_Prompt_Lable"="No Search History ";
+"Search_Please_InputContent"="Please Search Content";
+
+"SearchViewController_Lable_NoFindBook"="Resource not found!";
+"NoFindBookFromClassification"="Couldn’t find in current classfication";
+//MXRBandleListViewController
+"RegisterCount"="Active Account";
+"OtherLoginType"="Other login methods";
+"UnBandled"="Bound";
+"Phone"="Phone Number";
+"Email"="Email";
+"WeChat"="WeChat Account";
+"SinaBlog"="Sina Weibo";
+"CanCelBandel"="Bound cancelled";
+
+//MXRTopSearchView
+"MXRTopSearchView_Cancle"="cancel  ";
+
+// MXRBandelPhoneSussViewController
+
+"MXRBandlePhoneSussViewControllerTitle"="Bound Phone";
+"MXRBandlePhoneSussViewControllerTipsText"="Bound Phone Number：";
+"MXRBandlePhoneSussViewControllerChangePsdBtnText"="Reset Phone Number";
+"MXRBandlePhoneSussViewControllerStopBindle"="Bound cancelled ";
+// MXRchangePsdWithBindleViewController
+"MXRchangePsdWithBindleViewControllerTitle"="Set passwords";
+"MXRchangePsdWithBindleViewControllerTipsText"="After setting passwords，you can login by using phone number + paswords";
+"MXRchangePsdWithBindleViewControllerInputPsdPlaceholder"="Please enter passwords with 6-16 digits";
+"MXRchangePsdWithBindleViewControllerInputSurePsdPlaceholder"="Please re-enter passwords";
+"MXRchangePsdWithBindleViewControllerNavBarItmeTitle"="Skip";
+"PhoneNumNotRight"="Please enter the correct phone number ";
+"CodeSending"="Get Code";
+"CancelBandelSuccess"="Unbound successfully ";
+"CancelBandelFail"="Unbound unsuccessfully ";
+"SetPassWordFail"="Set passwords unsuccessfully ";
+"ThirdBandelAlert"="Due to platform limitation, the account bound function will open soon";
+"BandelTitle"="Account binding";
+"SetLoginPassWord"="Set passwords";
+"BandelPhone"="Binding mobile phone ";
+"BandelSuccess"="Bound successfully";
+"Recently_Add"="Recent addition";
+"GET_IMAGE_LOCAL_NINE"="You now select %ld photos";
+"GET_VIDEO_LOCAL_NINE"="You now select %ld videos";
+"GET_IMAGE_LOCAL_MAX_NINE"="The maximum number of chosen pictures is %ld";
+"GET_IMAGE_LOCAL_Authority"="Please select \"Settings-Privacy-Camera\"， would like %@ to access the camera ";
+
+"Sure_Delete_Message"="Delete this message or not?";
+"Sure_Delete_AllMessage"="Delete all messages or not?";
+
+"Input_Message"="Enter message";
+
+
+//mxrCommonService
+"mxrCommonService_prompt"="Suggestion: Use Wi-Fi to download";
+"mxrCommonService_Down"="Download";
+"mxrCommonService_Later_Down"="Do it later";
+"mxrDownBookOnWWAN_prompt"="Wifi not detected.  Use mobile data for download ?";
+"mxrDownBookOnWWAN_DownOne"="Continue";
+"mxrDownBookOnWWAN_GoSetting"="Enter settings";
+"mxrCommonService_Introduce_Prompt"="Wow, you are so nice to introduce me to others. Thanks a lot and I would like to reward you with a 3d eggs";
+"mxrCommonService_Knock_Eggs"="Knock 3d eggs";
+"mxrCommonService_Send_Eggs"="Emm，so tired. The first book is finally downloaded! As a gift for our first meeting，Admin give you a 3D egg. It’s really nice to meet you！";
+"mxrCommonService_No_Eggs"="Sorry，Admin has no 3D eggs now and we will inform you instantly once we have new 3D eggs";
+"mxrCommonService_Later_To_See"="See later";
+"mxrCommonService_Go_And_See"="To see";
+"mxrCommonService_Have_Down"="Downloading, please wait patiently！";
+
+//MXRBookSNSViewController
+"MXRBookSNSViewControllerTabBarItemTitle"="Social";
+"MXRBookSNSViewControllerSenderTypeDefault"="Share books";
+"MXRBookSNSViewControllerSenderTypeTransmit"="Promote";
+"MXRBookSNSViewControllerUserLike"="Favorite";
+"MXRBookSNSViewControllerUserCancelLike"="Withdraw Favorite";
+"MXRBookSNSViewControllerUserComment"="Comments";
+"MXRBookSNSViewControllerTipsUpdate"="Updated";
+"MXRBookSNSViewControllerTipsUpdatedetail"="Moments ";
+"MXRBookSNSViewControllerTipsUserLogin"="login to see all moments ";
+"MXRBookSNSViewControllerTipsUserHandleLogin"="Please login to have full access";
+"MXRBookSNSViewControllerUserLoginBtnTitle"="Login now";
+// Moments details
+
+"MXRBaseCommentViewComment"="Send";
+
+"MXRBookSNSDetailViewController_Title"="Posts";
+"MXRBookSNSDetailVC_Section_Lable"="Latest comments";
+"MXRBookSNSDetailVC_Section_NO_Comment"="No comments";
+"MXRBookSNSDetailVC_Zan"="Like:";
+
+//MXRTopicViewController
+"TopicTitle"="topic page";
+"PerpsonsJoin"="Moments ";
+"SNSTopic"="share topic";
+"FreeRefresh"="release to update";
+"Load..."="Loading...";
+//MXRBookSNSUserHandleMomentView
+"MXRBookSNSUserHandleMomentView_delete"="Delete";
+"MXRBookSNSUserHandleMomentView_NoInterest"="Not interested ";
+"MXRBookSNSUserHandleMomentView_report"="Report";
+"MXRBookSNSUserHandleMomentView_cancle"="Cancel";
+//MXRSearchTopicViewController new topic
+"MXRSearchTopicViewController_NoNet"="No network";
+"MXRSsearchTopicViewController_Dynamic"="Moments ";
+"MXRSearchTopicViewController_NewTopic"="new topic";
+"MXRSearchTopicViewController_Topic"="Topic";
+"MXRSearchTopicViewController_HotTopic"="Hot topic";
+"MXRSearchTopicViewController_AllTopic"="All topics";
+"MXRSearchTopicViewController_MoreTopic"="More topics";
+//MXRSelectImageLocalViewController
+"MXRSelectImageLocalViewController_Sure_Total"="Sure(%ld)";
+"MXRSearchTopicViewController_Recomend"="Recommendations";
+// Use when time switchs
+"justNow"="Just now";
+"minuteAgo"=" minutes";
+"hourAgo"=" hours";
+"dayAgo"=" days";
+"oneminuteAgo"=" minute";
+"onehourAgo"=" hour";
+"onedayAgo"=" day";
+"yestday"="yesterday";
+
+"GuideLogin_Letter"="check private letters after logging in";
+"GuideLogin_Comment"="check comments and replys after logging in ";
+"GuideLogin_MyComment"="check comments after logging in ";
+
+
+
+"Message_NoMessage"="No messages now";
+
+"SearchTopic_NoTopic"="Topic not existed";
+"4DBookStore_DefaultShareTitle"="SnapLearn Shares";
+"4DBookStore_DefaultShareContent"="I just used SnapLearn ! View your own 4D eggs, educational books, story books, and many others ! Come and see what i was reading !";
+//MXRBookSNSDeleteForwardTableViewCell
+"MXRBookSNSDeleteForwardTableViewCellTipsLabelText"="Initial moments deleted";
+//MXRBookSNSSendDetail
+"MXRSNSSendStateViewController_sendDetail"="Publish Moments";
+"MXRSNSSendStateViewController_transitDetail"="Share Post";
+"MXRSNSSendStateViewController_send"="Publish";
+"MXRSNSSendStateViewController_share_get"="Type your comments here...";
+"MXRBookSNSSearchBookBeforeView_Add_A_Book"="add a book for your moments";
+"MXRSNSSearchNoBookView_No_find_Book"="Not find relevant books";
+"MXRSearchBookFromBookStore_Search_From_Store"="Search in SnapLearn";
+"MXRTopicMainViewController_Join_Now"="Join Now"; //"Particiapte now";
+
+//MXRBookSNSPrompt
+"MXRBookSNSPromptFail"="Operate unsuccessfully";
+
+"MXSns"="MXR Circle";
+"WeChatFriend"="WeChat friends";
+"Sina"="Sina Weibo";
+"DDYTipChangeNet"="No access to networks, change another one";
+"ShareLetter"="Private letter";
+"ShareMXQ"="MXR Circle ";
+"CaiDanUnlockPrompt"="Sorry, you can not enjoy this book until purchasing";
+"CaiDanPayForUnlock"="purchase now";
+"MXRBookSNSUserHandleMomentReportSuss"="Your report has submitted, we will deal with it soon ";
+
+"MXRBookSNSUserHandleMomentReportFail"="Abnormal network, report unsuccessfully";
+"MXRTopicMainViewControllerTopicNoData"="This topic is missed";
+"MXRTopicMainViewControllerTopicNoDataFromSNSDetail"="This topic is missed ";
+//BookStoreHomePageRecommend
+"MXRBookStoreHomePageRecommendViewController_Book_Select"="Book Selection";
+"MXRSearchNoResultPrompt"="Continue to search in SnapLearn ";
+
+//BookStore
+"MXRBookStoreHomeRecommend"="Recommendation";
+"MXRBookStoreHomeShowAll"="Show all";
+"MXRBookStoreHomeReadTimes"="Read:%@";
+
+//Choose friends
+"SelectFriend"="Choose friends";
+"ShareSuccess"="Shared successfully";
+"ShareTo"="Share to:";
+
+
+//Account bound
+"CANCEL_USER_BANDLE_TIP_1"="Do you want to unbind the interaction between Wechat and current account？";
+"CANCEL_USER_BANDLE_TIP_2"="Do you want to unbind the interaction between QQ and current account？";
+"CANCEL_USER_BANDLE_TIP_3"="Do you want to unbind the interaction between Weibo and current account？";
+"CANCEL_USER_BANDLE_IMM"="unbind now";
+
+// magic lamp AR
+"MXRARMagicLampVCLookBook"="Check books";
+"Has_Activate"="The number of unlock passwords has exceeded the upper limit";
+
+
+"SNSSendDetail_None_Empty"="empty enter is not allowed";
+"SNSSendDetail_Overflow"="Maximum word account: 140";
+
+
+"SNSSendDetail_None_All_Space"="You can not enter all spaces";
+"SNSSendDetail_Select_Book"="Please select a book";
+"SNSSendDetail_Send_Success"="Success!";
+"SNSSendDetail_Bad_Net_Share_Upload_Fail"="Poor network, fail to share contents";
+"SNSSendDetail_Bad_Net_Upload_Fail"="Poor network, fail to share moments";
+"SNSSendDetail_Transmit_Success"="Post shared !";
+
+// share
+"MXRNewShareViewCancleUploadBtntitle"="cancel";
+"MXRNewShareViewUploadIngTips"="uploading..";
+"MXRNewShareViewShareVideoTipsContent"="Come see my creative AR video in SnapLearn.
+";
+"MXRNewShareViewShareVideoTitle"="SnapLearn， a professional AR/VR entertainment education platform for children ";
+
+// Knowledge tree
+"TreeOfKnowledgeNoBookPrompt"="Your anwer progress will be displayed here and remember to check your studies here commonly";
+"ScanTitle"="Scan";
+"Dynamic"="Moments：";
+"KnowLedgeTree_MXRPromptViewLogin"="Login";
+"KnowLedgeTree_MXRPromptView_LoginToExame"="To anwer questions, you need to login, please login first";
+"KnowLedgeTree_MXRPromptView_ReadNeedFinishPreExam"="Answer all questions to activate this chapter.";
+"KnowLedgeTree_MXRPromptView_GoExame"="PARTICIPATE NOW";
+"KnowLedgeTree_MXRPromptView_CheckExameWhenFinishAllRead"="you have finished all readings, let’s check your studies";
+"KnowLedgeTree_MXRPromptView_ExitNotFinishExame"="You can not upload results if quit now, are you sure to quit？";
+"KnowLedgeTree_PlsChooseOption"="Please select";
+
+
+"KnowLedgeTree_DoExameVC_Btn_Check"="Check";
+"KnowLedgeTree_ExameResult_SuccToUnlock"="Totally %ld questions，you anwered %ld questions correctly";
+"KnowLedgeTree_ExameResult_FailToUnlock"="Sorry, you failed to reach the unlock standard";
+//  My moments
+"MXRMyBookSNSViewController"="My moments ";
+"MXRMyBookSNSViewController_noDataTipsUserStr"="You do not release any moments";
+
+"MXRVersion_technology"="MXR International Pte Ltd\nAll Rights Reserved 2018";
+"MXR_ShareBookStore"="Share to SnapLearn ";
+"MXR_Custom_Hot_Line"="Email";
+
+"MXRChatViewControllerMenuTextCopyQQGroup"="Copy group number";
+"MXRChatViewControllerMenuTextCopyQQAccount"="Copy QQ number";
+
+"MXRRankListSortView_Pull_Search"="Go up to check rankings";
+"MXRRankList_Need_Download_Book"="You can answer questions after updating this book ";
+"MXRRankList_Need_Download_Done"="You can answer questions after downloading this book ";
+"MXRRAnkList_Local_No_Book"="There is no book locally, please download first";
+"MXRRankList_Check_Next_Study"="Do you want to check your study results in this period?";
+"MXRRankList_Book_Is_Download"="The book is being downloaded, you can answer questions to upgrade after downloading";
+"MXRRankList_Need_Complete"="you need to reach%@ in the last period to open current questions ";
+"MXRRankList_Cancel_Download"="cancel download";
+"MXRRankList_Continue_Download"="continue to download";
+"MXRRankList_Suggest_Download"="current network is 3/4G，suggested that download in WiFi environment";
+
+"please_Put_In_Code"="Scanning barcode or QR code";
+
+
+"MXRMedia_Util_PhotoAlbum"="Unable to save! No access to Photos. Allow access your photos from device menu: (Settings) – (Privacy) – (Photos) – (Snaplearn)";
+"MXRMedia_Util_Video_Authority"="Unable to save! No access to Photos. Allow access your photos from device menu: (Settings) – (Privacy) – (Photos) – (Snaplearn)";
+
+"MXRPreViewController_Only_Share_One"="You can only share one picture for one time";
+"MXRPreViewController_Delete_Image_From_Image"="Do you want to delete selected pictures from album ";
+"MXRPreViewController_Go_To_Reload_Data"="NOTIFICATIONGOTORELOADDATA";
+"MXRHomePage_All_Subject"="All subjects";
+"MXRBookShelf_Has_BookUpdate_Prompt"="Updates available for %li book";
+"MXRBookShelf_Update_All"="Update All";
+"MXRBookShelf_Prompt_BookUpdate_OnlyThisBook"="Only this book";
+"MXRBookShelf_Prompt_BookUpdate_ALLBook"="All";
+
+"DidNotCheckTheProvince"="Not found this province";
+"DidNotFindTheCity"="Not found this city";
+"DidNotFindIP"="Not found IP";
+
+
+"DownloadCompleted"="Downloaded";
+"DownloadFail"="Downloaded unsuccessfully";
+"Recognizing"="Identifying...";
+"Current"="Current";
+"HasBeenActivatedDownloadPrompt"="Account activation finished, do you want to download now?";
+"HasBeenActivatedImmediatelyOpen"="Account activation finished, do you want to download now?";
+"HasBeenActivatedImmediatelyToBookShelf"="Account activation finished, \n is being downloaded, do you want to go to bookshelves?";
+"ActivateSuccessImmediatelyToBookShelf"="Activated, \n is being downloaded, do you want to go to booksheves? ";
+"later"="later";
+"DownloadBook"="download";
+"YES"="Yes";
+"ActiveCodeMoreThanUseTime"="Activation failed，current remained activation times：0/4";
+
+
+
+"Feedback"="Feedback";
+"FeedbackActiveCodeMoreThanUseTime"="Hellow, your activation times have been used out, \n if any prblems, please feel free to contact 400-8282-711";
+"GoToBookshelf"="Go to bookself";
+"ActiveBooksSuccess"="This book is successfully activated";
+"SureDownloadBook"="Do you want to download this book?";
+"ActivePrompt"="Activation: has used %ld times, there are %ld times remained";
+"ActivePromptAndOpen"="Activated，go to read?";
+"HaveUseTimes"="Activation: used";
+"Residue"="times ,remained";
+"NumberOfTimes"="times";
+"ActiveSuccessAndDownload"="Activated, do you want to download?";
+
+// Baby silkworm sharing page
+"MXRCanBabyShareViewtipsFinishCourse"="you have read all";
+"MXRCanBabyShareViewtipsFriendsLabel"="let’s show off your study results to your friends, and you will obtain some MXR currency after sharing.";
+"MXRCanBabyShareViewShareBtnTitle"="Share noe";
+"MXRCanBabyShareViewShareMXQContent"="I have anwer all questions to adopt a silkworm baby. Corrent rate: 100%，I want to invite you to join in it!";
+
+// Bookshelf delete button
+"MXRBookManager_Cruel_To_Delete"="Delete";
+"MXRBookManager_Delete_Recent_Read"="Delete this item ?";
+"MXRBookManager_Cancel_Like_Msg"="Delete this item ?";
+"MXRBookManager_Comfirm_Deletion" = "Confirm Deletion";
+
+"MXRBookManager_Download_Complete"="《%@》downloaded"; // finish downloading toast
+"MXRBookManager_Download_Error"="Wrong network，《%@》fail to download";
+
+
+"MXR_File_Error_Prompt"="The file is damaged and could not open it";
+
+"MXRBookShelf_Title_Recent_Read"="Recent";
+"MXRBookShelf_Title_Local"="Bookshelf";
+"MXRBookShelf_Title_BookList"="Booklist";
+"MXRBookShelf_Title_ZoneList"="Zonelist";
+"MXRBookShelf_Title_ZoneListUpdateTitle"="New";
+
+// MXRBookShelf
+"MXRBookShelf_No_Downloaded_Books"="No downloaded Or Saved books";
+"MXRBookShelf_Delete_Book"="Delete book";
+"MXRBookShelf_No_Collect_Books"="No books";
+"MXRBookShelf_Cancel_Collect_Book"="Delete book ";
+"MXRBookShelf_No_Recent_Read_Books"="No recent readings";
+"MXRBookShelf_Delete_Recent_Read_Book"="Delete book ";
+
+"ActiveCodeIsNoCorrect"="Wrong activation codes";
+"Go_To_Bookshelf"="go to bookshelf";
+"Many_Books_Active_Success"="This book is activated successfully! Remained activation times";
+"One_Books_Active_Success"="Successful activation！Remained activation times";
+"Remaining_Time"="times.";
+"Mnay_Book_Downloaded"="All books are downloaded; do you want to go to bookshelf to open the book?";
+"Need_Download_Complete"="You can experience it after download finished";
+"Immediately_Download"="Download";
+"Has_Downloaded_Whether_Open"="This book is downloaded, do you want to read it？";
+"Bad_NetWork"="No access to network，please check the netwok settings";
+"Error_Active_Code"="Wrong activation code";
+"OneBookCodeMoreTime"="Activation failed，Remained activation：0 times，Do you want to change the activation code？";
+
+
+"ManyBooksCodeMoreTime"="This book is activated unsuccessfully，Remained activation：0 times，Do you want to change the activation code？";
+"Download_ManyBookDownloaded"="All books are downloaded; do you want to go to bookshelf to open the book?";
+"Download_ManyBookDownloading"="This book is downloaded, do you want to go to bookshelf to open the book?？";
+"currently_Download"="Download";
+"Download_DownloadedWhetherOpen"="has been downloaded";
+"Download_Download_Pause"="Download paused，do you want to continue to download？";
+"Download_Downloading"="Downloading，do you want to go to bookshelf to check it？";
+"Download_ManyBooks"="This book？";
+"Active_Downloading"="Downloading，do you want to go to bookshelf to check it？";
+"UnableToTdentify"="The bar code could not be identified";
+"TheServiceRequestFailed"="The service request failed, please try again later ";
+
+"MXRSelectOwnTasteView_Skip"="Skip";
+"MXRSelectOwnTasteView_SelectDone"="Selected, go to the home page";
+"MXRSelectOwnTasteView_Acknowledge"="Education";
+"MXRSelectOwnTasteView_Recognized"="Recognisation";
+"MXRSelectOwnTasteView_Minitrary"="Military ";
+"MXRSelectOwnTasteView_Nature"="Nature";
+"MXRSelectOwnTasteView_Science"="Science ";
+// personchildrenFoucsViewController
+"personchildrenFoucsViewControllerFinishBtnTitle"="Save";
+"MXRSelectOwnTasteView_Science_ForeTitle"="Choose anything you ";
+"MXRSelectOwnTasteView_Science_MediumTitle"="content";
+"MXRSelectOwnTasteView_Science_Taste"="insterested";
+
+"MXRChatViewControllerRecognizedImage"="Recognise picture";
+
+"User_Agreement"="SnapLearn’s User Agreement and Privacy Policy";
+"User_Privacy" = "User Privacy Policy";
+"Privacy_policy" = "Privacy Policy";
+"Agreed_User_Agreement"="Once you click to create a book, it means that you agree to SnapLearn’s User Agreement and Privacy Policy";
+//"MXRUploadDiyViewController_Agreed_User_Agreement"="Once you upload a book, it means that you agree the SnapLearn User Upload Agreement ";
+//"MXRUploadDiyViewController_User_Agreement"="SnapLearn User Upload Agreement ";
+//"MXRUploadDiyViewController_BookName"="Bookname";
+//"MXRUploadDiyViewController_Author"="Author ";
+//"MXRUploadDiyViewController_description"="Description ";
+//"MXRUploadDiyViewController_BookCover_msg"="Scan book and edit trial";
+//"MXRUploadDiyViewController_uploadButton_title"="Use MXR currency to upload";
+//"MXD_DIY_BOOK_DEFAULT_DESCRIPTION"="%@published an excellent book with %@pages~Do you want to know children’s thoughts? Come on and let’s listen to their stories！";
+//"MXR_DIY_UPLOAD_PUBLISH"="Publish";
+//"MXR_DIY_NEED_ADD_BOOKNAME"="Hey guys, let’s add a book name！";
+
+
+// MXROfflineUGCMenuManager
+"MXROfflineUGCMenuManagerEdit"="Edit";
+"MXROfflineUGCMenuManagerDelete"="Delete";
+
+"camera"="camera ";
+"Photo_Album"="Album ";
+
+// MXROfflineUGCView
+"MXROfflineUGCViewAddPage"="Page";
+
+"MXROfflineUGCViewVideo"="Video";
+"MXROfflineUGCViewImage"="Image";
+"MXROfflineUGCViewFaceRec"="Video";
+"MXROfflineUGCViewText"="Text";
+"MXROfflineUGCViewAudio"="Audio";
+"MXROfflineUGCViewUrl"="Website";
+"MXROfflineUGCViewHelpVideo"="User Help";
+"MXROfflineUGCViewLoadingVideo"="Loading video，please wait";
+"MXRAdvertisement_Imediately_Show"="Read now";
+
+// MXRBuyBookForDownLoadViewController
+"MXRBuyBookForDownLoadVC_Title_ActivityFree"        ="free for a limited time";
+"MXRBuyBookForDownLoadVC_Btn_PurchaseBook"          ="Access to books";
+"MXRBuyBookForDownLoadVC_Btn_PurchaseThisBook"      ="buy this book";
+"MXRBuyBookForDownLoadVC_Btn_FreeReceive"           ="Free to Get";
+"MXRBuyBookForDownLoadVC_Btn_ActiveCode"            ="Scan QR or ISBN code";
+"MXRBuyBookForDownLoadVC_Title_BookNeedActiveCode"  ="Activation required";
+"MXRBuyBookForDownLoadVC_Description_RestNow"       ="Cuurent remainings";
+"MXRBuyBookForDownLoadVC_Toast_PurchaseOK"          ="Purchased successfully";
+"MXRBuyBookForDownLoadVC_Toast_BookException"       ="Abnormal book，please contact administrators！";
+
+"MXRGainMXBByTaskMXBNotEnough"                      ="Emm！ You do not have enough MXR currency";
+"MXRGainMXBExchangeMXB"                             ="To exchange MXR currency";
+
+
+"MXRGainMXBDoTaskForMXB"                            ="To earn MXR currency by finishing tasks";
+"MXRGainMXBNowOwnMXBCount"                          ="Current remainings: %@ MXR currency ";
+
+"MXRInviteFriendsViewController_Invite_Text"="I am learning in SnapLearn，just join it with me ！";
+"MXRInviteFriendsViewController_Get_MXB"="get TA and reward you with 50 MXR currency ";
+"MXRInviteFriendsViewController_Long_Press"="long press QR code ";
+"MXRInviteFriendsViewController_Book_To_Live"="Active book";
+"MXRInviteFriendsViewController_Invite_Success"="Invite friends successfully";
+"MXRInviteFriendsViewController_Login_Invite_Success"="We have waited you for a long time";
+"MXRInviteFriendsViewController_Already_Exist"="Recorded";
+"MXRInviteFriendsViewController_Already_Invited"="Invite friends successfully ";
+"MXRUserNotificationViewController_Systerm_Notification"="System";
+"MXRUserNotificationViewController_Message_Center"="System";
+"MXRUserNotificationViewController_CellTItle_NewerGuide"="New user guide";
+// mxrbutton
+"mxrButtonResourceIsLoading"="Loading...";
+
+"OldUserComeBackPrompt"="Dear friends，you haven’t come to SnapLearn for many days and there are lots of new books in SnapLearn. Admin inviate your to read sincerely！";
+"Praise"="Like";
+"Province"="Save";
+
+// MXRMessageReplyViewController  Message Reply
+"MXRMessageReplyViewControllerMyReplyStr"="Reply ";
+"MXRMessageReplyViewControllerMyReply"="Me";
+"MXRMessageReplyViewControllerMyReplyOther"="you";
+
+"MXRMessageReplyViewControllerMyMoment"="Social";
+"MXRMessageReplyViewControllerMyEssay"="Information";
+"MXRMessageReplyViewControllerMyBookType"="Book";
+"MXRMessageReplyViewControllerMyMomentType"="Social";
+"MXRMessageReplyViewControllerNoCommentTips"="No other comments has been posted";
+"MXRMessageReplyViewControllerNoZanTips"="No other likes have been made";
+
+// MXRShowTipsUserRestView
+"MXRShowTipsUserRestViewTipsUserCollectionMXB"="Collecting MXR currency";
+"MXRShowTipsUserRestViewTipsUserFinishCollectionMXB"="Collected";
+"MXRShowTipsUserRestViewContinueRest"="Keep having a rest";
+"MXRShowTipsUserRestViewStopRest"="Already have enough rest";
+"MXRShowTipsUserRestViewSetting"="Set the next prompt ";
+"MXRShowTipsUserRestViewSureToLeave"="Collecting MXR currency，are you sure to leave？";
+"MXRShowTipsUserRestViewNoRemind"="no prompt ";
+"MXRShowTipsUserRestViewSettingTitle"="Reading time reminder ";
+
+//
+
+"MXRDoNotUseXiaoMeng"="You can not use Admin as a nickname";
+
+//open program to reward you with MXR currency
+"MXRPresentMXB"="Reward you with %ld MXR currency ";
+// prompts in Comment box
+"DDYCommentPlaceHolderText"="Write your comments here and let other readers know ! ";
+"MXRDDYAddCommentViewPromptStarLable"="Rate:";
+
+// Review of SnapLearn
+"MXRNewAboutViewController_InReviewed"="Review ";
+
+"MXRNewAboutViewController_NotInReviewed"="Not Reviewed";
+"MXRPerViewCont_SwitchServer"="Switch Server";
+
+//Scan image to unlock and active, reminders
+"MXRQRScanInsideBookActivite"="Let’s enjoy it now";
+"MXRQRScanLastUserTimes"="Remaining activation times";
+"MXRQRScanImmediatelyActivite"="Activate now";
+"ActivateAndDownload"="Activate and download";
+"MXRQRScanDownloadBookAndActivite"="Just download and enjoy it";
+
+// Q&A interface
+"MXRQAExerciseVC_ShareQAForHelp"="Your friend %@ is asking for a help，could you solve this problem?\n Just long press QR code to answer it ";
+"MXRQAExerciseVC_QANotFound"="This Q&A is off shelves";
+"MXRQAExerciseVC_NeedChoiceCorrectNumberAnswer"="You need to choose %ld anwers for this question";
+"MXRQAExerciseVC_ClickToJoin"="Click here to participate";
+"MXRQAExerciseVC_ShareContent_AskQestionForHelp"="Anybody could help me to solve this problem？It is too difficult for me to anwer it, help~！";
+"MXRQAExerciseVC_ShareContent_WrongTopicAnalysis"="Unbelievable! This is the correct anwer！";
+"MXRQAExerciseVC_ShareContent_QRCodeText"="Rich knowledge，the real ‘live’ books \nust long press QR code to download it!";
+"MXRQAExerciseVC_AskHelpForFriends"="Ask friends for help";
+"MXRQAExerciseVC_NextQuestion"="Next question";
+"MXRQAExerciseVC_SubmitAnswer"="Submit";
+"MXRQAExerciseVC_VCTitle"="Question No. %ld";
+"MXR_PromptDoExercise_Tip_CheckLearn"="Test the learning results and do a few exercises.The correct rate is reached";
+"MXR_PromptDoExercise_Tip_UnlockNextChapter"="to unlock the next chapter";
+"MXRPercentView_Accuracy"="Accuracy";
+
+"NOT_ENOUGH_SPACE"="The available capacity is not enough and it may cause files lost. Please operate after clearing the cache ";
+
+//  MXRMissionCompleteShare
+
+"MXRMissionCompleteShare_Image_Accuracy_Above60"="I have completed “%@” recruit challenges，anwer corrent rate is %@%%，let’s have a PK if you dare!";
+"MXRMissionCompleteShare_Image_Accuracy_Under60"="I have completed “%@” ecruit challenges，and let’s have a PK！";
+"MXRMissionCompleteShare_Long_Press_QRCODE"="Long press the QR code to test how many grades you could get ";
+"MXRMissionCompleteShare_Text_Accuracy_Above60"="Ha-ha， my anwer corrent rate is %@%%，could you be better？";
+"MXRMissionCompleteShare_Text_Accuracy_Under60"="I am having a brain challenge ,and let’s have a PK！";
+"MXRMissionCompleteShare_Error"="Share failures";
+
+//Choose age
+"MXRChooseYourAgeText"="Select Age Preference";//Choose your age
+"MXRChooseAgeHint"="";//Choose your age and you then could get more suitable books
+"MXRChooseAgePlaceHolder"="Please select one";//Come on, just choose something
+"MXRAgeText"="year-old";//Modify by MT.X
+"MXRCancelText"="Cancel";
+"MXRDoneText"="Save";
+"MXREnterText"="Enter";
+"MXRNextText" = "Next";
+
+// cache reminder & clean cache
+"MXRMemoryCleaning"="Cleaning";
+"MXRMemoryCalculating"="Calculating...";
+"MXRMemoryCleaned"="Cleaned";
+"MXRMemoryCleanedCache"="Cache Cleaned";
+"MXRMemoryUsedSpace"="Used ";
+"MXRMemoryLeftSpace"="Available Storage";
+"MXRMemoryCleanCache"="Clean Cache";
+"MXRMemoryClearBook"="Clear Books";
+"MXRMemoryNeverRemind"="No More Reminders";
+"MXRMemoryWarning"="The available capacity is not enough, and let’s clean the cache ";
+
+// Remider: to login to share it to MXR circle
+"MXRAlertLoginBeforeShareToMXQ"="You could not share it to MXR circle until logging in ";
+
+
+
+//MyTaskViewController
+
+"MyTaskViewController_Go_To"="Go to";
+"MyTaskViewController_MXRStore"="MXR currency store";
+"MyTaskViewController_Look_At_The_gift"="check gifts";
+"MXRSNS_COMING_SOON"="Coming soon!";
+"MXRHandpicked" = "Top";
+"MXRRetrieve_Password_Has_Send"="sent";
+"MXRLoginVC_Password"="Password";//passwords
+"MXRSNSDetail_item"=" item";
+
+
+"MXRBookShelf_Pop_ClearUp"="Edit";
+"MXRBookShelf_Pop_UpdateBook"="Update";
+"MXRBookShelf_Pop_PurchaseHistory"=" Purchases";
+"MXRBookShelf_Pop_Diy"="DIY";
+
+"MXRLoadFailedView_No_Network"="something wrong with network";
+"MXRLoadFailedView_Try_Again"="click to retry";
+"MXRUGC_BE_READY"="preparing";
+"MXRUGC_RECORDING"="recording";
+"MXRUGC_STOP_RECORDING"="stop recording";
+"MXR_ALERT_DEVICE_BAD"="the configuration is too low to experience";
+
+
+//permission hints
+"MXRCameraUsageDescription"=" Allow the access to camera to photo/record? Suggest to allow";
+"MXRContactsUsageDescription"=" Allow the access to verification code? Suggest to allow ";
+"MXRMicrophoneUsageDescription"=" Allow the access to microphone to record? Suggest to allow";
+"MXRPhotoLibraryAdditionsUsageDescription"=" Allow to store photo information? Suggest to allow";
+"MXRPhotoLibraryUsageDescription"=" Allow the access to photo? Suggest to allow ";
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+//翻译从这里往下添加⬆️
+
+//5.8.1 新增
+"MXRBookStoreViewController_More"="More";
+
+"MXRBookCategoryTitle_Interest" = "Interest";
+"MXRBookCategoryTitle_Category" = "Category";
+"MXRBookCategoryTitle_Publisher" = "Publisher";
+
+// MXRBookCityHomeNaviTabViewController.h
+"HomeNaviTabVC_SearchTip"="Please enter bookname or keyword to search";
+"HomeNaviTabVC_Recommend"="For you";
+"HomeNaviTabVC_Categories"="Categories";
+
+//5.8.3新增
+"MXRPhoneBandelDetailVC_Prompt"="Please enter your phone number for binding";
+
+
+//Snaplearn Share
+"ShareTitle_Facebook" = "Facebook";
+"ShareTitle_Instagram" = "Instagram";
+"ShareTitle_WhatsApp" = "WhatsApp";
+"ShareTitle_Google" = "Google";
+"ShareTitle_Gmail" = "Gmail";
+
+//Reserve Share
+"ShareTitle_Twitter" = "Twitter";
+"ShareTitle_YouTube" = "YouTube";
+
+"MXRSnapLearn_NoFacebook"="Please install Facebook";
+"MXRSnapLearn_NoInstagram"="Please install Instagram";
+"MXRSnapLearn_NoWhatsApp"="Please install WhatsApp";
+"MXRSnapLearn_NoGoogle"="Please install GooglePlus";
+"MXRSnapLearn_NoGmail"="Please install Gmail";
+
+
+// 书架状态
+"Download_State_Wait"="Wait";
+"Download_State_Download"="Download";
+"Download_State_Pause"="Pause";
+"Download_State_Update"="Update";
+"Download_State_Upload"="Upload";
+"Download_State_Zip"="Zip";
+
+//新版引导登录
+"Guide_Login"="Mobile Register/Login";
+"Guide_Register"="Register";
+"Guide_GuestLogin"="Guest Login";
+
+//5.8.5  pk
+"MXRPKSearch_Refresh_Prompt"=" It may be a network problem, \n Press the refresh button to try again";
+"MXRPKMedalViewController_Medal"="Medal";
+"MXRPKMedalVC_Leave_For"="Go";
+"MXRPKMedalVC_Has_Obtain"="Gained";
+"MXRPKMedaiVC_Prompt_Has_Some_Medal"="Gained %l medals，Keep it up";
+"MXRPKMedaiVC_Prompt_Obtain_All_Medal"="Well done! You have gotten all the medals!";
+"MXRPKMedaiVC_Prompt_None_Medal"="No medals yet, Try again!";
+
+// ph home
+"MXRPKHomeViewController_PK_Records" = "%@Win %@Lose %@Draw";
+"MXRPKHomeViewController_PK_Title" = "Brain Wars";
+
+"MXRQAExerciseVC_ShareContent_DownloadApp"="Press the QR code for a few seconds，download SnapLearn and let’s answer it together！";
+
+
+// mxrtopView
+"MXRTopViewButtonShare" = "Share";
+"MXRTopViewButtonRotate" = "Rotate Screen";
+"MXRTopViewButtonCloseBackground" = "Close background";
+
+//
+"MXRWifiPromptNO" = "NO";
+"MXRWifiPromptYES" = "YES";
+"MXRWifiPromptInfo" = "Not connected to Wifi. Do you want to continue using mobile data for download?";
+
+"MXROfflineViewController_UGC_camera_record_tip"="Tap to\nstart recording";
+"MXRAddCommentViewController_button_finish"="Save";
+
+"MXRGuideLoginView_Login" = "Login";
+
+"MXRPurchaseSurplusOfLockTime" = "current remained activation times: %@";
+
+
+"LooseAndRefresh"="Loose and refresh";
+"MJRefreshLoading"="loading...";
+"MJRefreshLastUpdate"="Last update";
+
+"MXRBandleDetailForSafetyLable"="For you account security, please register your mobile number";
+"MXRBandleDetailPromptLable"="Note: After successful registration, you can use your mobile number to sign-in and edit your password";
+"MXRGoToBandle"="Register mobile number";
+"MXRGoToBandleBeforePrompt"="Your mobile number is not registered. For your account security , please register it now！";
+"MXRSearchResultRead"="Views";
+
+"MXRUnityBottomView_Photo" = "Photo";
+"MXRUnityBottomView_Video" = "Video";
+
+"Million" = "Million";
+"Rate" = "Rate";
+
+"MomentHasBeenDeleted" = "Moment Deleted";
+"CommentHasBeenDeleted" = "Comment Deleted";
+
+//5.9.0 Version by shuai.wang
+"MXRAuthenticatingNameVC_Name_Prompt" = "The nickname is not available.";
+//5.9.1 Version
+"MXRFogertPassWordFirstStepVC_No_Exist_Email"="This email has not been registered";    //修改密码前判定是否注册过
+"MXRFogertPassWordFirstStepVC_No_Exist_Phone"="The phone number is not registered";   //修改密码前判定是否注册过
+"LoginViewController_Repeated_Account"="Please do not log in the same account";    //切换账号优化
+
+//5.9.3 Version
+"MXRBookStoreSubjectDetailVC_Purchase"="一键优惠购买";
+"MXRBookStoreSubjectDetailConfirmPurchase_CurrentPriceLable"="%ld梦想钻限时体验";
+"MXRBookStoreSubjectDetailConfirmPurchase_OldPriceLable"="原价: %ld梦想钻";
+"MXRBookStoreSubjectDetailConfirmPurchase_PriceDetailLable"="共%ld本图书，平均每册仅%ld梦想钻";
+"MXRBookStoreSubjectDetailVC_PurchaseSuccess"="成功购买。购买记录可在“我 > 专题购买记录” 中查看";
+"MXRBookStoreSubjectDetailVC_HasPurchase"="已购买";
+"MXRBookStoreSubjectDetailVC_HasBuy"="已经购买过了哦";
+"MXRBookStoreSubjectDetailVC_HasDelete"="专区已下架";
+"MXRPerViewCont_Zone_Purchase_Record"="Zone Purchase Record";
+"MXRZoneUnshelveMsg" = "Zone Unshelve!";
+"MXRZoneUnshelveStatus" = "Unshelve";
+
+//5.9.4
+"MXRBookPresentCampaign_Title" = "Limited Free By Share";
+"MXRBookPresentCampaign_PresentToFriends" = "Present to friends";
+"MXRBookPresentCampaign_ShareTitle" = "has presented a book for you, receive it now!";
+"MXRWebView_NeedLogin_Toast" = "Sign up to participate!";
+//5.9.5
+"MXRBookGuideVideoPlayVC_Title" = "Operation guide";
+//5.10.0
+"MXRBookShelfGroupName_Eggs" = "Eggs";
+
+"MXRLoginVC_Input_Phone"="Please enter the phone numer";
+"MXRLoginVC_Input_Correct_Phone"="Please enter a corrent phone number";
+"MXRLoginVC_Input_PhoneVerifyCode"="Please enter verification code";
+"MXRLoginVC_Get_PhoneVerifyCode"="Get Code";
+"MXRLoginVC_PhoneCode_Fail"="Wrong verification code ";
+"MXRLoginVC_PhoneCode_Send_Succ"="verification code is sent";
+"MXRLoginVC_PhoneCode_Sended"="Sending(%lds’)";
+"MXRLoginVC_PhoneCode_Send_Fail"="fail to send verification code";
+"MXRLoginVC_Login_Failed"="Login UnSuccessful ";
+"MXRLoginVC_Login_Repeated"="Please do not log in the same account";
+"MXRLoginVC_LoginTitle"="Login";
+"MXRLoginVC_VerifyCodeTitle"="verification code ";
+"MXRLoginVC__Register_Now"="Sign up";
+"MXRLoginVC_Forget_PWD"="Forgot Password";
+"MXRLoginVC_QuickLogin"="verification code Login";
+"MXRLoginVC_AccountPWDLogin"="Account Password Login";
+"MXRLoginVC_Third_Login"="Social Login";
+"MXRLoginVC_QuickLogin_Tip"="If you do not register your mobile phone number, you will be automatically registered.";
+"MXRLoginVC_Code_Send_Succ"="verification code is sent";
+"MXRLoginVC_Code_Send_Fail"="fail to send verification code";
+
+"MXRSettingVC_APP_Score" = "APP Score";
+"MXRMyTaskVC_Normal_Task" = "常规任务";
+"MXRSearchFeedbackView_BookName" = "Name：";
+"MXRSearchFeedbackView_BookAuthor" = "Author：";
+"MXRSearchFeedbackView_Title" = "Book Information";
+"MXRSearchResult_NoResult" = "No results";
+"MXRSearchResult_Prompt" = "Need help finding a book? Message Us";
+"MXR_XiaoMeng" = "Administrator";
+"MXRSearchResultVC_FaceBackSuccess" = "Sent! We will get back to you shortly.";
+"MXRSearchResultVC_FaceBackFailed" = "The submission failed, you can try again later.";
+"MXRLaunchAdvertView_Skip" = "skip";
+
+//5.11.0
+"MXR_COUPON" = "Coupon";
+"MXR_Coupon_Mine" = "Mine Coupon";
+"MXR_Coupon_Centre" = "Coupon Centre";
+"MXR_Coupon_Select" = "Select Coupon";
+"MXR_Coupon_UnSelect" = "UnSelect Coupon";
+"MXR_Coupon_Can_Choose" = "Availabel Coupons:";
+"MXR_Coupon_Available_Time" = "Available for %ld days";
+"MXR_Coupon_Use" = "Use";
+"MXR_Coupon_To_Use" = "To Use";
+"MXR_Coupon_Available" = "Draw";
+"MXR_Coupon_Unavailable" = "Unavailable";
+"MXR_Coupon_From_Recharge" = "Recharege";
+"MXR_Coupon_From_Welfare" = "Welfare";
+"MXR_Coupon_From_VIP" = "VIP";
+"MXR_Instructions" = "Instructions";
+"MXR_Coupon_Usable" = "Usable";
+"MXR_Coupon_Invalid" = "Invalid";
+"MXR_Coupon_Expired" = "Expired";
+"MXR_Coupon_Used" = "Used";
+"MXR_Coupon_Inactive" = "Inactive";
+"MXR_Coupon_None_Hint" = "None Coupon~";
+"MXR_Coupon_Present" = "%ldMXZCoupon";
+"MXR_Coupon_Threshold" = "each ￥%ld";
+"MXR_Coupon_AvailableDays" = "Available in %ld Days";
+"MXR_Coupon_DrawSuccess" = "Draw Success";
+
+"MXRSearchZoneStateView_Searching" = "loading...";
+"MXRSearchZoneStateView_No_Data" = "Nothing found...";
+
+//MXRBuyBookForDiamondViewController 补充的
+"MXR_Book_Price" = "Book Price:";
+"MXR_Book_Need_Pay" = "Need Pay";
+"MXR_Zone_Price" = "Limited-time preferential:";
+"MXR_Zone_Old_Price" = "Old Price:";
+"MXR_Zone_Buy" = "Buy this zone";
+"MXRZoneDetail_Coupon_Num_Available" = "%ld Coupon Available>";
+"MXRZoneDetail_Coupon_Num_Usable" = "%ld Coupon Usable>";
+"MXR_Diamond_Is_insufficient" = "MXR diamond is insufficient";
+"MXR_Diamond_Coupon_None" = "None";
+"MXR_Diamond_Coupon_Num" = "Usable";
+"MXR_Diamond_Coupon_Big" = "The coupon value is greater than the price, no change after use";
+"MXR_Diamond_Subject_Warning" = "A total of %ld books, one-click purchase can read all the books of this zone";
+"MXR_Diamond_Book_Zone_Buy" = "Buy zone（%ld diamond）";
+"MXR_Tabbar_Coupon_Bubble" = "Coupons will expire";
+
+//5.12.0
+"MXR_Book_Rank_list_Title" = "Popular book list";
+"MXR_Book_Rank_list_Read" = "Read: ";
+"MXR_Book_Rank_list_blank_Text" = "No list yet, so stay tuned!";
+"MXR_Delete_Video_Text" = "Whether to delete video";
+"MXR_Purchase_History_None" = "No purchase records yet";
+
+//5.13.0 version
+"MXR_VIP_BOOK" = "VIP Book";
+"MXR_VIP_Zone" = "VIP Zone";
+"MXR_VIP_Member" = "VIP Member";
+"MXRPersonVC_RechargeVIP_Tipe" = "Open membership, multiple surprises!";
+"MXRPersonVC_RechargeVIP_Residue" = "Remaining";
+"MXRPersonVC_RechargeVIP_ResidueDay" = "days";
+"MXRPersonVC_Recharge_Receive_VIP" = "Free receive %ld days VIP";
+"MXRPersonVC_RechargeVIP_Recharge" = "Renewal immediately";
+"MXRPersonVC_RechargeVIP_Dredge" = "Open immediately";
+"MXRZoneDetailHeaderActiveHandleVIPTip" = "Open VIP, massive books for you to read >";
+"MXRZoneDetailHeaderActiveRenewVIPTip" = "Renew now and enjoy exclusive privileges >";
+"MXRZoneDetailHeaderActiveVIPFreeTip" = "VIP, please read it.";
+"MXRZoneDetailVC_Bottom_VIP" = "(VIP Free)";
+"MXRPersonVC_Receive_VIP_Fail" = "receive failure";
+"MXRPersonVC_Receive_VIP_Success_Tip" = "Congratulations on your successful VIP!";
+"MXRPersonVC_Receive_VIP_End_Time" = "Valid until %@";
+"MXRSignInVC_Today" = "Today";
+"MXRSignInVC_ContinueSignIn" = "continuous %ld days";
+"MXRSignInVC_ContinueSignIn_Every" = "continuous N days";
+"MXRSignInVC_ContinueSignIn_How_Many_Days" = "the %ldth day";
+"MXRSignInVC_ContinueSignIn_Vip_Dredge" = "Open VIP130% reward";
+"MXRSignInVC_ContinueSignIn_Vip_Recharge" = "Renewal VIP enjoyment";
+"MXRBookStoreSubjectDetailVC_VIP_Download_Tip" = "Please click on the book to download.";
+//认知卡模糊识别
+"MXR_SCAN_SIMILAR_CHOOSE_YOUR_NEED" = "Please choose what you need";
+
+//问答列表
+"MXR_PK_QUESTIONS" = "问答";
+"MXR_PK_QUESTIONS_SUBJECTS" = "题";
+"MXR_PK_AVERAGE_CORRECT_RATE" = "平均正确率";
+"MXR_PK_PARTICIPATE_PROMPT" = "还未参与哦，赶紧来吧";
+"MXR_PK_MINE_ACCURACY" = "我的正确率";
+
+//完成闯关
+"MXR_PK_MC_EMM_ACCURACY_RATE_ONLY" = "啊哦，答题正确率只有";
+"MXR_PK_MC_CHALLENGE_IT_AGAIN" = "，再挑战一次吧";
+"MXR_PK_MC_RANKING" = "TOP10光荣榜";
+"MXR_PK_MC_MORE_KNOWLEDGE_InBook" = "这本书里还有很多意想不到的知识哦！";
+"MXR_PK_MC_TITLE" = "完成闯关";
+"MXR_PK_MC_WRONG_ANALYSIS" = "答案解析";
+"MXR_PK_MC_TRY_IT_AGAIN" = "再测一次";
+"MXR_PK_MC_INVITE_FRIENDS" = "邀请好友PK";
+"MXR_PK_MC_CONGRATULATIONS" = "真棒，答题正确率";
+"MXR_PK_MC_BETTER_THAN" = "超越了";
+"MXR_PK_MC_CHALLENGER" = "名挑战者";
+"MXR_PK_MC_MINE_RANK" = "我排在第";
+"MXR_PK_MC_RANK_POSITION" = "位";
+
+//错题解析
+"MXR_PK_WA_WRONG" = "呜呜，答错了！";
+"MXR_PK_WA_ANSWER" = "正确答案";
+"MXR_PK_WA_ANALYSIS" = "解析";
+"MXR_PK_WA_SINGLE_CHOICE" = "单选";
+"MXR_PK_WA_MULTIPLE_CHOICE" = "多选";
+"MXR_PK_WA_NEXT_QUESTION" = "下一题";
+"MXR_PK_WA_LAST_QUESTION" = "上一题";
+"MXR_PK_WA_SORT" = "Question %@";
+"MXR_PK_WA_ERROR" = "没有错题，无法解析！";
+
+//PK结果
+"MXR_PK_RESULT_TITLE" = "PK结果";
+"MXR_PK_RESULT_ACCURACY" = "正确率";
+"MXR_PK_RESULT_CONTINUE" = "继续PK";
+"MXR_PK_RESULT_RETRY" = "再战一局";
+"MXR_PK_RESULT_ANALYSIS" = "答案解析";
+"MXR_PK_RESULT_SUCCESS" = "PK获胜";
+"MXR_PK_RESULT_GAIN" = "赢得";
+"MXR_PK_RESULT_DRAW" = "领取";
+"MXR_PK_RESULT_SURE_TO_BUY" = "确认购买";
+"MXR_PK_RESULT_LACK_OF_MXB" = "您的梦想币不足，去获取";
+"MXR_PK_RESULT_SHOT_TO_SHARE" = "截图分享炫耀下战绩吧!";
+"MXR_PK_RESULT_GAINMXB" = "PK获胜，赢得%ld梦想币";
+
+//清理图书
+"MXR_CLEAR_BOOK_SELECT_ALL" = "全选";
+"MXR_CLEAR_BOOK_COMPLETE" = "完成";
+"MXR_CLEAR_BOOK_CLEAR" = "清理";
+"MXR_CLEAR_BOOK_PLEASE_SELECT" = "请选择需要清理的图书";
+"MXR_CLEAR_BOOK_ALERT" = "确认删除%ld本图书?";
+
+//5.14.0
+"MXR_Zone_Coupon_list_Git_Success"="Get it successfully";
+"MXRBrightnessVC_AdjustBrightness"="Adjust Brightness";
+"MXRBrightnessVC_Slider_Dark"="dark";
+"MXRBrightnessVC_Slider_Light"="bright";
+
+//5.15.0
+//搜索
+"MXRSearchTypeAll" = "全部";
+"MXRSearchTypeBook" = "图书";
+"MXRSearchTypeZone" = "专区";
+"MXRSearchTypeClass" = "课程";
+"MXR_Course_SubscriberNum" = "%ld人已订阅学习";
+"MXR_Course_Description" = "共%ld课时 | %ld个课件 | %ld本配套图书";
+"MXRSearch_NoData" = "没有找到任何内容哦～";
+
+//书架
+"MXRBookShelf_Title_MineCourse" = "我的课程";
+"MXRBookShelf_Course_Empty_Hint" = "还没有订阅课程哦～";
+"MXRBookShelf_Course_Jump_Title" = "去AR课堂看看";
+"MXRBookShelf_ARExtracurricular_Jump_Title" = "去AR课外看看";
+"MXR_Go_To_BookStore" = "Go to BookStore";
+
+//UNIT详情
+"MXRUnit_Title_PRBook" = "点读教辅";
+"MXRUnit_Title_Examination" = "单元测验";
+"MXRUnit_Title_ExtensionReading" = "延展阅读";
+"MXRUnit_Exam_Begin" = "立即测验";
+"MXRUnit_Exam_Desc" = "共%ld题 | 预计花费%ld分钟";
+
+//课程选择
+"MXR_CourseSelected_Title" = "课程选择";
+"MXR_CourseSelected_All_Grade" = "全部年级";
+"MXR_CourseSelected_All_Subject" = "全部科目";
+"MXR_CourseSelected_All_Version" = "全部版本";
+"MXR_CourseSelected_AddCourse_Success" = "添加课程成功";
+"MXR_CourseSelected_Loading" = "页面加载中";
+"MXR_CourseSelected_Grade" = "年级";
+"MXR_CourseSelected_Subject" = "科目";
+"MXR_CourseSelected_Teaching_Version" = "教辅版本";
+
+//课程Course详情
+"MXR_CourseDetatil_Course_Pay" = "%ld梦想钻，开通完整课程";
+"MXR_CourseDetatil_Title" = "课程详情";
+"MXR_CourseDetatil_UnitList" = "单元列表";
+"MXR_CourseDetatil_MyRecord" = "我的成绩";
+"MXR_CourseDetatil_LearningReport" = "学习报告";
+"MXR_CourseDetatil_ExtendRead" = "延展阅读";
+"MXR_CourseDetatil_Purchase_Course" = "购买课程";
+"MXR_CourseDetatil_Free_Learn" = "免费学习";
+"MXR_CourseDetatil_Start_Learn" = "开始学习";
+"MXR_CourseDetatil_Continue_Learn" = "继续学习";
+"MXR_CourseDetatil_Again_Learn" = "重新学习";
+
+//5.16.0
+//选择优惠券
+"MXR_Coupon_Deselect_Success" = "已取消选择";
+
+//个人挑战赛
+"MXR_CHALLENGE_TITLE" = "个人挑战赛";
+"MXR_CHALLENGE_CHANCE" = "机会";
+"MXR_CHALLENGE_RANK_TITLE" = "排行榜>>";
+"MXR_CHALLENGE_WEEK_RANK" = "个人排名：";
+"MXR_CHALLENGE_WEEK_RANK_UNIT" = "名";
+"MXR_CHALLENGE_BEST_RANK" = "最佳纪录：";
+"MXR_CHALLENGE_BEST_RANK_UNIT" = "题";
+"MXR_CHALLENGE_PROP_TITLE" = "获取道具>>";
+"MXR_CHALLENGE_EXCLUDEERRORCARD" = "除错卡";
+"MXR_CHALLENGE_RESURGENCECARD" = "复活卡";
+"MXR_CHALLENGE_BEGIN" = "开始挑战";
+"MXR_CHALLENGE_ABILITY_RADAR" = "脑力图谱";
+"MXR_PK_BEGIN" = "开始PK";
+"MXR_PK_NO_CHANCE" = "机会用尽,明天再试吧";
+"MXR_PK_NOT_ON_RANKLIST" = "未上榜";
+"MXR_PK_RANK_NODATA" = "暂无数据";
+
+//道具商店
+"MXR_Prop_Title" = "道具商店";
+"MXR_Prop_Task" = "道具任务";
+"MXR_Prop_Share_Task" = "分享获取道具";
+"MXR_Prop_Share_Ruler" = "规则：每日首次分享，将获得1张复活卡和1张除错卡（会员2倍奖励）";
+"MXR_Prop_Purchase" = "道具购买";
+"MXR_Prop_Card_Unit" = "张";
+
+
+//5.17.0 激活码
+"MXR_ARClass_course_Activation" = "Please enter the activation code";
+"MXR_BandCode_Success_DidBand" = "你已绑定过邀请码\n不能重复绑定";
+"MXR_BandCode_Success_Success" = "恭喜你！\n成功绑定邀请码";
+"MXR_BandCode_Success_Login" = "你还未登录，请先登录哦";
+
+//通读
+"MXR_BOOK_DOWNLOAD_TOAST" = "《%@》还未下载，是否立即下载？";
+"MXR_BOOK_PURCHASE_TOAST" = "《%@》还未购买，请先在书城购买这本图书或专题哦";
+"MXR_BOOK_NO_LAST_BOOK" = "没有上一集哦";
+"MXR_BOOK_NO_NEXT_BOOK" = "没有下一集哦";
+
+//5.18.0
+//单元详情
+"MXR_UNIT_RESOURCE_READ" = "已读";
+//问答
+"MXR_PK_RECHARGE_VIP_DOUBLE_BONUS" = "成为VIP机会翻倍哦>";
+"MXR_PK_VIP_PRIVILEGE_TITLE" = "VIP特权";
+"MXR_PK_VIP_PRIVILEGE_CONTENT" = "成为VIP你将拥有以下特权:\n\n1、每日获赠5张除错卡和5张复活卡。 次日失效\n\n2、每日答题机会10次，为普通用户2倍\n\n3、分享功能，获赠道具数量翻倍";
+
+//5.19.0
+//离线阅读书签toast提示
+"MXR_READ_BOOKMARKER_ADD_SUCCESS" = "书签添加成功";
+"MXR_READ_BOOKMARKER_DELETE_SUCCESS" = "书签已取消";

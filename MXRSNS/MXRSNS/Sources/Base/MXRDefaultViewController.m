@@ -371,7 +371,7 @@
  @param notif
  5.5.0版本  图书推荐页里面进入另一本图书添加小梦loading
  */
-//-(void)orientationDidChange:(NSNotification *)notif {
+-(void)orientationDidChange:(NSNotification *)notif {
 //    APP_DELEGATE.window.frame = [UIScreen mainScreen].bounds;
 //    [APP_DELEGATE.window layoutSubviews];
 //    for (UIView *view in APP_DELEGATE.window.subviews) {
@@ -380,7 +380,7 @@
 //            [view layoutSubviews];
 //        }
 //    }
-//}
+}
 @end
 
 @implementation MXRDefaultViewController (NavigtaionBar)

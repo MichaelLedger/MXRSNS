@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MXRDynamicHasDeleteView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wJW-dD-33A">
+                    <rect key="frame" x="122.5" y="225" width="130" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="PwI-Ok-7BF"/>
+                        <constraint firstAttribute="width" constant="130" id="ndr-ZC-GdH"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="该动态已删除" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wi2-rI-c3k">
+                    <rect key="frame" x="0.0" y="385" width="375" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Vqw-6a-gOk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wJW-dD-33A" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3Dc-Kb-Ysw"/>
+                <constraint firstItem="wJW-dD-33A" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-43.5" id="R4J-c8-TYw"/>
+                <constraint firstItem="wi2-rI-c3k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aWj-Hg-979"/>
+                <constraint firstItem="wi2-rI-c3k" firstAttribute="top" secondItem="wJW-dD-33A" secondAttribute="bottom" constant="30" id="v11-Bt-tVZ"/>
+                <constraint firstAttribute="trailing" secondItem="wi2-rI-c3k" secondAttribute="trailing" id="zml-5M-1rw"/>
+            </constraints>
+            <connections>
+                <outlet property="promptImage" destination="wJW-dD-33A" id="AVu-3O-UG0"/>
+                <outlet property="promptLable" destination="wi2-rI-c3k" id="0yt-Cb-cFC"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

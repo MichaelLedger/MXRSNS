@@ -521,7 +521,7 @@
     
 }
 
-//+(NSString*)changeHttpToHttps:(NSString*)arg{
++(NSString*)changeHttpToHttps:(NSString*)arg{
 //    if ([[MXRUserSettingsManager defaultManager] getServerType] == MXRARServerTypeOuterNetFormalHTTP) {
 //           return arg;
 //    }
@@ -562,9 +562,9 @@
 //            arg = [arg stringByReplacingOccurrencesOfString:@"http" withString:@"https"];
 //        }
 //    }
-//    return arg;
-//
-//}
+    return arg;
+
+}
 +(NSDictionary *)getUmengClickDictWithValue:(NSString *)clickValue{
 
     return [[NSDictionary alloc] initWithObjectsAndKeys:clickValue,@"ClickEvent",nil];

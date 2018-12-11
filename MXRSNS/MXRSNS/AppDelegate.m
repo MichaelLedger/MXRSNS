@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MXRBookSNSViewController.h"
+#import "MXRNavigationViewController.h"
+#import <AFNetworkReachabilityManager.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +20,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    MXRBookSNSViewController *sns = [[MXRBookSNSViewController alloc] init];
+    sns.hideTabbar = YES;
+    self.window.rootViewController = [[MXRNavigationViewController alloc] initWithRootViewController:sns];
+    
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
     return YES;
 }
 

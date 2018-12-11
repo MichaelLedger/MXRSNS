@@ -31,6 +31,8 @@ PODS:
     - FMDB
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
+  - MJRefresh (3.0.8)
+  - pop (1.0.10)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -43,6 +45,8 @@ DEPENDENCIES:
   - LKDBHelper (~> 2.4.7)
   - Masonry (~> 1.1.0)
   - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (~> 3.0.0)
+  - pop (~> 1.0.10)
   - SDWebImage (~> 4.4.0)
   - UMengAnalytics (~> 4.2.4)
 
@@ -58,6 +62,8 @@ SPEC REPOS:
     - LKDBHelper
     - Masonry
     - MBProgressHUD
+    - MJRefresh
+    - pop
     - SDWebImage
     - UMengAnalytics
 
@@ -71,9 +77,11 @@ SPEC CHECKSUMS:
   LKDBHelper: a6c63147491654da18f72212f80d67db3a27289c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
 
-PODFILE CHECKSUM: 01753b4aa642ea5b44a5e6b5a716130f76c63237
+PODFILE CHECKSUM: 1cff94669de44c516736aada3ffeccc2be81e705
 
 COCOAPODS: 1.5.3

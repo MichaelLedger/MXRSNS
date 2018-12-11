@@ -411,6 +411,7 @@
 		AAB3751421BF9CFA00417161 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				AAB375B321BFAA8500417161 /* Base */,
 				AAB3771E21BFBA9500417161 /* ClientManager */,
 				AAB3761B21BFBA4F00417161 /* AllNetwok */,
 				AAB375E021BFAE2E00417161 /* View */,
@@ -433,6 +434,7 @@
 		AAB3751721BF9D5100417161 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				AAB375E221BFAE3F00417161 /* MXRLoadFailedView */,
 				AAB377A021BFD68300417161 /* AppConfig */,
 				AAB3779921BFC0A800417161 /* CacheData */,
 				AAB3778E21BFBF1900417161 /* MD5 */,
@@ -635,7 +637,6 @@
 		AAB375B221BFAA3B00417161 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AAB375B321BFAA8500417161 /* Base */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -683,7 +684,6 @@
 		AAB375E021BFAE2E00417161 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AAB375E221BFAE3F00417161 /* MXRLoadFailedView */,
 			);
 			path = View;
 			sourceTree = "<group>";

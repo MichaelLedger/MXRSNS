@@ -35,8 +35,8 @@
 #import "MXRDeviceUtil.h"
 #import <objc/runtime.h>
 
-//#import "MXRPKSearchViewController.h"
-//#import "MXRPKHomeViewController.h"
+#import "MXRPKSearchViewController.h"
+#import "MXRPKHomeViewController.h"
 //#import "MXRPhoneBandelDetailViewController.h"
 static const float itemWidth = 132;
 static const float itemHeight = 65;
@@ -712,14 +712,14 @@ MXRBookSNSForwardTableViewCellDelegate
 - (void)MXRQuestionBannerDidSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [MXRClickUtil event:@"Test_index_btn"];
     [MXRClickUtil event:@"MengXiangQuanClick"];
-//    if (![MXRDeviceUtil isReachable]) {
-//        [MXRConstant showAlertNoNetwork];
-//    }else{
+    if (![MXRDeviceUtil isReachable]) {
+        [MXRConstant showAlertNoNetwork];
+    }else{
         if ([[UserInformation modelInformation] checkIsLogin]) {
-//            MXRPKHomeViewController *pk = [MXRPKHomeViewController pkHomeViewController];
-//            [self.navigationController pushViewController:pk animated:YES];
+            MXRPKHomeViewController *pk = [MXRPKHomeViewController pkHomeViewController];
+            [self.navigationController pushViewController:pk animated:YES];
         }
-//    }
+    }
 }
 #pragma mark MXRPromptViewDelegate
 //-(void)promptView:(MXRPromptView*)promptView didSelectAtIndex:(NSUInteger)index{

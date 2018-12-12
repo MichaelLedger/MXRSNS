@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MXRPKImageOptionCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="amH-zy-scq">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zGf-js-CRm">
+                        <rect key="frame" x="5" y="162" width="190" height="33"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23J-Hy-PTX">
+                                <rect key="frame" x="8" y="8" width="174" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="23J-Hy-PTX" firstAttribute="leading" secondItem="zGf-js-CRm" secondAttribute="leading" constant="8" id="6Af-rV-Uah"/>
+                            <constraint firstAttribute="bottom" secondItem="23J-Hy-PTX" secondAttribute="bottom" constant="8" id="OQr-US-nnQ"/>
+                            <constraint firstAttribute="trailing" secondItem="23J-Hy-PTX" secondAttribute="trailing" constant="8" id="PC2-ZJ-ZQK"/>
+                            <constraint firstItem="23J-Hy-PTX" firstAttribute="top" secondItem="zGf-js-CRm" secondAttribute="top" constant="8" id="Xmh-Wi-J3T"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="zGf-js-CRm" secondAttribute="trailing" constant="5" id="I6h-ji-R2y"/>
+                <constraint firstItem="amH-zy-scq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KJO-Bh-eR3"/>
+                <constraint firstAttribute="bottom" secondItem="zGf-js-CRm" secondAttribute="bottom" constant="5" id="Kga-Oc-VTt"/>
+                <constraint firstAttribute="trailing" secondItem="amH-zy-scq" secondAttribute="trailing" id="r02-Vb-fFy"/>
+                <constraint firstAttribute="bottom" secondItem="amH-zy-scq" secondAttribute="bottom" id="rTF-yC-W74"/>
+                <constraint firstItem="amH-zy-scq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tZd-py-4Ye"/>
+                <constraint firstItem="zGf-js-CRm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="wb6-0H-mbv"/>
+            </constraints>
+            <size key="customSize" width="200" height="200"/>
+            <connections>
+                <outlet property="answerTextContainer" destination="zGf-js-CRm" id="Nxi-3n-YKf"/>
+                <outlet property="answerTextLabel" destination="23J-Hy-PTX" id="oCL-fv-k1x"/>
+                <outlet property="imageView" destination="amH-zy-scq" id="BqZ-3Z-vNi"/>
+            </connections>
+            <point key="canvasLocation" x="203" y="130"/>
+        </collectionViewCell>
+    </objects>
+</document>

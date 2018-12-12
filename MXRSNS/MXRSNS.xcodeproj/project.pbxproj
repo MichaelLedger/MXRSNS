@@ -249,6 +249,147 @@
 		AAB377A921BFD68300417161 /* MXRAppConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB377A221BFD68300417161 /* MXRAppConfigController.m */; };
 		AAB377AA21BFD68300417161 /* MXRAppConfigProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB377A721BFD68300417161 /* MXRAppConfigProxy.m */; };
 		AAB377AB21BFD68300417161 /* MXRAppConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB377A821BFD68300417161 /* MXRAppConfigModel.m */; };
+		AAE6F2B121C101BB0024CF21 /* libEgretWebViewLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE6F2A921C101BB0024CF21 /* libEgretWebViewLib.a */; };
+		AAE6F2B721C1042A0024CF21 /* MXREgretGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F2B421C1042A0024CF21 /* MXREgretGameViewController.m */; };
+		AAE6F2B821C1042A0024CF21 /* MXREgretGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F2B521C1042A0024CF21 /* MXREgretGameViewController.xib */; };
+		AAE6F2BC21C104380024CF21 /* MXREgretInterfaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F2BA21C104370024CF21 /* MXREgretInterfaceModel.m */; };
+		AAE6F3A321C105C60024CF21 /* MXRPKResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F2F921C105C00024CF21 /* MXRPKResultViewController.m */; };
+		AAE6F3A421C105C60024CF21 /* MXRPKResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F2FA21C105C00024CF21 /* MXRPKResultViewController.xib */; };
+		AAE6F3A521C105C60024CF21 /* MXRPKAnswerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F2FE21C105C10024CF21 /* MXRPKAnswerVC.m */; };
+		AAE6F3A621C105C60024CF21 /* MXRPKNormalAnswerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F2FF21C105C10024CF21 /* MXRPKNormalAnswerVC.xib */; };
+		AAE6F3A721C105C60024CF21 /* MXRPKNormalAnswerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F30021C105C10024CF21 /* MXRPKNormalAnswerVC.m */; };
+		AAE6F3A821C105C60024CF21 /* MXRPKImageOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F30321C105C10024CF21 /* MXRPKImageOptionCell.xib */; };
+		AAE6F3A921C105C60024CF21 /* MXRPKNormalHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F30421C105C10024CF21 /* MXRPKNormalHeaderView.m */; };
+		AAE6F3AA21C105C60024CF21 /* MXRPKAnswerOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F30521C105C10024CF21 /* MXRPKAnswerOptionCell.m */; };
+		AAE6F3AB21C105C60024CF21 /* MXRPKScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F30621C105C10024CF21 /* MXRPKScoreView.m */; };
+		AAE6F3AC21C105C60024CF21 /* MXRPKNormalHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F30821C105C10024CF21 /* MXRPKNormalHeaderView.xib */; };
+		AAE6F3AD21C105C60024CF21 /* MXRPKAnswerOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F30A21C105C10024CF21 /* MXRPKAnswerOptionCell.xib */; };
+		AAE6F3AE21C105C60024CF21 /* MXRPKNormalFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F30B21C105C10024CF21 /* MXRPKNormalFooterView.m */; };
+		AAE6F3AF21C105C60024CF21 /* MXRPKNormalFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F30C21C105C10024CF21 /* MXRPKNormalFooterView.xib */; };
+		AAE6F3B021C105C60024CF21 /* MXRPKImageOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F30F21C105C10024CF21 /* MXRPKImageOptionCell.m */; };
+		AAE6F3B121C105C60024CF21 /* MXRCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F31121C105C10024CF21 /* MXRCountDownView.m */; };
+		AAE6F3B221C105C60024CF21 /* MXRPKAnswerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F31321C105C10024CF21 /* MXRPKAnswerVC.xib */; };
+		AAE6F3B321C105C60024CF21 /* MXRUserBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F31721C105C10024CF21 /* MXRUserBehaviour.m */; };
+		AAE6F3B421C105C60024CF21 /* MXRPKHomeCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F31821C105C10024CF21 /* MXRPKHomeCellViewModel.m */; };
+		AAE6F3B521C105C60024CF21 /* MXRPKHomeHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F31921C105C10024CF21 /* MXRPKHomeHeaderViewModel.m */; };
+		AAE6F3B621C105C60024CF21 /* MXRPKHomeCellDoubleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F31A21C105C10024CF21 /* MXRPKHomeCellDoubleViewModel.m */; };
+		AAE6F3B721C105C60024CF21 /* MXRPKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F32021C105C10024CF21 /* MXRPKHomeViewController.m */; };
+		AAE6F3B821C105C60024CF21 /* MXRPKHomeShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F32321C105C10024CF21 /* MXRPKHomeShareView.xib */; };
+		AAE6F3B921C105C60024CF21 /* MXRPKHomeMedalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F32421C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.m */; };
+		AAE6F3BA21C105C60024CF21 /* MXRPKHomeShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F32621C105C10024CF21 /* MXRPKHomeShareView.m */; };
+		AAE6F3BB21C105C60024CF21 /* MXRPKHomeNewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F32721C105C10024CF21 /* MXRPKHomeNewHeaderView.xib */; };
+		AAE6F3BC21C105C60024CF21 /* MXRPKHomeNewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F32821C105C10024CF21 /* MXRPKHomeNewHeaderView.m */; };
+		AAE6F3BD21C105C60024CF21 /* MXRPKHomeDoubleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F32A21C105C10024CF21 /* MXRPKHomeDoubleCollectionViewCell.m */; };
+		AAE6F3BE21C105C60024CF21 /* MXRPKHomeMedalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F32D21C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.xib */; };
+		AAE6F3BF21C105C60024CF21 /* MXRPKHomeNormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F32E21C105C10024CF21 /* MXRPKHomeNormalCollectionViewCell.m */; };
+		AAE6F3C021C105C60024CF21 /* MXRPKHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F33121C105C10024CF21 /* MXRPKHomeHeaderView.m */; };
+		AAE6F3C121C105C60024CF21 /* MXRPKMedalInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F33421C105C20024CF21 /* MXRPKMedalInfoModel.m */; };
+		AAE6F3C221C105C60024CF21 /* MXRPKMedalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F33721C105C20024CF21 /* MXRPKMedalListViewController.m */; };
+		AAE6F3C321C105C60024CF21 /* MXRPKMedalDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F33821C105C20024CF21 /* MXRPKMedalDetailView.m */; };
+		AAE6F3C421C105C60024CF21 /* MXRPKMedalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F33A21C105C20024CF21 /* MXRPKMedalCollectionViewCell.xib */; };
+		AAE6F3C521C105C60024CF21 /* MXRPKMedalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F33B21C105C20024CF21 /* MXRPKMedalDetailView.xib */; };
+		AAE6F3C621C105C60024CF21 /* MXRPKMedalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F33E21C105C20024CF21 /* MXRPKMedalCollectionViewCell.m */; };
+		AAE6F3C721C105C60024CF21 /* MXRPKQuestionResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F34221C105C20024CF21 /* MXRPKQuestionResultController.m */; };
+		AAE6F3C821C105C60024CF21 /* MXRPKQuestionResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F34421C105C20024CF21 /* MXRPKQuestionResultTableViewCell.xib */; };
+		AAE6F3C921C105C60024CF21 /* MXRPKQuestionResultRankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F34621C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.m */; };
+		AAE6F3CA21C105C60024CF21 /* MXRPKQuestionResultBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F34821C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.xib */; };
+		AAE6F3CB21C105C60024CF21 /* MXRPKQuestionResultRankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F34921C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.xib */; };
+		AAE6F3CC21C105C60024CF21 /* MXRPKQuestionResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F34C21C105C20024CF21 /* MXRPKQuestionResultTableViewCell.m */; };
+		AAE6F3CD21C105C60024CF21 /* MXRPKQuestionResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F34D21C105C20024CF21 /* MXRPKQuestionResultViewController.xib */; };
+		AAE6F3CE21C105C60024CF21 /* MXRPKQuestionResultBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F34E21C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.m */; };
+		AAE6F3CF21C105C60024CF21 /* MXRPKQuestionResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F34F21C105C20024CF21 /* MXRPKQuestionResultViewController.m */; };
+		AAE6F3D021C105C60024CF21 /* MXRPKUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F35321C105C20024CF21 /* MXRPKUserInfoModel.m */; };
+		AAE6F3D121C105C60024CF21 /* MXRPKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F35521C105C20024CF21 /* MXRPKSearchViewController.m */; };
+		AAE6F3D221C105C60024CF21 /* MXRPKChallengeShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F35A21C105C30024CF21 /* MXRPKChallengeShareView.m */; };
+		AAE6F3D321C105C60024CF21 /* MXRPKPropShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F35B21C105C30024CF21 /* MXRPKPropShopViewController.m */; };
+		AAE6F3D421C105C60024CF21 /* MXRPKPropShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F35C21C105C30024CF21 /* MXRPKPropShopTableViewCell.m */; };
+		AAE6F3D521C105C60024CF21 /* MXRPKPropPurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F35E21C105C30024CF21 /* MXRPKPropPurchaseViewController.xib */; };
+		AAE6F3D621C105C60024CF21 /* MXRPKPropPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F36121C105C30024CF21 /* MXRPKPropPurchaseViewController.m */; };
+		AAE6F3D721C105C60024CF21 /* MXRPKPropSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F36621C105C30024CF21 /* MXRPKPropSectionFooter.m */; };
+		AAE6F3D821C105C60024CF21 /* MXRPKPropHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F36721C105C30024CF21 /* MXRPKPropHeader.m */; };
+		AAE6F3D921C105C60024CF21 /* MXRPKPropSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F36821C105C30024CF21 /* MXRPKPropSectionHeader.m */; };
+		AAE6F3DA21C105C60024CF21 /* MXRPKChallengeShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F36921C105C30024CF21 /* MXRPKChallengeShareView.xib */; };
+		AAE6F3DB21C105C60024CF21 /* MXRPKPropShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F36A21C105C30024CF21 /* MXRPKPropShopViewController.xib */; };
+		AAE6F3DC21C105C60024CF21 /* MXRPKPropShopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F36C21C105C30024CF21 /* MXRPKPropShopTableViewCell.xib */; };
+		AAE6F3DD21C105C60024CF21 /* MXRPKRankListController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F36F21C105C30024CF21 /* MXRPKRankListController.m */; };
+		AAE6F3DE21C105C60024CF21 /* MXRPKRankListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F37221C105C30024CF21 /* MXRPKRankListModel.m */; };
+		AAE6F3DF21C105C60024CF21 /* MXRPKRankListBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F37621C105C30024CF21 /* MXRPKRankListBottomView.xib */; };
+		AAE6F3E021C105C60024CF21 /* MXRPKRankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F37721C105C30024CF21 /* MXRPKRankListViewController.m */; };
+		AAE6F3E121C105C60024CF21 /* MXRPKRankListHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F37921C105C30024CF21 /* MXRPKRankListHeaderReusableView.xib */; };
+		AAE6F3E221C105C60024CF21 /* MXRPKRankFirstCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F37A21C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.m */; };
+		AAE6F3E321C105C60024CF21 /* MXRPKRankListEmptyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F37C21C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.m */; };
+		AAE6F3E421C105C60024CF21 /* MXRPKRankListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F37D21C105C30024CF21 /* MXRPKRankListCollectionViewCell.m */; };
+		AAE6F3E521C105C60024CF21 /* MXRPKRankListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F37E21C105C30024CF21 /* MXRPKRankListCollectionViewCell.xib */; };
+		AAE6F3E621C105C60024CF21 /* MXRPKRankFirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F37F21C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.xib */; };
+		AAE6F3E721C105C60024CF21 /* MXRPKRankListHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F38221C105C30024CF21 /* MXRPKRankListHeaderReusableView.m */; };
+		AAE6F3E821C105C60024CF21 /* MXRPKRankListEmptyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F38321C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.xib */; };
+		AAE6F3E921C105C60024CF21 /* MXRPKRankListBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F38521C105C30024CF21 /* MXRPKRankListBottomView.m */; };
+		AAE6F3EB21C105C60024CF21 /* MXRPKQuestionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F38B21C105C40024CF21 /* MXRPKQuestionListController.m */; };
+		AAE6F3EC21C105C60024CF21 /* MXRPKQuestionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F38D21C105C40024CF21 /* MXRPKQuestionListModel.m */; };
+		AAE6F3ED21C105C60024CF21 /* MXRPKQuestionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F39021C105C40024CF21 /* MXRPKQuestionListViewController.m */; };
+		AAE6F3EE21C105C60024CF21 /* MXRPKQuestionListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F39121C105C40024CF21 /* MXRPKQuestionListTableViewCell.m */; };
+		AAE6F3EF21C105C60024CF21 /* MXRPKQuestionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F39221C105C40024CF21 /* MXRPKQuestionListTableViewCell.xib */; };
+		AAE6F3F021C105C60024CF21 /* MXRWrongAnalysisAnswerTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F39921C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.m */; };
+		AAE6F3F121C105C60024CF21 /* MXRWrongAnalysisAnswerImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F39B21C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.xib */; };
+		AAE6F3F221C105C60024CF21 /* MXRWrongAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F39C21C105C50024CF21 /* MXRWrongAnalysisViewController.m */; };
+		AAE6F3F321C105C60024CF21 /* MXRWrongAnalysisAnswerTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F39E21C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.xib */; };
+		AAE6F3F421C105C60024CF21 /* MXRWrongAnalysisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F39F21C105C50024CF21 /* MXRWrongAnalysisViewController.xib */; };
+		AAE6F3F521C105C60024CF21 /* MXRWrongAnalysisAnswerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F3A021C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.m */; };
+		AAE6F3F621C105C60024CF21 /* pk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F3A221C105C60024CF21 /* pk.storyboard */; };
+		AAE6F40621C106710024CF21 /* MXRPKResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F3FD21C106710024CF21 /* MXRPKResponseModel.m */; };
+		AAE6F40721C106710024CF21 /* MXRPKChallengeResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F40221C106710024CF21 /* MXRPKChallengeResponseModel.m */; };
+		AAE6F40821C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F40321C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.m */; };
+		AAE6F40921C106710024CF21 /* MXRPKHomeResponeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F40421C106710024CF21 /* MXRPKHomeResponeModel.m */; };
+		AAE6F40A21C106710024CF21 /* MXRPKPropShopResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F40521C106710024CF21 /* MXRPKPropShopResponseModel.m */; };
+		AAE6F40E21C106870024CF21 /* MXRPKRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F40D21C106860024CF21 /* MXRPKRequestModel.m */; };
+		AAE6F41121C106EC0024CF21 /* MXRPKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F40F21C106EB0024CF21 /* MXRPKNetworkManager.m */; };
+		AAE6F41521C1087D0024CF21 /* MXRDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F41421C1087D0024CF21 /* MXRDownloadButton.m */; };
+		AAE6F41921C108A40024CF21 /* JXTProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F41821C108A40024CF21 /* JXTProgressLabel.m */; };
+		AAE6F41D21C109B50024CF21 /* WaterfallColectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F41B21C109B40024CF21 /* WaterfallColectionLayout.m */; };
+		AAE6F42221C109FF0024CF21 /* MXRAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F42021C109FE0024CF21 /* MXRAlertViewController.xib */; };
+		AAE6F42321C109FF0024CF21 /* MXRAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F42121C109FF0024CF21 /* MXRAlertViewController.m */; };
+		AAE6F42721C10A310024CF21 /* MXRPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F42521C10A300024CF21 /* MXRPromptView.m */; };
+		AAE6F42C21C10A630024CF21 /* MXRGlassLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F42A21C10A620024CF21 /* MXRGlassLoadingView.m */; };
+		AAE6F42D21C10A630024CF21 /* MXRGlassLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE6F42B21C10A630024CF21 /* MXRGlassLoadingView.xib */; };
+		AAE6F43121C10B070024CF21 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F42F21C10B060024CF21 /* UIButton+ImageTitleSpacing.m */; };
+		AAE6F43421C10B3A0024CF21 /* MXRUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F43221C10B390024CF21 /* MXRUIButton.m */; };
+		AAE6F43821C10BEF0024CF21 /* UILabel+MXRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F43721C10BEF0024CF21 /* UILabel+MXRColor.m */; };
+		AAE6F43C21C10C240024CF21 /* MXRRoundMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F43B21C10C240024CF21 /* MXRRoundMaskView.m */; };
+		AAE6F44021C10C8C0024CF21 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F43F21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout.m */; };
+		AAE6F49421C110DD0024CF21 /* ZFGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F44421C110DD0024CF21 /* ZFGenericChart.m */; };
+		AAE6F49521C110DD0024CF21 /* ZFBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F44821C110DD0024CF21 /* ZFBarChart.m */; };
+		AAE6F49621C110DD0024CF21 /* ZFBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F44921C110DD0024CF21 /* ZFBar.m */; };
+		AAE6F49721C110DD0024CF21 /* UIView+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F44B21C110DD0024CF21 /* UIView+Zirkfied.m */; };
+		AAE6F49821C110DD0024CF21 /* UIBezierPath+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F44D21C110DD0024CF21 /* UIBezierPath+Zirkfied.m */; };
+		AAE6F49921C110DD0024CF21 /* UIColor+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45121C110DD0024CF21 /* UIColor+Zirkfied.m */; };
+		AAE6F49A21C110DD0024CF21 /* NSString+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45321C110DD0024CF21 /* NSString+Zirkfied.m */; };
+		AAE6F49B21C110DD0024CF21 /* NSNumber+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45421C110DD0024CF21 /* NSNumber+Zirkfied.m */; };
+		AAE6F49C21C110DD0024CF21 /* ZFCirqueChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45721C110DD0024CF21 /* ZFCirqueChart.m */; };
+		AAE6F49D21C110DD0024CF21 /* ZFCirque.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45921C110DD0024CF21 /* ZFCirque.m */; };
+		AAE6F49E21C110DD0024CF21 /* ZFHorizontalAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45B21C110DD0024CF21 /* ZFHorizontalAxis.m */; };
+		AAE6F49F21C110DD0024CF21 /* ZFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F45F21C110DD0024CF21 /* ZFConst.m */; };
+		AAE6F4A021C110DD0024CF21 /* ZFMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F46321C110DD0024CF21 /* ZFMethod.m */; };
+		AAE6F4A121C110DD0024CF21 /* ZFPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F46521C110DD0024CF21 /* ZFPieChart.m */; };
+		AAE6F4A221C110DD0024CF21 /* ZFPie.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F46921C110DD0024CF21 /* ZFPie.m */; };
+		AAE6F4A321C110DE0024CF21 /* ZFTranslucencePath.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F46A21C110DD0024CF21 /* ZFTranslucencePath.m */; };
+		AAE6F4A421C110DE0024CF21 /* ZFLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F46D21C110DD0024CF21 /* ZFLineChart.m */; };
+		AAE6F4A521C110DE0024CF21 /* ZFCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47021C110DD0024CF21 /* ZFCircle.m */; };
+		AAE6F4A621C110DE0024CF21 /* ZFLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47121C110DD0024CF21 /* ZFLine.m */; };
+		AAE6F4A721C110DE0024CF21 /* ZFXAxisLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47421C110DD0024CF21 /* ZFXAxisLine.m */; };
+		AAE6F4A821C110DE0024CF21 /* ZFYAxisLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47521C110DD0024CF21 /* ZFYAxisLine.m */; };
+		AAE6F4A921C110DE0024CF21 /* ZFPopoverLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47721C110DD0024CF21 /* ZFPopoverLabel.m */; };
+		AAE6F4AA21C110DE0024CF21 /* ZFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47921C110DD0024CF21 /* ZFLabel.m */; };
+		AAE6F4AB21C110DE0024CF21 /* ZFRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47C21C110DD0024CF21 /* ZFRadar.m */; };
+		AAE6F4AC21C110DE0024CF21 /* ZFPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47D21C110DD0024CF21 /* ZFPolygon.m */; };
+		AAE6F4AD21C110DE0024CF21 /* ZFRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F47E21C110DD0024CF21 /* ZFRadarChart.m */; };
+		AAE6F4AE21C110DE0024CF21 /* ZFGenericAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F48421C110DD0024CF21 /* ZFGenericAxis.m */; };
+		AAE6F4AF21C110DE0024CF21 /* ZFGradientAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F48821C110DD0024CF21 /* ZFGradientAttribute.m */; };
+		AAE6F4B021C110DE0024CF21 /* ZFCurveAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F48921C110DD0024CF21 /* ZFCurveAttribute.m */; };
+		AAE6F4B121C110DE0024CF21 /* ZFWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F48D21C110DD0024CF21 /* ZFWaveChart.m */; };
+		AAE6F4B221C110DE0024CF21 /* ZFWave.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F48E21C110DD0024CF21 /* ZFWave.m */; };
+		AAE6F4B321C110DE0024CF21 /* ZFHorizontalBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F49121C110DD0024CF21 /* ZFHorizontalBarChart.m */; };
+		AAE6F4B421C110DE0024CF21 /* ZFHorizontalBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F49221C110DD0024CF21 /* ZFHorizontalBar.m */; };
+		AAE6F4B821C1115E0024CF21 /* MXRScreenShotHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6F4B721C1115E0024CF21 /* MXRScreenShotHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -707,6 +848,264 @@
 		AAB377A621BFD68300417161 /* MXRAppConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRAppConfigModel.h; sourceTree = "<group>"; };
 		AAB377A721BFD68300417161 /* MXRAppConfigProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRAppConfigProxy.m; sourceTree = "<group>"; };
 		AAB377A821BFD68300417161 /* MXRAppConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRAppConfigModel.m; sourceTree = "<group>"; };
+		AAE6F2A921C101BB0024CF21 /* libEgretWebViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEgretWebViewLib.a; sourceTree = "<group>"; };
+		AAE6F2AB21C101BB0024CF21 /* HttpRequestDownloadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestDownloadProtocol.h; sourceTree = "<group>"; };
+		AAE6F2AC21C101BB0024CF21 /* ListFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListFileLoader.h; sourceTree = "<group>"; };
+		AAE6F2AD21C101BB0024CF21 /* BaseFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFileLoader.h; sourceTree = "<group>"; };
+		AAE6F2AE21C101BB0024CF21 /* EgretWebViewLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgretWebViewLib.h; sourceTree = "<group>"; };
+		AAE6F2AF21C101BB0024CF21 /* ZipFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipFileLoader.h; sourceTree = "<group>"; };
+		AAE6F2B021C101BB0024CF21 /* FileLoaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoaderProtocol.h; sourceTree = "<group>"; };
+		AAE6F2B421C1042A0024CF21 /* MXREgretGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXREgretGameViewController.m; sourceTree = "<group>"; };
+		AAE6F2B521C1042A0024CF21 /* MXREgretGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXREgretGameViewController.xib; sourceTree = "<group>"; };
+		AAE6F2B621C1042A0024CF21 /* MXREgretGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXREgretGameViewController.h; sourceTree = "<group>"; };
+		AAE6F2BA21C104370024CF21 /* MXREgretInterfaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXREgretInterfaceModel.m; sourceTree = "<group>"; };
+		AAE6F2BB21C104370024CF21 /* MXREgretInterfaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXREgretInterfaceModel.h; sourceTree = "<group>"; };
+		AAE6F2F921C105C00024CF21 /* MXRPKResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKResultViewController.m; sourceTree = "<group>"; };
+		AAE6F2FA21C105C00024CF21 /* MXRPKResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKResultViewController.xib; sourceTree = "<group>"; };
+		AAE6F2FB21C105C00024CF21 /* MXRPKResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKResultViewController.h; sourceTree = "<group>"; };
+		AAE6F2FE21C105C10024CF21 /* MXRPKAnswerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKAnswerVC.m; sourceTree = "<group>"; };
+		AAE6F2FF21C105C10024CF21 /* MXRPKNormalAnswerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKNormalAnswerVC.xib; sourceTree = "<group>"; };
+		AAE6F30021C105C10024CF21 /* MXRPKNormalAnswerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKNormalAnswerVC.m; sourceTree = "<group>"; };
+		AAE6F30221C105C10024CF21 /* MXRPKNormalFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKNormalFooterView.h; sourceTree = "<group>"; };
+		AAE6F30321C105C10024CF21 /* MXRPKImageOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKImageOptionCell.xib; sourceTree = "<group>"; };
+		AAE6F30421C105C10024CF21 /* MXRPKNormalHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKNormalHeaderView.m; sourceTree = "<group>"; };
+		AAE6F30521C105C10024CF21 /* MXRPKAnswerOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKAnswerOptionCell.m; sourceTree = "<group>"; };
+		AAE6F30621C105C10024CF21 /* MXRPKScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKScoreView.m; sourceTree = "<group>"; };
+		AAE6F30721C105C10024CF21 /* MXRPKImageOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKImageOptionCell.h; sourceTree = "<group>"; };
+		AAE6F30821C105C10024CF21 /* MXRPKNormalHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKNormalHeaderView.xib; sourceTree = "<group>"; };
+		AAE6F30921C105C10024CF21 /* MXRCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRCountDownView.h; sourceTree = "<group>"; };
+		AAE6F30A21C105C10024CF21 /* MXRPKAnswerOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKAnswerOptionCell.xib; sourceTree = "<group>"; };
+		AAE6F30B21C105C10024CF21 /* MXRPKNormalFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKNormalFooterView.m; sourceTree = "<group>"; };
+		AAE6F30C21C105C10024CF21 /* MXRPKNormalFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKNormalFooterView.xib; sourceTree = "<group>"; };
+		AAE6F30D21C105C10024CF21 /* MXRPKAnswerOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKAnswerOptionCell.h; sourceTree = "<group>"; };
+		AAE6F30E21C105C10024CF21 /* MXRPKNormalHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKNormalHeaderView.h; sourceTree = "<group>"; };
+		AAE6F30F21C105C10024CF21 /* MXRPKImageOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKImageOptionCell.m; sourceTree = "<group>"; };
+		AAE6F31021C105C10024CF21 /* MXRPKScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKScoreView.h; sourceTree = "<group>"; };
+		AAE6F31121C105C10024CF21 /* MXRCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRCountDownView.m; sourceTree = "<group>"; };
+		AAE6F31221C105C10024CF21 /* MXRPKAnswerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKAnswerVC.h; sourceTree = "<group>"; };
+		AAE6F31321C105C10024CF21 /* MXRPKAnswerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKAnswerVC.xib; sourceTree = "<group>"; };
+		AAE6F31421C105C10024CF21 /* MXRPKNormalAnswerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKNormalAnswerVC.h; sourceTree = "<group>"; };
+		AAE6F31721C105C10024CF21 /* MXRUserBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRUserBehaviour.m; sourceTree = "<group>"; };
+		AAE6F31821C105C10024CF21 /* MXRPKHomeCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeCellViewModel.m; sourceTree = "<group>"; };
+		AAE6F31921C105C10024CF21 /* MXRPKHomeHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeHeaderViewModel.m; sourceTree = "<group>"; };
+		AAE6F31A21C105C10024CF21 /* MXRPKHomeCellDoubleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeCellDoubleViewModel.m; sourceTree = "<group>"; };
+		AAE6F31B21C105C10024CF21 /* MXRUserBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRUserBehaviour.h; sourceTree = "<group>"; };
+		AAE6F31C21C105C10024CF21 /* MXRPKHomeCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeCellViewModel.h; sourceTree = "<group>"; };
+		AAE6F31D21C105C10024CF21 /* MXRPKHomeCellDoubleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeCellDoubleViewModel.h; sourceTree = "<group>"; };
+		AAE6F31E21C105C10024CF21 /* MXRPKHomeHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeHeaderViewModel.h; sourceTree = "<group>"; };
+		AAE6F32021C105C10024CF21 /* MXRPKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeViewController.m; sourceTree = "<group>"; };
+		AAE6F32121C105C10024CF21 /* MXRPKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeViewController.h; sourceTree = "<group>"; };
+		AAE6F32321C105C10024CF21 /* MXRPKHomeShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKHomeShareView.xib; sourceTree = "<group>"; };
+		AAE6F32421C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeMedalCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE6F32521C105C10024CF21 /* MXRPKHomeNormalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeNormalCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE6F32621C105C10024CF21 /* MXRPKHomeShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeShareView.m; sourceTree = "<group>"; };
+		AAE6F32721C105C10024CF21 /* MXRPKHomeNewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKHomeNewHeaderView.xib; sourceTree = "<group>"; };
+		AAE6F32821C105C10024CF21 /* MXRPKHomeNewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeNewHeaderView.m; sourceTree = "<group>"; };
+		AAE6F32921C105C10024CF21 /* MXRPKHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeHeaderView.h; sourceTree = "<group>"; };
+		AAE6F32A21C105C10024CF21 /* MXRPKHomeDoubleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeDoubleCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE6F32B21C105C10024CF21 /* MXRPKHomeNewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeNewHeaderView.h; sourceTree = "<group>"; };
+		AAE6F32C21C105C10024CF21 /* MXRPKHomeShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeShareView.h; sourceTree = "<group>"; };
+		AAE6F32D21C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKHomeMedalCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAE6F32E21C105C10024CF21 /* MXRPKHomeNormalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeNormalCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE6F32F21C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeMedalCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE6F33021C105C10024CF21 /* MXRPKHomeDoubleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeDoubleCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE6F33121C105C10024CF21 /* MXRPKHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeHeaderView.m; sourceTree = "<group>"; };
+		AAE6F33421C105C20024CF21 /* MXRPKMedalInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKMedalInfoModel.m; sourceTree = "<group>"; };
+		AAE6F33521C105C20024CF21 /* MXRPKMedalInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKMedalInfoModel.h; sourceTree = "<group>"; };
+		AAE6F33721C105C20024CF21 /* MXRPKMedalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKMedalListViewController.m; sourceTree = "<group>"; };
+		AAE6F33821C105C20024CF21 /* MXRPKMedalDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKMedalDetailView.m; sourceTree = "<group>"; };
+		AAE6F33921C105C20024CF21 /* MXRPKMedalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKMedalCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE6F33A21C105C20024CF21 /* MXRPKMedalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKMedalCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAE6F33B21C105C20024CF21 /* MXRPKMedalDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKMedalDetailView.xib; sourceTree = "<group>"; };
+		AAE6F33C21C105C20024CF21 /* MXRPKMedalDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKMedalDetailView.h; sourceTree = "<group>"; };
+		AAE6F33D21C105C20024CF21 /* MXRPKMedalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKMedalListViewController.h; sourceTree = "<group>"; };
+		AAE6F33E21C105C20024CF21 /* MXRPKMedalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKMedalCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE6F34121C105C20024CF21 /* MXRPKQuestionResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionResultController.h; sourceTree = "<group>"; };
+		AAE6F34221C105C20024CF21 /* MXRPKQuestionResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionResultController.m; sourceTree = "<group>"; };
+		AAE6F34421C105C20024CF21 /* MXRPKQuestionResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKQuestionResultTableViewCell.xib; sourceTree = "<group>"; };
+		AAE6F34521C105C20024CF21 /* MXRPKQuestionResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionResultTableViewCell.h; sourceTree = "<group>"; };
+		AAE6F34621C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionResultRankTableViewCell.m; sourceTree = "<group>"; };
+		AAE6F34721C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionResultBookTableViewCell.h; sourceTree = "<group>"; };
+		AAE6F34821C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKQuestionResultBookTableViewCell.xib; sourceTree = "<group>"; };
+		AAE6F34921C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKQuestionResultRankTableViewCell.xib; sourceTree = "<group>"; };
+		AAE6F34A21C105C20024CF21 /* MXRPKQuestionResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionResultViewController.h; sourceTree = "<group>"; };
+		AAE6F34B21C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionResultRankTableViewCell.h; sourceTree = "<group>"; };
+		AAE6F34C21C105C20024CF21 /* MXRPKQuestionResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionResultTableViewCell.m; sourceTree = "<group>"; };
+		AAE6F34D21C105C20024CF21 /* MXRPKQuestionResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKQuestionResultViewController.xib; sourceTree = "<group>"; };
+		AAE6F34E21C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionResultBookTableViewCell.m; sourceTree = "<group>"; };
+		AAE6F34F21C105C20024CF21 /* MXRPKQuestionResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionResultViewController.m; sourceTree = "<group>"; };
+		AAE6F35221C105C20024CF21 /* MXRPKUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKUserInfoModel.h; sourceTree = "<group>"; };
+		AAE6F35321C105C20024CF21 /* MXRPKUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKUserInfoModel.m; sourceTree = "<group>"; };
+		AAE6F35521C105C20024CF21 /* MXRPKSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKSearchViewController.m; sourceTree = "<group>"; };
+		AAE6F35621C105C20024CF21 /* MXRPKSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKSearchViewController.h; sourceTree = "<group>"; };
+		AAE6F35A21C105C30024CF21 /* MXRPKChallengeShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKChallengeShareView.m; sourceTree = "<group>"; };
+		AAE6F35B21C105C30024CF21 /* MXRPKPropShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropShopViewController.m; sourceTree = "<group>"; };
+		AAE6F35C21C105C30024CF21 /* MXRPKPropShopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropShopTableViewCell.m; sourceTree = "<group>"; };
+		AAE6F35D21C105C30024CF21 /* MXRPKPropSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropSectionHeader.h; sourceTree = "<group>"; };
+		AAE6F35E21C105C30024CF21 /* MXRPKPropPurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKPropPurchaseViewController.xib; sourceTree = "<group>"; };
+		AAE6F35F21C105C30024CF21 /* MXRPKPropHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropHeader.h; sourceTree = "<group>"; };
+		AAE6F36021C105C30024CF21 /* MXRPKPropSectionFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropSectionFooter.h; sourceTree = "<group>"; };
+		AAE6F36121C105C30024CF21 /* MXRPKPropPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropPurchaseViewController.m; sourceTree = "<group>"; };
+		AAE6F36221C105C30024CF21 /* MXRPropSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPropSectionHeader.h; sourceTree = "<group>"; };
+		AAE6F36321C105C30024CF21 /* MXRPKPropShopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropShopTableViewCell.h; sourceTree = "<group>"; };
+		AAE6F36421C105C30024CF21 /* MXRPKPropShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropShopViewController.h; sourceTree = "<group>"; };
+		AAE6F36521C105C30024CF21 /* MXRPKChallengeShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKChallengeShareView.h; sourceTree = "<group>"; };
+		AAE6F36621C105C30024CF21 /* MXRPKPropSectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropSectionFooter.m; sourceTree = "<group>"; };
+		AAE6F36721C105C30024CF21 /* MXRPKPropHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropHeader.m; sourceTree = "<group>"; };
+		AAE6F36821C105C30024CF21 /* MXRPKPropSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropSectionHeader.m; sourceTree = "<group>"; };
+		AAE6F36921C105C30024CF21 /* MXRPKChallengeShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKChallengeShareView.xib; sourceTree = "<group>"; };
+		AAE6F36A21C105C30024CF21 /* MXRPKPropShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKPropShopViewController.xib; sourceTree = "<group>"; };
+		AAE6F36B21C105C30024CF21 /* MXRPKPropPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropPurchaseViewController.h; sourceTree = "<group>"; };
+		AAE6F36C21C105C30024CF21 /* MXRPKPropShopTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKPropShopTableViewCell.xib; sourceTree = "<group>"; };
+		AAE6F36F21C105C30024CF21 /* MXRPKRankListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListController.m; sourceTree = "<group>"; };
+		AAE6F37021C105C30024CF21 /* MXRPKRankListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListController.h; sourceTree = "<group>"; };
+		AAE6F37221C105C30024CF21 /* MXRPKRankListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListModel.m; sourceTree = "<group>"; };
+		AAE6F37321C105C30024CF21 /* MXRPKRankListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListModel.h; sourceTree = "<group>"; };
+		AAE6F37521C105C30024CF21 /* MXRPKRankListBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListBottomView.h; sourceTree = "<group>"; };
+		AAE6F37621C105C30024CF21 /* MXRPKRankListBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKRankListBottomView.xib; sourceTree = "<group>"; };
+		AAE6F37721C105C30024CF21 /* MXRPKRankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListViewController.m; sourceTree = "<group>"; };
+		AAE6F37921C105C30024CF21 /* MXRPKRankListHeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKRankListHeaderReusableView.xib; sourceTree = "<group>"; };
+		AAE6F37A21C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankFirstCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE6F37B21C105C30024CF21 /* MXRPKRankListHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListHeaderReusableView.h; sourceTree = "<group>"; };
+		AAE6F37C21C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListEmptyCollectionCell.m; sourceTree = "<group>"; };
+		AAE6F37D21C105C30024CF21 /* MXRPKRankListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE6F37E21C105C30024CF21 /* MXRPKRankListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKRankListCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAE6F37F21C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKRankFirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAE6F38021C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankFirstCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE6F38121C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListEmptyCollectionCell.h; sourceTree = "<group>"; };
+		AAE6F38221C105C30024CF21 /* MXRPKRankListHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListHeaderReusableView.m; sourceTree = "<group>"; };
+		AAE6F38321C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKRankListEmptyCollectionCell.xib; sourceTree = "<group>"; };
+		AAE6F38421C105C30024CF21 /* MXRPKRankListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE6F38521C105C30024CF21 /* MXRPKRankListBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRankListBottomView.m; sourceTree = "<group>"; };
+		AAE6F38621C105C30024CF21 /* MXRPKRankListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRankListViewController.h; sourceTree = "<group>"; };
+		AAE6F38A21C105C40024CF21 /* MXRPKQuestionListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionListController.h; sourceTree = "<group>"; };
+		AAE6F38B21C105C40024CF21 /* MXRPKQuestionListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionListController.m; sourceTree = "<group>"; };
+		AAE6F38D21C105C40024CF21 /* MXRPKQuestionListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionListModel.m; sourceTree = "<group>"; };
+		AAE6F38E21C105C40024CF21 /* MXRPKQuestionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionListModel.h; sourceTree = "<group>"; };
+		AAE6F39021C105C40024CF21 /* MXRPKQuestionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionListViewController.m; sourceTree = "<group>"; };
+		AAE6F39121C105C40024CF21 /* MXRPKQuestionListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKQuestionListTableViewCell.m; sourceTree = "<group>"; };
+		AAE6F39221C105C40024CF21 /* MXRPKQuestionListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRPKQuestionListTableViewCell.xib; sourceTree = "<group>"; };
+		AAE6F39321C105C40024CF21 /* MXRPKQuestionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionListViewController.h; sourceTree = "<group>"; };
+		AAE6F39421C105C40024CF21 /* MXRPKQuestionListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKQuestionListTableViewCell.h; sourceTree = "<group>"; };
+		AAE6F39521C105C50024CF21 /* MXRPKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKConstants.h; sourceTree = "<group>"; };
+		AAE6F39921C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRWrongAnalysisAnswerTextCell.m; sourceTree = "<group>"; };
+		AAE6F39A21C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRWrongAnalysisAnswerImageCell.h; sourceTree = "<group>"; };
+		AAE6F39B21C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRWrongAnalysisAnswerImageCell.xib; sourceTree = "<group>"; };
+		AAE6F39C21C105C50024CF21 /* MXRWrongAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRWrongAnalysisViewController.m; sourceTree = "<group>"; };
+		AAE6F39D21C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRWrongAnalysisAnswerTextCell.h; sourceTree = "<group>"; };
+		AAE6F39E21C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRWrongAnalysisAnswerTextCell.xib; sourceTree = "<group>"; };
+		AAE6F39F21C105C50024CF21 /* MXRWrongAnalysisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRWrongAnalysisViewController.xib; sourceTree = "<group>"; };
+		AAE6F3A021C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRWrongAnalysisAnswerImageCell.m; sourceTree = "<group>"; };
+		AAE6F3A121C105C50024CF21 /* MXRWrongAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRWrongAnalysisViewController.h; sourceTree = "<group>"; };
+		AAE6F3A221C105C60024CF21 /* pk.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pk.storyboard; sourceTree = "<group>"; };
+		AAE6F3FC21C106710024CF21 /* MXRPKChallengeResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKChallengeResponseModel.h; sourceTree = "<group>"; };
+		AAE6F3FD21C106710024CF21 /* MXRPKResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKResponseModel.m; sourceTree = "<group>"; };
+		AAE6F3FE21C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeRankingInfoResponseModel.h; sourceTree = "<group>"; };
+		AAE6F3FF21C106710024CF21 /* MXRPKPropShopResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKPropShopResponseModel.h; sourceTree = "<group>"; };
+		AAE6F40021C106710024CF21 /* MXRPKHomeResponeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKHomeResponeModel.h; sourceTree = "<group>"; };
+		AAE6F40121C106710024CF21 /* MXRPKResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKResponseModel.h; sourceTree = "<group>"; };
+		AAE6F40221C106710024CF21 /* MXRPKChallengeResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKChallengeResponseModel.m; sourceTree = "<group>"; };
+		AAE6F40321C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeRankingInfoResponseModel.m; sourceTree = "<group>"; };
+		AAE6F40421C106710024CF21 /* MXRPKHomeResponeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKHomeResponeModel.m; sourceTree = "<group>"; };
+		AAE6F40521C106710024CF21 /* MXRPKPropShopResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKPropShopResponseModel.m; sourceTree = "<group>"; };
+		AAE6F40C21C106860024CF21 /* MXRPKRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKRequestModel.h; sourceTree = "<group>"; };
+		AAE6F40D21C106860024CF21 /* MXRPKRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKRequestModel.m; sourceTree = "<group>"; };
+		AAE6F40F21C106EB0024CF21 /* MXRPKNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPKNetworkManager.m; sourceTree = "<group>"; };
+		AAE6F41021C106EB0024CF21 /* MXRPKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPKNetworkManager.h; sourceTree = "<group>"; };
+		AAE6F41321C1087D0024CF21 /* MXRDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRDownloadButton.h; sourceTree = "<group>"; };
+		AAE6F41421C1087D0024CF21 /* MXRDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRDownloadButton.m; sourceTree = "<group>"; };
+		AAE6F41721C108A40024CF21 /* JXTProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTProgressLabel.h; sourceTree = "<group>"; };
+		AAE6F41821C108A40024CF21 /* JXTProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTProgressLabel.m; sourceTree = "<group>"; };
+		AAE6F41B21C109B40024CF21 /* WaterfallColectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallColectionLayout.m; sourceTree = "<group>"; };
+		AAE6F41C21C109B40024CF21 /* WaterfallColectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallColectionLayout.h; sourceTree = "<group>"; };
+		AAE6F41F21C109FE0024CF21 /* MXRAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRAlertViewController.h; sourceTree = "<group>"; };
+		AAE6F42021C109FE0024CF21 /* MXRAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRAlertViewController.xib; sourceTree = "<group>"; };
+		AAE6F42121C109FF0024CF21 /* MXRAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRAlertViewController.m; sourceTree = "<group>"; };
+		AAE6F42521C10A300024CF21 /* MXRPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRPromptView.m; sourceTree = "<group>"; };
+		AAE6F42621C10A310024CF21 /* MXRPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRPromptView.h; sourceTree = "<group>"; };
+		AAE6F42921C10A620024CF21 /* MXRGlassLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRGlassLoadingView.h; sourceTree = "<group>"; };
+		AAE6F42A21C10A620024CF21 /* MXRGlassLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRGlassLoadingView.m; sourceTree = "<group>"; };
+		AAE6F42B21C10A630024CF21 /* MXRGlassLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRGlassLoadingView.xib; sourceTree = "<group>"; };
+		AAE6F42F21C10B060024CF21 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		AAE6F43021C10B070024CF21 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		AAE6F43221C10B390024CF21 /* MXRUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRUIButton.m; sourceTree = "<group>"; };
+		AAE6F43321C10B3A0024CF21 /* MXRUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRUIButton.h; sourceTree = "<group>"; };
+		AAE6F43621C10BEE0024CF21 /* UILabel+MXRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MXRColor.h"; sourceTree = "<group>"; };
+		AAE6F43721C10BEF0024CF21 /* UILabel+MXRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MXRColor.m"; sourceTree = "<group>"; };
+		AAE6F43A21C10C230024CF21 /* MXRRoundMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRRoundMaskView.h; sourceTree = "<group>"; };
+		AAE6F43B21C10C240024CF21 /* MXRRoundMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRRoundMaskView.m; sourceTree = "<group>"; };
+		AAE6F43E21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		AAE6F43F21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		AAE6F44321C110DD0024CF21 /* ZFGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFGenericChart.h; sourceTree = "<group>"; };
+		AAE6F44421C110DD0024CF21 /* ZFGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFGenericChart.m; sourceTree = "<group>"; };
+		AAE6F44621C110DD0024CF21 /* ZFBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBarChart.h; sourceTree = "<group>"; };
+		AAE6F44721C110DD0024CF21 /* ZFBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBar.h; sourceTree = "<group>"; };
+		AAE6F44821C110DD0024CF21 /* ZFBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBarChart.m; sourceTree = "<group>"; };
+		AAE6F44921C110DD0024CF21 /* ZFBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBar.m; sourceTree = "<group>"; };
+		AAE6F44B21C110DD0024CF21 /* UIView+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Zirkfied.m"; sourceTree = "<group>"; };
+		AAE6F44C21C110DD0024CF21 /* UIColor+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Zirkfied.h"; sourceTree = "<group>"; };
+		AAE6F44D21C110DD0024CF21 /* UIBezierPath+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Zirkfied.m"; sourceTree = "<group>"; };
+		AAE6F44E21C110DD0024CF21 /* NSString+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Zirkfied.h"; sourceTree = "<group>"; };
+		AAE6F44F21C110DD0024CF21 /* NSNumber+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Zirkfied.h"; sourceTree = "<group>"; };
+		AAE6F45021C110DD0024CF21 /* UIView+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Zirkfied.h"; sourceTree = "<group>"; };
+		AAE6F45121C110DD0024CF21 /* UIColor+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Zirkfied.m"; sourceTree = "<group>"; };
+		AAE6F45221C110DD0024CF21 /* UIBezierPath+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Zirkfied.h"; sourceTree = "<group>"; };
+		AAE6F45321C110DD0024CF21 /* NSString+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Zirkfied.m"; sourceTree = "<group>"; };
+		AAE6F45421C110DD0024CF21 /* NSNumber+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Zirkfied.m"; sourceTree = "<group>"; };
+		AAE6F45621C110DD0024CF21 /* ZFCirque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCirque.h; sourceTree = "<group>"; };
+		AAE6F45721C110DD0024CF21 /* ZFCirqueChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCirqueChart.m; sourceTree = "<group>"; };
+		AAE6F45821C110DD0024CF21 /* ZFCirqueChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCirqueChart.h; sourceTree = "<group>"; };
+		AAE6F45921C110DD0024CF21 /* ZFCirque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCirque.m; sourceTree = "<group>"; };
+		AAE6F45B21C110DD0024CF21 /* ZFHorizontalAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHorizontalAxis.m; sourceTree = "<group>"; };
+		AAE6F45C21C110DD0024CF21 /* ZFHorizontalAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHorizontalAxis.h; sourceTree = "<group>"; };
+		AAE6F45E21C110DD0024CF21 /* ZFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFColor.h; sourceTree = "<group>"; };
+		AAE6F45F21C110DD0024CF21 /* ZFConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFConst.m; sourceTree = "<group>"; };
+		AAE6F46021C110DD0024CF21 /* ZFChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFChart.h; sourceTree = "<group>"; };
+		AAE6F46121C110DD0024CF21 /* ZFMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMethod.h; sourceTree = "<group>"; };
+		AAE6F46221C110DD0024CF21 /* ZFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFConst.h; sourceTree = "<group>"; };
+		AAE6F46321C110DD0024CF21 /* ZFMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMethod.m; sourceTree = "<group>"; };
+		AAE6F46521C110DD0024CF21 /* ZFPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPieChart.m; sourceTree = "<group>"; };
+		AAE6F46621C110DD0024CF21 /* ZFPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPie.h; sourceTree = "<group>"; };
+		AAE6F46721C110DD0024CF21 /* ZFTranslucencePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTranslucencePath.h; sourceTree = "<group>"; };
+		AAE6F46821C110DD0024CF21 /* ZFPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPieChart.h; sourceTree = "<group>"; };
+		AAE6F46921C110DD0024CF21 /* ZFPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPie.m; sourceTree = "<group>"; };
+		AAE6F46A21C110DD0024CF21 /* ZFTranslucencePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTranslucencePath.m; sourceTree = "<group>"; };
+		AAE6F46C21C110DD0024CF21 /* ZFCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCircle.h; sourceTree = "<group>"; };
+		AAE6F46D21C110DD0024CF21 /* ZFLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLineChart.m; sourceTree = "<group>"; };
+		AAE6F46E21C110DD0024CF21 /* ZFLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLine.h; sourceTree = "<group>"; };
+		AAE6F46F21C110DD0024CF21 /* ZFLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLineChart.h; sourceTree = "<group>"; };
+		AAE6F47021C110DD0024CF21 /* ZFCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCircle.m; sourceTree = "<group>"; };
+		AAE6F47121C110DD0024CF21 /* ZFLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLine.m; sourceTree = "<group>"; };
+		AAE6F47321C110DD0024CF21 /* ZFPopoverLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPopoverLabel.h; sourceTree = "<group>"; };
+		AAE6F47421C110DD0024CF21 /* ZFXAxisLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFXAxisLine.m; sourceTree = "<group>"; };
+		AAE6F47521C110DD0024CF21 /* ZFYAxisLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFYAxisLine.m; sourceTree = "<group>"; };
+		AAE6F47621C110DD0024CF21 /* ZFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLabel.h; sourceTree = "<group>"; };
+		AAE6F47721C110DD0024CF21 /* ZFPopoverLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPopoverLabel.m; sourceTree = "<group>"; };
+		AAE6F47821C110DD0024CF21 /* ZFXAxisLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFXAxisLine.h; sourceTree = "<group>"; };
+		AAE6F47921C110DD0024CF21 /* ZFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLabel.m; sourceTree = "<group>"; };
+		AAE6F47A21C110DD0024CF21 /* ZFYAxisLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFYAxisLine.h; sourceTree = "<group>"; };
+		AAE6F47C21C110DD0024CF21 /* ZFRadar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFRadar.m; sourceTree = "<group>"; };
+		AAE6F47D21C110DD0024CF21 /* ZFPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPolygon.m; sourceTree = "<group>"; };
+		AAE6F47E21C110DD0024CF21 /* ZFRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFRadarChart.m; sourceTree = "<group>"; };
+		AAE6F47F21C110DD0024CF21 /* ZFRadar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFRadar.h; sourceTree = "<group>"; };
+		AAE6F48021C110DD0024CF21 /* ZFPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPolygon.h; sourceTree = "<group>"; };
+		AAE6F48121C110DD0024CF21 /* ZFRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFRadarChart.h; sourceTree = "<group>"; };
+		AAE6F48321C110DD0024CF21 /* ZFGenericAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFGenericAxis.h; sourceTree = "<group>"; };
+		AAE6F48421C110DD0024CF21 /* ZFGenericAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFGenericAxis.m; sourceTree = "<group>"; };
+		AAE6F48621C110DD0024CF21 /* ZFGradientAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFGradientAttribute.h; sourceTree = "<group>"; };
+		AAE6F48721C110DD0024CF21 /* ZFCurveAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCurveAttribute.h; sourceTree = "<group>"; };
+		AAE6F48821C110DD0024CF21 /* ZFGradientAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFGradientAttribute.m; sourceTree = "<group>"; };
+		AAE6F48921C110DD0024CF21 /* ZFCurveAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCurveAttribute.m; sourceTree = "<group>"; };
+		AAE6F48B21C110DD0024CF21 /* ZFWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFWaveChart.h; sourceTree = "<group>"; };
+		AAE6F48C21C110DD0024CF21 /* ZFWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFWave.h; sourceTree = "<group>"; };
+		AAE6F48D21C110DD0024CF21 /* ZFWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWaveChart.m; sourceTree = "<group>"; };
+		AAE6F48E21C110DD0024CF21 /* ZFWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWave.m; sourceTree = "<group>"; };
+		AAE6F49021C110DD0024CF21 /* ZFHorizontalBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHorizontalBar.h; sourceTree = "<group>"; };
+		AAE6F49121C110DD0024CF21 /* ZFHorizontalBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHorizontalBarChart.m; sourceTree = "<group>"; };
+		AAE6F49221C110DD0024CF21 /* ZFHorizontalBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHorizontalBar.m; sourceTree = "<group>"; };
+		AAE6F49321C110DD0024CF21 /* ZFHorizontalBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHorizontalBarChart.h; sourceTree = "<group>"; };
+		AAE6F4B621C1115D0024CF21 /* MXRScreenShotHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRScreenShotHelper.h; sourceTree = "<group>"; };
+		AAE6F4B721C1115E0024CF21 /* MXRScreenShotHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRScreenShotHelper.m; sourceTree = "<group>"; };
 		C642FFCCCD6821EE2CC94FF0 /* Pods-MXRSNSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXRSNSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXRSNSUITests/Pods-MXRSNSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CACF7157B76DE27E9260450E /* libPods-MXRSNSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXRSNSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DE32EDFDC0C6FE501A78CF /* Pods-MXRSNSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXRSNSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXRSNSTests/Pods-MXRSNSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -720,6 +1119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9B44CF219F54438C795891 /* libPods-MXRSNS.a in Frameworks */,
+				AAE6F2B121C101BB0024CF21 /* libEgretWebViewLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1513,6 +1913,7 @@
 		AAB3751421BF9CFA00417161 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				AAE6F2F621C105AB0024CF21 /* MXRPK */,
 				AA1F038B21BFD9C3006B3E73 /* DreamMoments */,
 				AAB375B321BFAA8500417161 /* Base */,
 				AAB3761B21BFBA4F00417161 /* AllNetwok */,
@@ -1536,6 +1937,18 @@
 		AAB3751721BF9D5100417161 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				AAE6F4B521C111470024CF21 /* MXRScreenShotHelper */,
+				AAE6F44121C110DD0024CF21 /* ZFChart */,
+				AAE6F43D21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout */,
+				AAE6F43921C10C120024CF21 /* MXRRoundMaskView */,
+				AAE6F42821C10A4C0024CF21 /* MXRGlassLoadingView */,
+				AAE6F42421C10A190024CF21 /* MXRPromptView */,
+				AAE6F41E21C109EC0024CF21 /* MXRAlertViewController */,
+				AAE6F41A21C109B40024CF21 /* WaterfallCollectionLayout */,
+				AAE6F41621C108A40024CF21 /* JXTProgressLabel */,
+				AAE6F41221C108630024CF21 /* MXRDownloadButton */,
+				AAE6F2B221C1041F0024CF21 /* MXREgret */,
+				AAE6F2A621C101BB0024CF21 /* Egret */,
 				AAB3771E21BFBA9500417161 /* ClientManager */,
 				AA5D7C8921C0E4AA00A32761 /* MXRScrollView */,
 				AAB3758D21BFA6A800417161 /* MARDataAnalysis */,
@@ -1702,6 +2115,8 @@
 		AAB375A821BFA90200417161 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AAE6F43521C10BDF0024CF21 /* UILabel */,
+				AAE6F42E21C10AF80024CF21 /* UIButton */,
 				AA5D7C8321C0DF8900A32761 /* UIViewController */,
 				AA5D7C8221C0DF7000A32761 /* UICollectionView */,
 				AA5D7C8121C0DF2F00A32761 /* NSURL */,
@@ -1873,6 +2288,7 @@
 		AAB3761B21BFBA4F00417161 /* AllNetwok */ = {
 			isa = PBXGroup;
 			children = (
+				AAE6F3F821C106410024CF21 /* Model */,
 				AA5D7C8A21C0E9DC00A32761 /* BasicNetwork */,
 				AAB3761E21BFBA4F00417161 /* NetworkManger */,
 				AAB3764E21BFBA4F00417161 /* Url */,
@@ -1883,6 +2299,8 @@
 		AAB3761E21BFBA4F00417161 /* NetworkManger */ = {
 			isa = PBXGroup;
 			children = (
+				AAE6F41021C106EB0024CF21 /* MXRPKNetworkManager.h */,
+				AAE6F40F21C106EB0024CF21 /* MXRPKNetworkManager.m */,
 				AAB3779721BFC02700417161 /* MXRBaseServiceNetworkManager.h */,
 				AAB3779621BFC02600417161 /* MXRBaseServiceNetworkManager.m */,
 				AAB3777D21BFBBC200417161 /* MXRDataStatisticsNetworkManager.h */,
@@ -1996,6 +2414,814 @@
 				AAB377A821BFD68300417161 /* MXRAppConfigModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AAE6F2A621C101BB0024CF21 /* Egret */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2A721C101BB0024CF21 /* libs */,
+			);
+			path = Egret;
+			sourceTree = "<group>";
+		};
+		AAE6F2A721C101BB0024CF21 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2A821C101BB0024CF21 /* EgretWebViewLib */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		AAE6F2A821C101BB0024CF21 /* EgretWebViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2A921C101BB0024CF21 /* libEgretWebViewLib.a */,
+				AAE6F2AA21C101BB0024CF21 /* include */,
+			);
+			path = EgretWebViewLib;
+			sourceTree = "<group>";
+		};
+		AAE6F2AA21C101BB0024CF21 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2AB21C101BB0024CF21 /* HttpRequestDownloadProtocol.h */,
+				AAE6F2AC21C101BB0024CF21 /* ListFileLoader.h */,
+				AAE6F2AD21C101BB0024CF21 /* BaseFileLoader.h */,
+				AAE6F2AE21C101BB0024CF21 /* EgretWebViewLib.h */,
+				AAE6F2AF21C101BB0024CF21 /* ZipFileLoader.h */,
+				AAE6F2B021C101BB0024CF21 /* FileLoaderProtocol.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AAE6F2B221C1041F0024CF21 /* MXREgret */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2B921C104370024CF21 /* Model */,
+				AAE6F2B321C1042A0024CF21 /* View */,
+			);
+			path = MXREgret;
+			sourceTree = "<group>";
+		};
+		AAE6F2B321C1042A0024CF21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2B421C1042A0024CF21 /* MXREgretGameViewController.m */,
+				AAE6F2B521C1042A0024CF21 /* MXREgretGameViewController.xib */,
+				AAE6F2B621C1042A0024CF21 /* MXREgretGameViewController.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAE6F2B921C104370024CF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2BA21C104370024CF21 /* MXREgretInterfaceModel.m */,
+				AAE6F2BB21C104370024CF21 /* MXREgretInterfaceModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAE6F2F621C105AB0024CF21 /* MXRPK */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F39521C105C50024CF21 /* MXRPKConstants.h */,
+				AAE6F3A221C105C60024CF21 /* pk.storyboard */,
+				AAE6F2FC21C105C10024CF21 /* PKAnswer */,
+				AAE6F31521C105C10024CF21 /* PKHome */,
+				AAE6F33221C105C20024CF21 /* PKMedal */,
+				AAE6F33F21C105C20024CF21 /* PKQuestionResult */,
+				AAE6F38821C105C40024CF21 /* PKQustionList */,
+				AAE6F36D21C105C30024CF21 /* PKRankList */,
+				AAE6F2F721C105C00024CF21 /* PKResult */,
+				AAE6F35021C105C20024CF21 /* PKSearch */,
+				AAE6F35721C105C30024CF21 /* PropShop */,
+				AAE6F39721C105C50024CF21 /* WrongAnalysis */,
+			);
+			path = MXRPK;
+			sourceTree = "<group>";
+		};
+		AAE6F2F721C105C00024CF21 /* PKResult */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2F821C105C00024CF21 /* view */,
+			);
+			path = PKResult;
+			sourceTree = "<group>";
+		};
+		AAE6F2F821C105C00024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2F921C105C00024CF21 /* MXRPKResultViewController.m */,
+				AAE6F2FA21C105C00024CF21 /* MXRPKResultViewController.xib */,
+				AAE6F2FB21C105C00024CF21 /* MXRPKResultViewController.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F2FC21C105C10024CF21 /* PKAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2FD21C105C10024CF21 /* view */,
+			);
+			path = PKAnswer;
+			sourceTree = "<group>";
+		};
+		AAE6F2FD21C105C10024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F2FE21C105C10024CF21 /* MXRPKAnswerVC.m */,
+				AAE6F2FF21C105C10024CF21 /* MXRPKNormalAnswerVC.xib */,
+				AAE6F30021C105C10024CF21 /* MXRPKNormalAnswerVC.m */,
+				AAE6F30121C105C10024CF21 /* cell */,
+				AAE6F31221C105C10024CF21 /* MXRPKAnswerVC.h */,
+				AAE6F31321C105C10024CF21 /* MXRPKAnswerVC.xib */,
+				AAE6F31421C105C10024CF21 /* MXRPKNormalAnswerVC.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F30121C105C10024CF21 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F30221C105C10024CF21 /* MXRPKNormalFooterView.h */,
+				AAE6F30321C105C10024CF21 /* MXRPKImageOptionCell.xib */,
+				AAE6F30421C105C10024CF21 /* MXRPKNormalHeaderView.m */,
+				AAE6F30521C105C10024CF21 /* MXRPKAnswerOptionCell.m */,
+				AAE6F30621C105C10024CF21 /* MXRPKScoreView.m */,
+				AAE6F30721C105C10024CF21 /* MXRPKImageOptionCell.h */,
+				AAE6F30821C105C10024CF21 /* MXRPKNormalHeaderView.xib */,
+				AAE6F30921C105C10024CF21 /* MXRCountDownView.h */,
+				AAE6F30A21C105C10024CF21 /* MXRPKAnswerOptionCell.xib */,
+				AAE6F30B21C105C10024CF21 /* MXRPKNormalFooterView.m */,
+				AAE6F30C21C105C10024CF21 /* MXRPKNormalFooterView.xib */,
+				AAE6F30D21C105C10024CF21 /* MXRPKAnswerOptionCell.h */,
+				AAE6F30E21C105C10024CF21 /* MXRPKNormalHeaderView.h */,
+				AAE6F30F21C105C10024CF21 /* MXRPKImageOptionCell.m */,
+				AAE6F31021C105C10024CF21 /* MXRPKScoreView.h */,
+				AAE6F31121C105C10024CF21 /* MXRCountDownView.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		AAE6F31521C105C10024CF21 /* PKHome */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F31621C105C10024CF21 /* model */,
+				AAE6F31F21C105C10024CF21 /* view */,
+			);
+			path = PKHome;
+			sourceTree = "<group>";
+		};
+		AAE6F31621C105C10024CF21 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F31721C105C10024CF21 /* MXRUserBehaviour.m */,
+				AAE6F31821C105C10024CF21 /* MXRPKHomeCellViewModel.m */,
+				AAE6F31921C105C10024CF21 /* MXRPKHomeHeaderViewModel.m */,
+				AAE6F31A21C105C10024CF21 /* MXRPKHomeCellDoubleViewModel.m */,
+				AAE6F31B21C105C10024CF21 /* MXRUserBehaviour.h */,
+				AAE6F31C21C105C10024CF21 /* MXRPKHomeCellViewModel.h */,
+				AAE6F31D21C105C10024CF21 /* MXRPKHomeCellDoubleViewModel.h */,
+				AAE6F31E21C105C10024CF21 /* MXRPKHomeHeaderViewModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AAE6F31F21C105C10024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F32021C105C10024CF21 /* MXRPKHomeViewController.m */,
+				AAE6F32121C105C10024CF21 /* MXRPKHomeViewController.h */,
+				AAE6F32221C105C10024CF21 /* views */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F32221C105C10024CF21 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F32321C105C10024CF21 /* MXRPKHomeShareView.xib */,
+				AAE6F32421C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.m */,
+				AAE6F32521C105C10024CF21 /* MXRPKHomeNormalCollectionViewCell.h */,
+				AAE6F32621C105C10024CF21 /* MXRPKHomeShareView.m */,
+				AAE6F32721C105C10024CF21 /* MXRPKHomeNewHeaderView.xib */,
+				AAE6F32821C105C10024CF21 /* MXRPKHomeNewHeaderView.m */,
+				AAE6F32921C105C10024CF21 /* MXRPKHomeHeaderView.h */,
+				AAE6F32A21C105C10024CF21 /* MXRPKHomeDoubleCollectionViewCell.m */,
+				AAE6F32B21C105C10024CF21 /* MXRPKHomeNewHeaderView.h */,
+				AAE6F32C21C105C10024CF21 /* MXRPKHomeShareView.h */,
+				AAE6F32D21C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.xib */,
+				AAE6F32E21C105C10024CF21 /* MXRPKHomeNormalCollectionViewCell.m */,
+				AAE6F32F21C105C10024CF21 /* MXRPKHomeMedalCollectionViewCell.h */,
+				AAE6F33021C105C10024CF21 /* MXRPKHomeDoubleCollectionViewCell.h */,
+				AAE6F33121C105C10024CF21 /* MXRPKHomeHeaderView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AAE6F33221C105C20024CF21 /* PKMedal */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F33321C105C20024CF21 /* model */,
+				AAE6F33621C105C20024CF21 /* view */,
+			);
+			path = PKMedal;
+			sourceTree = "<group>";
+		};
+		AAE6F33321C105C20024CF21 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F33421C105C20024CF21 /* MXRPKMedalInfoModel.m */,
+				AAE6F33521C105C20024CF21 /* MXRPKMedalInfoModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AAE6F33621C105C20024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F33721C105C20024CF21 /* MXRPKMedalListViewController.m */,
+				AAE6F33821C105C20024CF21 /* MXRPKMedalDetailView.m */,
+				AAE6F33921C105C20024CF21 /* MXRPKMedalCollectionViewCell.h */,
+				AAE6F33A21C105C20024CF21 /* MXRPKMedalCollectionViewCell.xib */,
+				AAE6F33B21C105C20024CF21 /* MXRPKMedalDetailView.xib */,
+				AAE6F33C21C105C20024CF21 /* MXRPKMedalDetailView.h */,
+				AAE6F33D21C105C20024CF21 /* MXRPKMedalListViewController.h */,
+				AAE6F33E21C105C20024CF21 /* MXRPKMedalCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F33F21C105C20024CF21 /* PKQuestionResult */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F34021C105C20024CF21 /* controller */,
+				AAE6F34321C105C20024CF21 /* view */,
+			);
+			path = PKQuestionResult;
+			sourceTree = "<group>";
+		};
+		AAE6F34021C105C20024CF21 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F34121C105C20024CF21 /* MXRPKQuestionResultController.h */,
+				AAE6F34221C105C20024CF21 /* MXRPKQuestionResultController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AAE6F34321C105C20024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F34421C105C20024CF21 /* MXRPKQuestionResultTableViewCell.xib */,
+				AAE6F34521C105C20024CF21 /* MXRPKQuestionResultTableViewCell.h */,
+				AAE6F34621C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.m */,
+				AAE6F34721C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.h */,
+				AAE6F34821C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.xib */,
+				AAE6F34921C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.xib */,
+				AAE6F34A21C105C20024CF21 /* MXRPKQuestionResultViewController.h */,
+				AAE6F34B21C105C20024CF21 /* MXRPKQuestionResultRankTableViewCell.h */,
+				AAE6F34C21C105C20024CF21 /* MXRPKQuestionResultTableViewCell.m */,
+				AAE6F34D21C105C20024CF21 /* MXRPKQuestionResultViewController.xib */,
+				AAE6F34E21C105C20024CF21 /* MXRPKQuestionResultBookTableViewCell.m */,
+				AAE6F34F21C105C20024CF21 /* MXRPKQuestionResultViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F35021C105C20024CF21 /* PKSearch */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F35121C105C20024CF21 /* model */,
+				AAE6F35421C105C20024CF21 /* view */,
+			);
+			path = PKSearch;
+			sourceTree = "<group>";
+		};
+		AAE6F35121C105C20024CF21 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F35221C105C20024CF21 /* MXRPKUserInfoModel.h */,
+				AAE6F35321C105C20024CF21 /* MXRPKUserInfoModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AAE6F35421C105C20024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F35521C105C20024CF21 /* MXRPKSearchViewController.m */,
+				AAE6F35621C105C20024CF21 /* MXRPKSearchViewController.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F35721C105C30024CF21 /* PropShop */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F35821C105C30024CF21 /* Model */,
+				AAE6F35921C105C30024CF21 /* View */,
+			);
+			path = PropShop;
+			sourceTree = "<group>";
+		};
+		AAE6F35821C105C30024CF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAE6F35921C105C30024CF21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F35A21C105C30024CF21 /* MXRPKChallengeShareView.m */,
+				AAE6F35B21C105C30024CF21 /* MXRPKPropShopViewController.m */,
+				AAE6F35C21C105C30024CF21 /* MXRPKPropShopTableViewCell.m */,
+				AAE6F35D21C105C30024CF21 /* MXRPKPropSectionHeader.h */,
+				AAE6F35E21C105C30024CF21 /* MXRPKPropPurchaseViewController.xib */,
+				AAE6F35F21C105C30024CF21 /* MXRPKPropHeader.h */,
+				AAE6F36021C105C30024CF21 /* MXRPKPropSectionFooter.h */,
+				AAE6F36121C105C30024CF21 /* MXRPKPropPurchaseViewController.m */,
+				AAE6F36221C105C30024CF21 /* MXRPropSectionHeader.h */,
+				AAE6F36321C105C30024CF21 /* MXRPKPropShopTableViewCell.h */,
+				AAE6F36421C105C30024CF21 /* MXRPKPropShopViewController.h */,
+				AAE6F36521C105C30024CF21 /* MXRPKChallengeShareView.h */,
+				AAE6F36621C105C30024CF21 /* MXRPKPropSectionFooter.m */,
+				AAE6F36721C105C30024CF21 /* MXRPKPropHeader.m */,
+				AAE6F36821C105C30024CF21 /* MXRPKPropSectionHeader.m */,
+				AAE6F36921C105C30024CF21 /* MXRPKChallengeShareView.xib */,
+				AAE6F36A21C105C30024CF21 /* MXRPKPropShopViewController.xib */,
+				AAE6F36B21C105C30024CF21 /* MXRPKPropPurchaseViewController.h */,
+				AAE6F36C21C105C30024CF21 /* MXRPKPropShopTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAE6F36D21C105C30024CF21 /* PKRankList */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F36E21C105C30024CF21 /* Controller */,
+				AAE6F37121C105C30024CF21 /* Model */,
+				AAE6F37421C105C30024CF21 /* Views */,
+			);
+			path = PKRankList;
+			sourceTree = "<group>";
+		};
+		AAE6F36E21C105C30024CF21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F36F21C105C30024CF21 /* MXRPKRankListController.m */,
+				AAE6F37021C105C30024CF21 /* MXRPKRankListController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AAE6F37121C105C30024CF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F37221C105C30024CF21 /* MXRPKRankListModel.m */,
+				AAE6F37321C105C30024CF21 /* MXRPKRankListModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAE6F37421C105C30024CF21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F37521C105C30024CF21 /* MXRPKRankListBottomView.h */,
+				AAE6F37621C105C30024CF21 /* MXRPKRankListBottomView.xib */,
+				AAE6F37721C105C30024CF21 /* MXRPKRankListViewController.m */,
+				AAE6F37821C105C30024CF21 /* cell */,
+				AAE6F38521C105C30024CF21 /* MXRPKRankListBottomView.m */,
+				AAE6F38621C105C30024CF21 /* MXRPKRankListViewController.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAE6F37821C105C30024CF21 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F37921C105C30024CF21 /* MXRPKRankListHeaderReusableView.xib */,
+				AAE6F37A21C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.m */,
+				AAE6F37B21C105C30024CF21 /* MXRPKRankListHeaderReusableView.h */,
+				AAE6F37C21C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.m */,
+				AAE6F37D21C105C30024CF21 /* MXRPKRankListCollectionViewCell.m */,
+				AAE6F37E21C105C30024CF21 /* MXRPKRankListCollectionViewCell.xib */,
+				AAE6F37F21C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.xib */,
+				AAE6F38021C105C30024CF21 /* MXRPKRankFirstCollectionViewCell.h */,
+				AAE6F38121C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.h */,
+				AAE6F38221C105C30024CF21 /* MXRPKRankListHeaderReusableView.m */,
+				AAE6F38321C105C30024CF21 /* MXRPKRankListEmptyCollectionCell.xib */,
+				AAE6F38421C105C30024CF21 /* MXRPKRankListCollectionViewCell.h */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		AAE6F38821C105C40024CF21 /* PKQustionList */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F38921C105C40024CF21 /* controller */,
+				AAE6F38C21C105C40024CF21 /* model */,
+				AAE6F38F21C105C40024CF21 /* view */,
+			);
+			path = PKQustionList;
+			sourceTree = "<group>";
+		};
+		AAE6F38921C105C40024CF21 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F38A21C105C40024CF21 /* MXRPKQuestionListController.h */,
+				AAE6F38B21C105C40024CF21 /* MXRPKQuestionListController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AAE6F38C21C105C40024CF21 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F38D21C105C40024CF21 /* MXRPKQuestionListModel.m */,
+				AAE6F38E21C105C40024CF21 /* MXRPKQuestionListModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AAE6F38F21C105C40024CF21 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F39021C105C40024CF21 /* MXRPKQuestionListViewController.m */,
+				AAE6F39121C105C40024CF21 /* MXRPKQuestionListTableViewCell.m */,
+				AAE6F39221C105C40024CF21 /* MXRPKQuestionListTableViewCell.xib */,
+				AAE6F39321C105C40024CF21 /* MXRPKQuestionListViewController.h */,
+				AAE6F39421C105C40024CF21 /* MXRPKQuestionListTableViewCell.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAE6F39721C105C50024CF21 /* WrongAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F39821C105C50024CF21 /* New Group */,
+			);
+			path = WrongAnalysis;
+			sourceTree = "<group>";
+		};
+		AAE6F39821C105C50024CF21 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F39921C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.m */,
+				AAE6F39A21C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.h */,
+				AAE6F39B21C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.xib */,
+				AAE6F39C21C105C50024CF21 /* MXRWrongAnalysisViewController.m */,
+				AAE6F39D21C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.h */,
+				AAE6F39E21C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.xib */,
+				AAE6F39F21C105C50024CF21 /* MXRWrongAnalysisViewController.xib */,
+				AAE6F3A021C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.m */,
+				AAE6F3A121C105C50024CF21 /* MXRWrongAnalysisViewController.h */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AAE6F3F821C106410024CF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F3FA21C106540024CF21 /* Request */,
+				AAE6F3F921C106480024CF21 /* Response */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAE6F3F921C106480024CF21 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F3FB21C106710024CF21 /* PK */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		AAE6F3FA21C106540024CF21 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F40B21C106860024CF21 /* PK */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		AAE6F3FB21C106710024CF21 /* PK */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F3FC21C106710024CF21 /* MXRPKChallengeResponseModel.h */,
+				AAE6F3FD21C106710024CF21 /* MXRPKResponseModel.m */,
+				AAE6F3FE21C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.h */,
+				AAE6F3FF21C106710024CF21 /* MXRPKPropShopResponseModel.h */,
+				AAE6F40021C106710024CF21 /* MXRPKHomeResponeModel.h */,
+				AAE6F40121C106710024CF21 /* MXRPKResponseModel.h */,
+				AAE6F40221C106710024CF21 /* MXRPKChallengeResponseModel.m */,
+				AAE6F40321C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.m */,
+				AAE6F40421C106710024CF21 /* MXRPKHomeResponeModel.m */,
+				AAE6F40521C106710024CF21 /* MXRPKPropShopResponseModel.m */,
+			);
+			path = PK;
+			sourceTree = "<group>";
+		};
+		AAE6F40B21C106860024CF21 /* PK */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F40C21C106860024CF21 /* MXRPKRequestModel.h */,
+				AAE6F40D21C106860024CF21 /* MXRPKRequestModel.m */,
+			);
+			path = PK;
+			sourceTree = "<group>";
+		};
+		AAE6F41221C108630024CF21 /* MXRDownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F41321C1087D0024CF21 /* MXRDownloadButton.h */,
+				AAE6F41421C1087D0024CF21 /* MXRDownloadButton.m */,
+			);
+			path = MXRDownloadButton;
+			sourceTree = "<group>";
+		};
+		AAE6F41621C108A40024CF21 /* JXTProgressLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F41721C108A40024CF21 /* JXTProgressLabel.h */,
+				AAE6F41821C108A40024CF21 /* JXTProgressLabel.m */,
+			);
+			path = JXTProgressLabel;
+			sourceTree = "<group>";
+		};
+		AAE6F41A21C109B40024CF21 /* WaterfallCollectionLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F41B21C109B40024CF21 /* WaterfallColectionLayout.m */,
+				AAE6F41C21C109B40024CF21 /* WaterfallColectionLayout.h */,
+			);
+			path = WaterfallCollectionLayout;
+			sourceTree = "<group>";
+		};
+		AAE6F41E21C109EC0024CF21 /* MXRAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F41F21C109FE0024CF21 /* MXRAlertViewController.h */,
+				AAE6F42121C109FF0024CF21 /* MXRAlertViewController.m */,
+				AAE6F42021C109FE0024CF21 /* MXRAlertViewController.xib */,
+			);
+			path = MXRAlertViewController;
+			sourceTree = "<group>";
+		};
+		AAE6F42421C10A190024CF21 /* MXRPromptView */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F42621C10A310024CF21 /* MXRPromptView.h */,
+				AAE6F42521C10A300024CF21 /* MXRPromptView.m */,
+			);
+			path = MXRPromptView;
+			sourceTree = "<group>";
+		};
+		AAE6F42821C10A4C0024CF21 /* MXRGlassLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F42921C10A620024CF21 /* MXRGlassLoadingView.h */,
+				AAE6F42A21C10A620024CF21 /* MXRGlassLoadingView.m */,
+				AAE6F42B21C10A630024CF21 /* MXRGlassLoadingView.xib */,
+			);
+			path = MXRGlassLoadingView;
+			sourceTree = "<group>";
+		};
+		AAE6F42E21C10AF80024CF21 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F43321C10B3A0024CF21 /* MXRUIButton.h */,
+				AAE6F43221C10B390024CF21 /* MXRUIButton.m */,
+				AAE6F43021C10B070024CF21 /* UIButton+ImageTitleSpacing.h */,
+				AAE6F42F21C10B060024CF21 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		AAE6F43521C10BDF0024CF21 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F43621C10BEE0024CF21 /* UILabel+MXRColor.h */,
+				AAE6F43721C10BEF0024CF21 /* UILabel+MXRColor.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		AAE6F43921C10C120024CF21 /* MXRRoundMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F43A21C10C230024CF21 /* MXRRoundMaskView.h */,
+				AAE6F43B21C10C240024CF21 /* MXRRoundMaskView.m */,
+			);
+			path = MXRRoundMaskView;
+			sourceTree = "<group>";
+		};
+		AAE6F43D21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F43E21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout.h */,
+				AAE6F43F21C10C8B0024CF21 /* UICollectionViewLeftAlignedLayout.m */,
+			);
+			path = UICollectionViewLeftAlignedLayout;
+			sourceTree = "<group>";
+		};
+		AAE6F44121C110DD0024CF21 /* ZFChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F44221C110DD0024CF21 /* ZFGenericChart */,
+				AAE6F44521C110DD0024CF21 /* ZFBarChart */,
+				AAE6F44A21C110DD0024CF21 /* Category */,
+				AAE6F45521C110DD0024CF21 /* ZFCirqueChart */,
+				AAE6F45A21C110DD0024CF21 /* ZFHorizontalAxis */,
+				AAE6F45D21C110DD0024CF21 /* Other */,
+				AAE6F46421C110DD0024CF21 /* ZFPieChart */,
+				AAE6F46B21C110DD0024CF21 /* ZFLineChart */,
+				AAE6F47221C110DD0024CF21 /* Component */,
+				AAE6F47B21C110DD0024CF21 /* ZFRadarChart */,
+				AAE6F48221C110DD0024CF21 /* ZFGenericAxis */,
+				AAE6F48521C110DD0024CF21 /* Model */,
+				AAE6F48A21C110DD0024CF21 /* ZFWaveChart */,
+				AAE6F48F21C110DD0024CF21 /* ZFHorizontalBarChart */,
+			);
+			path = ZFChart;
+			sourceTree = "<group>";
+		};
+		AAE6F44221C110DD0024CF21 /* ZFGenericChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F44321C110DD0024CF21 /* ZFGenericChart.h */,
+				AAE6F44421C110DD0024CF21 /* ZFGenericChart.m */,
+			);
+			path = ZFGenericChart;
+			sourceTree = "<group>";
+		};
+		AAE6F44521C110DD0024CF21 /* ZFBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F44621C110DD0024CF21 /* ZFBarChart.h */,
+				AAE6F44721C110DD0024CF21 /* ZFBar.h */,
+				AAE6F44821C110DD0024CF21 /* ZFBarChart.m */,
+				AAE6F44921C110DD0024CF21 /* ZFBar.m */,
+			);
+			path = ZFBarChart;
+			sourceTree = "<group>";
+		};
+		AAE6F44A21C110DD0024CF21 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F44B21C110DD0024CF21 /* UIView+Zirkfied.m */,
+				AAE6F44C21C110DD0024CF21 /* UIColor+Zirkfied.h */,
+				AAE6F44D21C110DD0024CF21 /* UIBezierPath+Zirkfied.m */,
+				AAE6F44E21C110DD0024CF21 /* NSString+Zirkfied.h */,
+				AAE6F44F21C110DD0024CF21 /* NSNumber+Zirkfied.h */,
+				AAE6F45021C110DD0024CF21 /* UIView+Zirkfied.h */,
+				AAE6F45121C110DD0024CF21 /* UIColor+Zirkfied.m */,
+				AAE6F45221C110DD0024CF21 /* UIBezierPath+Zirkfied.h */,
+				AAE6F45321C110DD0024CF21 /* NSString+Zirkfied.m */,
+				AAE6F45421C110DD0024CF21 /* NSNumber+Zirkfied.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AAE6F45521C110DD0024CF21 /* ZFCirqueChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F45621C110DD0024CF21 /* ZFCirque.h */,
+				AAE6F45721C110DD0024CF21 /* ZFCirqueChart.m */,
+				AAE6F45821C110DD0024CF21 /* ZFCirqueChart.h */,
+				AAE6F45921C110DD0024CF21 /* ZFCirque.m */,
+			);
+			path = ZFCirqueChart;
+			sourceTree = "<group>";
+		};
+		AAE6F45A21C110DD0024CF21 /* ZFHorizontalAxis */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F45B21C110DD0024CF21 /* ZFHorizontalAxis.m */,
+				AAE6F45C21C110DD0024CF21 /* ZFHorizontalAxis.h */,
+			);
+			path = ZFHorizontalAxis;
+			sourceTree = "<group>";
+		};
+		AAE6F45D21C110DD0024CF21 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F45E21C110DD0024CF21 /* ZFColor.h */,
+				AAE6F45F21C110DD0024CF21 /* ZFConst.m */,
+				AAE6F46021C110DD0024CF21 /* ZFChart.h */,
+				AAE6F46121C110DD0024CF21 /* ZFMethod.h */,
+				AAE6F46221C110DD0024CF21 /* ZFConst.h */,
+				AAE6F46321C110DD0024CF21 /* ZFMethod.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AAE6F46421C110DD0024CF21 /* ZFPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F46521C110DD0024CF21 /* ZFPieChart.m */,
+				AAE6F46621C110DD0024CF21 /* ZFPie.h */,
+				AAE6F46721C110DD0024CF21 /* ZFTranslucencePath.h */,
+				AAE6F46821C110DD0024CF21 /* ZFPieChart.h */,
+				AAE6F46921C110DD0024CF21 /* ZFPie.m */,
+				AAE6F46A21C110DD0024CF21 /* ZFTranslucencePath.m */,
+			);
+			path = ZFPieChart;
+			sourceTree = "<group>";
+		};
+		AAE6F46B21C110DD0024CF21 /* ZFLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F46C21C110DD0024CF21 /* ZFCircle.h */,
+				AAE6F46D21C110DD0024CF21 /* ZFLineChart.m */,
+				AAE6F46E21C110DD0024CF21 /* ZFLine.h */,
+				AAE6F46F21C110DD0024CF21 /* ZFLineChart.h */,
+				AAE6F47021C110DD0024CF21 /* ZFCircle.m */,
+				AAE6F47121C110DD0024CF21 /* ZFLine.m */,
+			);
+			path = ZFLineChart;
+			sourceTree = "<group>";
+		};
+		AAE6F47221C110DD0024CF21 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F47321C110DD0024CF21 /* ZFPopoverLabel.h */,
+				AAE6F47421C110DD0024CF21 /* ZFXAxisLine.m */,
+				AAE6F47521C110DD0024CF21 /* ZFYAxisLine.m */,
+				AAE6F47621C110DD0024CF21 /* ZFLabel.h */,
+				AAE6F47721C110DD0024CF21 /* ZFPopoverLabel.m */,
+				AAE6F47821C110DD0024CF21 /* ZFXAxisLine.h */,
+				AAE6F47921C110DD0024CF21 /* ZFLabel.m */,
+				AAE6F47A21C110DD0024CF21 /* ZFYAxisLine.h */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		AAE6F47B21C110DD0024CF21 /* ZFRadarChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F47C21C110DD0024CF21 /* ZFRadar.m */,
+				AAE6F47D21C110DD0024CF21 /* ZFPolygon.m */,
+				AAE6F47E21C110DD0024CF21 /* ZFRadarChart.m */,
+				AAE6F47F21C110DD0024CF21 /* ZFRadar.h */,
+				AAE6F48021C110DD0024CF21 /* ZFPolygon.h */,
+				AAE6F48121C110DD0024CF21 /* ZFRadarChart.h */,
+			);
+			path = ZFRadarChart;
+			sourceTree = "<group>";
+		};
+		AAE6F48221C110DD0024CF21 /* ZFGenericAxis */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F48321C110DD0024CF21 /* ZFGenericAxis.h */,
+				AAE6F48421C110DD0024CF21 /* ZFGenericAxis.m */,
+			);
+			path = ZFGenericAxis;
+			sourceTree = "<group>";
+		};
+		AAE6F48521C110DD0024CF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F48621C110DD0024CF21 /* ZFGradientAttribute.h */,
+				AAE6F48721C110DD0024CF21 /* ZFCurveAttribute.h */,
+				AAE6F48821C110DD0024CF21 /* ZFGradientAttribute.m */,
+				AAE6F48921C110DD0024CF21 /* ZFCurveAttribute.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAE6F48A21C110DD0024CF21 /* ZFWaveChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F48B21C110DD0024CF21 /* ZFWaveChart.h */,
+				AAE6F48C21C110DD0024CF21 /* ZFWave.h */,
+				AAE6F48D21C110DD0024CF21 /* ZFWaveChart.m */,
+				AAE6F48E21C110DD0024CF21 /* ZFWave.m */,
+			);
+			path = ZFWaveChart;
+			sourceTree = "<group>";
+		};
+		AAE6F48F21C110DD0024CF21 /* ZFHorizontalBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F49021C110DD0024CF21 /* ZFHorizontalBar.h */,
+				AAE6F49121C110DD0024CF21 /* ZFHorizontalBarChart.m */,
+				AAE6F49221C110DD0024CF21 /* ZFHorizontalBar.m */,
+				AAE6F49321C110DD0024CF21 /* ZFHorizontalBarChart.h */,
+			);
+			path = ZFHorizontalBarChart;
+			sourceTree = "<group>";
+		};
+		AAE6F4B521C111470024CF21 /* MXRScreenShotHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F4B621C1115D0024CF21 /* MXRScreenShotHelper.h */,
+				AAE6F4B721C1115E0024CF21 /* MXRScreenShotHelper.m */,
+			);
+			path = MXRScreenShotHelper;
 			sourceTree = "<group>";
 		};
 		D927B00F870D4613DC600C7D /* Frameworks */ = {
@@ -2116,19 +3342,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1F04BA21BFD9F2006B3E73 /* MXRShowAlertView.xib in Resources */,
+				AAE6F3D521C105C60024CF21 /* MXRPKPropPurchaseViewController.xib in Resources */,
 				AA1F04B521BFD9F2006B3E73 /* MXRALbumInformationCell.xib in Resources */,
 				AA1F051821BFEB0E006B3E73 /* Localizable_en.strings in Resources */,
 				AA5D7C6921C0BB2600A32761 /* btn_bookSNS_bannerPlaceholder@2x.png in Resources */,
 				AA1F047521BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib in Resources */,
+				AAE6F3B221C105C60024CF21 /* MXRPKAnswerVC.xib in Resources */,
+				AAE6F3F321C105C60024CF21 /* MXRWrongAnalysisAnswerTextCell.xib in Resources */,
+				AAE6F3C421C105C60024CF21 /* MXRPKMedalCollectionViewCell.xib in Resources */,
 				AA1F045221BFD9C5006B3E73 /* MXRBookSNSSearchBookBeforeView.xib in Resources */,
 				AA5D7C7621C0BB2600A32761 /* icon_bookSNSSearchBookBeforeView_bookIcon@2x.png in Resources */,
+				AAE6F3CD21C105C60024CF21 /* MXRPKQuestionResultViewController.xib in Resources */,
 				AA5D7C7221C0BB2600A32761 /* icon_common_bookStar_fill@2x.png in Resources */,
 				AA5D7C7E21C0DB4700A32761 /* MXRBase.bundle in Resources */,
 				AA5D7C6621C0BB2600A32761 /* icon_common_bookStar_empty@2x.png in Resources */,
 				AA5D7C7121C0BB2600A32761 /* btn_bookSNS_deletepicture_nor@2x.png in Resources */,
+				AAE6F3E521C105C60024CF21 /* MXRPKRankListCollectionViewCell.xib in Resources */,
+				AAE6F42D21C10A630024CF21 /* MXRGlassLoadingView.xib in Resources */,
 				AA1F04FF21BFE59E006B3E73 /* MXRTopSearchView.xib in Resources */,
+				AAE6F3DC21C105C60024CF21 /* MXRPKPropShopTableViewCell.xib in Resources */,
+				AAE6F3DB21C105C60024CF21 /* MXRPKPropShopViewController.xib in Resources */,
 				AA5D7C7421C0BB2600A32761 /* img_bookSNS_bannerShadow@2x.png in Resources */,
+				AAE6F3BE21C105C60024CF21 /* MXRPKHomeMedalCollectionViewCell.xib in Resources */,
 				AA1F048021BFD9C5006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib in Resources */,
+				AAE6F3A421C105C60024CF21 /* MXRPKResultViewController.xib in Resources */,
+				AAE6F3E121C105C60024CF21 /* MXRPKRankListHeaderReusableView.xib in Resources */,
 				AAB374EF21BF9B4E00417161 /* LaunchScreen.storyboard in Resources */,
 				AAB3756621BFA54800417161 /* readme_base64.rtf in Resources */,
 				AA1F043D21BFD9C4006B3E73 /* MXRDynamicHasDeleteView.xib in Resources */,
@@ -2143,16 +3381,28 @@
 				AAB3760421BFB0B100417161 /* readMe.rtf in Resources */,
 				AA5D7C6B21C0BB2600A32761 /* icon_common_bookStar_half@2x.png in Resources */,
 				AA5D7C7321C0BB2600A32761 /* btn_bookSNS_like@2x.png in Resources */,
+				AAE6F3AD21C105C60024CF21 /* MXRPKAnswerOptionCell.xib in Resources */,
+				AAE6F3E621C105C60024CF21 /* MXRPKRankFirstCollectionViewCell.xib in Resources */,
 				AA1F047D21BFD9C5006B3E73 /* MXRBookSNSForwardTableViewCell.xib in Resources */,
+				AAE6F3F621C105C60024CF21 /* pk.storyboard in Resources */,
 				AA1F045521BFD9C5006B3E73 /* MXRBookSNSSearchBookAfterView.xib in Resources */,
+				AAE6F3E821C105C60024CF21 /* MXRPKRankListEmptyCollectionCell.xib in Resources */,
+				AAE6F3EF21C105C60024CF21 /* MXRPKQuestionListTableViewCell.xib in Resources */,
+				AAE6F3AF21C105C60024CF21 /* MXRPKNormalFooterView.xib in Resources */,
+				AAE6F3A821C105C60024CF21 /* MXRPKImageOptionCell.xib in Resources */,
 				AA1F043A21BFD9C4006B3E73 /* MXRBookSNSDetailTableViewCell.xib in Resources */,
 				AA1F043C21BFD9C4006B3E73 /* MXRBookSNSDetailFootView.xib in Resources */,
 				AA5D7C7721C0BB2600A32761 /* btn_bookSNSVC_creatSNSStatus@2x.png in Resources */,
 				AA5D7C4621C0A4A900A32761 /* MXRRefresh.bundle in Resources */,
+				AAE6F3C821C105C60024CF21 /* MXRPKQuestionResultTableViewCell.xib in Resources */,
+				AAE6F42221C109FF0024CF21 /* MXRAlertViewController.xib in Resources */,
 				AA5D7C7521C0BB2600A32761 /* img_bookSNS_topicPlaceholder@2x.png in Resources */,
 				AA1F045D21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.xib in Resources */,
 				AAB3778D21BFBEE300417161 /* vcclasslist.plist in Resources */,
+				AAE6F3F121C105C60024CF21 /* MXRWrongAnalysisAnswerImageCell.xib in Resources */,
 				AA5D7C7B21C0BB2600A32761 /* img_bookSNS_jxTips@2x.png in Resources */,
+				AAE6F3C521C105C60024CF21 /* MXRPKMedalDetailView.xib in Resources */,
+				AAE6F2B821C1042A0024CF21 /* MXREgretGameViewController.xib in Resources */,
 				AA1F047B21BFD9C5006B3E73 /* MXRBookSNSTableViewCell.xib in Resources */,
 				AA1F045121BFD9C5006B3E73 /* MXRSearchBookFromBookStore.xib in Resources */,
 				AA1F044721BFD9C4006B3E73 /* MXRSNSSendStateViewController.xib in Resources */,
@@ -2161,6 +3411,7 @@
 				AAB374E721BF9B4C00417161 /* Main.storyboard in Resources */,
 				AA1F046521BFD9C5006B3E73 /* MXRTopicMainViewController.xib in Resources */,
 				AA1F044C21BFD9C4006B3E73 /* MXRBookSNSSearchZoneView.xib in Resources */,
+				AAE6F3A621C105C60024CF21 /* MXRPKNormalAnswerVC.xib in Resources */,
 				AA5D7C6F21C0BB2600A32761 /* btn_bookSNS_unlike@2x.png in Resources */,
 				AA5D7C6421C0BB2600A32761 /* btn_searchTopicVC_search@2x.png in Resources */,
 				AA1F045C21BFD9C5006B3E73 /* MXRHaveDoneSelectImageCell.xib in Resources */,
@@ -2170,11 +3421,18 @@
 				AA1F043921BFD9C4006B3E73 /* MXRSNSCommentView.xib in Resources */,
 				AA1F04BB21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib in Resources */,
 				AA1F051721BFEB0E006B3E73 /* Localizable.strings in Resources */,
+				AAE6F3DF21C105C60024CF21 /* MXRPKRankListBottomView.xib in Resources */,
 				AA1F044F21BFD9C5006B3E73 /* MXRSNSSearchNoBookView.xib in Resources */,
 				AA5D7C9221C0EFE300A32761 /* icon_common_default_head.png in Resources */,
+				AAE6F3F421C105C60024CF21 /* MXRWrongAnalysisViewController.xib in Resources */,
 				AA5D7C7021C0BB2600A32761 /* btn_bookSNS_forward@2x.png in Resources */,
+				AAE6F3CB21C105C60024CF21 /* MXRPKQuestionResultRankTableViewCell.xib in Resources */,
 				AA5D7C6721C0BB2600A32761 /* icon_cell_BookSNS_placeholder_disable@2x.png in Resources */,
 				AA1F045E21BFD9C5006B3E73 /* MXRSNSPraiseListTableViewCell.xib in Resources */,
+				AAE6F3AC21C105C60024CF21 /* MXRPKNormalHeaderView.xib in Resources */,
+				AAE6F3DA21C105C60024CF21 /* MXRPKChallengeShareView.xib in Resources */,
+				AAE6F3CA21C105C60024CF21 /* MXRPKQuestionResultBookTableViewCell.xib in Resources */,
+				AAE6F3BB21C105C60024CF21 /* MXRPKHomeNewHeaderView.xib in Resources */,
 				AA1F04B321BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib in Resources */,
 				AA5D7C6E21C0BB2600A32761 /* btn_bookSNS_selectTopic@2x.png in Resources */,
 				AA1F04B821BFD9F2006B3E73 /* MXRPreViewViewController.xib in Resources */,
@@ -2184,6 +3442,7 @@
 				AA1F047C21BFD9C5006B3E73 /* MXRBookSNSViewController.xib in Resources */,
 				AA5D7C7821C0BB2600A32761 /* img_common_noSearchBook@2x.png in Resources */,
 				AA1F045721BFD9C5006B3E73 /* MXRSearchTopicTableViewCell.xib in Resources */,
+				AAE6F3B821C105C60024CF21 /* MXRPKHomeShareView.xib in Resources */,
 				AA1F04D221BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2288,57 +3547,106 @@
 				AAB3756521BFA54800417161 /* MXRBase64.mm in Sources */,
 				AA1F04CC21BFDB84006B3E73 /* MXRCopySysytemActionSheet.m in Sources */,
 				AAB3760821BFB0FB00417161 /* DeviceIdAndUserAssociationManager.m in Sources */,
+				AAE6F3A521C105C60024CF21 /* MXRPKAnswerVC.m in Sources */,
+				AAE6F3CE21C105C60024CF21 /* MXRPKQuestionResultBookTableViewCell.m in Sources */,
 				AAB375F021BFAE9B00417161 /* UIImage+Extend.m in Sources */,
+				AAE6F3E021C105C60024CF21 /* MXRPKRankListViewController.m in Sources */,
+				AAE6F3EC21C105C60024CF21 /* MXRPKQuestionListModel.m in Sources */,
+				AAE6F3D021C105C60024CF21 /* MXRPKUserInfoModel.m in Sources */,
 				AA1F04DF21BFDD21006B3E73 /* MXRChatLoadMoreDataHeader.m in Sources */,
+				AAE6F3DE21C105C60024CF21 /* MXRPKRankListModel.m in Sources */,
 				AA1F050821BFE632006B3E73 /* MXRAudioManager.m in Sources */,
+				AAE6F40721C106710024CF21 /* MXRPKChallengeResponseModel.m in Sources */,
+				AAE6F43821C10BEF0024CF21 /* UILabel+MXRColor.m in Sources */,
 				AAB3752221BF9DE900417161 /* MXRHeader.m in Sources */,
 				AA1F047921BFD9C5006B3E73 /* MXRQuestionBanner.m in Sources */,
+				AAE6F3B521C105C60024CF21 /* MXRPKHomeHeaderViewModel.m in Sources */,
 				AA1F04A921BFD9F2006B3E73 /* MXRSelectImageLocalManager.m in Sources */,
 				AA1F043721BFD9C4006B3E73 /* MXRSNSCommentView.m in Sources */,
 				AA1F044821BFD9C4006B3E73 /* MXRSNSSendStateViewController.m in Sources */,
 				AA5D7C4921C0A94800A32761 /* NSBundle+MXRRefresh.m in Sources */,
+				AAE6F4AF21C110DE0024CF21 /* ZFGradientAttribute.m in Sources */,
+				AAE6F41D21C109B50024CF21 /* WaterfallColectionLayout.m in Sources */,
 				AAB3755D21BFA4D400417161 /* UserInformation.m in Sources */,
+				AAE6F3C621C105C60024CF21 /* MXRPKMedalCollectionViewCell.m in Sources */,
 				AA1F045B21BFD9C5006B3E73 /* MXRHaveDoneSelectImageCell.m in Sources */,
+				AAE6F4B121C110DE0024CF21 /* ZFWaveChart.m in Sources */,
 				AA1F04F721BFE32B006B3E73 /* YYPhotoBrowserViewController.m in Sources */,
+				AAE6F42C21C10A630024CF21 /* MXRGlassLoadingView.m in Sources */,
 				AAB377AB21BFD68300417161 /* MXRAppConfigModel.m in Sources */,
+				AAE6F3A921C105C60024CF21 /* MXRPKNormalHeaderView.m in Sources */,
 				AAB3779821BFC02700417161 /* MXRBaseServiceNetworkManager.m in Sources */,
+				AAE6F3C921C105C60024CF21 /* MXRPKQuestionResultRankTableViewCell.m in Sources */,
+				AAE6F4B321C110DE0024CF21 /* ZFHorizontalBarChart.m in Sources */,
+				AAE6F3A321C105C60024CF21 /* MXRPKResultViewController.m in Sources */,
 				AAB3753021BF9EFB00417161 /* MXRBaseDBModel.m in Sources */,
 				AA1F04C021BFDA5E006B3E73 /* MXRUserHeaderView.m in Sources */,
 				AAB3760D21BFB86B00417161 /* SandboxFile.m in Sources */,
 				AA1F04B121BFD9F2006B3E73 /* MXRPreViewViewController.m in Sources */,
+				AAE6F43C21C10C240024CF21 /* MXRRoundMaskView.m in Sources */,
+				AAE6F3F521C105C60024CF21 /* MXRWrongAnalysisAnswerImageCell.m in Sources */,
 				AAB3752C21BF9EB200417161 /* MXRUserInfo.m in Sources */,
+				AAE6F3D721C105C60024CF21 /* MXRPKPropSectionFooter.m in Sources */,
 				AA1F046021BFD9C5006B3E73 /* MXRSNSPraiseListTableViewCell.m in Sources */,
 				AA1F046921BFD9C5006B3E73 /* MXRBookSNSBannerModel.m in Sources */,
 				AAB3759921BFA6A900417161 /* UICollectionView+Convenience.m in Sources */,
+				AAE6F3B021C105C60024CF21 /* MXRPKImageOptionCell.m in Sources */,
 				AA1F044221BFD9C4006B3E73 /* MXRSearchTopicModel.m in Sources */,
 				AA1F047721BFD9C5006B3E73 /* MXRBookSNSHeadVIew.m in Sources */,
 				AAB375FE21BFAFAE00417161 /* BUUtil.m in Sources */,
 				AA1F04AF21BFD9F2006B3E73 /* MXRALbumInformationCell.m in Sources */,
 				AAB375F521BFAEA800417161 /* UIView+MXRSnapshot.m in Sources */,
+				AAE6F3B721C105C60024CF21 /* MXRPKHomeViewController.m in Sources */,
 				AA1F045821BFD9C5006B3E73 /* MXRSearchTopicTableViewCell.m in Sources */,
 				AAB3759F21BFA6A900417161 /* MXRFormateUtil.m in Sources */,
 				AA1F047221BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollection.m in Sources */,
+				AAE6F4AB21C110DE0024CF21 /* ZFRadar.m in Sources */,
 				AA1F04AD21BFD9F2006B3E73 /* MXRShowAlertView.m in Sources */,
+				AAE6F42721C10A310024CF21 /* MXRPromptView.m in Sources */,
+				AAE6F3AB21C105C60024CF21 /* MXRPKScoreView.m in Sources */,
+				AAE6F3AE21C105C60024CF21 /* MXRPKNormalFooterView.m in Sources */,
 				AAB375AF21BFA91D00417161 /* NSString+NSDate.m in Sources */,
 				AAB3759621BFA6A900417161 /* NSIndexSet+Convenience.m in Sources */,
 				AA1F04AC21BFD9F2006B3E73 /* MXRLocalAlbumModel.m in Sources */,
 				AAB3779C21BFC0B200417161 /* CacheData.m in Sources */,
 				AAB3752421BF9DE900417161 /* MXRNetworkManager.m in Sources */,
+				AAE6F40921C106710024CF21 /* MXRPKHomeResponeModel.m in Sources */,
+				AAE6F44021C10C8C0024CF21 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				AAE6F4A421C110DE0024CF21 /* ZFLineChart.m in Sources */,
+				AAE6F43121C10B070024CF21 /* UIButton+ImageTitleSpacing.m in Sources */,
+				AAE6F3B421C105C60024CF21 /* MXRPKHomeCellViewModel.m in Sources */,
+				AAE6F4B021C110DE0024CF21 /* ZFCurveAttribute.m in Sources */,
+				AAE6F3ED21C105C60024CF21 /* MXRPKQuestionListViewController.m in Sources */,
+				AAE6F4A721C110DE0024CF21 /* ZFXAxisLine.m in Sources */,
 				AA1F046121BFD9C5006B3E73 /* MXRTopicsController.m in Sources */,
 				AA1F045421BFD9C5006B3E73 /* MXRBookSNSSearchBookAfterView.m in Sources */,
+				AAE6F3E321C105C60024CF21 /* MXRPKRankListEmptyCollectionCell.m in Sources */,
 				AA1F046F21BFD9C5006B3E73 /* MXRBookSNSTableViewCell.m in Sources */,
 				AAB3755821BFA41100417161 /* NSObject+MXRModel.m in Sources */,
 				AA1F04DD21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshFooter.m in Sources */,
+				AAE6F4AD21C110DE0024CF21 /* ZFRadarChart.m in Sources */,
+				AAE6F3D321C105C60024CF21 /* MXRPKPropShopViewController.m in Sources */,
+				AAE6F4B221C110DE0024CF21 /* ZFWave.m in Sources */,
 				AA1F046A21BFD9C5006B3E73 /* MXRBookSNSCommentModel.m in Sources */,
+				AAE6F43421C10B3A0024CF21 /* MXRUIButton.m in Sources */,
 				AAB3761921BFB98100417161 /* MXRDataAction.m in Sources */,
+				AAE6F3D421C105C60024CF21 /* MXRPKPropShopTableViewCell.m in Sources */,
+				AAE6F49C21C110DD0024CF21 /* ZFCirqueChart.m in Sources */,
 				AAB3759821BFA6A900417161 /* NSURL+Ex.m in Sources */,
+				AAE6F49E21C110DD0024CF21 /* ZFHorizontalAxis.m in Sources */,
+				AAE6F4AE21C110DE0024CF21 /* ZFGenericAxis.m in Sources */,
+				AAE6F3E221C105C60024CF21 /* MXRPKRankFirstCollectionViewCell.m in Sources */,
 				AAB3759D21BFA6A900417161 /* UIViewController+MXRUIFit.m in Sources */,
 				AAB375AE21BFA91D00417161 /* NSString+Ex.m in Sources */,
 				AA1F04C821BFDAF8006B3E73 /* BookInfoForShelf.m in Sources */,
 				AA1F043221BFD9C4006B3E73 /* MXRBookSNSDetailModel.m in Sources */,
+				AAE6F3D821C105C60024CF21 /* MXRPKPropHeader.m in Sources */,
 				AA1F045F21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.m in Sources */,
 				AA1F045A21BFD9C5006B3E73 /* MXRTextView.m in Sources */,
+				AAE6F4A521C110DE0024CF21 /* ZFCircle.m in Sources */,
+				AAE6F2B721C1042A0024CF21 /* MXREgretGameViewController.m in Sources */,
 				AAB3752121BF9DE900417161 /* NSMutableURLRequest+Ex.m in Sources */,
+				AAE6F3AA21C105C60024CF21 /* MXRPKAnswerOptionCell.m in Sources */,
 				AA1F044521BFD9C4006B3E73 /* MXRBookSNSUploadImageInfo.m in Sources */,
 				AAB3777E21BFBBC200417161 /* MXRDataStatisticsNetworkManager.m in Sources */,
 				AAB375CA21BFAA8500417161 /* MXRDefaultViewController.m in Sources */,
@@ -2346,33 +3654,57 @@
 				AA1F047A21BFD9C5006B3E73 /* MXRQuestionBannerCell.m in Sources */,
 				AA1F046821BFD9C5006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m in Sources */,
 				AAB3752821BF9E4C00417161 /* MXRDeviceUtil.m in Sources */,
+				AAE6F4AA21C110DE0024CF21 /* ZFLabel.m in Sources */,
 				AA1F047021BFD9C5006B3E73 /* MXRBookSNSViewController.m in Sources */,
+				AAE6F49921C110DD0024CF21 /* UIColor+Zirkfied.m in Sources */,
 				AA1F043321BFD9C4006B3E73 /* MXRBookSNSDetailCommentListModel.m in Sources */,
 				AAB3759A21BFA6A900417161 /* UIViewController+Ex.m in Sources */,
+				AAE6F3E921C105C60024CF21 /* MXRPKRankListBottomView.m in Sources */,
 				AA1F050021BFE59E006B3E73 /* MXRTopSearchView.m in Sources */,
 				AAB375F921BFAF1000417161 /* GlobalBusyFlag.m in Sources */,
 				AA1F047F21BFD9C5006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m in Sources */,
+				AAE6F3C021C105C60024CF21 /* MXRPKHomeHeaderView.m in Sources */,
 				AAB3759C21BFA6A900417161 /* UIViewController+ScreenZoonOut.m in Sources */,
 				AA1F047E21BFD9C5006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m in Sources */,
+				AAE6F49F21C110DD0024CF21 /* ZFConst.m in Sources */,
 				AAB3755921BFA41100417161 /* MXRClassInfo.m in Sources */,
 				AAB3778A21BFBEE300417161 /* MXROneMinuteDataAnalysis.m in Sources */,
 				AA1F044321BFD9C4006B3E73 /* MXRQiNiuUploadTokenModel.m in Sources */,
+				AAE6F4B821C1115E0024CF21 /* MXRScreenShotHelper.m in Sources */,
+				AAE6F3D621C105C60024CF21 /* MXRPKPropPurchaseViewController.m in Sources */,
 				AA1F04AA21BFD9F2006B3E73 /* MXRSelectLocalImageProxy.m in Sources */,
 				AAB377A921BFD68300417161 /* MXRAppConfigController.m in Sources */,
+				AAE6F49A21C110DD0024CF21 /* NSString+Zirkfied.m in Sources */,
 				AAB374EA21BF9B4C00417161 /* MXRSNS.xcdatamodeld in Sources */,
 				AA1F04B921BFD9F2006B3E73 /* MXRAlbumListViewController.m in Sources */,
+				AAE6F3EE21C105C60024CF21 /* MXRPKQuestionListTableViewCell.m in Sources */,
+				AAE6F49D21C110DD0024CF21 /* ZFCirque.m in Sources */,
+				AAE6F3C221C105C60024CF21 /* MXRPKMedalListViewController.m in Sources */,
 				AA1F04B721BFD9F2006B3E73 /* MXRPreViewCell.m in Sources */,
 				AA1F04F621BFE32B006B3E73 /* YYPhotoCollectionViewCell.m in Sources */,
 				AAB375A221BFA6A900417161 /* MXRJsonUtil.m in Sources */,
+				AAE6F3B121C105C60024CF21 /* MXRCountDownView.m in Sources */,
 				AA1F04DE21BFDD21006B3E73 /* MXRBookSNSLoadDataGifRefreshHeader.m in Sources */,
+				AAE6F3F021C105C60024CF21 /* MXRWrongAnalysisAnswerTextCell.m in Sources */,
+				AAE6F3BF21C105C60024CF21 /* MXRPKHomeNormalCollectionViewCell.m in Sources */,
+				AAE6F3BD21C105C60024CF21 /* MXRPKHomeDoubleCollectionViewCell.m in Sources */,
+				AAE6F40E21C106870024CF21 /* MXRPKRequestModel.m in Sources */,
 				AAB377AA21BFD68300417161 /* MXRAppConfigProxy.m in Sources */,
 				AA1F043121BFD9C4006B3E73 /* MXRBookSNSDetailCommentsModel.m in Sources */,
+				AAE6F4A221C110DD0024CF21 /* ZFPie.m in Sources */,
 				AA1F043F21BFD9C4006B3E73 /* MXRDynamicHasDeleteView.m in Sources */,
+				AAE6F3B621C105C60024CF21 /* MXRPKHomeCellDoubleViewModel.m in Sources */,
+				AAE6F40621C106710024CF21 /* MXRPKResponseModel.m in Sources */,
+				AAE6F4AC21C110DE0024CF21 /* ZFPolygon.m in Sources */,
 				AA1F051321BFE880006B3E73 /* NSDictionary+URL.m in Sources */,
 				AA1F043021BFD9C4006B3E73 /* MXRBookSNSDetailController.m in Sources */,
 				AA1F04E521BFE308006B3E73 /* MXRSubjectInfoModel.m in Sources */,
 				AA1F04A821BFD9F2006B3E73 /* MXRGetLocalImageController.m in Sources */,
+				AAE6F4A921C110DE0024CF21 /* ZFPopoverLabel.m in Sources */,
+				AAE6F3DD21C105C60024CF21 /* MXRPKRankListController.m in Sources */,
 				AAB3778B21BFBEE300417161 /* UIViewController+MXROneMinuteDataAnalysis.m in Sources */,
+				AAE6F41121C106EC0024CF21 /* MXRPKNetworkManager.m in Sources */,
+				AAE6F3B321C105C60024CF21 /* MXRUserBehaviour.m in Sources */,
 				AAB3759B21BFA6A900417161 /* MXRAutoCoding.m in Sources */,
 				AAB3759421BFA6A900417161 /* MXRClickUtil.m in Sources */,
 				AA1F046E21BFD9C5006B3E73 /* MXRBookSNSUserHandleMomentView.m in Sources */,
@@ -2388,47 +3720,76 @@
 				AA1F047321BFD9C5006B3E73 /* MXRBookSNSMomentImageView.m in Sources */,
 				AA1F044921BFD9C4006B3E73 /* MXRBookSNSSearchZoneView.m in Sources */,
 				AA1F04D121BFDBDC006B3E73 /* MXRPhotoPreviewGuideView.m in Sources */,
+				AAE6F4A821C110DE0024CF21 /* ZFYAxisLine.m in Sources */,
 				AAB3778921BFBEE300417161 /* MXROneMinuteNetworkManager.m in Sources */,
+				AAE6F3EB21C105C60024CF21 /* MXRPKQuestionListController.m in Sources */,
 				AAB3759E21BFA6A900417161 /* NSFileManager+MXRExtend.m in Sources */,
 				AAB3756721BFA54800417161 /* GTMBase64.m in Sources */,
 				AA1F044B21BFD9C4006B3E73 /* MXRBookSNSSearchBookBeforeView.m in Sources */,
 				AA1F043821BFD9C4006B3E73 /* MXRBookSNSDetailViewController.m in Sources */,
+				AAE6F4B421C110DE0024CF21 /* ZFHorizontalBar.m in Sources */,
 				AA1F04C421BFDA8E006B3E73 /* MXRLabel.m in Sources */,
 				AAB3759521BFA6A900417161 /* MXRGlobalUtil.m in Sources */,
+				AAE6F3BA21C105C60024CF21 /* MXRPKHomeShareView.m in Sources */,
 				AA1F044E21BFD9C5006B3E73 /* MXRSNSSearchBookCell.m in Sources */,
+				AAE6F41521C1087D0024CF21 /* MXRDownloadButton.m in Sources */,
 				AAB3756D21BFA5DA00417161 /* MXRAdpterManager.m in Sources */,
+				AAE6F4A121C110DD0024CF21 /* ZFPieChart.m in Sources */,
 				AA1F042F21BFD9C4006B3E73 /* MXRBookSNSDetailManager.m in Sources */,
 				AAB3759721BFA6A900417161 /* UIView+MXRFrame.m in Sources */,
 				AA1F04D521BFDC61006B3E73 /* MXRLocalResourceManager.m in Sources */,
 				AA1F046321BFD9C5006B3E73 /* MXRTopicProxy.m in Sources */,
 				AA1F044421BFD9C4006B3E73 /* MXRBookStarModel.m in Sources */,
+				AAE6F49421C110DD0024CF21 /* ZFGenericChart.m in Sources */,
 				AA1F044021BFD9C4006B3E73 /* MXRBookSNSSendDetailController.m in Sources */,
+				AAE6F3C721C105C60024CF21 /* MXRPKQuestionResultController.m in Sources */,
 				AA1F044121BFD9C4006B3E73 /* MXRBookSNSSendDetailManager.m in Sources */,
 				AA1F046421BFD9C5006B3E73 /* MXRTopicMainViewController.m in Sources */,
+				AAE6F3F221C105C60024CF21 /* MXRWrongAnalysisViewController.m in Sources */,
+				AAE6F2BC21C104380024CF21 /* MXREgretInterfaceModel.m in Sources */,
 				AAB375A721BFA86300417161 /* UIView+MXRGradientBackground.m in Sources */,
 				AAB3779121BFBF1900417161 /* MXRMD5.m in Sources */,
 				AAB3760321BFB0B100417161 /* KeychainItemWrapper.m in Sources */,
 				AAB375F121BFAE9B00417161 /* UIImage+Superposition.m in Sources */,
 				AA1F047121BFD9C5006B3E73 /* MXRPreviewImageViewController.m in Sources */,
 				AAB375F221BFAE9B00417161 /* UIImage+VJDeviceSpecialMedia.m in Sources */,
+				AAE6F49B21C110DD0024CF21 /* NSNumber+Zirkfied.m in Sources */,
+				AAE6F49821C110DD0024CF21 /* UIBezierPath+Zirkfied.m in Sources */,
+				AAE6F4A321C110DE0024CF21 /* ZFTranslucencePath.m in Sources */,
+				AAE6F3E421C105C60024CF21 /* MXRPKRankListCollectionViewCell.m in Sources */,
+				AAE6F4A621C110DE0024CF21 /* ZFLine.m in Sources */,
 				AAB374E121BF9B4C00417161 /* AppDelegate.m in Sources */,
+				AAE6F3C321C105C60024CF21 /* MXRPKMedalDetailView.m in Sources */,
 				AAB375A021BFA6A900417161 /* MXRFileUtil.m in Sources */,
+				AAE6F4A021C110DD0024CF21 /* ZFMethod.m in Sources */,
 				AA1F044D21BFD9C5006B3E73 /* MXRSNSSearchBookViewController.m in Sources */,
 				AA1F043521BFD9C4006B3E73 /* MXRBookSNSPraiseListModel.m in Sources */,
+				AAE6F3D121C105C60024CF21 /* MXRPKSearchViewController.m in Sources */,
+				AAE6F49621C110DD0024CF21 /* ZFBar.m in Sources */,
 				AAB3777121BFBA9500417161 /* MXRUserSettingsManager.m in Sources */,
 				AA1F044621BFD9C4006B3E73 /* MXRBookSNSSendDetailProxy.m in Sources */,
 				AA1F04B021BFD9F2006B3E73 /* MXRShareVideoViewController.m in Sources */,
 				AA1F04FA21BFE376006B3E73 /* UIView+YYExtension.m in Sources */,
 				AAB3761A21BFB98100417161 /* MXRDataAnalyze.m in Sources */,
 				AA1F043E21BFD9C4006B3E73 /* MXRBookSNSDetailFootView.m in Sources */,
+				AAE6F3CC21C105C60024CF21 /* MXRPKQuestionResultTableViewCell.m in Sources */,
+				AAE6F49721C110DD0024CF21 /* UIView+Zirkfied.m in Sources */,
+				AAE6F40821C106710024CF21 /* MXRPKHomeRankingInfoResponseModel.m in Sources */,
 				AA1F04B421BFD9F2006B3E73 /* MXRPreviewVideoCell.m in Sources */,
 				AA1F045621BFD9C5006B3E73 /* MXRSearchTopicViewController.m in Sources */,
+				AAE6F3B921C105C60024CF21 /* MXRPKHomeMedalCollectionViewCell.m in Sources */,
 				AA1F046221BFD9C5006B3E73 /* MXRTopicModel.m in Sources */,
+				AAE6F3C121C105C60024CF21 /* MXRPKMedalInfoModel.m in Sources */,
+				AAE6F40A21C106710024CF21 /* MXRPKPropShopResponseModel.m in Sources */,
+				AAE6F49521C110DD0024CF21 /* ZFBarChart.m in Sources */,
 				AA1F046721BFD9C5006B3E73 /* MXRSNSShareModel.m in Sources */,
 				AA1F045321BFD9C5006B3E73 /* MXRSNSSearchNoBookView.m in Sources */,
 				AA1F043421BFD9C4006B3E73 /* MXRBookSNSDetailDynamicModel.m in Sources */,
+				AAE6F41921C108A40024CF21 /* JXTProgressLabel.m in Sources */,
+				AAE6F3BC21C105C60024CF21 /* MXRPKHomeNewHeaderView.m in Sources */,
 				AAB3759321BFA6A900417161 /* MXRMediaUtil.m in Sources */,
 				AAB3752321BF9DE900417161 /* MXRNetworkResponse.m in Sources */,
+				AAE6F3E721C105C60024CF21 /* MXRPKRankListHeaderReusableView.m in Sources */,
 				AA1F046B21BFD9C5006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m in Sources */,
 				AA1F04F521BFE32B006B3E73 /* YYPhotoBrowserSubScrollView.m in Sources */,
 				AA1F047621BFD9C5006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m in Sources */,
@@ -2438,14 +3799,19 @@
 				AAB375DB21BFAC2E00417161 /* MXRConstant.m in Sources */,
 				AAB3778C21BFBEE300417161 /* MXROneMinuteDataModel.m in Sources */,
 				AA1F046C21BFD9C5006B3E73 /* MXRSNSBlackListModel.m in Sources */,
+				AAE6F3D221C105C60024CF21 /* MXRPKChallengeShareView.m in Sources */,
 				AA1F043B21BFD9C4006B3E73 /* MXRBookSNSDetailTableViewCell.m in Sources */,
 				AAB375D121BFAA8500417161 /* MXRScrollView.m in Sources */,
+				AAE6F3A721C105C60024CF21 /* MXRPKNormalAnswerVC.m in Sources */,
 				AAB3779521BFBFB100417161 /* NSObject+MAREX.m in Sources */,
 				AAB375E721BFAE5C00417161 /* MXRLoadFailedView.m in Sources */,
+				AAE6F3CF21C105C60024CF21 /* MXRPKQuestionResultViewController.m in Sources */,
 				AA1F04F421BFE32B006B3E73 /* YYPhotoBrowserMainScrollView.m in Sources */,
+				AAE6F3D921C105C60024CF21 /* MXRPKPropSectionHeader.m in Sources */,
 				AA1F046621BFD9C5006B3E73 /* MXRBookSNSController.m in Sources */,
 				AAB375DF21BFAE0100417161 /* TTTAttributedLabel.m in Sources */,
 				AA1F047421BFD9C5006B3E73 /* MXRBookSNSForwardTableViewCell.m in Sources */,
+				AAE6F42321C109FF0024CF21 /* MXRAlertViewController.m in Sources */,
 				AA1F043621BFD9C4006B3E73 /* MXRBookSNSPraiseModel.m in Sources */,
 				AA1F04BC21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m in Sources */,
 				AAB376D621BFBA4F00417161 /* NSString+Sha1.m in Sources */,
@@ -2634,6 +4000,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MXRSNS/Sources/Component/Egret/libs/EgretWebViewLib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MXRSNS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2658,6 +4028,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MXRSNS/Sources/Component/Egret/libs/EgretWebViewLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MXRSNS;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MXRPKQuestionResultTableViewCell" rowHeight="454" id="KGk-i7-Jjw" customClass="MXRPKQuestionResultTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="454"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="333" height="453.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_missionCompleteResult.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Wf-HD-WYj">
+                        <rect key="frame" x="89" y="32" width="155" height="105"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="啊哦，答案正确率只有25%，再挑战一次吧" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-rg-boS">
+                        <rect key="frame" x="55.5" y="153" width="222" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b76-8G-NRT">
+                        <rect key="frame" x="41.5" y="218.5" width="250" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="hPe-0J-Wsc"/>
+                        </constraints>
+                        <state key="normal" title="答案解析">
+                            <color key="titleColor" red="0.1843137255" green="0.72156862749999995" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                <color key="value" red="0.1843137255" green="0.72156862749999995" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="analysisBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7y4-Nq-gwx"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmf-Ae-rW9">
+                        <rect key="frame" x="41.5" y="278.5" width="250" height="50"/>
+                        <color key="backgroundColor" red="0.1843137255" green="0.72156862749999995" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="再测一次">
+                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                <color key="value" red="0.1843137255" green="0.72156862749999995" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="retryBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="2co-G3-CT8"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekc-ff-U7l">
+                        <rect key="frame" x="41.5" y="338.5" width="250" height="50"/>
+                        <state key="normal" title="邀请好友pk">
+                            <color key="titleColor" red="0.1843137255" green="0.72156862749999995" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                <color key="value" red="0.1843137255" green="0.72156862749999995" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="inviteBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Fcz-1p-gGY"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pkBadge.png" translatesAutoresizingMaskIntoConstraints="NO" id="hm0-Dm-eSc">
+                        <rect key="frame" x="242.5" y="219.5" width="48" height="27"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20梦想币" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhk-l6-767">
+                        <rect key="frame" x="256.5" y="224.5" width="35" height="10"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0Ng-rg-boS" firstAttribute="top" secondItem="2Wf-HD-WYj" secondAttribute="bottom" constant="16" id="3CR-HU-IYa"/>
+                    <constraint firstItem="2Wf-HD-WYj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4bq-uZ-Zlu"/>
+                    <constraint firstItem="Fhk-l6-767" firstAttribute="trailing" secondItem="b76-8G-NRT" secondAttribute="trailing" id="4fr-cP-xn1"/>
+                    <constraint firstItem="0Ng-rg-boS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="2:3" id="EWB-mP-Osh"/>
+                    <constraint firstItem="2Wf-HD-WYj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="32" id="Gm5-ed-YJZ"/>
+                    <constraint firstItem="b76-8G-NRT" firstAttribute="top" secondItem="0Ng-rg-boS" secondAttribute="bottom" constant="32" id="HRC-FI-iYS"/>
+                    <constraint firstItem="ekc-ff-U7l" firstAttribute="height" secondItem="Tmf-Ae-rW9" secondAttribute="height" id="Na2-Ss-id6"/>
+                    <constraint firstItem="0Ng-rg-boS" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="TYK-Sn-HIN"/>
+                    <constraint firstItem="Tmf-Ae-rW9" firstAttribute="leading" secondItem="b76-8G-NRT" secondAttribute="leading" id="Uai-hO-YGo"/>
+                    <constraint firstItem="Tmf-Ae-rW9" firstAttribute="top" secondItem="b76-8G-NRT" secondAttribute="bottom" constant="10" id="VrR-xm-IZ4"/>
+                    <constraint firstItem="ekc-ff-U7l" firstAttribute="leading" secondItem="Tmf-Ae-rW9" secondAttribute="leading" id="WtH-wW-DIA"/>
+                    <constraint firstItem="Fhk-l6-767" firstAttribute="top" secondItem="b76-8G-NRT" secondAttribute="top" constant="6" id="X4c-T2-FZF"/>
+                    <constraint firstItem="hm0-Dm-eSc" firstAttribute="top" secondItem="b76-8G-NRT" secondAttribute="top" constant="1" id="YXj-v1-uAP"/>
+                    <constraint firstItem="b76-8G-NRT" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Z0W-hC-iPy"/>
+                    <constraint firstItem="hm0-Dm-eSc" firstAttribute="trailing" secondItem="b76-8G-NRT" secondAttribute="trailing" constant="-1" id="abu-ts-zQd"/>
+                    <constraint firstItem="ekc-ff-U7l" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="b4v-Xe-F2u"/>
+                    <constraint firstItem="b76-8G-NRT" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="3:4" id="fCc-df-TPp"/>
+                    <constraint firstItem="ekc-ff-U7l" firstAttribute="top" secondItem="Tmf-Ae-rW9" secondAttribute="bottom" constant="10" id="fsq-j7-Zj3"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ekc-ff-U7l" secondAttribute="bottom" constant="20" id="kot-Lj-gmy"/>
+                    <constraint firstItem="Tmf-Ae-rW9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="oFA-0Q-Kwy"/>
+                    <constraint firstItem="Tmf-Ae-rW9" firstAttribute="height" secondItem="b76-8G-NRT" secondAttribute="height" id="yri-Id-IIL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accuracyLabel" destination="0Ng-rg-boS" id="CNx-iO-dpW"/>
+                <outlet property="againBtn" destination="Tmf-Ae-rW9" id="fyo-Pc-aI5"/>
+                <outlet property="analysisBtn" destination="b76-8G-NRT" id="00e-ZL-cGV"/>
+                <outlet property="analysisBtnTopConstraint" destination="HRC-FI-iYS" id="wlb-9E-Ab0"/>
+                <outlet property="inviteBtn" destination="ekc-ff-U7l" id="oW3-ND-FV2"/>
+                <outlet property="resultIv" destination="2Wf-HD-WYj" id="eeA-Xg-oQS"/>
+                <outlet property="unlockMXBBadgeIv" destination="hm0-Dm-eSc" id="Yzf-BD-xX8"/>
+                <outlet property="unlockMXBLabel" destination="Fhk-l6-767" id="QNj-Wf-mdl"/>
+            </connections>
+            <point key="canvasLocation" x="-494" y="-51"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_missionCompleteResult.png" width="155" height="105"/>
+        <image name="icon_pkBadge.png" width="48" height="27"/>
+    </resources>
+</document>

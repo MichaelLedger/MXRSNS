@@ -18,6 +18,12 @@ target 'MXRSNS' do
   pod 'UMengAnalytics', '~>4.2.4'
   pod 'MJRefresh', '~>3.1.15.6'
   pod 'pop', '~>1.0.10'
+  # Egret Engine Tools
+  pod 'CocoaAsyncSocket', '~>7.6.1'
+  pod 'CocoaHTTPServer', '~>2.3'
+  pod 'CocoaLumberjack', '~>3.3.0' 
+  # MXR Extension
+  pod 'MAREXT', '0.1.1'
  
   target 'MXRSNSTests' do
     inherit! :search_paths

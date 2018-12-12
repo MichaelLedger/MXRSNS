@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MXRPKMedalCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="194"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="198" height="194"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T18-MB-pWm">
+                        <rect key="frame" x="0.0" y="0.0" width="198" height="194"/>
+                        <connections>
+                            <action selector="onMedalButtonClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="OxG-pL-X1D"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="T18-MB-pWm" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="3OE-WF-32U"/>
+                <constraint firstItem="T18-MB-pWm" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="3Yz-0e-zNH"/>
+                <constraint firstItem="T18-MB-pWm" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="BoE-HR-ZFb"/>
+                <constraint firstItem="T18-MB-pWm" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="cxC-lv-88c"/>
+            </constraints>
+            <size key="customSize" width="198" height="194"/>
+            <connections>
+                <outlet property="medalButton" destination="T18-MB-pWm" id="BRl-T5-R1C"/>
+            </connections>
+            <point key="canvasLocation" x="99" y="124"/>
+        </collectionViewCell>
+    </objects>
+</document>

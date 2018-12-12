@@ -152,6 +152,9 @@
 }
 
 -(NSString *)userID{
+    //test
+    return @"1941";//账号：15115115115 密码：123456
+    
     NSString * result = [[NSUserDefaults standardUserDefaults] stringForKey:@"USERID"];
     return result ? result : @"0";
 }
@@ -169,6 +172,8 @@
 /********************isGuestLogin*********************/
 
 -(BOOL)getIsLogin{
+    //test
+    return YES;
     return (![self.userID isEqualToString:@"0"] && self.userID.length != 0 && !self.isGuestLogin);
 }
 /********************userImage*********************/
@@ -179,6 +184,8 @@
     
 }
 -(NSString*)userImage{
+    //test
+    return @"http://p1.qqyou.com/touxiang/uploadpic/2013-4/27/2013042720162635554.jpg";
     
     //优先取本地缓存的用户头像  Version 5.9.0   shuai.wang
 //    NSString *cacheUserIcon = [CacheData readApplicationStr:CACHE_USERICON_KEY];
@@ -204,12 +211,15 @@
     return userPublishInfoArray;
 }
 /********************userNickName*********************/
--(void)setUserNickName:(NSString *)auserNickName{
+-(void)setUserNickName:(NSString *)auserNickName {
     userNickName = auserNickName;
     [[NSUserDefaults standardUserDefaults] setObject:userNickName forKey:@"user_nick_name"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 -(NSString *)userNickName{
+    //test
+    return @"想象之中";
+    
     NSString * result = [[NSUserDefaults standardUserDefaults] objectForKey:@"user_nick_name"];
     if ( result && result.length > 0 ) {
         return result;

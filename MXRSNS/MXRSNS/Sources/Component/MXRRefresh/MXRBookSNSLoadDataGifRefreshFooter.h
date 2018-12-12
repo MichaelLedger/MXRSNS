@@ -7,6 +7,7 @@
 //
 
 #import "MJRefreshAutoGifFooter.h"
+#import "NSBundle+MXRRefresh.h"
 
 @interface MXRBookSNSLoadDataGifRefreshFooter : MJRefreshAutoGifFooter
 

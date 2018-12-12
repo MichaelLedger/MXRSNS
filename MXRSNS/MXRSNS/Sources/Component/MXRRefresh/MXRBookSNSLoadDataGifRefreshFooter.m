@@ -7,7 +7,6 @@
 //
 
 #import "MXRBookSNSLoadDataGifRefreshFooter.h"
-#import "NSBundle+MJRefresh.h"
 
 @implementation MXRBookSNSLoadDataGifRefreshFooter
 
@@ -21,14 +20,7 @@
 - (void)prepare
 {
     [super prepare];
-    NSMutableArray *idleImages = [NSMutableArray array];
-    for (NSUInteger i = 1; i<=12; i++) {
-        NSString *imageName = [NSString stringWithFormat:@"anim_chatloading%lu.png", (unsigned long)i];
-        UIImage *image = MXRIMAGE(imageName);
-        if (image) {
-            [idleImages addObject:image];
-        }
-    }
+    NSArray *idleImages = [NSBundle mxr_loadingImages];
     if (idleImages.count>0) {
         [self setImages:idleImages forState:MJRefreshStatePulling];
         [self setImages:idleImages forState:MJRefreshStateRefreshing];

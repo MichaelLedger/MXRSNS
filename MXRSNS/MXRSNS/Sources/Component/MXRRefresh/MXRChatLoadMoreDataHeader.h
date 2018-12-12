@@ -7,6 +7,7 @@
 //
 
 #import "MJRefreshGifHeader.h"
+#import "NSBundle+MXRRefresh.h"
 
 @interface MXRChatLoadMoreDataHeader : MJRefreshGifHeader
 

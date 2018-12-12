@@ -16,7 +16,7 @@ target 'MXRSNS' do
   pod 'MBProgressHUD', '~>1.1.0'
   pod 'AlicloudMAN', '~>1.0.10'
   pod 'UMengAnalytics', '~>4.2.4'
-  pod 'MJRefresh', '~>3.0.0'
+  pod 'MJRefresh', '~>3.1.15.6'
   pod 'pop', '~>1.0.10'
  
   target 'MXRSNSTests' do

@@ -8,6 +8,7 @@
 //
 
 #import "MJRefreshFooter.h"
+#include "UIScrollView+MJRefresh.h"
 
 @interface MJRefreshFooter()
 
@@ -36,8 +37,8 @@
     // 设置自己的高度
     self.mj_h = MJRefreshFooterHeight;
     
-    // 默认是自动隐藏
-    self.automaticallyHidden = YES;
+    // 默认不会自动隐藏
+    self.automaticallyHidden = NO;
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview
@@ -59,7 +60,7 @@
 #pragma mark - 公共方法
 - (void)endRefreshingWithNoMoreData
 {
-    self.state = MJRefreshStateNoMoreData;
+    MJRefreshDispatchAsyncOnMainQueue(self.state = MJRefreshStateNoMoreData;)
 }
 
 - (void)noticeNoMoreData
@@ -69,6 +70,11 @@
 
 - (void)resetNoMoreData
 {
-    self.state = MJRefreshStateIdle;
+    MJRefreshDispatchAsyncOnMainQueue(self.state = MJRefreshStateIdle;)
+}
+
+- (void)setAutomaticallyHidden:(BOOL)automaticallyHidden
+{
+    _automaticallyHidden = automaticallyHidden;
 }
 @end

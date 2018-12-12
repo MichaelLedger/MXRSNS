@@ -198,8 +198,11 @@
 //    [button setImage:[UIImage imageNamedUseTintColor:@"icon_gray_left_arrow"] forState:UIControlStateNormal];
 //    [button setImage:[UIImage imageNamedUseTintColor:@"icon_gray_left_arrow_pre"] forState:UIControlStateHighlighted];
     
-    [button setImage:[UIImage imageNamedRenderingModeAlwaysOriginal:@"icon_white_left_arrow"] forState:UIControlStateNormal];
-    [button setImage:[UIImage imageNamedRenderingModeAlwaysOriginal:@"icon_white_left_arrow"] forState:UIControlStateHighlighted];
+    UIImage *backIndicator = [[UIImage imageWithContentsOfFile:[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"MXRBase" ofType:@"bundle"]] pathForResource:@"icon_white_left_arrow@3x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    //[UIImage imageNamedRenderingModeAlwaysOriginal:@"icon_white_left_arrow"]
+    [button setImage:backIndicator forState:UIControlStateNormal];
+    [button setImage:backIndicator forState:UIControlStateHighlighted];
 //    button.tintColor = MXRCOLOR_2FB8E2;
     /*V5.8.0 modified by MT.X*/
     [button setTitle:title forState:UIControlStateNormal];
@@ -396,7 +399,8 @@
     if(backgroundImage == nil)
 //        backgroundImage = [UIImage imageNamed:@"icon_gray_left_arrow"];
         /*V5.8.0 modified by MT.X*/
-        backgroundImage = [UIImage imageNamedRenderingModeAlwaysOriginal:@"icon_white_left_arrow"];
+//        backgroundImage = [UIImage imageNamedRenderingModeAlwaysOriginal:@"icon_white_left_arrow"];
+    backgroundImage = [[UIImage imageWithContentsOfFile:[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"MXRBase" ofType:@"bundle"]] pathForResource:@"icon_white_left_arrow@3x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         /*V5.8.0 modified by MT.X*/
     //图片右侧2像素将被拉伸，所以图片右侧需要有两像素的透明空白
     [backItem setBackButtonBackgroundImage:[backgroundImage resizableImageWithCapInsets:UIEdgeInsetsMake(0, backgroundImage.size.width-4, 0, 1)]
@@ -408,7 +412,8 @@
 +(UIBarButtonItem*) createDefaultBackButtonWithTitle:(NSString *)title{
 //    return  [self createDefaultBackButtonWithTitle:title backgroundImage:[UIImage imageNamed:@"icon_gray_left_arrow"]];
     /*V5.8.0 modified by MT.X*/
-    return [self createDefaultBackButtonWithTitle:title backgroundImage:[UIImage imageNamedRenderingModeAlwaysOriginal:@"icon_white_left_arrow"]];
+    
+    return [self createDefaultBackButtonWithTitle:title backgroundImage:[[UIImage imageWithContentsOfFile:[[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"MXRBase" ofType:@"bundle"]] pathForResource:@"icon_white_left_arrow@3x" ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     /*V5.8.0 modified by MT.X*/
 }
     

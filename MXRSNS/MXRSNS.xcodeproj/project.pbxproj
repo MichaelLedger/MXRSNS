@@ -166,6 +166,7 @@
 		AA5D7C7921C0BB2600A32761 /* img_bookSNS_defaultBookIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7C6121C0BB2600A32761 /* img_bookSNS_defaultBookIcon@2x.png */; };
 		AA5D7C7A21C0BB2600A32761 /* icon_bookSNS_searchBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7C6221C0BB2600A32761 /* icon_bookSNS_searchBook@2x.png */; };
 		AA5D7C7B21C0BB2600A32761 /* img_bookSNS_jxTips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7C6321C0BB2600A32761 /* img_bookSNS_jxTips@2x.png */; };
+		AA5D7C7E21C0DB4700A32761 /* MXRBase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7C7D21C0DB4700A32761 /* MXRBase.bundle */; };
 		AAB374E121BF9B4C00417161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB374E021BF9B4C00417161 /* AppDelegate.m */; };
 		AAB374E721BF9B4C00417161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB374E521BF9B4C00417161 /* Main.storyboard */; };
 		AAB374EA21BF9B4C00417161 /* MXRSNS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB374E821BF9B4C00417161 /* MXRSNS.xcdatamodeld */; };
@@ -524,6 +525,7 @@
 		AA5D7C6121C0BB2600A32761 /* img_bookSNS_defaultBookIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_bookSNS_defaultBookIcon@2x.png"; sourceTree = "<group>"; };
 		AA5D7C6221C0BB2600A32761 /* icon_bookSNS_searchBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bookSNS_searchBook@2x.png"; sourceTree = "<group>"; };
 		AA5D7C6321C0BB2600A32761 /* img_bookSNS_jxTips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_bookSNS_jxTips@2x.png"; sourceTree = "<group>"; };
+		AA5D7C7D21C0DB4700A32761 /* MXRBase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MXRBase.bundle; sourceTree = "<group>"; };
 		AAB374DC21BF9B4C00417161 /* MXRSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXRSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB374DF21BF9B4C00417161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAB374E021BF9B4C00417161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1634,6 +1636,7 @@
 		AAB375B321BFAA8500417161 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AA5D7C7D21C0DB4700A32761 /* MXRBase.bundle */,
 				AAB375B421BFAA8500417161 /* MXRNavigationViewController.h */,
 				AAB375B521BFAA8500417161 /* MXRDefaultViewController.m */,
 				AAB375C221BFAA8500417161 /* Others */,
@@ -2051,6 +2054,7 @@
 				AA1F045221BFD9C5006B3E73 /* MXRBookSNSSearchBookBeforeView.xib in Resources */,
 				AA5D7C7621C0BB2600A32761 /* icon_bookSNSSearchBookBeforeView_bookIcon@2x.png in Resources */,
 				AA5D7C7221C0BB2600A32761 /* icon_common_bookStar_fill@2x.png in Resources */,
+				AA5D7C7E21C0DB4700A32761 /* MXRBase.bundle in Resources */,
 				AA5D7C6621C0BB2600A32761 /* icon_common_bookStar_empty@2x.png in Resources */,
 				AA5D7C7121C0BB2600A32761 /* btn_bookSNS_deletepicture_nor@2x.png in Resources */,
 				AA1F04FF21BFE59E006B3E73 /* MXRTopSearchView.xib in Resources */,

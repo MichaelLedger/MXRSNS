@@ -14,6 +14,7 @@
 + (instancetype)mxr_refreshBundle {
     static NSBundle *mxrRefreshBundle = nil;
     if (!mxrRefreshBundle) {
+//        mxrRefreshBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"MXRRefresh" ofType:@"bundle"]];
         // 这里不使用mainBundle是为了适配pod 1.x和0.x
         mxrRefreshBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[MXRChatLoadMoreDataHeader class]] pathForResource:@"MXRRefresh" ofType:@"bundle"]];
     }

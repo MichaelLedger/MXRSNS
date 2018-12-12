@@ -416,8 +416,6 @@ MXRBookSNSForwardTableViewCellDelegate
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadBookSNSData:) name:Notification_MXRBookSNS_ReloadData object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadALLBookSNSData:) name:Notification_MXRBookSNS_UpdateALLMoment object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadHotTopic:) name:Notification_MXRBookSNS_UpdateHotTopic object:nil];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoBookDetailBefore:) name:Notification_MXRBookSNS_GotoBookDetailBefore object:nil];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoBookDetailAfter:) name:Notification_MXRBookSNS_GotoBookDetailAfter object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(netDidChanged:) name:AFNetworkingReachabilityDidChangeNotification object:nil]; //监听网络变化
     //当去网络获取数据后，来通知该界面刷新请求结果
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showTabbar) name:Notification_MXRBookSNS_ShowTabbar object:nil]; //监听网络变化

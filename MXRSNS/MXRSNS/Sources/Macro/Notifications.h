@@ -408,14 +408,6 @@
  */
 #define Notification_MXRBookSNS_UpdateHotTopic  @"NotificationMXRBookSNSUpdateHotTopic"
 /**
- *梦想圈点击图书进入图书详情前
- */
-//#define Notification_MXRBookSNS_GotoBookDetailBefore  @"NotificationMXRBookSNSGotoBookDetailBefore  "
-/**
- *梦想圈点击图书进入图书详情后
- */
-//#define Notification_MXRBookSNS_GotoBookDetailAfter    @"NotificationMXRBookSNSGotoBookDetailAfter"
-/**
  *梦想圈显示tabbar
  */
 #define Notification_MXRBookSNS_ShowTabbar   @"NotificationMXRBookSNSShowTabbar"

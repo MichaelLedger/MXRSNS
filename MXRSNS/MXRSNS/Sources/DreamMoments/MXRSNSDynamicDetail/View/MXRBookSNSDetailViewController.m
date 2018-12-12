@@ -234,8 +234,6 @@ static NSString *deleteForwardcellIndent = @"deleteForwardcellIndent";
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(KeyboardShow:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardHide:) name:UIKeyboardWillHideNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(endRefresh) name:KNotificationNoMoreData object:nil];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoBookDetailBefore:) name:Notification_MXRBookSNS_GotoBookDetailBefore object:nil];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoBookDetailAfter:) name:Notification_MXRBookSNS_GotoBookDetailAfter object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hiddenTabbar) name:Notification_MXRBookSNS_ShowTabbar object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dynamicCommentHasDelete) name:HAS_DELETE_DYNAMIC object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hasDeleteDynamicWhenCreateComment:) name:HAS_DELETE_DYNAMIC_WHEN_COMMENT object:nil];

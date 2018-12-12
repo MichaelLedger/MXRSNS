@@ -595,8 +595,6 @@
 
 -(void)gotoBookDetail:(NSString *)bookGuid{
 //    [MXRBookManager defaultManager].downloadSourceType = MXRBookSNSToBookDetailDownloadType;
-////    [[NSNotificationCenter defaultCenter] postNotificationName:Notification_MXRBookSNS_GotoBookDetailBefore object:nil];
-//    
 //    /// 5.2.2 modify by Martin.liu
 //    DDYBookDetailViewController *bookDetailViewCon = [[DDYBookDetailViewController alloc] init];
 //    bookDetailViewCon.bookGuid = bookGuid;

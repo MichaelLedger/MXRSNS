@@ -445,8 +445,6 @@ static float downLabelHigh = 12.0f;
 }
 
 -(void)p_addobserver{
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoBookDetailBefore:) name:Notification_MXRBookSNS_GotoBookDetailBefore object:nil];
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoBookDetailAfter:) name:Notification_MXRBookSNS_GotoBookDetailAfter object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reFreshTable) name:Notification_MXRBookSNS_UpdateALLMoment object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reFreshTable) name:Notification_MXRBookSNS_ReloadData object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hiddenTabbar) name:Notification_MXRBookSNS_ShowTabbar object:nil];

@@ -234,7 +234,6 @@
 		AAB376D621BFBA4F00417161 /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3761D21BFBA4F00417161 /* NSString+Sha1.m */; };
 		AAB376EF21BFBA5000417161 /* BasicNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3765E21BFBA4F00417161 /* BasicNetwork.m */; };
 		AAB3777121BFBA9500417161 /* MXRUserSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3774721BFBA9500417161 /* MXRUserSettingsManager.m */; };
-		AAB3777321BFBA9500417161 /* MXRBookReadRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3774A21BFBA9500417161 /* MXRBookReadRecord.m */; };
 		AAB3777E21BFBBC200417161 /* MXRDataStatisticsNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3777C21BFBBC100417161 /* MXRDataStatisticsNetworkManager.m */; };
 		AAB3778921BFBEE300417161 /* MXROneMinuteNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3778021BFBEE100417161 /* MXROneMinuteNetworkManager.m */; };
 		AAB3778A21BFBEE300417161 /* MXROneMinuteDataAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3778221BFBEE100417161 /* MXROneMinuteDataAnalysis.m */; };
@@ -621,8 +620,6 @@
 		AAB375C521BFAA8500417161 /* MXRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRScrollView.m; sourceTree = "<group>"; };
 		AAB375C721BFAA8500417161 /* MXRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRNavigationViewController.m; sourceTree = "<group>"; };
 		AAB375C821BFAA8500417161 /* MXRDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRDefaultViewController.h; sourceTree = "<group>"; };
-		AAB375C921BFAA8500417161 /* MXRTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRTabBarViewController.h; sourceTree = "<group>"; };
-		AAB375D421BFAAFD00417161 /* ALLNetworkURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLNetworkURL.h; sourceTree = "<group>"; };
 		AAB375D521BFAAFE00417161 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
 		AAB375D621BFAAFE00417161 /* UserDefaultKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultKey.h; sourceTree = "<group>"; };
 		AAB375D721BFAAFE00417161 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
@@ -680,8 +677,6 @@
 		AAB3765E21BFBA4F00417161 /* BasicNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNetwork.m; sourceTree = "<group>"; };
 		AAB376D521BFBA4F00417161 /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
 		AAB3774721BFBA9500417161 /* MXRUserSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRUserSettingsManager.m; sourceTree = "<group>"; };
-		AAB3774A21BFBA9500417161 /* MXRBookReadRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRBookReadRecord.m; sourceTree = "<group>"; };
-		AAB3774B21BFBA9500417161 /* MXRBookReadRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBookReadRecord.h; sourceTree = "<group>"; };
 		AAB3774E21BFBA9500417161 /* MXRUserSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRUserSettingsManager.h; sourceTree = "<group>"; };
 		AAB3777C21BFBBC100417161 /* MXRDataStatisticsNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRDataStatisticsNetworkManager.m; sourceTree = "<group>"; };
 		AAB3777D21BFBBC200417161 /* MXRDataStatisticsNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRDataStatisticsNetworkManager.h; sourceTree = "<group>"; };
@@ -759,32 +754,34 @@
 		AA1F038B21BFD9C3006B3E73 /* DreamMoments */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F038C21BFD9C3006B3E73 /* BookSNSDetail */,
-				AA1F03B021BFD9C3006B3E73 /* BookSNSSendDetail */,
-				AA1F03E721BFD9C3006B3E73 /* DynamicPraiseDetail */,
-				AA1F03EE21BFD9C3006B3E73 /* Topics */,
-				AA1F03FB21BFD9C3006B3E73 /* BookSNS */,
+				AA1F03FB21BFD9C3006B3E73 /* MXRSNSDynamics */,
+				AA1F038C21BFD9C3006B3E73 /* MXRSNSDynamicDetail */,
+				AA1F03E721BFD9C3006B3E73 /* MXRSNSDynamicPraiseDetail */,
+				AA1F03B021BFD9C3006B3E73 /* MXRSNSDynamicSend */,
+				AA1F03C621BFD9C3006B3E73 /* MXRSNSBookSearch */,
+				AA1F03EE21BFD9C3006B3E73 /* MXRSNSTopics */,
+				AA1F03DB21BFD9C3006B3E73 /* MXRSNSTopicSearch */,
 			);
 			path = DreamMoments;
 			sourceTree = "<group>";
 		};
-		AA1F038C21BFD9C3006B3E73 /* BookSNSDetail */ = {
+		AA1F038C21BFD9C3006B3E73 /* MXRSNSDynamicDetail */ = {
 			isa = PBXGroup;
 			children = (
 				AA1F038D21BFD9C3006B3E73 /* Controller */,
 				AA1F039221BFD9C3006B3E73 /* Model */,
 				AA1F03A121BFD9C3006B3E73 /* View */,
 			);
-			path = BookSNSDetail;
+			path = MXRSNSDynamicDetail;
 			sourceTree = "<group>";
 		};
 		AA1F038D21BFD9C3006B3E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F038E21BFD9C3006B3E73 /* MXRBookSNSDetailManager.h */,
 				AA1F038F21BFD9C3006B3E73 /* MXRBookSNSDetailController.h */,
-				AA1F039021BFD9C3006B3E73 /* MXRBookSNSDetailManager.m */,
 				AA1F039121BFD9C3006B3E73 /* MXRBookSNSDetailController.m */,
+				AA1F038E21BFD9C3006B3E73 /* MXRBookSNSDetailManager.h */,
+				AA1F039021BFD9C3006B3E73 /* MXRBookSNSDetailManager.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -792,75 +789,75 @@
 		AA1F039221BFD9C3006B3E73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F039321BFD9C3006B3E73 /* 评论列表 */,
-				AA1F039C21BFD9C3006B3E73 /* 点赞列表 */,
+				AA1F039321BFD9C3006B3E73 /* Comment */,
+				AA1F039C21BFD9C3006B3E73 /* Praise */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		AA1F039321BFD9C3006B3E73 /* 评论列表 */ = {
+		AA1F039321BFD9C3006B3E73 /* Comment */ = {
 			isa = PBXGroup;
 			children = (
 				AA1F039421BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.h */,
-				AA1F039521BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.m */,
-				AA1F039621BFD9C3006B3E73 /* MXRBookSNSDetailModel.m */,
-				AA1F039721BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.h */,
 				AA1F039821BFD9C3006B3E73 /* MXRBookSNSDetailCommentListModel.m */,
-				AA1F039921BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.m */,
 				AA1F039A21BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.h */,
+				AA1F039521BFD9C3006B3E73 /* MXRBookSNSDetailCommentsModel.m */,
+				AA1F039721BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.h */,
+				AA1F039921BFD9C3006B3E73 /* MXRBookSNSDetailDynamicModel.m */,
 				AA1F039B21BFD9C3006B3E73 /* MXRBookSNSDetailModel.h */,
+				AA1F039621BFD9C3006B3E73 /* MXRBookSNSDetailModel.m */,
 			);
-			path = "评论列表";
+			path = Comment;
 			sourceTree = "<group>";
 		};
-		AA1F039C21BFD9C3006B3E73 /* 点赞列表 */ = {
+		AA1F039C21BFD9C3006B3E73 /* Praise */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F039D21BFD9C3006B3E73 /* MXRBookSNSPraiseModel.h */,
 				AA1F039E21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.h */,
 				AA1F039F21BFD9C3006B3E73 /* MXRBookSNSPraiseListModel.m */,
+				AA1F039D21BFD9C3006B3E73 /* MXRBookSNSPraiseModel.h */,
 				AA1F03A021BFD9C3006B3E73 /* MXRBookSNSPraiseModel.m */,
 			);
-			path = "点赞列表";
+			path = Praise;
 			sourceTree = "<group>";
 		};
 		AA1F03A121BFD9C3006B3E73 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F03A221BFD9C3006B3E73 /* MXRSNSCommentView.m */,
-				AA1F03A321BFD9C3006B3E73 /* MXRBookSNSDetailViewController.m */,
-				AA1F03A421BFD9C3006B3E73 /* MXRSNSCommentView.xib */,
-				AA1F03A521BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.xib */,
-				AA1F03A621BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.m */,
-				AA1F03A721BFD9C3006B3E73 /* MXRDynamicHasDeleteView.h */,
 				AA1F03A821BFD9C3006B3E73 /* MXRBookSNSDetailFootView.h */,
-				AA1F03A921BFD9C3006B3E73 /* MXRBookSNSDetailFootView.xib */,
-				AA1F03AA21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.xib */,
-				AA1F03AB21BFD9C3006B3E73 /* MXRBookSNSDetailViewController.h */,
-				AA1F03AC21BFD9C3006B3E73 /* MXRSNSCommentView.h */,
-				AA1F03AD21BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.h */,
 				AA1F03AE21BFD9C3006B3E73 /* MXRBookSNSDetailFootView.m */,
+				AA1F03A921BFD9C3006B3E73 /* MXRBookSNSDetailFootView.xib */,
+				AA1F03AD21BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.h */,
+				AA1F03A621BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.m */,
+				AA1F03A521BFD9C3006B3E73 /* MXRBookSNSDetailTableViewCell.xib */,
+				AA1F03AB21BFD9C3006B3E73 /* MXRBookSNSDetailViewController.h */,
+				AA1F03A321BFD9C3006B3E73 /* MXRBookSNSDetailViewController.m */,
+				AA1F03A721BFD9C3006B3E73 /* MXRDynamicHasDeleteView.h */,
 				AA1F03AF21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.m */,
+				AA1F03AA21BFD9C3006B3E73 /* MXRDynamicHasDeleteView.xib */,
+				AA1F03AC21BFD9C3006B3E73 /* MXRSNSCommentView.h */,
+				AA1F03A221BFD9C3006B3E73 /* MXRSNSCommentView.m */,
+				AA1F03A421BFD9C3006B3E73 /* MXRSNSCommentView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		AA1F03B021BFD9C3006B3E73 /* BookSNSSendDetail */ = {
+		AA1F03B021BFD9C3006B3E73 /* MXRSNSDynamicSend */ = {
 			isa = PBXGroup;
 			children = (
 				AA1F03B121BFD9C3006B3E73 /* Controller */,
 				AA1F03B621BFD9C3006B3E73 /* Model */,
 				AA1F03C121BFD9C3006B3E73 /* View */,
 			);
-			path = BookSNSSendDetail;
+			path = MXRSNSDynamicSend;
 			sourceTree = "<group>";
 		};
 		AA1F03B121BFD9C3006B3E73 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F03B221BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.h */,
-				AA1F03B321BFD9C3006B3E73 /* MXRBookSNSSendDetailController.m */,
 				AA1F03B421BFD9C3006B3E73 /* MXRBookSNSSendDetailController.h */,
+				AA1F03B321BFD9C3006B3E73 /* MXRBookSNSSendDetailController.m */,
+				AA1F03B221BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.h */,
 				AA1F03B521BFD9C3006B3E73 /* MXRBookSNSSendDetailManager.m */,
 			);
 			path = Controller;
@@ -869,16 +866,16 @@
 		AA1F03B621BFD9C3006B3E73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F03B721BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.h */,
-				AA1F03B821BFD9C3006B3E73 /* MXRSearchTopicModel.m */,
-				AA1F03B921BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.m */,
-				AA1F03BA21BFD9C3006B3E73 /* MXRBookStarModel.m */,
 				AA1F03BB21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.h */,
-				AA1F03BC21BFD9C3006B3E73 /* MXRSearchTopicModel.h */,
-				AA1F03BD21BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.m */,
 				AA1F03BE21BFD9C3006B3E73 /* MXRBookSNSSendDetailProxy.m */,
+				AA1F03B721BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.h */,
+				AA1F03BD21BFD9C3006B3E73 /* MXRBookSNSUploadImageInfo.m */,
 				AA1F03BF21BFD9C3006B3E73 /* MXRBookStarModel.h */,
+				AA1F03BA21BFD9C3006B3E73 /* MXRBookStarModel.m */,
 				AA1F03C021BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.h */,
+				AA1F03B921BFD9C3006B3E73 /* MXRQiNiuUploadTokenModel.m */,
+				AA1F03BC21BFD9C3006B3E73 /* MXRSearchTopicModel.h */,
+				AA1F03B821BFD9C3006B3E73 /* MXRSearchTopicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -886,84 +883,51 @@
 		AA1F03C121BFD9C3006B3E73 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F03C221BFD9C3006B3E73 /* MXRSNSSendStateViewController.xib */,
 				AA1F03C321BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.h */,
-				AA1F03C421BFD9C3006B3E73 /* MXRSNSSendStateViewController.m */,
-				AA1F03C521BFD9C3006B3E73 /* MXRTextView.h */,
-				AA1F03C621BFD9C3006B3E73 /* SearchBook */,
-				AA1F03DB21BFD9C3006B3E73 /* SearchTopic */,
-				AA1F03E321BFD9C3006B3E73 /* MXRTextView.m */,
-				AA1F03E421BFD9C3006B3E73 /* MXRSNSSendStateViewController.h */,
 				AA1F03E521BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.m */,
 				AA1F03E621BFD9C3006B3E73 /* MXRHaveDoneSelectImageCell.xib */,
+				AA1F03E421BFD9C3006B3E73 /* MXRSNSSendStateViewController.h */,
+				AA1F03C421BFD9C3006B3E73 /* MXRSNSSendStateViewController.m */,
+				AA1F03C221BFD9C3006B3E73 /* MXRSNSSendStateViewController.xib */,
+				AA1F03C521BFD9C3006B3E73 /* MXRTextView.h */,
+				AA1F03E321BFD9C3006B3E73 /* MXRTextView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		AA1F03C621BFD9C3006B3E73 /* SearchBook */ = {
+		AA1F03C621BFD9C3006B3E73 /* MXRSNSBookSearch */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F04E421BFE308006B3E73 /* MXRSubjectInfoModel.h */,
-				AA1F04E321BFE307006B3E73 /* MXRSubjectInfoModel.m */,
-				AA1F03C721BFD9C3006B3E73 /* MXRSNSSearchNoBookView.h */,
-				AA1F03C821BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.m */,
-				AA1F03C921BFD9C3006B3E73 /* MXRSNSSearchBookCell.xib */,
-				AA1F03CA21BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.m */,
-				AA1F03CB21BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.xib */,
-				AA1F03CC21BFD9C3006B3E73 /* MXRSNSSearchBookViewController.m */,
-				AA1F03CD21BFD9C3006B3E73 /* MXRSNSSearchBookCell.m */,
-				AA1F03CE21BFD9C3006B3E73 /* MXRSNSSearchNoBookView.xib */,
-				AA1F03CF21BFD9C3006B3E73 /* MXRSearchBookFromBookStore.m */,
-				AA1F03D021BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.h */,
-				AA1F03D121BFD9C3006B3E73 /* MXRSearchBookFromBookStore.xib */,
-				AA1F03D221BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.xib */,
-				AA1F03D321BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.h */,
-				AA1F03D421BFD9C3006B3E73 /* MXRSNSSearchNoBookView.m */,
-				AA1F03D521BFD9C3006B3E73 /* MXRSearchBookFromBookStore.h */,
-				AA1F03D621BFD9C3006B3E73 /* MXRSNSSearchBookCell.h */,
-				AA1F03D721BFD9C3006B3E73 /* MXRSNSSearchBookViewController.h */,
-				AA1F03D821BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.h */,
-				AA1F03D921BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.m */,
-				AA1F03DA21BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.xib */,
+				AA5D7C8621C0E35700A32761 /* Model */,
+				AA5D7C8721C0E35B00A32761 /* View */,
 			);
-			path = SearchBook;
+			path = MXRSNSBookSearch;
 			sourceTree = "<group>";
 		};
-		AA1F03DB21BFD9C3006B3E73 /* SearchTopic */ = {
+		AA1F03DB21BFD9C3006B3E73 /* MXRSNSTopicSearch */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F03DC21BFD9C3006B3E73 /* MXRAllTopicViewController.h */,
-				AA1F03DD21BFD9C3006B3E73 /* MXRSearchTopicViewController.m */,
-				AA1F03DE21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.xib */,
-				AA1F03DF21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.m */,
-				AA1F03E021BFD9C3006B3E73 /* MXRSearchTopicViewController.h */,
-				AA1F03E121BFD9C3006B3E73 /* MXRAllTopicViewController.m */,
-				AA1F03E221BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.h */,
+				AA5D7C8821C0E45100A32761 /* View */,
 			);
-			path = SearchTopic;
+			path = MXRSNSTopicSearch;
 			sourceTree = "<group>";
 		};
-		AA1F03E721BFD9C3006B3E73 /* DynamicPraiseDetail */ = {
+		AA1F03E721BFD9C3006B3E73 /* MXRSNSDynamicPraiseDetail */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F03E821BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.h */,
-				AA1F03E921BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.xib */,
-				AA1F03EA21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.xib */,
-				AA1F03EB21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.m */,
-				AA1F03EC21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.m */,
-				AA1F03ED21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.h */,
+				AA5D7C8421C0E08900A32761 /* View */,
 			);
-			path = DynamicPraiseDetail;
+			path = MXRSNSDynamicPraiseDetail;
 			sourceTree = "<group>";
 		};
-		AA1F03EE21BFD9C3006B3E73 /* Topics */ = {
+		AA1F03EE21BFD9C3006B3E73 /* MXRSNSTopics */ = {
 			isa = PBXGroup;
 			children = (
 				AA1F03EF21BFD9C3006B3E73 /* Controller */,
 				AA1F03F221BFD9C3006B3E73 /* Model */,
 				AA1F03F721BFD9C3006B3E73 /* View */,
 			);
-			path = Topics;
+			path = MXRSNSTopics;
 			sourceTree = "<group>";
 		};
 		AA1F03EF21BFD9C3006B3E73 /* Controller */ = {
@@ -979,8 +943,8 @@
 			isa = PBXGroup;
 			children = (
 				AA1F03F321BFD9C3006B3E73 /* MXRTopicModel.h */,
-				AA1F03F421BFD9C3006B3E73 /* MXRTopicProxy.h */,
 				AA1F03F521BFD9C3006B3E73 /* MXRTopicModel.m */,
+				AA1F03F421BFD9C3006B3E73 /* MXRTopicProxy.h */,
 				AA1F03F621BFD9C3006B3E73 /* MXRTopicProxy.m */,
 			);
 			path = Model;
@@ -996,14 +960,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		AA1F03FB21BFD9C3006B3E73 /* BookSNS */ = {
+		AA1F03FB21BFD9C3006B3E73 /* MXRSNSDynamics */ = {
 			isa = PBXGroup;
 			children = (
 				AA1F03FC21BFD9C3006B3E73 /* Controller */,
 				AA1F03FF21BFD9C3006B3E73 /* Model */,
 				AA1F040E21BFD9C3006B3E73 /* VIew */,
 			);
-			path = BookSNS;
+			path = MXRSNSDynamics;
 			sourceTree = "<group>";
 		};
 		AA1F03FC21BFD9C3006B3E73 /* Controller */ = {
@@ -1018,20 +982,20 @@
 		AA1F03FF21BFD9C3006B3E73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F040021BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.h */,
-				AA1F040121BFD9C3006B3E73 /* MXRBookSNSModelProxy.h */,
-				AA1F040221BFD9C3006B3E73 /* MXRSNSBlackListModel.h */,
-				AA1F040321BFD9C3006B3E73 /* MXRSNSShareModel.m */,
-				AA1F040421BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m */,
-				AA1F040521BFD9C3006B3E73 /* MXRBookSNSBannerModel.m */,
-				AA1F040621BFD9C3006B3E73 /* MXRBookSNSCommentModel.m */,
-				AA1F040721BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m */,
-				AA1F040821BFD9C3006B3E73 /* MXRSNSBlackListModel.m */,
-				AA1F040921BFD9C3006B3E73 /* MXRBookSNSModelProxy.m */,
-				AA1F040A21BFD9C3006B3E73 /* MXRBookSNSCommentModel.h */,
 				AA1F040B21BFD9C3006B3E73 /* MXRBookSNSBannerModel.h */,
+				AA1F040521BFD9C3006B3E73 /* MXRBookSNSBannerModel.m */,
+				AA1F040A21BFD9C3006B3E73 /* MXRBookSNSCommentModel.h */,
+				AA1F040621BFD9C3006B3E73 /* MXRBookSNSCommentModel.m */,
+				AA1F040121BFD9C3006B3E73 /* MXRBookSNSModelProxy.h */,
+				AA1F040921BFD9C3006B3E73 /* MXRBookSNSModelProxy.m */,
+				AA1F040021BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.h */,
+				AA1F040721BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadManager.m */,
 				AA1F040C21BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.h */,
+				AA1F040421BFD9C3006B3E73 /* MXRBookSNSMomentStatusNoUploadModel.m */,
+				AA1F040221BFD9C3006B3E73 /* MXRSNSBlackListModel.h */,
+				AA1F040821BFD9C3006B3E73 /* MXRSNSBlackListModel.m */,
 				AA1F040D21BFD9C3006B3E73 /* MXRSNSShareModel.h */,
+				AA1F040321BFD9C3006B3E73 /* MXRSNSShareModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1039,41 +1003,41 @@
 		AA1F040E21BFD9C3006B3E73 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F041421BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.h */,
+				AA1F042721BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m */,
+				AA1F041E21BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib */,
+				AA1F042A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.h */,
+				AA1F041A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.m */,
+				AA1F042421BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.xib */,
+				AA1F042921BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.h */,
+				AA1F041C21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m */,
+				AA1F042E21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib */,
+				AA1F040F21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.h */,
+				AA1F041D21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.m */,
+				AA1F042C21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.h */,
+				AA1F041821BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.m */,
+				AA1F041621BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.h */,
+				AA1F042521BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m */,
+				AA1F041B21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib */,
+				AA1F042B21BFD9C4006B3E73 /* MXRBookSNSMomentImageView.h */,
+				AA1F041921BFD9C4006B3E73 /* MXRBookSNSMomentImageView.m */,
+				AA1F042821BFD9C4006B3E73 /* MXRBookSNSTableViewCell.h */,
+				AA1F041321BFD9C4006B3E73 /* MXRBookSNSTableViewCell.m */,
+				AA1F042221BFD9C4006B3E73 /* MXRBookSNSTableViewCell.xib */,
+				AA1F041F21BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.h */,
+				AA1F041221BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.m */,
+				AA1F042621BFD9C4006B3E73 /* MXRBookSNSViewController.h */,
+				AA1F041521BFD9C4006B3E73 /* MXRBookSNSViewController.m */,
+				AA1F042321BFD9C4006B3E73 /* MXRBookSNSViewController.xib */,
+				AA1F042D21BFD9C4006B3E73 /* MXRPreviewImageViewController.h */,
+				AA1F041721BFD9C4006B3E73 /* MXRPreviewImageViewController.m */,
+				AA1F041121BFD9C4006B3E73 /* MXRQuestionBanner.h */,
+				AA1F042021BFD9C4006B3E73 /* MXRQuestionBanner.m */,
+				AA1F041021BFD9C4006B3E73 /* MXRQuestionBannerCell.h */,
+				AA1F042121BFD9C4006B3E73 /* MXRQuestionBannerCell.m */,
 				AA1F050D21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.h */,
 				AA1F050C21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.m */,
 				AA1F050B21BFE7A3006B3E73 /* MXRSNSSendMsgGuideView.xib */,
-				AA1F040F21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.h */,
-				AA1F041021BFD9C4006B3E73 /* MXRQuestionBannerCell.h */,
-				AA1F041121BFD9C4006B3E73 /* MXRQuestionBanner.h */,
-				AA1F041221BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.m */,
-				AA1F041321BFD9C4006B3E73 /* MXRBookSNSTableViewCell.m */,
-				AA1F041421BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.h */,
-				AA1F041521BFD9C4006B3E73 /* MXRBookSNSViewController.m */,
-				AA1F041621BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.h */,
-				AA1F041721BFD9C4006B3E73 /* MXRPreviewImageViewController.m */,
-				AA1F041821BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.m */,
-				AA1F041921BFD9C4006B3E73 /* MXRBookSNSMomentImageView.m */,
-				AA1F041A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.m */,
-				AA1F041B21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.xib */,
-				AA1F041C21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.m */,
-				AA1F041D21BFD9C4006B3E73 /* MXRBookSNSHeadVIew.m */,
-				AA1F041E21BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.xib */,
-				AA1F041F21BFD9C4006B3E73 /* MXRBookSNSUserHandleMomentView.h */,
-				AA1F042021BFD9C4006B3E73 /* MXRQuestionBanner.m */,
-				AA1F042121BFD9C4006B3E73 /* MXRQuestionBannerCell.m */,
-				AA1F042221BFD9C4006B3E73 /* MXRBookSNSTableViewCell.xib */,
-				AA1F042321BFD9C4006B3E73 /* MXRBookSNSViewController.xib */,
-				AA1F042421BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.xib */,
-				AA1F042521BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollectionViewCell.m */,
-				AA1F042621BFD9C4006B3E73 /* MXRBookSNSViewController.h */,
-				AA1F042721BFD9C4006B3E73 /* MXRBookSNSDeleteForwardTableViewCell.m */,
-				AA1F042821BFD9C4006B3E73 /* MXRBookSNSTableViewCell.h */,
-				AA1F042921BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.h */,
-				AA1F042A21BFD9C4006B3E73 /* MXRBookSNSForwardTableViewCell.h */,
-				AA1F042B21BFD9C4006B3E73 /* MXRBookSNSMomentImageView.h */,
-				AA1F042C21BFD9C4006B3E73 /* MXRBookSNSMomentImageDetailCollection.h */,
-				AA1F042D21BFD9C4006B3E73 /* MXRPreviewImageViewController.h */,
-				AA1F042E21BFD9C4006B3E73 /* MXRBookSNSHeadTopicCollectionViewCell.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -1115,31 +1079,31 @@
 		AA1F048E21BFD9F2006B3E73 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F048F21BFD9F2006B3E73 /* MXRShowAlertView.m */,
-				AA1F049021BFD9F2006B3E73 /* MXRAlbumListViewController.h */,
-				AA1F049121BFD9F2006B3E73 /* MXRSelecImageLocalCell.m */,
-				AA1F049221BFD9F2006B3E73 /* MXRALbumInformationCell.m */,
-				AA1F049321BFD9F2006B3E73 /* MXRShareVideoViewController.m */,
-				AA1F049421BFD9F2006B3E73 /* MXRPreViewViewController.m */,
-				AA1F049521BFD9F2006B3E73 /* MXRShareVideoViewController.xib */,
-				AA1F049621BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib */,
-				AA1F049721BFD9F2006B3E73 /* MXRPreviewVideoCell.m */,
-				AA1F049821BFD9F2006B3E73 /* MXRALbumInformationCell.xib */,
-				AA1F049921BFD9F2006B3E73 /* MXRAlbumListViewController.xib */,
-				AA1F049A21BFD9F2006B3E73 /* MXRPreViewCell.m */,
-				AA1F049B21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.h */,
-				AA1F049C21BFD9F2006B3E73 /* MXRShowAlertView.h */,
-				AA1F049D21BFD9F2006B3E73 /* MXRPreViewViewController.xib */,
 				AA1F049E21BFD9F2006B3E73 /* MXRALbumInformationCell.h */,
-				AA1F049F21BFD9F2006B3E73 /* MXRSelecImageLocalCell.h */,
+				AA1F049221BFD9F2006B3E73 /* MXRALbumInformationCell.m */,
+				AA1F049821BFD9F2006B3E73 /* MXRALbumInformationCell.xib */,
+				AA1F049021BFD9F2006B3E73 /* MXRAlbumListViewController.h */,
 				AA1F04A021BFD9F2006B3E73 /* MXRAlbumListViewController.m */,
-				AA1F04A121BFD9F2006B3E73 /* MXRShowAlertView.xib */,
-				AA1F04A221BFD9F2006B3E73 /* MXRPreViewViewController.h */,
-				AA1F04A321BFD9F2006B3E73 /* MXRShareVideoViewController.h */,
-				AA1F04A421BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib */,
-				AA1F04A521BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m */,
+				AA1F049921BFD9F2006B3E73 /* MXRAlbumListViewController.xib */,
 				AA1F04A621BFD9F2006B3E73 /* MXRPreviewCell.h */,
+				AA1F049A21BFD9F2006B3E73 /* MXRPreViewCell.m */,
 				AA1F04A721BFD9F2006B3E73 /* MXRPreviewVideoCell.h */,
+				AA1F049721BFD9F2006B3E73 /* MXRPreviewVideoCell.m */,
+				AA1F04A221BFD9F2006B3E73 /* MXRPreViewViewController.h */,
+				AA1F049421BFD9F2006B3E73 /* MXRPreViewViewController.m */,
+				AA1F049D21BFD9F2006B3E73 /* MXRPreViewViewController.xib */,
+				AA1F049F21BFD9F2006B3E73 /* MXRSelecImageLocalCell.h */,
+				AA1F049121BFD9F2006B3E73 /* MXRSelecImageLocalCell.m */,
+				AA1F049621BFD9F2006B3E73 /* MXRSelecImageLocalCell.xib */,
+				AA1F049B21BFD9F2006B3E73 /* MXRSelectImageLocalViewController.h */,
+				AA1F04A521BFD9F2006B3E73 /* MXRSelectImageLocalViewController.m */,
+				AA1F04A421BFD9F2006B3E73 /* MXRSelectImageLocalViewController.xib */,
+				AA1F04A321BFD9F2006B3E73 /* MXRShareVideoViewController.h */,
+				AA1F049321BFD9F2006B3E73 /* MXRShareVideoViewController.m */,
+				AA1F049521BFD9F2006B3E73 /* MXRShareVideoViewController.xib */,
+				AA1F049C21BFD9F2006B3E73 /* MXRShowAlertView.h */,
+				AA1F048F21BFD9F2006B3E73 /* MXRShowAlertView.m */,
+				AA1F04A121BFD9F2006B3E73 /* MXRShowAlertView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1292,6 +1256,8 @@
 		AA5D7C4A21C0BB2600A32761 /* SNS */ = {
 			isa = PBXGroup;
 			children = (
+				AA5D7C5C21C0BB2600A32761 /* img_bookSNS_bannerShadow@2x.png */,
+				AA5D7C5D21C0BB2600A32761 /* img_bookSNS_topicPlaceholder@2x.png */,
 				AA5D7C4B21C0BB2600A32761 /* btn_searchTopicVC_search@2x.png */,
 				AA5D7C4C21C0BB2600A32761 /* btn_bookSNS_moreHandle@2x.png */,
 				AA5D7C4D21C0BB2600A32761 /* icon_common_bookStar_empty@2x.png */,
@@ -1308,7 +1274,6 @@
 				AA5D7C5821C0BB2600A32761 /* btn_bookSNS_deletepicture_nor@2x.png */,
 				AA5D7C5921C0BB2600A32761 /* icon_common_bookStar_fill@2x.png */,
 				AA5D7C5A21C0BB2600A32761 /* btn_bookSNS_like@2x.png */,
-				AA5D7C5B21C0BB2600A32761 /* Topic */,
 				AA5D7C5E21C0BB2600A32761 /* icon_bookSNSSearchBookBeforeView_bookIcon@2x.png */,
 				AA5D7C5F21C0BB2600A32761 /* btn_bookSNSVC_creatSNSStatus@2x.png */,
 				AA5D7C6021C0BB2600A32761 /* img_common_noSearchBook@2x.png */,
@@ -1319,13 +1284,134 @@
 			path = SNS;
 			sourceTree = "<group>";
 		};
-		AA5D7C5B21C0BB2600A32761 /* Topic */ = {
+		AA5D7C7F21C0DEA300A32761 /* NSFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				AA5D7C5C21C0BB2600A32761 /* img_bookSNS_bannerShadow@2x.png */,
-				AA5D7C5D21C0BB2600A32761 /* img_bookSNS_topicPlaceholder@2x.png */,
+				AAB3757B21BFA6A800417161 /* NSFileManager+MXRExtend.h */,
+				AAB3758521BFA6A800417161 /* NSFileManager+MXRExtend.m */,
 			);
-			path = Topic;
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		AA5D7C8021C0DF1E00A32761 /* NSIndexSet */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3757D21BFA6A800417161 /* NSIndexSet+Convenience.h */,
+				AAB3757521BFA6A800417161 /* NSIndexSet+Convenience.m */,
+			);
+			path = NSIndexSet;
+			sourceTree = "<group>";
+		};
+		AA5D7C8121C0DF2F00A32761 /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3758121BFA6A800417161 /* NSURL+Ex.h */,
+				AAB3757721BFA6A800417161 /* NSURL+Ex.m */,
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		AA5D7C8221C0DF7000A32761 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3757F21BFA6A800417161 /* UICollectionView+Convenience.h */,
+				AAB3757921BFA6A800417161 /* UICollectionView+Convenience.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		AA5D7C8321C0DF8900A32761 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3758321BFA6A800417161 /* UIViewController+Ex.h */,
+				AAB3757C21BFA6A800417161 /* UIViewController+Ex.m */,
+				AAB3757A21BFA6A800417161 /* UIViewController+MXRUIFit.h */,
+				AAB3758421BFA6A800417161 /* UIViewController+MXRUIFit.m */,
+				AAB3757821BFA6A800417161 /* UIViewController+ScreenZoonOut.h */,
+				AAB3758021BFA6A800417161 /* UIViewController+ScreenZoonOut.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		AA5D7C8421C0E08900A32761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03ED21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.h */,
+				AA1F03EB21BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.m */,
+				AA1F03E921BFD9C3006B3E73 /* MXRSNSPraiseDetailViewController.xib */,
+				AA1F03E821BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.h */,
+				AA1F03EC21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.m */,
+				AA1F03EA21BFD9C3006B3E73 /* MXRSNSPraiseListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA5D7C8621C0E35700A32761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F04E421BFE308006B3E73 /* MXRSubjectInfoModel.h */,
+				AA1F04E321BFE307006B3E73 /* MXRSubjectInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA5D7C8721C0E35B00A32761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03D021BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.h */,
+				AA1F03D921BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.m */,
+				AA1F03DA21BFD9C3006B3E73 /* MXRBookSNSSearchBookAfterView.xib */,
+				AA1F03D821BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.h */,
+				AA1F03CA21BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.m */,
+				AA1F03D221BFD9C3006B3E73 /* MXRBookSNSSearchBookBeforeView.xib */,
+				AA1F03D321BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.h */,
+				AA1F03C821BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.m */,
+				AA1F03CB21BFD9C3006B3E73 /* MXRBookSNSSearchZoneView.xib */,
+				AA1F03D521BFD9C3006B3E73 /* MXRSearchBookFromBookStore.h */,
+				AA1F03CF21BFD9C3006B3E73 /* MXRSearchBookFromBookStore.m */,
+				AA1F03D121BFD9C3006B3E73 /* MXRSearchBookFromBookStore.xib */,
+				AA1F03D621BFD9C3006B3E73 /* MXRSNSSearchBookCell.h */,
+				AA1F03CD21BFD9C3006B3E73 /* MXRSNSSearchBookCell.m */,
+				AA1F03C921BFD9C3006B3E73 /* MXRSNSSearchBookCell.xib */,
+				AA1F03D721BFD9C3006B3E73 /* MXRSNSSearchBookViewController.h */,
+				AA1F03CC21BFD9C3006B3E73 /* MXRSNSSearchBookViewController.m */,
+				AA1F03C721BFD9C3006B3E73 /* MXRSNSSearchNoBookView.h */,
+				AA1F03D421BFD9C3006B3E73 /* MXRSNSSearchNoBookView.m */,
+				AA1F03CE21BFD9C3006B3E73 /* MXRSNSSearchNoBookView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA5D7C8821C0E45100A32761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F03DC21BFD9C3006B3E73 /* MXRAllTopicViewController.h */,
+				AA1F03E121BFD9C3006B3E73 /* MXRAllTopicViewController.m */,
+				AA1F03E221BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.h */,
+				AA1F03DF21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.m */,
+				AA1F03DE21BFD9C3006B3E73 /* MXRSearchTopicTableViewCell.xib */,
+				AA1F03E021BFD9C3006B3E73 /* MXRSearchTopicViewController.h */,
+				AA1F03DD21BFD9C3006B3E73 /* MXRSearchTopicViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA5D7C8921C0E4AA00A32761 /* MXRScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB375C421BFAA8500417161 /* MXRScrollView.h */,
+				AAB375C521BFAA8500417161 /* MXRScrollView.m */,
+			);
+			path = MXRScrollView;
+			sourceTree = "<group>";
+		};
+		AA5D7C8A21C0E9DC00A32761 /* BasicNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3761C21BFBA4F00417161 /* BasicNetwork.h */,
+				AAB3765E21BFBA4F00417161 /* BasicNetwork.m */,
+			);
+			path = BasicNetwork;
 			sourceTree = "<group>";
 		};
 		AAB374D321BF9B4C00417161 = {
@@ -1392,10 +1478,7 @@
 			children = (
 				AA1F038B21BFD9C3006B3E73 /* DreamMoments */,
 				AAB375B321BFAA8500417161 /* Base */,
-				AAB3771E21BFBA9500417161 /* ClientManager */,
 				AAB3761B21BFBA4F00417161 /* AllNetwok */,
-				AAB375E021BFAE2E00417161 /* View */,
-				AAB375B221BFAA3B00417161 /* ViewControllers */,
 				AAB375A821BFA90200417161 /* Category */,
 				AAB3756E21BFA6A800417161 /* Utils */,
 				AAB3756821BFA59A00417161 /* Macro */,
@@ -1415,6 +1498,9 @@
 		AAB3751721BF9D5100417161 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3771E21BFBA9500417161 /* ClientManager */,
+				AA5D7C8921C0E4AA00A32761 /* MXRScrollView */,
+				AAB3758D21BFA6A800417161 /* MARDataAnalysis */,
 				AA1F050121BFE632006B3E73 /* Mp3Mp4Player */,
 				AA1F04FB21BFE593006B3E73 /* MXRTopSearchView */,
 				AA1F04E621BFE32A006B3E73 /* YYPhotoBrowser */,
@@ -1522,7 +1608,6 @@
 		AAB3756821BFA59A00417161 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				AAB375D421BFAAFD00417161 /* ALLNetworkURL.h */,
 				AAB375D521BFAAFE00417161 /* Enums.h */,
 				AAB375D721BFAAFE00417161 /* Notifications.h */,
 				AAB375D621BFAAFE00417161 /* UserDefaultKey.h */,
@@ -1549,63 +1634,41 @@
 			children = (
 				AAB375FC21BFAFAD00417161 /* BUUtil.h */,
 				AAB375FD21BFAFAE00417161 /* BUUtil.m */,
-				AAB3756F21BFA6A800417161 /* MXRJsonUtil.h */,
-				AAB3757021BFA6A800417161 /* MXRMediaUtil.m */,
-				AAB3757121BFA6A800417161 /* MXRClickUtil.m */,
-				AAB3757221BFA6A800417161 /* MXRGlobalUtil.m */,
-				AAB3757321BFA6A800417161 /* Category */,
-				AAB3758621BFA6A800417161 /* MXRFormateUtil.m */,
-				AAB3758721BFA6A800417161 /* MXRFileUtil.m */,
+				AAB3759121BFA6A800417161 /* MXRCGUtil.h */,
 				AAB3758821BFA6A800417161 /* MXRCGUtil.m */,
+				AAB3758C21BFA6A800417161 /* MXRClickUtil.h */,
+				AAB3757121BFA6A800417161 /* MXRClickUtil.m */,
+				AAB3759221BFA6A800417161 /* MXRFileUtil.h */,
+				AAB3758721BFA6A800417161 /* MXRFileUtil.m */,
+				AAB3759021BFA6A800417161 /* MXRFormateUtil.h */,
+				AAB3758621BFA6A800417161 /* MXRFormateUtil.m */,
+				AAB3758B21BFA6A800417161 /* MXRGlobalUtil.h */,
+				AAB3757221BFA6A800417161 /* MXRGlobalUtil.m */,
+				AAB3756F21BFA6A800417161 /* MXRJsonUtil.h */,
 				AAB3758921BFA6A800417161 /* MXRJsonUtil.m */,
 				AAB3758A21BFA6A800417161 /* MXRMediaUtil.h */,
-				AAB3758B21BFA6A800417161 /* MXRGlobalUtil.h */,
-				AAB3758C21BFA6A800417161 /* MXRClickUtil.h */,
-				AAB3758D21BFA6A800417161 /* dataanalysis */,
-				AAB3759021BFA6A800417161 /* MXRFormateUtil.h */,
-				AAB3759121BFA6A800417161 /* MXRCGUtil.h */,
-				AAB3759221BFA6A800417161 /* MXRFileUtil.h */,
+				AAB3757021BFA6A800417161 /* MXRMediaUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		AAB3757321BFA6A800417161 /* Category */ = {
+		AAB3758D21BFA6A800417161 /* MARDataAnalysis */ = {
 			isa = PBXGroup;
 			children = (
-				AAB3757421BFA6A800417161 /* MXRAutoCoding.h */,
-				AAB3757521BFA6A800417161 /* NSIndexSet+Convenience.m */,
-				AAB3757621BFA6A800417161 /* UIView+MXRFrame.m */,
-				AAB3757721BFA6A800417161 /* NSURL+Ex.m */,
-				AAB3757821BFA6A800417161 /* UIViewController+ScreenZoonOut.h */,
-				AAB3757921BFA6A800417161 /* UICollectionView+Convenience.m */,
-				AAB3757A21BFA6A800417161 /* UIViewController+MXRUIFit.h */,
-				AAB3757B21BFA6A800417161 /* NSFileManager+MXRExtend.h */,
-				AAB3757C21BFA6A800417161 /* UIViewController+Ex.m */,
-				AAB3757D21BFA6A800417161 /* NSIndexSet+Convenience.h */,
-				AAB3757E21BFA6A800417161 /* MXRAutoCoding.m */,
-				AAB3757F21BFA6A800417161 /* UICollectionView+Convenience.h */,
-				AAB3758021BFA6A800417161 /* UIViewController+ScreenZoonOut.m */,
-				AAB3758121BFA6A800417161 /* NSURL+Ex.h */,
-				AAB3758221BFA6A800417161 /* UIView+MXRFrame.h */,
-				AAB3758321BFA6A800417161 /* UIViewController+Ex.h */,
-				AAB3758421BFA6A800417161 /* UIViewController+MXRUIFit.m */,
-				AAB3758521BFA6A800417161 /* NSFileManager+MXRExtend.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		AAB3758D21BFA6A800417161 /* dataanalysis */ = {
-			isa = PBXGroup;
-			children = (
-				AAB3758E21BFA6A800417161 /* MARDataAnalysis.m */,
 				AAB3758F21BFA6A800417161 /* MARDataAnalysis.h */,
+				AAB3758E21BFA6A800417161 /* MARDataAnalysis.m */,
 			);
-			path = dataanalysis;
+			path = MARDataAnalysis;
 			sourceTree = "<group>";
 		};
 		AAB375A821BFA90200417161 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AA5D7C8321C0DF8900A32761 /* UIViewController */,
+				AA5D7C8221C0DF7000A32761 /* UICollectionView */,
+				AA5D7C8121C0DF2F00A32761 /* NSURL */,
+				AA5D7C8021C0DF1E00A32761 /* NSIndexSet */,
+				AA5D7C7F21C0DEA300A32761 /* NSFileManager */,
 				AA1F051021BFE870006B3E73 /* NSDIctionary */,
 				AAB3779221BFBF9300417161 /* NSObject */,
 				AAB375E921BFAE8600417161 /* UIImage */,
@@ -1618,6 +1681,8 @@
 		AAB375A921BFA91000417161 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3761D21BFBA4F00417161 /* NSString+Sha1.m */,
+				AAB376D521BFBA4F00417161 /* NSString+Sha1.h */,
 				AAB375AD21BFA91C00417161 /* NSString+Ex.h */,
 				AAB375AB21BFA91C00417161 /* NSString+Ex.m */,
 				AAB375AA21BFA91C00417161 /* NSString+NSDate.h */,
@@ -1626,34 +1691,16 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		AAB375B221BFAA3B00417161 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		AAB375B321BFAA8500417161 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				AA5D7C7D21C0DB4700A32761 /* MXRBase.bundle */,
-				AAB375B421BFAA8500417161 /* MXRNavigationViewController.h */,
-				AAB375B521BFAA8500417161 /* MXRDefaultViewController.m */,
-				AAB375C221BFAA8500417161 /* Others */,
-				AAB375C721BFAA8500417161 /* MXRNavigationViewController.m */,
 				AAB375C821BFAA8500417161 /* MXRDefaultViewController.h */,
-				AAB375C921BFAA8500417161 /* MXRTabBarViewController.h */,
+				AAB375B521BFAA8500417161 /* MXRDefaultViewController.m */,
+				AAB375B421BFAA8500417161 /* MXRNavigationViewController.h */,
+				AAB375C721BFAA8500417161 /* MXRNavigationViewController.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		AAB375C221BFAA8500417161 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				AAB375C421BFAA8500417161 /* MXRScrollView.h */,
-				AAB375C521BFAA8500417161 /* MXRScrollView.m */,
-			);
-			path = Others;
 			sourceTree = "<group>";
 		};
 		AAB375D821BFAC0D00417161 /* MXRConstant */ = {
@@ -1674,13 +1721,6 @@
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
-		AAB375E021BFAE2E00417161 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		AAB375E221BFAE3F00417161 /* MXRLoadFailedView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1694,6 +1734,8 @@
 		AAB375E821BFAE8200417161 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3758221BFA6A800417161 /* UIView+MXRFrame.h */,
+				AAB3757621BFA6A800417161 /* UIView+MXRFrame.m */,
 				AA1F04F921BFE376006B3E73 /* UIView+YYExtension.h */,
 				AA1F04F821BFE375006B3E73 /* UIView+YYExtension.m */,
 				AAB375F321BFAEA800417161 /* UIView+MXRSnapshot.h */,
@@ -1793,12 +1835,9 @@
 		AAB3761B21BFBA4F00417161 /* AllNetwok */ = {
 			isa = PBXGroup;
 			children = (
-				AAB3761C21BFBA4F00417161 /* BasicNetwork.h */,
-				AAB3761D21BFBA4F00417161 /* NSString+Sha1.m */,
+				AA5D7C8A21C0E9DC00A32761 /* BasicNetwork */,
 				AAB3761E21BFBA4F00417161 /* NetworkManger */,
 				AAB3764E21BFBA4F00417161 /* Url */,
-				AAB3765E21BFBA4F00417161 /* BasicNetwork.m */,
-				AAB376D521BFBA4F00417161 /* NSString+Sha1.h */,
 			);
 			path = AllNetwok;
 			sourceTree = "<group>";
@@ -1817,20 +1856,20 @@
 		AAB3764E21BFBA4F00417161 /* Url */ = {
 			isa = PBXGroup;
 			children = (
-				AAB3764F21BFBA4F00417161 /* MXRMessageNetworkUrl.h */,
-				AAB3765021BFBA4F00417161 /* MXRUserNetworkUrl.h */,
-				AAB3765121BFBA4F00417161 /* MXRCommunityNetworkUrl.h */,
-				AAB3765221BFBA4F00417161 /* MXRBookDetailNetworkUrl.h */,
-				AAB3765321BFBA4F00417161 /* MXRSearchNetworkUrl.h */,
-				AAB3765421BFBA4F00417161 /* MXRBaseNetworkUrl.h */,
-				AAB3765521BFBA4F00417161 /* MXRARClassRoomNetworkUrl.h */,
-				AAB3765621BFBA4F00417161 /* MXRPKUrl.h */,
-				AAB3765721BFBA4F00417161 /* MXRNetworkUrl.h */,
-				AAB3765821BFBA4F00417161 /* MXRHandleFilesNetworkUrl.h */,
-				AAB3765921BFBA4F00417161 /* MXRDataCollectionNetworkUrl.h */,
-				AAB3765A21BFBA4F00417161 /* MXRCoreNetworkUrl.h */,
 				AAB3765B21BFBA4F00417161 /* ALLNetworkURL.h */,
+				AAB3765521BFBA4F00417161 /* MXRARClassRoomNetworkUrl.h */,
+				AAB3765421BFBA4F00417161 /* MXRBaseNetworkUrl.h */,
+				AAB3765221BFBA4F00417161 /* MXRBookDetailNetworkUrl.h */,
 				AAB3765C21BFBA4F00417161 /* MXRCoinNetworkUrl.h */,
+				AAB3765121BFBA4F00417161 /* MXRCommunityNetworkUrl.h */,
+				AAB3765A21BFBA4F00417161 /* MXRCoreNetworkUrl.h */,
+				AAB3765921BFBA4F00417161 /* MXRDataCollectionNetworkUrl.h */,
+				AAB3765821BFBA4F00417161 /* MXRHandleFilesNetworkUrl.h */,
+				AAB3764F21BFBA4F00417161 /* MXRMessageNetworkUrl.h */,
+				AAB3765721BFBA4F00417161 /* MXRNetworkUrl.h */,
+				AAB3765621BFBA4F00417161 /* MXRPKUrl.h */,
+				AAB3765321BFBA4F00417161 /* MXRSearchNetworkUrl.h */,
+				AAB3765021BFBA4F00417161 /* MXRUserNetworkUrl.h */,
 				AAB3765D21BFBA4F00417161 /* MXRWebNetworkUrl.h */,
 			);
 			path = Url;
@@ -1839,22 +1878,12 @@
 		AAB3771E21BFBA9500417161 /* ClientManager */ = {
 			isa = PBXGroup;
 			children = (
-				AAB3774921BFBA9500417161 /* Model */,
 				AAB3774E21BFBA9500417161 /* MXRUserSettingsManager.h */,
 				AAB3774721BFBA9500417161 /* MXRUserSettingsManager.m */,
 				AA1F04D421BFDC61006B3E73 /* MXRLocalResourceManager.h */,
 				AA1F04D321BFDC60006B3E73 /* MXRLocalResourceManager.m */,
 			);
 			path = ClientManager;
-			sourceTree = "<group>";
-		};
-		AAB3774921BFBA9500417161 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AAB3774A21BFBA9500417161 /* MXRBookReadRecord.m */,
-				AAB3774B21BFBA9500417161 /* MXRBookReadRecord.h */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		AAB3777F21BFBEE100417161 /* OneMinuteDataAnalysis */ = {
@@ -1885,6 +1914,8 @@
 		AAB3779221BFBF9300417161 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3757421BFA6A800417161 /* MXRAutoCoding.h */,
+				AAB3757E21BFA6A800417161 /* MXRAutoCoding.m */,
 				AAB3779321BFBFB000417161 /* NSObject+MAREX.h */,
 				AAB3779421BFBFB100417161 /* NSObject+MAREX.m */,
 			);
@@ -2265,7 +2296,6 @@
 				AAB375AE21BFA91D00417161 /* NSString+Ex.m in Sources */,
 				AA1F04C821BFDAF8006B3E73 /* BookInfoForShelf.m in Sources */,
 				AA1F043221BFD9C4006B3E73 /* MXRBookSNSDetailModel.m in Sources */,
-				AAB3777321BFBA9500417161 /* MXRBookReadRecord.m in Sources */,
 				AA1F045F21BFD9C5006B3E73 /* MXRSNSPraiseDetailViewController.m in Sources */,
 				AA1F045A21BFD9C5006B3E73 /* MXRTextView.m in Sources */,
 				AAB3752121BF9DE900417161 /* NSMutableURLRequest+Ex.m in Sources */,

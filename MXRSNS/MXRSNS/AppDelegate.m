@@ -31,9 +31,29 @@
     
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     
+    [self setNavigationBarAppearence];
+    
     return YES;
 }
 
+#pragma mark - 统一配置导航栏样式
+- (void)setNavigationBarAppearence {
+    if (@available(iOS 11.0, *)){//避免滚动视图顶部出现20的空白以及push或者pop的时候页面有一个上移或者下移的异常动画的问题
+        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+    }
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    UIFont *font = [UIFont systemFontOfSize:18.f];
+    
+    NSDictionary *textAttributes = @{NSFontAttributeName : font,
+                                     NSForegroundColorAttributeName : [UIColor whiteColor]
+                                     };
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:textAttributes];
+    
+    [[UINavigationBar appearance] setBackgroundImage:MXRAPPNAVIBARIMAGE forBarMetrics:UIBarMetricsDefault];//会造成视图错位导航栏的高度
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

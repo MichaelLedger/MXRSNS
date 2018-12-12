@@ -29,6 +29,7 @@
 
 #import "BUUtil.h"
 #import "MXRConstant.h"
+#import "UIImage+Extend.h"
 
 #ifdef __cplusplus
 extern "C" {

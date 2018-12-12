@@ -46,11 +46,11 @@
         //七牛
         if ([imageUrl hasPrefix:@"http://7xtg61.com1.z0.glb.clouddn.com/dynamic"]||[imageUrl hasPrefix:@"https://7xtg61.com1.z0.glb.clouddn.com/dynamic"]) {
             shrinkImageUrl = [NSString stringWithFormat:@"%@%@",imageUrl,QiNiuShrink];
-//            [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:shrinkImageUrl] options:SDWebImageLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//            } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
-//            }];
-            //UIImageView *imageView = [[UIImageView alloc]init];
-            //[imageView sd_setImageWithURL:[NSURL URLWithString:shrinkImageUrl]];
+            [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:shrinkImageUrl] options:SDWebImageLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+            } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+            }];
+            UIImageView *imageView = [[UIImageView alloc]init];
+            [imageView sd_setImageWithURL:[NSURL URLWithString:shrinkImageUrl]];
             imageUrl = imageUrlSting;
         }else{
             //小梦

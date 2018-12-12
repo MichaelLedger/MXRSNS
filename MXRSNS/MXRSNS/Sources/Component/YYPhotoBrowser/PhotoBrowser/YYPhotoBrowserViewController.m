@@ -259,19 +259,19 @@
         
         if (imageInfo.imageUrl) {
             NSString *imgUrlStr = [imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
-//            if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:imgUrlStr]]) {
-//                UIImage *cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:imgUrlStr];
-//                UIImageWriteToSavedPhotosAlbum(cachedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-//            } else {
-//                CGRect imageFrame = [self.imageViewFrameArray[self.currentImageIndex] CGRectValue];
-//                NSInteger width = [[NSString stringWithFormat:@"%.0f", imageFrame.size.width] integerValue];
-//                NSInteger height = [[NSString stringWithFormat:@"%.0f", imageFrame.size.height] integerValue];
-//                NSString *compressedImageUrl = [imageInfo.imageUrl stringByAppendingString:[NSString stringWithFormat:@"?imageView2/1/w/%ld/h/%ld/interlace/1", (long)width, (long)height]];
-//                if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
-//                    UIImage *cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
-//                    UIImageWriteToSavedPhotosAlbum(cachedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-//                }
-//            }
+            if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:imgUrlStr]]) {
+                UIImage *cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:imgUrlStr];
+                UIImageWriteToSavedPhotosAlbum(cachedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+            } else {
+                CGRect imageFrame = [self.imageViewFrameArray[self.currentImageIndex] CGRectValue];
+                NSInteger width = [[NSString stringWithFormat:@"%.0f", imageFrame.size.width] integerValue];
+                NSInteger height = [[NSString stringWithFormat:@"%.0f", imageFrame.size.height] integerValue];
+                NSString *compressedImageUrl = [imageInfo.imageUrl stringByAppendingString:[NSString stringWithFormat:@"?imageView2/1/w/%ld/h/%ld/interlace/1", (long)width, (long)height]];
+                if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
+                    UIImage *cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
+                    UIImageWriteToSavedPhotosAlbum(cachedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+                }
+            }
         }
     }];
 }

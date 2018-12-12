@@ -195,11 +195,11 @@ static NSString * const cellID = @"cellID";
     [[NSNotificationCenter defaultCenter] postNotificationName:Notification_MXRBookSNS_ShowTabbar object:nil];
     @MXRWeakObj(self);
     MXRPreviewCell * cell = (MXRPreviewCell *)previewCell;
-//    [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:cell.imageInfo.imageUrl] options:SDWebImageProgressiveDownload progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//
-//    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
-//        [selfWeak getDetailImageViewSize:image];
-//    }];
+    [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:cell.imageInfo.imageUrl] options:SDWebImageProgressiveDownload progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+
+    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+        [selfWeak getDetailImageViewSize:image];
+    }];
     previewCell.hidden = YES;
     [[NSNotificationCenter defaultCenter] postNotificationName:Notification_MXRBookSNS_ScrollTopEnable object:nil];
     [[GlobalBusyFlag sharedInstance] hideDownloadIamgeLoading];

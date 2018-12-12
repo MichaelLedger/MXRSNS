@@ -37,30 +37,30 @@
         @MXRWeakObj(self);
         NSString *imgUrlStr = [_imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
         SDWebImageManager *manager = [SDWebImageManager sharedManager];
-//        if ([manager diskImageExistsForURL:[NSURL URLWithString:imgUrlStr]]) {
-//            _iv.image = [[manager imageCache] imageFromDiskCacheForKey:imgUrlStr];
-//            [selfWeak adjustUIWithImageSize:_iv.image.size];
-//        } else {
-//            UIImage *cachedImage;
-//            if (self.imageViewFrameArray && self.imageViewFrameArray.count > self.selectIndex) {
-//                CGRect imageFrame = [self.imageViewFrameArray[self.selectIndex] CGRectValue];
-//                NSInteger width = [[NSString stringWithFormat:@"%.0f", imageFrame.size.width] integerValue];
-//                NSInteger height = [[NSString stringWithFormat:@"%.0f", imageFrame.size.height] integerValue];
-//                NSString *compressedImageUrl = [imgUrlStr stringByAppendingString:[NSString stringWithFormat:@"?imageView2/1/w/%ld/h/%ld/interlace/1", (long)width, (long)height]];
-//                if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
-//                    cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
-//                    [self adjustUIWithImageSize:cachedImage.size];
-//                } else {
-//                    [self adjustUIWithImageSize:CGSizeMake(width, height)];
-//                }
-//            }
-//
-//            [_iv sd_setImageWithURL:[NSURL URLWithString:imgUrlStr] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//
-//            } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//
-//            }];
-//        }
+        if ([manager diskImageExistsForURL:[NSURL URLWithString:imgUrlStr]]) {
+            _iv.image = [[manager imageCache] imageFromDiskCacheForKey:imgUrlStr];
+            [selfWeak adjustUIWithImageSize:_iv.image.size];
+        } else {
+            UIImage *cachedImage;
+            if (self.imageViewFrameArray && self.imageViewFrameArray.count > self.selectIndex) {
+                CGRect imageFrame = [self.imageViewFrameArray[self.selectIndex] CGRectValue];
+                NSInteger width = [[NSString stringWithFormat:@"%.0f", imageFrame.size.width] integerValue];
+                NSInteger height = [[NSString stringWithFormat:@"%.0f", imageFrame.size.height] integerValue];
+                NSString *compressedImageUrl = [imgUrlStr stringByAppendingString:[NSString stringWithFormat:@"?imageView2/1/w/%ld/h/%ld/interlace/1", (long)width, (long)height]];
+                if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
+                    cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
+                    [self adjustUIWithImageSize:cachedImage.size];
+                } else {
+                    [self adjustUIWithImageSize:CGSizeMake(width, height)];
+                }
+            }
+
+            [_iv sd_setImageWithURL:[NSURL URLWithString:imgUrlStr] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+
+            } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+
+            }];
+        }
     }
 }
 

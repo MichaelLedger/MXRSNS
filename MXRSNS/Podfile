@@ -12,7 +12,7 @@ target 'MXRSNS' do
   pod 'FMDB', '~>2.7.2'
   pod 'LKDBHelper', '~>2.4.7'
   pod 'Masonry', '~>1.1.0'
-  pod 'SDWebImage', '~>4.4.0'
+  pod 'SDWebImage', '~>3.8.2'
   pod 'MBProgressHUD', '~>1.1.0'
   pod 'AlicloudMAN', '~>1.0.10'
   pod 'UMengAnalytics', '~>4.2.4'

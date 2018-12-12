@@ -83,9 +83,9 @@
             cachedImage = imageInfo.image;
         } else {
             NSString *imageUrlStr = [imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
-//            if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:imageUrlStr]]) {
-//                cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:imageUrlStr];
-//            }
+            if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:imageUrlStr]]) {
+                cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:imageUrlStr];
+            }
         }
         
         CGFloat imageOriginalWidth;
@@ -187,14 +187,14 @@
         NSInteger height = [[NSString stringWithFormat:@"%.0f", imageRect.size.height] integerValue];
         NSString *compressedImageUrl = [[imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]] stringByAppendingString:[NSString stringWithFormat:@"?imageView2/1/w/%ld/h/%ld/interlace/1", (long)width, (long)height]];
         UIImage *cachedImage;
-//        if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
-//            cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
-//        }
-//        [self.showImageView sd_setImageWithURL:[NSURL URLWithString:[imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//
-//        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//
-//        }];
+        if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
+            cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
+        }
+        [self.showImageView sd_setImageWithURL:[NSURL URLWithString:[imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+
+        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+
+        }];
     }
 //    self.showImageView.yy_width = [self.imageViewFrameArray[currentIndex] CGRectValue].size.width;
 //    self.showImageView.yy_height = [self.imageViewFrameArray[currentIndex] CGRectValue].size.height;

@@ -141,23 +141,23 @@ static CGFloat scrollOffsetX = 0.0;//向下拖拽开始时，滚动控件的offs
          {"error":"The original image abnormal"}
          */
         UIImage *cachedImage;
-//        if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
-//            cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
-//        }
-//        [self.mainImageView sd_setImageWithURL:[NSURL URLWithString:[self.imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//            if (expectedSize > 0) {
-//                weakSelf.hud.progress = (CGFloat)receivedSize / expectedSize;
-//            }
-//        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//            [weakSelf.hud hide:YES];
-//            if (!error) {
-//                mxr_dispatch_main_async_safe(^{
-//                    [weakSelf adjustUI:YES];
-//                })
-//            } else {
-//                [MXRConstant showAlertNoNetwork];
-//            }
-//        }];
+        if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
+            cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
+        }
+        [self.mainImageView sd_setImageWithURL:[NSURL URLWithString:[self.imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+            if (expectedSize > 0) {
+                weakSelf.hud.progress = (CGFloat)receivedSize / expectedSize;
+            }
+        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+            [weakSelf.hud hide:YES];
+            if (!error) {
+                mxr_dispatch_main_async_safe(^{
+                    [weakSelf adjustUI:YES];
+                })
+            } else {
+                [MXRConstant showAlertNoNetwork];
+            }
+        }];
         [self adjustUI:NO];
     }
 }
@@ -255,15 +255,15 @@ static CGFloat scrollOffsetX = 0.0;//向下拖拽开始时，滚动控件的offs
             NSInteger height = [[NSString stringWithFormat:@"%.0f", self.imageFrame.size.height] integerValue];
             NSString *compressedImageUrl = [[self.imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]] stringByAppendingString:[NSString stringWithFormat:@"?imageView2/1/w/%ld/h/%ld/interlace/1", (long)width, (long)height]];
             UIImage *cachedImage;
-//            if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
-//                cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
-//            }
+            if ([[SDWebImageManager sharedManager] diskImageExistsForURL:[NSURL URLWithString:compressedImageUrl]]) {
+                cachedImage = [[[SDWebImageManager sharedManager] imageCache] imageFromDiskCacheForKey:compressedImageUrl];
+            }
             
-//            [self.moveImage sd_setImageWithURL:[NSURL URLWithString:[self.imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//
-//            } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//
-//            }];
+            [self.moveImage sd_setImageWithURL:[NSURL URLWithString:[self.imageInfo.imageUrl stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]] placeholderImage:cachedImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+
+            } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+
+            }];
         }
         self.moveImage.yy_width = imageWidthBeforeDrag;
         self.moveImage.yy_height = imageHeightBeforeDrag;

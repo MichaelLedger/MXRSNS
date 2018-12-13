@@ -5065,6 +5065,8 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/pop\"",
 					"\"$(SRCROOT)/../../MXRSNS/MXRSNS/Sources/Component/Egret/libs/EgretWebViewLib\"",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MXRSNS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5108,6 +5110,8 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/pop\"",
 					"\"$(SRCROOT)/../../MXRSNS/MXRSNS/Sources/Component/Egret/libs/EgretWebViewLib\"",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MXRSNS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

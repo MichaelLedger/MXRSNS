@@ -8,7 +8,7 @@
 
 #import "MXRPKQuestionResultTableViewCell.h"
 #import "MXRPKQuestionResultController.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 //#import "MXBNetwork.h"
 //#import "MXRChangeMXBManager.h"
 //#import "MXRGainMXBByTaskViewController.h"

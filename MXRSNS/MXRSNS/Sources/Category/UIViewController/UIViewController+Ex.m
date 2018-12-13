@@ -9,7 +9,7 @@
 #import "UIViewController+Ex.h"
 #import <objc/runtime.h>
 #import "MXRDataStatisticsNetworkManager.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 
 @implementation UIViewController(Ex)
 

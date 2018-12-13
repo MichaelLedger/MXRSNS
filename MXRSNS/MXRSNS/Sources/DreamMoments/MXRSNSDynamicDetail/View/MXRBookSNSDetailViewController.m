@@ -22,7 +22,7 @@
 #import "MXRSNSShareModel.h"
 #import "MXRBookSNSPraiseListModel.h"
 //#import "MXRLoginVC.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRDynamicHasDeleteView.h"
 #import "MXRBookSNSModelProxy.h"
 #import "NSString+Ex.h"

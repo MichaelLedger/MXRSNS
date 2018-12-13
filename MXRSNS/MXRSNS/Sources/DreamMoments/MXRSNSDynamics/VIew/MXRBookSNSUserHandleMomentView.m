@@ -10,7 +10,7 @@
 #import "MXRBookSNSController.h"
 #import "MXRCopySysytemActionSheet.h"
 #import "MXRBookSNSMomentStatusNoUploadManager.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "LKDBHelper.h"
 #import "MXRSNSBlackListModel.h"
 

@@ -14,7 +14,7 @@
 #import "UIImage+Extend.h"
 #import "UIImage+GIF.h"
 #import "NSData+ImageContentType.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRBookSNSMomentImageDetailCollection.h"
 #import "MXRPreviewImageViewController.h"
 #import "YYPhotoBrowserViewController.h"

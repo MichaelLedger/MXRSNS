@@ -21,7 +21,7 @@
 #import "MXRNavigationViewController.h"
 #import "MXRBookSNSDeleteForwardTableViewCell.h"
 //#import "MXRLoginVC.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "ALLNetworkURL.h"
 //#import "MXRNewShareView.h"
 #import "MXRBookSNSModelProxy.h"

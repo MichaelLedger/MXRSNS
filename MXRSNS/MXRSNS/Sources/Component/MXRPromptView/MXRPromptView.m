@@ -5,7 +5,7 @@
 //  Created by 周建顺 on 15/6/4.
 //  Copyright (c) 2015年 mxrcorp. All rights reserved.
 //
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRPromptView.h"
 #import "UtilMacro.h"
 #import "TTTAttributedLabel.h"

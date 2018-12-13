@@ -17,7 +17,7 @@
 #import "MXRAlbumListViewController.h"
 #import "MXRNavigationViewController.h"
 #import "MXRSelectImageLocalViewController.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRShareVideoViewController.h"
 @interface MXRGetLocalImageController()
 
@@ -662,7 +662,7 @@
                     if (completion) completion(YES);
                 }];
             }else{
-                AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//                AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 //                [del.navigationController presentViewController:navi animated:YES completion:^{
 //                    if (completion) completion(YES);
 //                }];
@@ -731,7 +731,7 @@
                             if (presentCompletion) presentCompletion (YES);
                         }];
                     }else{
-                        AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//                        AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 //                        [del.navigationController presentViewController:navi animated:YES completion:^{
 //                            if (presentCompletion) presentCompletion (YES);
 //                        }];
@@ -785,7 +785,7 @@
                     if (presentCompletion) presentCompletion();
                 }];
             }else{
-                AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//                AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 //                [del.navigationController presentViewController:navi animated:YES completion:^{
 //                    if (presentCompletion) presentCompletion();
 //                }];
@@ -838,7 +838,7 @@
                 }
                 [(MXRNavigationViewController *)topVC pushViewController:shareVC animated:YES];
             }else{
-                AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//                AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 //                [del.navigationController pushViewController:shareVC animated:YES];
             }
         }

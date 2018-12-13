@@ -16,7 +16,7 @@
 //#import "MXRChangeMXBManager.h"
 //#import "MXRGainMXBByTaskViewController.h"
 #import "UIViewController+Ex.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 //#import "MXBManager.h"
 #import "MXRUserHeaderView.h"
 

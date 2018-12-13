@@ -9,7 +9,7 @@
 #import "MXRBookSNSHeadVIew.h"
 #import "MXRBookSNSModelProxy.h"
 #import "MXRBookSNSHeadTopicCollectionViewCell.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRTopicMainViewController.h"
 #import "MXRAllTopicViewController.h"
 #define mxrBookSNSHeadTopicCollectionViewCell @"MXRBookSNSHeadTopicCollectionViewCell"
@@ -41,7 +41,7 @@
 -(void)getMoreTopic{
 
     MXRAllTopicViewController *vc = [[MXRAllTopicViewController alloc] init];
-    AppDelegate *del = (AppDelegate*)[UIApplication sharedApplication].delegate;
+//    AppDelegate *del = (AppDelegate*)[UIApplication sharedApplication].delegate;
 //    [del.navigationController pushViewController:vc animated:YES];
 }
 #pragma mark - Delegate
@@ -64,7 +64,7 @@
         MXRTopicMainViewController * vc = [[MXRTopicMainViewController alloc] initWithMXRTopicModelID:[NSString stringWithFormat:@"%ld",(long)topicId]];
 //        NSString *topicName = [[MXRBookSNSModelProxy getInstance].bookSNSHeadtopicModelDataArray[indexPath.item] name];
 //        MXRTopicMainViewController *vc = [[MXRTopicMainViewController alloc] initWithMXRTopicModelName:topicName fromVC:defaultVCType];
-        AppDelegate *del = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//        AppDelegate *del = (AppDelegate *)[UIApplication sharedApplication].delegate;
 //        [del.navigationController pushViewController:vc animated:YES];
     }
 }

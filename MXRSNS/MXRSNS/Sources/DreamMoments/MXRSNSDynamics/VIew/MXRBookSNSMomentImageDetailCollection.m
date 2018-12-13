@@ -12,7 +12,7 @@
 #import "SDWebImageManager.h"
 #import "GlobalBusyFlag.h"
 #import "MXRMediaUtil.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRPreviewCell.h"
 //#import "MXRPromptView.h"
 static NSString * const cellID = @"cellID";

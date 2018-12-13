@@ -18,7 +18,7 @@
 //#import "MXRPromptView.h"
 #import "MXRJsonUtil.h"
 #import "GlobalBusyFlag.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "NSString+Ex.h"
 #import "NSString+NSDate.h"
 //#include "JDStatusBarNotification.h"

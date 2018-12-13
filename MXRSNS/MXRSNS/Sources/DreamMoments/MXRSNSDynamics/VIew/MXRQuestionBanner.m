@@ -8,7 +8,7 @@
 
 #import "MXRQuestionBanner.h"
 #import "MXRQuestionBannerCell.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 
 //图片物理像素比例
 #define kCellScale (1023 / 3528.0)

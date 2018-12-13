@@ -25,7 +25,7 @@
 #import "MXRPKHomeHeaderViewModel.h"
 #import "MXRPKAnswerVC.h"
 #import "MXRPKNormalAnswerVC.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "UserInformation.h"
 #import "GlobalBusyFlag.h"
 #import "MXRPKHomeShareView.h"

@@ -1813,15 +1813,6 @@
 			path = Localizable;
 			sourceTree = "<group>";
 		};
-		AA1F051921BFEBD9006B3E73 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA1F051421BFEAEF006B3E73 /* Localizable */,
-			);
-			name = "Supporting Files";
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		AA5D7C7F21C0DEA300A32761 /* NSFileManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -2017,6 +2008,14 @@
 			path = MXRUser;
 			sourceTree = "<group>";
 		};
+		AA9E9BE021C20812002EDBFB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F051421BFEAEF006B3E73 /* Localizable */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		AAB374D321BF9B4C00417161 = {
 			isa = PBXGroup;
 			children = (
@@ -2044,7 +2043,7 @@
 			children = (
 				AAB3751521BF9D0400417161 /* Resources */,
 				AAB3751421BF9CFA00417161 /* Sources */,
-				AA1F051921BFEBD9006B3E73 /* Supporting Files */,
+				AA9E9BE021C20812002EDBFB /* SupportingFiles */,
 				AAB374DF21BF9B4C00417161 /* AppDelegate.h */,
 				AAB374E021BF9B4C00417161 /* AppDelegate.m */,
 				AAB374E521BF9B4C00417161 /* Main.storyboard */,
@@ -3029,12 +3028,12 @@
 		AAE6F39721C105C50024CF21 /* WrongAnalysis */ = {
 			isa = PBXGroup;
 			children = (
-				AAE6F39821C105C50024CF21 /* New Group */,
+				AAE6F39821C105C50024CF21 /* view */,
 			);
 			path = WrongAnalysis;
 			sourceTree = "<group>";
 		};
-		AAE6F39821C105C50024CF21 /* New Group */ = {
+		AAE6F39821C105C50024CF21 /* view */ = {
 			isa = PBXGroup;
 			children = (
 				AAE6F39921C105C50024CF21 /* MXRWrongAnalysisAnswerTextCell.m */,
@@ -3047,7 +3046,7 @@
 				AAE6F3A021C105C50024CF21 /* MXRWrongAnalysisAnswerImageCell.m */,
 				AAE6F3A121C105C50024CF21 /* MXRWrongAnalysisViewController.h */,
 			);
-			path = "New Group";
+			path = view;
 			sourceTree = "<group>";
 		};
 		AAE6F3F821C106410024CF21 /* Model */ = {

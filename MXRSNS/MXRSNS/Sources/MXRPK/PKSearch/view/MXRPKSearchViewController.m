@@ -7,7 +7,7 @@
 //
 
 #import "MXRPKSearchViewController.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRPKConstants.h"
 #import "UIImageView+WebCache.h"
 #import "MXRPKNetworkManager.h"

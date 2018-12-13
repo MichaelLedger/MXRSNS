@@ -25,7 +25,7 @@
 //#import "MXRBookManager.h"
 //#import "MXRLoginVC.h"
 //#import "MXRPromptView.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRSNSSendMsgGuideView.h"
 #import "GlobalFunction.h"
 //#import "DDYBookDetailViewController.h"

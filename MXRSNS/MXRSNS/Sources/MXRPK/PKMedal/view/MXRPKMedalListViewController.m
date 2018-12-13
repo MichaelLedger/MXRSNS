@@ -11,7 +11,7 @@
 #import "MXRPKMedalInfoModel.h"
 #import "MXRPKMedalCollectionViewCell.h"
 #import "MXRPKMedalDetailView.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "MXRLoadFailedView.h"
 #import "MXRPKQuestionListViewController.h"
 

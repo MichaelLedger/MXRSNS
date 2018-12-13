@@ -8,7 +8,7 @@
 
 #import "GlobalBusyFlag.h"
 #import "MBProgressHUD.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "DimensMacro.h"
 #import "BUUtil.h"
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MXRDefaultViewController.h"
 
 @interface MXRBookSNSViewController : MXRDefaultViewController
 

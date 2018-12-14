@@ -31,7 +31,7 @@
 
 #pragma mark - Public Method
 - (instancetype)initWithAlertType:(MXRAlertType)type title:(NSString *)title alertContent:(NSString *)alertContent okBtnTitle:(NSString *)okBtnTitle cancelBtnTitle:(NSString *)cancelBtnTitle confirmBtnTitle:(NSString *)confirmBtnTitle {
-    if (self = [super init]) {
+    if (self = [super initWithNibName:@"MXRAlertViewController" bundle:[NSBundle bundleForClass:[self class]]]) {
         _alertType = type;
         _alertTitle = title;
         _alertContent = [self changeObjectTypeToString:alertContent];

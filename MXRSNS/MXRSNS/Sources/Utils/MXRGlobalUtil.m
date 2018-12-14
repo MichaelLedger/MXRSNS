@@ -133,8 +133,10 @@ static NSString *MXRHasBeenOpenedForCurrentVersion  =   @"";
     [[self.class sharedInstance] invokeOnceInAppWithKey:key block:block];
 }
 
-//+ (BOOL)isInReviewed
-//{
++ (BOOL)isInReviewed
+{
+    //test
+    return NO;
 //    BOOL isReviewSecurityOn = [MARUserDefault getBoolBy:USERKEY_ReviewSecurityOnKey];  // 是否在审核状态
 //    NSString *lastReviewReqeustSuccessVersion = [MARUserDefault getStringBy:USERKEY_VersionReviewRequesetSuccessKey];
 //    NSString *currentVersion = AppVersion;
@@ -146,10 +148,11 @@ static NSString *MXRHasBeenOpenedForCurrentVersion  =   @"";
 //        [MXRGlobalUtil requestCheckIsInReview];
 //        return MXRDefaultReviewResultWhenRequestFail; // 默认审核状态。
 //    }
-//}
+}
 
-//+ (void)requestCheckIsInReview
-//{
++ (void)requestCheckIsInReview
+{
+    //test
 //    NSString *currentVersion = AppVersion;
 //    [[MXRBaseServiceNetworkManager defaultInstance] requestIsShowHiddenThingsOrNotWithCallback:^(MXRServerStatus status, id result, id error) {
 //        if ([result isKindOfClass:[NSDictionary class]]) {
@@ -160,10 +163,14 @@ static NSString *MXRHasBeenOpenedForCurrentVersion  =   @"";
 //            [MARUserDefault setBool:isReview key:USERKEY_ReviewSecurityOnKey];
 //        }
 //    }];
-//}
-//
-//- (void)checkIsInReview:(void (^)(BOOL))reviewCallback
-//{
+}
+
+- (void)checkIsInReview:(void (^)(BOOL))reviewCallback
+{
+    //test
+    if (reviewCallback) {
+        reviewCallback(NO);
+    }
 //    BOOL isReviewSecurityOn = [MARUserDefault getBoolBy:USERKEY_ReviewSecurityOnKey];  // 是否在审核状态
 //    NSString *lastReviewReqeustSuccessVersion = [MARUserDefault getStringBy:USERKEY_VersionReviewRequesetSuccessKey];
 //    NSString *currentVersion = AppVersion;
@@ -194,7 +201,7 @@ static NSString *MXRHasBeenOpenedForCurrentVersion  =   @"";
 //            }
 //        }];
 //    }
-//}
+}
 
 + (void)checkIsInReview:(void (^)(BOOL))reviewCallback
 {

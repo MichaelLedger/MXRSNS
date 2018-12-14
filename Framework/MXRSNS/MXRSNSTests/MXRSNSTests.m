@@ -2,7 +2,7 @@
 //  MXRSNSTests.m
 //  MXRSNSTests
 //
-//  Created by MountainX on 2018/12/13.
+//  Created by MountainX on 2018/12/14.
 //  Copyright © 2018年 MTX Software Technology Co.,Ltd. All rights reserved.
 //
 

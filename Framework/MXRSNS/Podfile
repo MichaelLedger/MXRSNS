@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '8.0'
+platform :ios, '9.0'
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/aliyun/aliyun-specs.git'
 
 target 'MXRSNS' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for MXRSNS
   pod 'AFNetworking', '~>3.1.0'  
@@ -23,8 +23,8 @@ target 'MXRSNS' do
   pod 'CocoaHTTPServer', '~>2.3'
   pod 'CocoaLumberjack', '~>3.3.0' 
   # MXR Extension
-  pod 'MAREXT', '0.1.1'
-
+  pod 'MAREXT', '0.1.1' 
+ 
   target 'MXRSNSTests' do
     inherit! :search_paths
     # Pods for testing

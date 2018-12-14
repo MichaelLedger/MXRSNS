@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+target 'Test' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Test
+  pod 'AFNetworking', '~>3.1.0'  
+  pod 'FMDB', '~>2.7.2'
+  pod 'LKDBHelper', '~>2.4.7'
+  pod 'Masonry', '~>1.1.0'
+  pod 'SDWebImage', '~>3.8.2'
+  pod 'MBProgressHUD', '~>1.1.0'
+  pod 'AlicloudMAN', '~>1.0.10'
+  pod 'UMengAnalytics', '~>4.2.4'
+  pod 'MJRefresh', '~>3.1.15.6'
+  pod 'pop', '~>1.0.10'
+  # Egret Engine Tools
+  pod 'CocoaAsyncSocket', '~>7.6.1'
+  pod 'CocoaHTTPServer', '~>2.3'
+  pod 'CocoaLumberjack', '~>3.3.0' 
+  # MXR Extension
+  pod 'MAREXT', '0.1.1'
+
+  target 'TestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

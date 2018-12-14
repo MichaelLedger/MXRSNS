@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="MXRPKNormalHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3A-6o-2o0">
+                    <rect key="frame" x="15" y="72" width="290" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jWd-HK-7iP">
+                    <rect key="frame" x="117" y="125" width="86" height="34"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gfw-Oa-PrB">
+                            <rect key="frame" x="0.0" y="0.0" width="86" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="900" constant="34" id="ZmC-ZB-SD4"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="hZN-f5-gTT"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmC-j3-iV7" customClass="MARLabel">
+                            <rect key="frame" x="0.0" y="0.0" width="86" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="mmC-j3-iV7" secondAttribute="bottom" id="75O-cG-9Nf"/>
+                        <constraint firstAttribute="bottom" secondItem="Gfw-Oa-PrB" secondAttribute="bottom" id="KOg-45-D7H"/>
+                        <constraint firstAttribute="trailing" secondItem="mmC-j3-iV7" secondAttribute="trailing" id="Qji-Mm-0hd"/>
+                        <constraint firstItem="Gfw-Oa-PrB" firstAttribute="top" secondItem="jWd-HK-7iP" secondAttribute="top" id="WwV-eE-Ic1"/>
+                        <constraint firstAttribute="trailing" secondItem="Gfw-Oa-PrB" secondAttribute="trailing" id="clb-hD-yNS"/>
+                        <constraint firstItem="mmC-j3-iV7" firstAttribute="leading" secondItem="jWd-HK-7iP" secondAttribute="leading" id="eMK-Kg-cPZ"/>
+                        <constraint firstItem="mmC-j3-iV7" firstAttribute="top" secondItem="jWd-HK-7iP" secondAttribute="top" id="ehQ-h2-3Wr"/>
+                        <constraint firstItem="Gfw-Oa-PrB" firstAttribute="leading" secondItem="jWd-HK-7iP" secondAttribute="leading" id="oZE-no-VGi"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pk_share_tip.png" translatesAutoresizingMaskIntoConstraints="NO" id="S0i-9S-dsH">
+                    <rect key="frame" x="33" y="15" width="254" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="S0i-9S-dsH" secondAttribute="height" multiplier="127:21" id="a8M-nP-c4a"/>
+                        <constraint firstAttribute="height" constant="42" id="wPO-ma-hhN"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="v3A-6o-2o0" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="15" id="8m9-Wb-WBV"/>
+                <constraint firstAttribute="trailing" secondItem="v3A-6o-2o0" secondAttribute="trailing" constant="15" id="Gr6-dx-PeW"/>
+                <constraint firstItem="jWd-HK-7iP" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="Nne-xR-Gqd"/>
+                <constraint firstAttribute="bottom" secondItem="jWd-HK-7iP" secondAttribute="bottom" constant="20" id="gMH-fu-5cS"/>
+                <constraint firstItem="v3A-6o-2o0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="15" id="iZ5-wg-SjB"/>
+                <constraint firstItem="jWd-HK-7iP" firstAttribute="top" secondItem="v3A-6o-2o0" secondAttribute="bottom" constant="25" id="mpR-Ae-qZI"/>
+                <constraint firstItem="S0i-9S-dsH" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="nUU-eg-fHY"/>
+                <constraint firstItem="S0i-9S-dsH" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="15" id="tLO-FG-7PA"/>
+                <constraint firstItem="v3A-6o-2o0" firstAttribute="top" secondItem="S0i-9S-dsH" secondAttribute="bottom" priority="900" constant="15" id="tTk-k8-5nH"/>
+            </constraints>
+            <connections>
+                <outlet property="constraint_shareTipImageTop" destination="tLO-FG-7PA" id="yeb-gY-1yP"/>
+                <outlet property="questionContentLabel" destination="v3A-6o-2o0" id="Ub3-Fb-BOu"/>
+                <outlet property="questionTypeImageView" destination="Gfw-Oa-PrB" id="vVR-a3-2SR"/>
+                <outlet property="questionTypeLabel" destination="mmC-j3-iV7" id="UlV-7j-cD9"/>
+                <outlet property="shareTipImageView" destination="S0i-9S-dsH" id="mzF-0l-42i"/>
+            </connections>
+            <point key="canvasLocation" x="123" y="123.5"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="icon_pk_share_tip.png" width="254" height="42"/>
+    </resources>
+</document>

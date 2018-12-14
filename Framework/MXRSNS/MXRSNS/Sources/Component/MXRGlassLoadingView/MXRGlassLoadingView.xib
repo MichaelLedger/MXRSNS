@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MXRGlassLoadingView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anim_xiaomeng_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="26V-pc-3DL">
+                    <rect key="frame" x="118.5" y="202.5" width="138" height="202"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="138" id="Pib-J7-aQR"/>
+                        <constraint firstAttribute="height" constant="202" id="vcE-22-amC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zt2-Sz-vZF">
+                    <rect key="frame" x="85" y="413.5" width="205" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="i5D-Yo-Azu"/>
+                        <constraint firstAttribute="width" constant="205" id="imr-Oy-2PF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q82-xX-lAN">
+                    <rect key="frame" x="187.5" y="441.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="q82-xX-lAN" firstAttribute="top" secondItem="zt2-Sz-vZF" secondAttribute="bottom" constant="15" id="BoE-lV-ty6"/>
+                <constraint firstItem="26V-pc-3DL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-30" id="MTv-sy-YED"/>
+                <constraint firstItem="q82-xX-lAN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Pec-py-0Yu"/>
+                <constraint firstItem="zt2-Sz-vZF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ref-wZ-G4E"/>
+                <constraint firstItem="zt2-Sz-vZF" firstAttribute="top" secondItem="26V-pc-3DL" secondAttribute="bottom" constant="9" id="ckJ-YZ-xYB"/>
+                <constraint firstItem="26V-pc-3DL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dy5-CM-kGG"/>
+                <constraint firstItem="q82-xX-lAN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="jSs-ej-eNQ"/>
+            </constraints>
+            <connections>
+                <outlet property="planeImageView" destination="zt2-Sz-vZF" id="uEV-ah-stv"/>
+                <outlet property="tipLabel" destination="q82-xX-lAN" id="s8b-4W-uwd"/>
+                <outlet property="xiaoMengImageView" destination="26V-pc-3DL" id="VHO-e1-x01"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="anim_xiaomeng_01.png" width="110" height="160"/>
+    </resources>
+</document>

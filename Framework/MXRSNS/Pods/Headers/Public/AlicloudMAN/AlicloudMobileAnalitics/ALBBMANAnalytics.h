@@ -1,1 +1,0 @@
-../../../../AlicloudMAN/man/AlicloudMobileAnalitics.framework/Headers/ALBBMANAnalytics.h

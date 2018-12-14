@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MXRBookSNSSearchBookAfterView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WkI-iV-4oj">
+                    <rect key="frame" x="5" y="5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="WkI-iV-4oj" secondAttribute="height" id="tJ1-ku-uea"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="B6j-Zu-fop">
+                    <rect key="frame" x="65" y="8" width="273" height="15"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="WFE-aN-iww"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_bookSNS_searchBook.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQT-1S-VdN">
+                    <rect key="frame" x="348" y="21" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="ab6-XD-DjG"/>
+                        <constraint firstAttribute="height" constant="17" id="xuD-K1-qA8"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnv-LI-j2b" userLabel="starContainerView">
+                    <rect key="frame" x="65" y="37" width="153" height="13"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fsd-51-CPT" userLabel="oneImageView">
+                            <rect key="frame" x="0.0" y="0.0" width="13" height="13"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="fsd-51-CPT" secondAttribute="height" multiplier="1:1" id="jJs-jx-C9k"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wNM-BM-1LQ" userLabel="twoImageView">
+                            <rect key="frame" x="15" y="0.0" width="13" height="13"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="wNM-BM-1LQ" secondAttribute="height" multiplier="1:1" id="jrx-Ef-6iD"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zdC-vx-Mm0" userLabel="threeImageView">
+                            <rect key="frame" x="30" y="0.0" width="13" height="13"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9V6-bE-DNg" userLabel="fourImageView">
+                            <rect key="frame" x="45" y="0.0" width="13" height="13"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FXR-h1-VGh" userLabel="fiveImageView">
+                            <rect key="frame" x="60" y="0.0" width="13" height="13"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="zdC-vx-Mm0" firstAttribute="width" secondItem="zdC-vx-Mm0" secondAttribute="height" multiplier="1:1" id="1Vg-rd-8fz"/>
+                        <constraint firstItem="zdC-vx-Mm0" firstAttribute="top" secondItem="jnv-LI-j2b" secondAttribute="top" id="3b0-wQ-xJA"/>
+                        <constraint firstItem="wNM-BM-1LQ" firstAttribute="top" secondItem="jnv-LI-j2b" secondAttribute="top" id="5nP-88-YL5"/>
+                        <constraint firstAttribute="bottom" secondItem="fsd-51-CPT" secondAttribute="bottom" id="7zg-hL-f3k"/>
+                        <constraint firstItem="FXR-h1-VGh" firstAttribute="leading" secondItem="9V6-bE-DNg" secondAttribute="trailing" constant="2" id="8cW-ha-RxP"/>
+                        <constraint firstItem="zdC-vx-Mm0" firstAttribute="leading" secondItem="wNM-BM-1LQ" secondAttribute="trailing" constant="2" id="9Gv-Qj-CVT"/>
+                        <constraint firstItem="9V6-bE-DNg" firstAttribute="leading" secondItem="zdC-vx-Mm0" secondAttribute="trailing" constant="2" id="EdO-oe-7W8"/>
+                        <constraint firstAttribute="bottom" secondItem="FXR-h1-VGh" secondAttribute="bottom" id="FHz-SY-O7V"/>
+                        <constraint firstAttribute="width" constant="153" id="Fpi-zp-lXK"/>
+                        <constraint firstItem="9V6-bE-DNg" firstAttribute="width" secondItem="9V6-bE-DNg" secondAttribute="height" multiplier="1:1" id="IAY-1g-R1K"/>
+                        <constraint firstItem="FXR-h1-VGh" firstAttribute="width" secondItem="FXR-h1-VGh" secondAttribute="height" multiplier="1:1" id="Jhh-Mw-3Zv"/>
+                        <constraint firstAttribute="bottom" secondItem="zdC-vx-Mm0" secondAttribute="bottom" id="LOr-ma-GSI"/>
+                        <constraint firstItem="fsd-51-CPT" firstAttribute="leading" secondItem="jnv-LI-j2b" secondAttribute="leading" id="aUc-hy-pgi"/>
+                        <constraint firstItem="wNM-BM-1LQ" firstAttribute="leading" secondItem="fsd-51-CPT" secondAttribute="trailing" constant="2" id="bPT-E5-gom"/>
+                        <constraint firstAttribute="bottom" secondItem="9V6-bE-DNg" secondAttribute="bottom" id="cOI-2C-477"/>
+                        <constraint firstItem="fsd-51-CPT" firstAttribute="top" secondItem="jnv-LI-j2b" secondAttribute="top" id="kcU-lN-JQk"/>
+                        <constraint firstItem="9V6-bE-DNg" firstAttribute="top" secondItem="jnv-LI-j2b" secondAttribute="top" id="mzC-Wf-FjJ"/>
+                        <constraint firstItem="FXR-h1-VGh" firstAttribute="top" secondItem="jnv-LI-j2b" secondAttribute="top" id="rEU-gm-OzR"/>
+                        <constraint firstAttribute="height" constant="13" id="wIG-qx-Ojd"/>
+                        <constraint firstItem="wNM-BM-1LQ" firstAttribute="bottom" secondItem="fsd-51-CPT" secondAttribute="bottom" id="xJk-Xt-wgg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="B6j-Zu-fop" firstAttribute="leading" secondItem="WkI-iV-4oj" secondAttribute="trailing" constant="10" id="LZC-4k-ABe"/>
+                <constraint firstAttribute="bottom" secondItem="WkI-iV-4oj" secondAttribute="bottom" constant="5" id="S9b-1D-558"/>
+                <constraint firstAttribute="bottom" secondItem="jnv-LI-j2b" secondAttribute="bottom" constant="10" id="TCk-e3-T1X"/>
+                <constraint firstItem="VQT-1S-VdN" firstAttribute="leading" secondItem="B6j-Zu-fop" secondAttribute="trailing" constant="10" id="UPa-ga-kl1"/>
+                <constraint firstItem="B6j-Zu-fop" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="ZUa-hO-CAw"/>
+                <constraint firstItem="VQT-1S-VdN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="bEb-oM-TR1"/>
+                <constraint firstItem="WkI-iV-4oj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="pjH-AW-ARB"/>
+                <constraint firstAttribute="trailing" secondItem="VQT-1S-VdN" secondAttribute="trailing" constant="10" id="u31-Z4-wgd"/>
+                <constraint firstItem="WkI-iV-4oj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="w5C-sb-G6e"/>
+                <constraint firstItem="jnv-LI-j2b" firstAttribute="leading" secondItem="WkI-iV-4oj" secondAttribute="trailing" constant="10" id="xs1-tu-dgf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bookIconImageView" destination="WkI-iV-4oj" id="nvf-lI-5ic"/>
+                <outlet property="bookNameLabel" destination="B6j-Zu-fop" id="XnN-Qy-xDo"/>
+                <outlet property="fiveImageView" destination="FXR-h1-VGh" id="Q5Q-Fm-tyA"/>
+                <outlet property="fourIamgeView" destination="9V6-bE-DNg" id="na7-r7-aef"/>
+                <outlet property="oneImageView" destination="fsd-51-CPT" id="FK0-qf-JPg"/>
+                <outlet property="rightArrowsImage" destination="VQT-1S-VdN" id="Anf-jS-4RL"/>
+                <outlet property="threeIamgeView" destination="zdC-vx-Mm0" id="x14-Ld-JJK"/>
+                <outlet property="twoImageView" destination="wNM-BM-1LQ" id="XpG-7O-JPd"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="51"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_bookSNS_searchBook.png" width="12" height="12"/>
+    </resources>
+</document>

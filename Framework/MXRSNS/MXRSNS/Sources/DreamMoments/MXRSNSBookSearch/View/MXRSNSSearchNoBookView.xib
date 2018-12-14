@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MXRSNSSearchNoBookView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbg-Pq-1Xz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_common_noSearchBook.png" translatesAutoresizingMaskIntoConstraints="NO" id="tQv-oh-ltk">
+                            <rect key="frame" x="125" y="221" width="125" height="125"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="tQv-oh-ltk" secondAttribute="height" multiplier="1:1" id="JvH-AE-LNH"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有找到相关书籍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="189" translatesAutoresizingMaskIntoConstraints="NO" id="ods-qN-xP7">
+                            <rect key="frame" x="93" y="371" width="189" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="1fx-er-j19"/>
+                                <constraint firstAttribute="width" constant="189" id="fgr-0m-Jm2"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIp-1H-PxU">
+                            <rect key="frame" x="50" y="409" width="275" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Nff-qS-PBo"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96862745098039216" green="0.97647058823529409" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ods-qN-xP7" firstAttribute="centerX" secondItem="qbg-Pq-1Xz" secondAttribute="centerX" id="0QT-0i-4ci"/>
+                        <constraint firstItem="UIp-1H-PxU" firstAttribute="top" secondItem="ods-qN-xP7" secondAttribute="bottom" constant="13" id="APa-BJ-IWs"/>
+                        <constraint firstItem="tQv-oh-ltk" firstAttribute="centerY" secondItem="qbg-Pq-1Xz" secondAttribute="centerY" constant="-50" id="CnB-7N-fTV"/>
+                        <constraint firstItem="UIp-1H-PxU" firstAttribute="leading" secondItem="qbg-Pq-1Xz" secondAttribute="leading" constant="50" id="Jq9-cJ-WKc"/>
+                        <constraint firstAttribute="trailing" secondItem="UIp-1H-PxU" secondAttribute="trailing" constant="50" id="hes-op-KRi"/>
+                        <constraint firstItem="ods-qN-xP7" firstAttribute="centerY" secondItem="qbg-Pq-1Xz" secondAttribute="centerY" constant="50" id="j9W-3e-CLD"/>
+                        <constraint firstItem="tQv-oh-ltk" firstAttribute="centerX" secondItem="qbg-Pq-1Xz" secondAttribute="centerX" id="k1q-9Q-Wfe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qbg-Pq-1Xz" secondAttribute="trailing" id="Xmr-Di-c2X"/>
+                <constraint firstAttribute="bottom" secondItem="qbg-Pq-1Xz" secondAttribute="bottom" id="ibk-Yc-9Zu"/>
+                <constraint firstItem="qbg-Pq-1Xz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qEg-q4-M8J"/>
+                <constraint firstItem="qbg-Pq-1Xz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="snj-r1-2ey"/>
+                <constraint firstItem="tQv-oh-ltk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:3" id="woa-d2-aWm"/>
+            </constraints>
+            <connections>
+                <outlet property="imageSearch" destination="tQv-oh-ltk" id="cop-kc-sG9"/>
+                <outlet property="noFindBookLabel" destination="ods-qN-xP7" id="xCE-Wf-riu"/>
+                <outlet property="promptBtn" destination="UIp-1H-PxU" id="YgX-9W-HCP"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_common_noSearchBook.png" width="110" height="110"/>
+    </resources>
+</document>

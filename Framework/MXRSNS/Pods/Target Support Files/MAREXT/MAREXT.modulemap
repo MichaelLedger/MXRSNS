@@ -1,0 +1,6 @@
+framework module MAREXT {
+  umbrella header "MAREXT-umbrella.h"
+
+  export *
+  module * { export * }
+}

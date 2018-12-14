@@ -1,0 +1,1930 @@
+/* Localized versions of Info.plist keys */
+
+//MXRQRScanViewController
+"USERKNOWTIPS" = "请将二维码或条码放入框框内哦";
+"ACTIVICE_SUCCESS"="激活成功";
+"ACTIVICE_FAIL"="激活失败";
+"DOWNLOAD_ALERT"="确定下载《%@》(%@)吗？";
+"DOWNLOADANDACTIVITE_ALERT"="激活并下载《%@》？";
+"CAMERAOPEN_ALERT"="您的照片权限没有开启，无法保存到本地相册，请到（设置）-（隐私）-（照片）中选择4D书城开启即可。";
+"NOBOOK_ALERT"="对不起啊，这本书还没来得及做呢。要不您先到书城去逛逛吧！";
+"NOTSUITCODE_ALERT"="二维码无法识别";
+"NOCODE_ALERT"="未发现二维码";
+"BADNET_ALERT"="当前网络不佳！";
+"BOOKINBOOKSHELF"="这本书已经在书架了";
+"MXRQRScanViewController_QRPreviewModel_Title" = "提示";
+
+"BOOKINDOWNLIST"="这本书在下载队列了！";
+"KNOWALEADY"="我知道了";
+"SCANLOGINFIRST" = "登录后才可以绑定渠道码哦";
+
+"WATTING"="等待中";
+"DOWNING"="下载中";
+"DOWNED"="已下载";
+"SUSPEND"="暂停中";
+"PAYMENT_TITLE"="账单";
+"CANCEL" = "取消";
+"OKay"="好的";
+"SURE" = "确定";
+"GOLOGIN" = "去登录";
+"SUBMIT"="提交";
+"DOWNANDACTIVITY"="激活并下载";
+"ONLYACTIVITY"="只激活";
+"DELETE" = "删除";
+"PROMPT" = "提示";
+"All_Comment" = "全部评论";
+//PopMenuforEdit
+"Out_Of_Memory"="当前设备存储空间不足，请释放内存后再添加内容。";
+"PopMenuforEdit_The_Camera"="照相机";
+"PopMenuforEdit_Photo_Album"="本地相簿";
+"PopMenuforEdit_Vidicon"="摄像机";
+"PopMenuforEdit_Video"="本地视频";
+"PopMenuforEdit_Prompt"="您的麦克风没有开启，无法播放声音。请到{设置}-{隐私}-{麦克风}，选择4D书城开启麦克风即可。";
+"PopMenuforEdit_Sure"="好的";
+"UnableOpenTheCamera"="模拟器无法打开摄像头";
+//BookEx
+"BookEx"="视频按钮的配置信息有问题";
+"BookEx_Error"="配置文件错误";
+
+//
+"Replaced_For_Reproduction"="确定要替换背景图吗？";
+
+//MyDiyBookTableViewCell
+"MyDiyBookTableViewCell_Prompt"="由于您的图书有可能不符合梦想人制作的规范，系统管理员已经将您的图书下架，请联系咨询";
+"MyDiyBookTableViewCell_Warning"="由于您的图书不符合梦想人图书制作规范，图书审核不通过，您可在消息中心查看审核不通过原因。如有疑问，请联系咨询。";
+"MyDiyBookTableViewCell_Sure_Shelves"="确定要下架当前图书吗？";
+"MyDiyBookTableViewCell_Shelves"="下架";
+"MyDiyBookTableViewCell_Editing"="编辑";
+"Load_End_Uploading_Book"="登录后才能上传当前图书";
+"Is_Reviewing_Book"="当前图书正在审核，我们会在2天内通知您，请留意通知消息。本次修改已保存，您可在审核完成后重新上传。";
+
+//TransformTryReadPageViewController
+"Change_Trying_Page"="更换试读页";
+"None_Net"="好像没有连接网络哦";
+"Have_Not_Book"="您还没有制作图书哦";
+//
+
+"UploadDIYMessageViewController_UseMXB_Load"="使用梦想币付费上传";
+"Use_Instructions"="使用说明";
+"Exchange_MXB"="您当前有%ld个梦想币，需要花费%ld梦想币上传当前图书，您当前梦想币不足，去兑换";
+"Improve_The_Book_Information"="完善图书信息";
+"Please_Enter_Title"="请输入书名";
+"The_Author"="作者";
+"The_Cover"="封面";
+"Trying_Tead_The_Page"="试读书页";
+"Page_Count"="第%@页";
+"Book_Description"="图书简介";
+"Please_Enter_Book_Introduction"="请输入图书简介...";
+"Please_Enter_Book_Label"="请加入图书标签";
+"Identify_And_Upload"="确定并上传";
+"Estimate_The_Size"="预估大小：%.1fMB";
+"Uploa_The_4D_Agreement"="上传图书即代表同意 4D书城用户上传协议";
+"4D_Users_Upload_Protocol"="4D书城用户上传协议";
+"Use_MXB_Upload_Book"="您当前有%ld个梦想币，需要使用%ld个梦想币上传当前图书，完善图书信息后上传将扣除梦想币。";
+"Updata_Use_MXB"="您当前有%ld个梦想币，本次更新上传图书需要使用%ld个梦想币，更新图书信息后上传将扣除梦想币。";
+"Updata_Book_Information"="更新图书信息";
+"Please_Add_Book_Information"="请完善图书信息";
+"Please_Recharge"="当前梦想币不足，请充值";
+"Suggested_WiFi_Upload"="当前是3/4G网络，建议在WiFi环境下上传。";
+"Cancel_The_Upload"="取消上传";
+"Continue_Upload"="继续上传";
+"Curren_Name_Cannot_Change"="当前书名不可更改";
+
+//MXRAddCommentViewController
+"MXRAddCommentViewController_Add_Char"="添加文字";
+"MXRAddCommentViewController_Input_Char"="请输入您想添加的文字，最多不超过%i个字";
+
+//UGCInViewController
+"UGCInViewController_Prompt"="添加的按钮不能超过20个！";
+
+//ActionObject
+"ActionObject_prompt"="出错啦，把图书下载下来查看吧！";
+
+//MXRBottomMultifuctionalView
+"MXRBottomMultifuctionalView_Have_Save"="已成功保存到本地相册";
+"MXRBottomMultifuctionalView_Save_Error"="保存到本地相册失败";
+
+//MXREncyclopediaOfflineView
+"MXREncyclopediaOfflineView_Last_Page"="已经到最后一页啦～";
+
+//ImageShowViewController
+"ImageShowViewController_Shoot_failed"="重拍失败";
+
+//AnimalViewController
+"AnimalViewController_Juan"="%d卷";
+
+//chat model
+"CHAT_MY_MESSAGE"="我的消息";
+"CHAT_INPUT_MESSAGE"="请输入发送内容";
+//MXRChatSingleMediaTableViewCell
+"MXRChatSingleMediaTableViewCellTips"="查看详情";
+//MXRChatViewController
+"MXRChatViewControllerMenuTextCopyTitle"="复制文字";
+"MXRChatViewControllerMenuImageCopyTitle"="保存图片";
+"MXRChatViewControllerMenuDeleteTitle"="删除";
+// MXRChatSingleMediaWebViewController
+"MXRChatSingleMediaWebViewControllerTitle"="详情";
+// MXRChatNonsupportTableViewCell
+"MXRChatNonsupportTableViewCellTips"="当前版本不支持查看此条信息。";
+//MXRLetterViewController
+"Letter_Nomore_Data"="—— 没有更多了 ——";
+"Letter_Nomore_Data_Tips"="没有更多了";
+
+//MXRCommentViewController
+"Comment_Please_InputContent"="请输入回复内容";
+"Comment_Please_InputComment_Content"="请输入评论内容";
+"Comment_Reply_Success"="评论成功";
+"Comment_Reply_Failed"="评论失败";
+"Comment_Read_Comment"="查看评论";
+"Comment_Reply_Comment"="回复评论";
+"Comment_Report_Comment"="举报评论";
+"Comment_Delete_Comment"="删除评论";
+
+//XinShuViewController
+"XinShuViewController_New_Book"="新书上架";
+"XinShuViewController_Book_Download"="热门下载";
+"XinShuViewController_Obtain_Failed"="获取消息失败!原因";
+"XinShuViewController_Request_Out_Of_Time"="请求超时";
+
+//MXRSearchBookTableViewCell
+"Ten_Thousand"="万";
+"READ"="阅读";
+
+//
+"MyDiyBookTableViewCell_User"="发布人：%@";
+"MyDiyBookTableViewCell_Size"="大    小：%.2f MB";
+
+
+//MXRDiyBookViewController
+
+"MXRDiyBookViewController_My_Book"="我做的书－1";
+"MXRDiyBookViewController_Tourists"="游客";
+"MXRDiyBookViewController_New_Page"="新拍一页";
+"MXRDiyBookViewController_Add_From_Local"="从本地相册添加";
+"MXRDiyBookViewController_Create_Book"="正在创建图书";
+"MXRDiyBookViewController_Book_Name"="请填写书名哦";
+
+
+
+//PreviewArViewController
+"PreviewArViewController_Angle"="角度";
+
+//MXRBottomMultifuctionalView
+"MXRBottomMultifuctionalView_Continue_Take_Pictures"="连续拍照";
+"MXRBottomMultifuctionalView_Recording"="录制视频";
+"MXRBottomMultifuctionalView_Share"="截屏分享";
+
+//CaiDan
+"CaiDan_Prompt"="快把我介绍给别人吧，马上送你一颗彩蛋哦！";
+"CaiDan_Immediately"="马上介绍";
+"CaiDan_Later"="稍后介绍";
+"CaiDan_Out_Of"="今天已经获得过4D彩蛋啦，明天再来吧! ";
+"CaiDan_Deblock_Success"="解锁成功，图书已经在书架下载\n将在3秒后跳转到书架...";
+"CaiDan_To_BookShelf"="去书架看看";
+"CaiDan_Know"="我知道了";
+
+//MXRShelfBookCellViewModel
+"MXRShelfBookCellViewModel_No_Read"="未读";
+"MXRShelfBookCellViewModel_Examine"="审核中";
+"MXRShelfBookCellViewModel_Have_Read"="已阅读%@";
+
+//MXRShelfBookGroupCellViewModel
+"MXRShelfBookGroupCellViewModel_Total_Book"="共%li本图书";
+"MXRShelfBookGroupCellViewModel_Test"="测试";
+
+//MXRNewBookShelfViewController
+"MXRBookShelfViewController_Complte"="完成";
+"MXRBookShelfViewController_DIY"="DIY图书";
+
+//MXRBookShelfMenuView
+
+"MXRBookShelfMenuView_Clear_Up"="一键整理";
+"MXRBookShelfMenuView_Make_Book"="我要做书";
+"MXRBookShelfMenuView_Uploading"="上传";
+"MXRBookShelfMenuView_Compressing"="压缩中";
+
+//BookDownload
+"BookDownload_Error"="DEBUG 错误";
+"BookDownload_Download_Error"="下载错误";
+"BookDownload_Book_Shelves"="此书已经下架！";
+"BookDownload_Net_Bad"="当前网络状况不佳，请稍候重试!";
+
+//MXRBookManager
+"MXRBookManager_Uploading"="当前图书正在上传，确定要取消上传吗？";
+"MXRBookManager_Temp_Upload"="暂停上传";
+"MXRBookManager_Cancle_Upload"="取消上传";
+"MXRBookManager_Request_Failed"="《%@》请求失败!";
+"MXRBookManager_Remove"="真的不要我了吗？好难过啊";
+"MXRBookManager_Look_Again"="再看看";
+"MXRBookManager_Sure_Remove"="狠心删除";
+"MXRBookManager_Remove_Book"="当前图书正在上传，删除后将不可恢复，确定要删除当前图书吗?";
+"MXRBookManager_Remove_OnReview_Book"="当前图书正在审核中，删除后将不可恢复，确定要删除当前图书吗?";
+"MXRBookManager_InMyDiy_Remove_Diy_Book" = "确定从书城中删除这本书？";
+"MXRBookManager_Hui_Ben"="绘本";
+"MXRBookManager_Pin_Tu"="拼图";
+"MXRBookManager_Ren_Zhi_Ka"="认知卡";
+"MXRBookManager_Book"="书";
+"MXRBookManager_Prompt_Words"="需要配合《%@》的实体%@才能使用哦!";
+"MXRBookManager_Download"="直接下载";
+"MXRBookManager_Buy_Book"="购买实体书";
+"MXRBookManager_None_Address"="暂无实体书购买地址";
+"MXRBookManager_Updata"="更新处理中...";
+
+"MXRBookManager_Cancel_Like_ERROR"="当前网络不佳，收藏失败";
+"MXRBookManager_Cancel_Like_Failure_ERROR"="当前网络不佳，取消收藏失败";
+
+"MXRBookManager_Update_Complete"="《%@》更新完成"; // 更新完成toast
+
+//MXRBookChecker
+"MXRBookChecker_UpData_Prompt"="升级提示";
+"MXRBookChecker_Prompt"="下载新版本点读书才能使用此书！";
+"MXRBookChecker_Updata_Immadiately"="马上升级";
+
+//MXRControl
+"MXRControl_Memory_Warning"="当前设备存储空间不足,图书内容已被系统清空,请释放内存后重新操作!";
+"MXRControl_Open_Failed_Warning"="图书打开失败，可能由于之前保存时出错导致，请删除本书后重新制作。";
+"MXRControl_Dream"="梦想神笔";
+"MXRControl_Resourse_Lose"="当前网络不佳，造成图书资源丢失，请切换网络后重新下载。";
+"MXRControl_Again_Download"="重新下载";
+"MXRControl_Know"="我知道了";
+"MXRControl_Need_Update_App" = "需要升级4D书城才能继续观看图书哦";
+"MXRControl_Need_Delete_Book" = "图书内容因资源过期无法打开，请删除";
+"MXRControl_Update_App" = "立即升级";
+
+
+
+//faceRecViewWithLite
+"Begain_Recording"="开始录制...";
+"End_Record"="视频录制完成.";
+"Save_failed"="保存视频到相簿过程中发生错误，错误信息：%@";
+"Save_Success"="成功保存视频到相簿.";
+
+//MXROfflineViewController
+"MXROfflineViewController_Out_Of_Time"="超出体验时间";
+"MXROfflineViewController_Delete_Sure"="删除后本页内所有内容将丢失，确定要删除吗？";
+"MXROfflineViewController_Continue"="您的设备配置较低，可能会影响体验，确定要继续吗？";
+"MXROfflineViewController_No_Tip"="不再提示";
+"MXROfflineViewController_Show"="显示";
+"MXROfflineViewController_Hidden"="隐藏";
+"MXROfflineViewController_DeleteMarkContent"="删除后，该页内容将不可见，如需恢复，请联系您的管理员";
+"MXROfflineViewController_MarkNoBtnInfo" = "该页没有任何资源\n扫描其他页面试试吧";
+"MXROfflineViewController_Audio_None" = "当前页面没有音频";
+//MXRUnlockBookViewController
+"MXRUnlockBookViewController_Unlock"="解锁4D绘本";
+"MXRUnlockBookViewController_Unlock_Card"="解锁4D认知卡";
+"MXRUnlockBookViewController_Unlock_Magic_Mirror"="解锁4D魔镜";
+"MXRUnlockBookViewController_Unlock_Success"="解锁成功";
+
+//MXRBookCoverStateView
+"MXRBookCoverStateView_Begain_Read"="开始阅读";
+"MXRBookCoverStateView_Audit"="审核中";
+"MXRBookCoverStateView_Wating"="等待中";
+"MXRBookCoverStateView_Uploading"="上传中";
+"MXRBookCoverStateView_Suspended"="暂停中";
+"MXRBookCoverStateView_Compression"="压缩中";
+"MXRBookCoverStateView_Loading"="加载中";
+
+//MXBBookActiveNetwork
+"MXBBookActiveNetwork_Updata_Success"="上传书本的激活信息成功";
+"MXBBookActiveNetwork_Updata_Failed"="上传激活信息失败";
+"MXBBookActiveNetwork_Obtain_Failed"="获取激活信息失败";
+"MXBBookActiveNetwork_Net_Failed"="网络异常";
+
+//MXBNetwork
+"MXBNetwork_Dlog"="防止对象提前被释放,%s";
+"MXBNetwork_Error"="服务错误";
+"MXBNetwork_Server_Error"="服务器报错:%@";
+"MXBNetwork_Failed"="服务失败";
+"MXBNetwork_Net_Failed"="网络开小差啦,请尝试重新连接吧!";
+"MXBNetwork_Upload_MXB"="上传金币ok";
+"MXBNetwork_Refused_Server"="服务拒绝";
+
+//MXBManager
+"MXBManager_Obtion_MXB"="获得%i个梦想币";
+"MXBManager_Prompt"="提示";
+"MXBManager_GivIng_MXB"="首次启动赠送%ld个梦想币";
+"MXBManager_Receive_MXB"="领取";
+"MXBManager_Login_Success"="登录成功，奖励%ld个梦想币";
+"MXBManager_Register_Success"="注册成功，奖励%ld个梦想币";
+"MXBManager_Problem"="设备ID有问题";
+"MXBManager_Upgrade_Success"="恭喜您升级版本成功，奖励您200梦想币!";
+"MXBManager_Share_Success"="分享成功";
+"MXBManager_Obtain_MXB_Failed"="获取金币失败";
+
+//BookStoreNetwork
+"BookStoreNetwork_Obtain_failed"="获取顶部标签失败!原因";
+"BookStoreNetwork_Obtain_Advertising_failed"="获取广告失败!原因";
+"BookStoreNetwork_Obtain_List_failed"="获取书本信息列表失败!原因";
+"BookStoreNetwork_Cache_failed"="缓存失败";
+"BookStoreNetwork_Cache_Success"="缓存成功";
+"BookStoreNetwork_Data_Error"="服务返回的json格式错误";
+"BookStoreNetwork_Search_Error"="获取搜索词失败!原因";
+"BookStoreNetwork_No_Else"="没有更多了";
+"BookStoreNetwork_Obtion_Book_Message_Failed"="获取书本信息失败!原因";
+/*
+ *用户评论提示文字
+ */
+"Comment_Delegate_Reply_Content"="是否删除该回复";
+"Comment_Delegate_Main_Content"="是否删除该评论";
+"Delegate"="删除";
+"DelegateNow"="立即删除";
+"Return"="返回";
+"Book_User_Comment_Reply"="回复 ";
+"Comment_Reply"="回复";
+"Comment_Report_Failed"="举报失败";
+"Comment_Report_Success"="举报成功";
+"Comment_UserComment"="用户评论";
+//CustomButtonForBookList
+"CustomButtonForBookList_Download"="下载";
+"CustomButtonForBookList_ElectronDownload"="下载";
+"CustomButtonForBookList_To_Read"="进入阅读";
+"CustomButtonForBookList_Pause"="暂停";
+"CustomButtonForBookList_Waiting"="等待";
+"CustomButtonForBookList_Update"="更新";
+//MXRCommentWebViewController
+"CommentWebView_Please_InpuTContent"="请填写评论内容";
+"MXRCommentWebViewController_Login_Go"="登录后才可以报名参赛哦！";
+"MXRCapsuleToysWebView_Login_Go"="登录后才可以参与扭蛋哦";
+"MXRCapsuleToysWebView_Mxb_Task_Prompt"="小朋友，你的梦想币不足哦，快去做任务赚取梦想币吧！";
+"MXRCapsuleToysWebView_Task_Go"="去做任务";
+
+//MXRMyMessageController
+"SEND_BUTTON"="发送";
+"SEND_TOTAL"="发送(%ld)";
+"TOTALHAVE"="共有";
+"PRAISECOUNT"="个赞";
+"MXRMyMessageController_DeleteFailed"="删除失败";
+"MXRMyMessageController_DeleteSuccess"="删除成功";
+"BookDetailComment_Reply_Success"="回复成功";
+"BookDetailComment_Reply_Failure"="回复失败";
+"BookDetailComment_Say_Something"=" 说点什么吧...";
+"BookDetailComment_Input_Comment"="请输入内容";
+"BookDetailComment_RequestData_Failure"="数据请求失败";
+"BookDetailComment_NoMoreData"="没有更多了哦";
+"BookDetailComment_NoMoreComment"="没有更多评论";
+"BookDetailComment_Read_All_Reply"="  查看所有回复(%d)";
+"BookDetailComment_Reply"="回复   %@";
+"MXRBookDetailCommCell_Praise_Fail"="点赞失败";
+"MXRBookDetailCommCell_UNPraise_Fail"="取消赞失败";
+"SavePicSuccess"="保存成功";
+"SavePicFailure"="保存失败,无写入权限";
+"BookDetailComment_CommentTitle"="评论";
+"BookDetailComment_DetailTitle"="详情";
+"BookDetailComment_BtnTitle_WriteComment"="写评论";
+"BookDetailComment_NoComment"="还没有评论，快来抢第一吧！";
+"MXRBookCommentCellLookMore"="查看更多";
+"MXRBookDetailVC_JoinToTopic"="大家都在讨论这本书哦，赶紧来看看吧!";
+//MXRPageScrollViewController
+"MUST_SET_UP"="必须设置";
+
+//MXRBookStoreViewController
+"MXRBookStoreViewController_Book_Store"="书城";
+"MXRBookStoreViewController_Recommed_for_you"="为你推荐";
+
+//MXRBookTagViewController
+"MXRBookTagViewController_No_Internet"="好像没有网络连接哦";
+//MXRCommentTableView
+"MXRCommentTableView_Delete_Cancel"="取消";
+"Look_The_Picture_To_Tead"="看图识字";
+"Listen_Sound_Recognition_Image"="听声识图";
+"Intuitive_Cognition"="直观认知";
+
+
+"BooK_Detail_Comment"="图书评论";
+"Comment_Accusation"="举报";
+"Shelf"="书架";
+"BookStore"="书城";
+"Discorver"="发现";
+"Me"="我";
+"Login_Failed_Server_Exception!"="登录失败，服务器异常!";
+"Login_Faiked_Reason%@"="登录失败!原因%@";
+"LoginNetworkManager_Acc_Pas_Err"="账号或密码错误,请重新输入";
+"LoginNetworkManager_Login_failed_BadNet"="登录失败，网络异常!,%@";
+"LoginNetworkManager_Login_failed_BadNetZero"="登录失败，网络异常!";
+"LoginNetworkManager_LoginFail"="登录失败";
+"LoginNetworkManager_BindFail"="绑定失败";
+
+"Failed_To_Obtain_Purchase_Records"="获取购买记录失败";
+"DeviceIdAndUserAssociationManager_Not_nil"="deviceid不能为空";
+"UserInformation_Than_Eighteen"="18岁+";
+"UserInformation_Zero_Three"="0－3岁";
+"UserInformation_ldAge"="%ld-%ld岁";
+"UserInformation_Age+"="%@岁+";
+"UserInformation_Age"="%@-%@岁";
+"UserInformation_female"="女";
+"UserInformation_male"="男";
+
+"LoginViewController_Accept_Proto"="注册登录即代表同意4D书城用户协议及用户隐私政策";
+"LoginViewController_pas_Least"="密码长度至少为6-16位";
+"LoginViewController_Pho_Num_UNnil"="手机号码不能为空";
+"LoginViewController_Pho_Format_Err"="手机号码格式错误";
+"LoginViewController_Ema_Not_Nil"="邮箱不能为空";
+"LoginViewController_Email_format_Err"="邮箱格式错误";
+"LoginViewController_Right_Email_Pho"="请输入正确的邮箱或手机号码";
+"LoginViewController_Login_Failed"="登录失败";
+"LoginViewController_Login_Succ"="登录成功";
+"LoginViewController_Forget_PSW"="忘记密码";
+"LoginViewController_Register_Now"="立即注册";
+"LoginViewController_Verification_Code_Login"="短信验证码登录";
+"LoginViewController_PlzEnterCorrectEmial"="请输入正确的邮箱地址";
+"LoginViewController_Verification_Code_Sending"="发送中";
+"LoginViewController_Verification_Code_warning"="请输入验证码";
+
+"MXRPersonViewController_Login_Or_Register"="登录/注册";
+"MXRPersonViewController_Btn_Sign"="签到";
+"MXRPersonViewController_Btn_HasSign"="已签到";
+
+
+
+"GetPasswordViewController_Modify_Password"="修改密码";
+"GetPasswordViewController_Input_Pass_Agin"="请再次输入密码";
+"GetPasswordViewController_Not_Conform"="两次输入的密码不一致";
+"GetPasswordViewController_Modify_Succ"="修改密码成功";
+"GetPasswordViewController_ModifyFail_Again"="修改密码失败，请稍后重试";
+"GetPasswordViewController_Password_NNil"="密码不能为空";
+"GetPasswordViewController_NotAll_Kong"="密码不能全为空格";
+"GetPasswordViewController_Back_PSW"="找回密码";
+"GetPasswordViewController_Input_Num_PSW"="请输入6－16位密码";
+"GetPasswordViewController_Again_Input_PSW"="请再次输入密码";
+
+"MXRChangePassWordViewCon_Pass_Fail"="密码错误";
+"MXRChangePassWordViewCon_Bad_Net"="网络不佳";
+"MXRChangePassWordViewCon_Rig_Pho"="请输入正确的手机号码";
+"MXRChangePassWordViewController_In_Old_Psw"="请输入旧密码";
+"MXRChangePassWordViewCon_nextstep_error"="提交失败，请稍后重试";
+
+"MXRFogertPassWordSecStep_Code"="验证码";
+"MXRFogertPassWordSecStep_Rec_Code"="接收验证码的手机号：%@";
+"MXRFogertPassWordSecStep_Cod_Fail"="验证码错误";
+"MXRFogertPassWordSecStep_Cod_Send_Succ"="验证码已发出";
+"MXRFogertPassWordSecStep_Cod_Send_Fail"="验证码发送失败";
+"MXRFogertPassWordSecStep_Have_Send"="已发送     s";
+"MXRFogertPassWordFirstStepVC_Input_Num"="请输入注册时提供的手机号";
+"MXRFogertPassWordFirstStepVC_Input_Email"="请输入注册时提供的邮箱地址";
+"MXRFogertPassWordFirstStepVC_Input_login_Inconsistent"="输入号码和登录号码不一致";
+
+"MXRChangePassWordViewController_Next_Step"="下一步";
+"MXRChangePassWordViewController_Next_Step_Loading"="下一步...";
+
+"MXRPhoneBandelDetailViewController_Next_Step"="立即绑定";
+"MXRPhoneBandelDetailViewController_Next_Step_Loading"="绑定中...";
+
+"UserRegisterSecCon_Rec_Cod_Pho"="接收验证码的手机号：%@";
+"UserRegisterSecCon_Have_Send"="已发送     s";
+"UserRegisterSecCon_Cod_Not_Nil"="验证码不能为空";
+"UserRegisterCon_Loading"="注册中...";
+"UserRegisterCon_Num_Rep"="手机号码重复";
+"UserRegisterCon_Fail_Try"="注册失败，请重试";
+"UserRegisterCon_Register_Success"="注册成功";
+"UserRegisterCon_Not_Nil"="昵称不能为空";
+"UserRegisterCon_Not_All_Space"="昵称不能全为空格";
+"UserRegisterCon_Least_And_Most"="昵称长度最少2个字符，最多24个字符";
+"UserRegisterCon_Bad_Net"="网络开小差!";
+"UserRegisterCon_Registed_Log"="该手机号已被注册,是否去登录?";
+"UserRegisterCon_EmailHasExist"="该邮箱已被注册";
+
+"UserRegisterStepSecondVC_Register"="注册";
+"UserRegisterVC_Input_PSW"="请输入6-16位密码";
+"UserRegisterVC_NickName"="请输入2-24位昵称";
+
+"MXRMyComTabViewCell_Comment"="评论：%@";
+"MXRMyComTabViewCell_Reply"="回复 %@：%@";
+"MXRMyComTabViewCell_Book"="图书：";
+"MXRMyComTabViewCell_Notif"="通知：";
+"MXRMyComTabViewCell_MyComment"="我的评论：%@";
+"MXRMyComTabViewCell_MyComment2"="我的评论：";
+"MXRMyComTabViewCell_ComentZer"="我的评论";
+"MXRMyComCon_Refresh_Idle"="下拉刷新...";
+"MXRMyComCon_Refresh_Pull"="松开可以刷新...";
+"MXRMyComCon_Refreshing"="奋力加载中...";
+
+"AuthorizationViewController_MXRT"="梦想人科技";
+"AuthorizationViewController_Input_Pass"="请输入密码";
+"AuthorizationViewController_Phone_Num"="请输入手机号码";
+"AuthorizationViewController_Email"="请输入邮箱";
+"AuthorizationViewController_Get_Con"="获取美慧树账号请联系：meihuishu@ecnupress.com.cn";
+
+"LoginViewController_Third_Login"="第三方登录";
+"personchildrenFoucsVC_MyCare_ABun"="我添加的关注";
+"personchildrenFoucsVC_NoCare_Select"="您还没有任何关注，赶快选择喜欢的关注吧！";
+"personchildrenFoucsVC_Select_other"="选择其他标签：";
+"ThirdTypeLoginForCloseAlert"="为响应实名制政策，请先使用手机号注册，第三方账号登录将于近期开放";
+
+"PersonInfoVC_IconSeeting"="头像设置";
+"PersonInfoVC_NickName"="昵称";
+"PersonInfoVC_Gentle"="性别";
+"PersonInfoVC_Age"="年龄";
+"PersonInfoVC_LocalClass"="所在年级";
+
+"AuthorViewCont_Authing"="授权中...";
+"AuthorViewCont_Unlock_Book"="解锁图书";
+"AuthorViewCont_PaWo_unLo_Bo"="输入账号密码才能解锁全部4D绘本";
+"AuthorViewCont_UnLo_All_Suc"="解锁成功，所有4D绘本已解锁";
+"AuthorViewCont_Acc_Or_Pas_Err"="账号或者密码错误";
+"AuthorViewCont_Acc_Auth"="账号授权";
+"AuthorViewCont_MeiHui"="需要美慧树授权账号才能下载图书！";
+"AuthorViewCont_Auth_Succ"="授权成功，所有美慧树图书已解锁";
+"AuthorViewCont_Auth_Fail"="授权失败,您输入的不是美慧树账号!";
+"AuthorViewCont_Bind_Account"="绑定账号";
+"AuthorViewCont_Bind_Account_Loading"="绑定账号...";
+"AuthorViewCont_Need_Auth_Acc"="需要授权账号才能下载图书！";
+"AuthorViewCont_Unlock_Succ"="解锁成功";
+"AuthorViewCont_Acc_Not_Nil"="账号不能为空!";
+"AuthorViewCont_Acc_Not_Nill"="密码不能为空!";
+
+"MXRPerViewCont_Drea_ShuTong"="梦想书童";
+"MXRPerViewCont_Drea_BaiDing"="梦想白丁";
+"MXRPerViewCont_Drea_XiuCai"="梦想秀才";
+"MXRPerViewCont_Drea_JuRen"="梦想举人";
+"MXRPerViewCont_Drea_JinShi"="梦想进士";
+"MXRPerViewCont_Drea_ZhuangYuan"="梦想状元";
+"MXRPerViewCont_Drea_Dia"="我的梦想钻";
+"MXRPerViewCont_ChongZhi"="去充值";
+"MXRPerViewCont_MyCoin"="我的梦想币";
+"MXRPerViewCont_Coin_Zone"="梦想币专区";
+"MXRPerViewCont_GoChange"="去兑换";
+"MXRPerViewCont_MyInviteFirend"="邀请好友";
+"MXRPerViewCont_MyInviteFirendTips"="精品礼物限量送";
+"MXRPerViewCont_MyNoti"="通知";
+"MXRPerViewCont_MyRank"="我的知识树";
+"MXRPerViewCont_MyTask"="我的任务";
+"MXRPerViewCont_Mess_Tip"="消息提醒";
+"MXRPerViewCont_My_BookSNS"="我的动态";
+"MXRPerViewCont_Book_My"="我做的书";
+"MXRPerViewCont_Book_Buy_Record"="购买记录";
+"MXRPerViewCont_Exchang_Code"="优惠券号/邀请码";
+"MXRPerViewCont_Setting"="设置";
+"MXRPerViewCont_Share"="分享";
+"MXRPerViewCont_Rank_Table"="排行榜";
+"MXRPerViewCont_Login_GetResetMXB"="登录后才可以得到梦想币哦"; // 休息获得梦想币
+"MXRPerViewCont_Login_Read_Rank"="登录后才可以查看排行榜哦";
+"MXRPerViewCont_QianDao_Fail"="签到失败，请稍后再试";
+"MXRPerViewCont_Pro_Log_Acc"="为了保障您的虚拟财产安全，请登录后再进行充值";
+
+"EarnMengXiangBiCon_Login_Resig"="注册登录";
+"EarnMengXiangBiCon_Constant_Qian_Day"="连续签到天数:";
+"EarnMengXiangBiCon_Share_To_Fri"="分享给好友";
+"EarnMengXiangBiCon_Share_To_Circle"="分享到朋友圈";
+"EarnMengXiangBiCon_Reason_Reply"="意见反馈";
+"EarnMengXiangBiCon_Join_Acti"="参加活动";
+"EarnMengXiangBiCon_Qu_Earn_Coin"="输渠道码赚梦想币";
+"EarnMengXiangBiCon_Go_Regis"="去注册";
+"EarnMengXiangBiCon_Go_QianDao"="我要签到";
+"EarnMengXiangBiCon_Go_Share"="我要分享";
+"EarnMengXiangBiCon_Go_Report"="我要反馈";
+"EarnMengXiangBiCon_Go_Join"="我要参加";
+"EarnMengXiangBiCon_Go_Earn"="我要赚取";
+"EarnMengXiangBiCon_Already_Join"="已参加";
+"EarnMengXiangBiCon_My_Task"="我的任务";
+"EarnMengXiangBiCon_My_Coin_Count"="我的梦想币：%ld";
+"EarnMengXiangBiCon_Download_All"="全部下载";
+"EarnMengXiangBiCon_Not_In_This"="不在此设备上";
+
+"MXRPurchHisCon_Need_Login"="您当前还没有登录，登录后才可显示哦！";
+"MXRPurchHisCon_No_Purch_Record"="还没有购买专题哦";
+//ChangeNikeNameViewController
+"ChangeNikeNameViewCon_MyNickName"="我的昵称";
+"ChangeNikeNameViewCon_Modify_Fail"="修改失败";
+"ChangeNikeNameViewCon_Modify_Succ"="修改成功";
+"ChangeNikeNameViewCon_MyCare"="兴趣爱好";
+
+"ChangeNikeNameViewCon_Select"="请选择";
+"ChangeNikeNameViewCon_CareSucc"="关注成功";
+//PersonInfoViewController
+"PersonInfoViewController_CurrentAccount"="当前账户";
+"PersonInfoViewCon_Person_Info"="个人信息";
+"PersonInfoViewCon_Login_Setting"="请登录后设置";
+"PersonInfoViewCon_Curr_Account"="当前帐号";
+"PersonInfoViewCon_Take_Photo"="拍照";
+"PersonInfoViewCon_Local_Photo"="本地上传";
+"PersonInfoViewCon_BadNet_SaveFail"="网络异常，保存失败";
+"PersonInfoViewController_MyFoucs_NoChoose"="请选择标签";
+"PersonInfoViewController_MyFoucs_Count"="个标签";
+//ReadLevelViewController
+
+"ReadLevelVC_HowToObtain"="如何获得知识点，提升等级?";
+"ReadLevelVC_ReadOne"="读完书里一个按钮";
+"ReadLevelVC_InnerContent"="里面的内容，";
+"ReadLevelVC_ObatainOneCoin"="就可以得到一个知识点一个梦想币";
+"ReadLevelVC_fiveHAC"="500个知识点可以获得";
+"ReadLevelVC_TenHAC"="1000个知识点可以获得";
+"ReadLevelVC_FifHAC"="1500个知识点可以获得";
+"ReadLevelVC_TwenHAC"="2000个知识点可以获得";
+"ReadLevelVC_ComeOnRead"="小伙伴们赶快来读书吧！";
+"ReadLevelViewCont_Defeat"="太棒了，你打败了%ld%%的小朋友";
+"ReadLevelViewCont_NoRead"="你好像没有还没读过什么图书哦!";
+"ReadLevelViewCont_Full_Rank"="满级";
+"ReadLevelViewCont_Distance"="升级到 %@ 还差%ld个知识点哦～";
+"ReadLevelViewCont_Title"="我的等级";
+
+//AboutOurViewController
+"AboutOurViewConn_More"="超出";
+"AboutOurViewConn_Input"="请输入内容哦";
+"AboutOurViewConn_LessThree"="不能少于3个字符";
+"AboutOurViewConn_NoMoreThan"="不能多于250个字符";
+"AboutOurViewConn_Thanks"="感谢您的用心反馈！么么哒！";
+"AboutOurViewConn_FeedBack_Success"="您的反馈已提交，我们会尽快处理";
+"AboutOurViewConn_Serviec_Tel"="服务电话";
+"AboutOurViewConn_Call"="呼叫";
+//MXRBookFeedbackViewController
+"MXRBookFeedbackViewCon_FedReward"="亲爱的用户，您在阅读图书过程中如果遇到任何问题可以在此填写反馈意见，您的反馈信息一经采纳或证实，我们将奖励您100个梦想币，为确保您的 梦想币准确送达，记得要先登录哦！赶紧动起来，写下您的反馈吧！";
+"MXRBookFeedbackViewCon_Reward_OneHund"="奖励您100个梦想币";
+"MXRBookFeedbackViewCon_LogFir"="先登录哦";
+"MXRBookFeedbackViewCon_DisKeyBoard"="收起";
+"MXRBookFeedbackViewCon_YourSugg"="在此输入您的建议...";
+
+
+"SettingVC_Free_Declare"="免责声明";
+"SettingVC_Suggestion_Fead"="意见反馈";
+"SettingVC_Join_Get_Coin"="参与意见反馈，可获得梦想币";
+"SettingVC_Abount_4DBookStore"="关于4D书城";
+"SettingVC_TimeTipsString"="时长提示";
+"SettingVC_Exchange_Account"="切换账号";
+"SettingVC_Logout_Account"="退出登录";
+"SettingVC_Enable_WAANNetwork"="允许运营商网络下载";
+"SettingVC_Enable_WAANNetwork_Subtitle"="开启此功能后，允许使用手机流量下载";
+"SettingVC_SmoothStyle"="流畅模式";
+"SettingVC_SmoothStyle_Subtitle"="开启流畅模式后会降低部分视觉效果以提高使用流畅度";
+"SettingVC_ARCameraOn"="摄像头";
+"SettingVC_ARCameraOn_Subtitle"="关闭摄像头后会降低耗电量和减少发热情况(使用扫一扫功能需要开启此功能)";
+"SettingVC_Help_Center" = "帮助中心";
+"MXRSetting_Util_Video_Authority"="小朋友您好，您的摄像头能被关闭了。开启请到APP{%@}-{%@}-{%@}中开启摄像头功能";
+"MXRSetting_Util_SmoothStyle_CloseTip"="小朋友您好，为了您能更流畅的阅读图书，系统为您开启了\"流畅模式\"。关闭请到APP{%@}-{%@}-{%@}中关闭该功能";
+
+"DDYVC_tryFail"="试读界面加载失败";
+"DDYVC_ClickStarAccount"="点击星星评个分吧！";
+"DDYVC_Book_Introduce"="图书简介";
+
+
+
+
+
+//ReportViewController
+"ReportViewCon_RepType"="举报类型";
+"ReportViewCon_Thank_Service_Handle"="感谢您的帮助，客服人员将尽快处理";
+"ReportViewCon_BadNet_Try"="网络不佳，请重新操作";
+"ReportViewCon_SelectRepType"="请选择举报类型";
+//SettingViewController
+"SettingViewCon_Log"="登录";
+"SettingViewCon_Log_loading"="登录中...";
+"SettingViewCon_GetInfo"="获取信息...";
+"SettingViewCon_User_Coin"="用户ID：%@\r\n设备标识符：%@\r\n游客ID：%@\r\n金币:%@";
+"SettingViewCon_Adapt"="调试";
+"SettingViewCon_CheckLoca_Version"="正在验证本地版本";
+"SettingViewCon_AlreadyLeast"="已经是最新版本";
+"SettingViewCon_Find_New"="发现最新版本";
+"SettingViewCon_TIP"="提示";
+"SettingViewCon_FindNew_Update"="发现最新版本，是否要更新？";
+"SettingViewCon_UpdateNow"="立即更新";
+"SettingViewCon_UpdateDelay"="稍后更新";
+
+//MXRCommentViewController
+"MXRCommentViewCon_Reply"="回复 %@";
+"MXRCommentViewCon_Sex"="色情";
+"MXRCommentViewCon_Adver"="广告";
+"MXRCommentViewCon_Rev"="反动";
+"MXRCommentViewCon_Vio"="暴力";
+"MXRCommentViewCon_Other"="其它";
+//MXRCommentTableViewCell
+"MXRCommentCell_Name"="小梦";
+"MXRCommentCell_ReplyMe"="回复我：%@";
+"MXRCommentCell_ReplyMeZero"="回复我：";
+"MXRCommentCell_MyBook"="我的图书：%@";
+"MXRCommentCell_MyBookZero"="我的图书：";
+"MXRCommentTableViewCell_MyComment"="我的评论：%@";
+"MXRCommentTableViewCell_MyCommentZero"="我的评论：";
+//MXRMyTaskViewController
+"MXRMyTaskViewController_DayTask"="每日任务";
+"MXRMyTaskViewController_MXBState"="获取梦想币说明";
+"MXRMyTaskViewController_MXBString"="梦想币";
+"MXRMyTaskViewController_RegisterString"="注册";
+"MXRMyTaskViewController_QuDaoMaString"="输渠道码";
+"MXRMyTaskViewController_MXBStore"="去梦想币商城查看礼品";
+"MXRMyTaskViewController_MyTaskTitle"="我的任务";
+//
+"ShowMessageContentViewController_Loading"="正在加载...";
+"ShowMessageContentViewController_After_Log"="登录后才可以进行该操作哦";
+"ShowMessageContentViewController_Reply"="回复:%@";
+"ShowMessageContentViewController_Comment_Zero"="评论";
+"ShowMessageContentViewController_Private_Message"="私信";
+"ShowMessageContentViewController_Comment_Reply"="评论回复";
+"ShowMessageContentViewController_Comment_Notify"="通知";
+"ShowMessageContentViewController_DCoin"="领取成功，获得%i个梦想币";
+"ShowMessageContentViewController_Downloading"="已经在下载中啦！";
+"ShowMessageContentViewController_DownFail"="下载失败，这个地址可能有错误哟！";
+"ShowMessageContentViewController_Mess_Detail"="消息详情";
+"ShowMessageContentViewController_Save_Img"="保存图片";
+"ShowMessageContentViewController_Get_Share_Content_Fail"="当前无法分享";
+
+
+"AboutMXRVC_WeChat_Publish"="微信公众号 ：梦想人科技";
+"AboutMXRVC_Scan_Download"="扫描二维码下载4D书城";
+"AboutMXRVC_ShareEarnCoin"="分享赚梦想币";
+"AboutMXRVC_Major_Net"="官方网站 ：www.mxrcorp.cn";
+"AboutMXRVC_QQ_Group"="官方QQ群";
+"AboutMXRVC_QQ_Account"="官方QQ号";
+
+
+"AboutOurVC_LinkStyle"="联系方式";
+"AboutOurVC_Tel_QQ_WeChat"="电话/QQ/微信";
+"AboutOurVC_Any_Call"="有任何问题，请拨打热线电话。";
+"AboutOurVC_Btn_Submit_Loading"="提交中...";
+
+"MXRBookFeedbackVC_FedDeclare"="想快速得到小梦回复？快留下你的联系方式吧（电话/QQ）";
+"MXRBookFeedbackVC_Suggestion"="在此输入您的建议...";
+
+"MXRMyMessageViewController_Wri_Com"="写评论...";
+"MXRMyMessageViewController_Comming"="评论中";
+
+"MXRQRScanViewController_Scan"="扫一扫";
+"MXRQRScanViewController_Album"="相册";
+"ScanAgain"="重新扫描";
+"Quit"="确定";
+"Logout_Message"="退出书城后，你的个人记录会被删除哦";
+"MXRUserProtorlViewController_UserProtocol"="用户协议";
+
+"DDYBookDetailViewController_Wri_ComZero"="写评论";
+"DDYBookDetailViewController_ComZero"="评论";
+"DDYBookDetailViewController_NPAdre"="无购买地址";
+"DDYBookDetailViewController_PReal"="购买实体书";
+"DDYBookDetailViewController_PurchaseReal"="购买";
+"DDYBookDetailViewController_FED"="已收藏到书架";
+"DDYBookDetailViewController_F"="收藏到书架";
+"DDYBookDetailViewController_CollsectSuccess"="收藏成功";
+"DDYBookDetailViewController_BADNET_Try"="网络不佳，请稍候重试";
+"DDYBookDetailViewController_NoPur"="暂无实体书购买地址";
+"DDYBookDetailViewController_Million"="(%.1f 万)";
+"DDYBookDetailViewController_Commed"="您已经评价过该本图书了";
+"DDYBookDetailViewController_Subject"="学科: %@";
+"DDYBookDetailViewController_TAge"="教龄: %@年";
+"DDYBookDetailViewController_GentleFe"="性别: 女";
+"DDYBookDetailViewController_GentleMa"="性别: 男";
+"DDYBookDetailViewController_Publisher"="发布人: %@";
+"DDYBookDetailViewController_Read"="阅    读：%@ ";
+"DDYBookDetailViewController_ReadCount"="%@人";
+"DDYBookDetailViewController_ReadMill"="阅    读：%.1f 万";
+"DDYBookDetailViewController_Download"="下    载：%@ ";
+"DDYBookDetailViewController_DownloadCount"="%@次";
+"DDYBookDetailViewController_DownloadM"="下    载：%.1f 万";
+"DDYBookDetailViewController_ZK"="展开";
+"DDYBookDetailViewController_SQ"="收起";
+"DDYBookDetailViewController_GetFail"="获取下载信息失败";
+"DDYBookDetailViewController_RequestBookDataFail"="啊哦，书本好像迷路了呢!";
+"DDYBookDetailViewController_MatchPhysicalBookBetterTip"="配合实体书使用体验更佳!";
+"DDYBookDetailViewController_GoodComment"="精彩评论 (%ld条)";
+"DDYBookDetailViewController_PublilisherFloatViewTip"="发布人: %@\n性别: %@\n教龄: %ld\n学科: %@";
+"DDYBookDetailViewController_LookMore"="查看更多";
+"DDYBookDetailViewController_BeginToAnswer"="开始";
+"DDYBookDetailViewController_RecommendBooks"="相关推荐";
+"DDYBookDetailViewController_RecommendBooksForAChange"="换一换";
+"DDYBookDetailViewController_Purchse_Auth"="授权账号购买";
+"DDYBookDetailViewController_Free_DownLoad"="免费下载";
+"DDYBookDetailViewController_ShareOneGetOne"="限免领取";
+"DDYBookDetailViewController_EnterCode_DownLoad"="输入激活码下载";
+"DDYBookDetailViewController_ScanCode_DownLoad"="扫码免费";
+"DDYBookDetailViewController_AtOnce_Purchase"="立即购买";
+"DDYBookDetailViewController_PublisherTitle"="发布人";
+"DDYBookDetailViewController_ReadCountTitle"="浏览数";
+"DDYBookDetailViewController_DownloadCountTitle"="下载数";
+"DDYBookDetailViewController_CopyRightInfo"="本书中的内容仅作学习交流之用,其内容不代表梦想人科技的观点和立场，梦想人科技也不对内容的正确性承担任何责任。请用户下载后自行斟酌使用，并在下载24小时内自觉删除, 严禁用于任何商业用途,如作者或第三方对版权或转载方式有疑义,请邮件联系管理员(contact@mxrcorp.com)";
+
+"WZYShare_ShareFail"="分享失败";
+"WZYShare_NoChat"="您的手机还没有安装微信！";
+"WZYShare_NoSina"="您的手机还没有安装新浪微博！";
+"WZYShare_NoQZone"="您的手机还没有安装QQ！";
+"WZYShare_NotSupport"="当前系统版本不支持应用内发送邮件功能";
+"WZYShare_NoAccount"="没有设置邮件账户";
+"WZYShare_4DStore"="4D书城";
+"WZYShare_4DStoreAppe"="4D书城《%@》";
+"WZYShare_CopySucc"="复制成功";
+
+"CompleteTEXT"="答题完成率";
+"AccuracyTEXT"="答题正确率";
+
+"MXRExchangeItemView_DreaDia"="%@梦想钻";
+"MXRBuyViewController_Pay"="充值";
+"MXRBuyViewController_Re_Fail"="请求订单失败";
+"MXRBuyViewController_Warm_Tip"="温馨提示:";
+"MXRBuyViewController_Rule"="1.在iOS上的梦想钻，在非iOS终端不能使用。";
+"MXRBuyViewControlle_Help"="2.通过App Store充值梦想钻，充值引导帮助。";
+"MXRBuyViewController_Pay_Help"="充值引导帮助";
+"MXRBuyViewController_UnSuppport"="设备不支持购买";
+"MXRBuyViewController_Pay_Succ"="充值%@梦想钻成功";
+"MXRBuyViewController_Impor_Tip"="重要提示:";
+"MXRBuyViewController_UN_UP_GO"="在未登录状态下，删除图书，更新图书，更换设备，购买的图书将丢失，小梦建议您尽快登录。";
+"MXRProductItem_Yuan"="%@元";
+
+"MXRKidSecurityViewController_Over"="超出体验时间";
+
+"MXRARViewController_Hide"="隐藏";
+"MXRARViewController_Show"="显示";
+"MXRARViewController_Angle"="角度";
+"MXRARViewController_Loading"="正在加载模型...";
+"MXRARViewController_AngleDD"="角度%d";
+"MXRARViewController_SaveLocalSucc"="已成功保存到本地相册";
+"MXRARViewController_SaveLocalFail"="保存到本地相册失败";
+"MXRARViewController_Waiting"="请稍候...";
+
+"MXRDrawViewController_GoSpur"="需要激活才能体验本书所有的精彩内容。立即去激活？";
+"MXRARMXRDrawViewController_Need_Active" = "需要先去激活才能体验哦！";
+"MXRARMXRDrawViewController_Scan_GoSpur" = "要先去扫描才能完整体验哦！";
+"MXR4DTimeTableViewController_Scan_GoSpur"="需要先去扫描才能激活体验哦！";
+
+"MXRARCognitiveCardBaseViewController_GO_SPUR"="需要先去扫描该图案才能激活体验哦！";
+"MXRARCognitiveCardBaseViewController_ReCo_GOSPUR"="需要先去扫描这张认知卡才能激活体验哦！";
+"MXRARCognitiveCardBaseViewController_Return"="当前图书还没有阅读完，确定要返回书架吗？";
+"MXRARCognitiveCardBaseViewController_NoMoreBook"="没有更多图书";
+"MXRARCognitiveCardBaseViewController_SpecialShareTip"="好厉害，你已经学习了%ld个汉字了，赶紧分享吧";
+"MXRARCognitiveCardBaseViewController_SpecialShareContent"="我已经学习了%ld个汉字了，你也来试试吧";
+
+"MXRCountDownViewController_TakeARest"="让眼睛休息一下吧,%ld秒后继续观看";
+"MXRCountDownViewController_ExitBook"="退出图书";
+
+//TakePhotoViewController
+"TakePhotoViewController_AddIntroduce"="点击添加描述";
+"TakePhotoViewController_WeiXin"="微信";
+"TakePhotoViewController_QQ"="QQ空间";
+"TakePhotoViewController_QQ_Friends"="QQ好友";
+"TakePhotoViewController_WeChat_Moments"="朋友圈";
+"TakePhotoViewController_ShareTo"="分享到：";
+"HengPingShowView_shareReturn"="分享后,记得要先回来4D书城,小梦才能给你送梦想币哦!";
+"ShareTipsShareTo"="   分享到";
+
+"MXRInviteFriendAlreadyInvite"="已邀请成功%ld人";
+"MXRInviteFriend_Will_Receive_Reward"="如果邀请了好友，并且好友成功注册4D书城，那么你和你的朋友都将获得%@的奖励";
+"MXRInviteFriend_Invite_Friend_FaceToFace"="当面分享";
+"MXRInviteFriend_Invite_Friend_Scan"="邀请好友当面扫一扫吧";
+"RecordViewViewControllerWithLite_RecSucc"="录像成功";
+"RecordViewViewControllerWithLite_Photo_Succ"="拍照成功";
+"RecordViewViewControllerWithLite_AddFail_Try"="添加失败，请重新尝试！";
+"ReceivedMessageManager_BadNet"="好像没有连接网络哦";
+
+"MXRPersonViewController_InstaceReport"="连续签到";
+
+"MXRPersonShareVC_Get_More_Chance"="让好友使用扫描软件扫描下载程序就有机会获得梦想币";
+"MXRPersonShareVC_share_To"="分享至";
+"MXRPersonShareVC_FriendCircle"="朋友圈";
+"MXRPersonShareVC_WeChat"="微信";
+"MXRPersonShareVC_QQZone"="QQ空间";
+
+
+"ChangeNikeNameVC_InputNickName"="请输入您的昵称";
+"ChangeNikeNameVC_Save"="保存";
+//
+//彩蛋解锁
+"COLOREGG_BUY_0"="您当前有%d梦想币，需要花费%d梦想币解锁本书，当前梦想币不足";
+"COLOREGG_BUY_1"="您当前有%d梦想币，需要花费%d梦想币解锁本书，是否解锁？";
+"COLOREGG_BUY_2"="您当前有%@梦想钻，需要花费%@梦想钻解锁本书，是否解锁？";
+"COLOREGG_BUY_3"="您当前有%@梦想钻，需要花费%@梦想钻解锁本书，当前账户余额不足";
+"COLOREGG_BUY_ALERT_CANCEL"="取消";
+"COLOREGG_BUY_ALERT_UNLOCK"="解锁";
+"COLOREGG_BUY_ALERT_GOTOPAY"="去充值";
+
+
+//我的界面
+"MY_VIEW_MXB"="我的梦想币";
+"MY_DIAMOND_VALUE"="我的梦想钻:  %@";
+"MY_TREE_OF_KNOWLEDGE"="我的知识树";
+"MY_MXB"="梦想币";
+"MY_MXZ"="梦想钻";
+//MXRBuyViewController
+"PAYMENT_FAIL"="充值失败";
+"PAYMENT_FAIL_CONTENT"="如有疑问请联系客服电话：400-8282-711";
+"PAYMENT_FAIL_OK"="好的";
+"SELECTED_RMB"="请选择充值金额：";
+"MXRBuyViewController_My_MXZ"="我的梦想钻：";
+
+//MXRCollectionViewController
+"GO_HEALTH_EXAMINATION"="去体验";
+"ALL"="全部";
+"REQUEST_FAILED"="请求失败，请稍候再试";
+"HAVE_DOWN"="已下载";
+"MY_BOOK"="我的图书";
+"MAKE_BOOK"="我要做书";
+"QUANTIFIER"="本";
+"CREATE_A_NEW_BOOK"="创建新书";
+"EDIT_EXISTING_BOOKS"="编辑已有图书";
+
+//MXRBookTagViewController
+"MXRBookTagViewController_ALL"="全部";
+
+//MXRWebViewController
+"WEBSITE_SOURCE"="此内容来源于%@，如有版权问题请联系我们";
+"DIY_ARENA"="DIY专区";
+
+//MXR4DTimeTableViewController
+"GO_TO_LOGIN_TITLE"="为了保障您的虚拟财产安全，请登录后再进行操作。";
+"GO_TO_LOGIN_CANCEL"="取消";
+"GO_TO_LOGIN_CONFIRM"="去登录";
+
+//BookDetailViewController
+"HUIFU" = "回复 ";
+"PINGLUNCHENGGONG" = "评论成功";
+"PINGLUNSHIBAI" = "评论失败";
+//LoginViewController
+"LOGIN..." = "登录中...";
+
+// 兑换梦想币
+"EXCHANGE_MXZ_COUNT" = "当前可用梦想钻%@，去充值";
+"EXCHANGE_MXZ_COUNT_NOT_ENOUGH" = "当前可用梦想钻%@，梦想钻不足，去充值";
+"EXCHANGE_BUY_MXZ" = "去充值";
+"EXCHANGE_MXZ_MAKE_SURE" = "确认用%@梦想钻 兑换%@梦想币？";
+
+// 购买界面
+"PAY_FOR_BUY_FAILURE" = "购买失败!";
+"PAY_FOR_BUY_EXCHANGE" = "立即兑换";
+"PAY_FOR_BUY_MXZ" = "立即充值";
+"PAY_FOR_BUY_EXCHANGE_And_Unlock" = "立即兑换并解锁";
+"PAY_FOR_BUY_MXZ_And_Unlock" = "立即充值并解锁";
+"PAY_FOR_BUY_BOOK" = "购买本书";
+"PAY_FOR_BUY_CURRENT_MXB" = "当前余额：%ld梦想币";
+"PAY_FOR_BUY_CURRENT_MXZ" = "当前余额：%@梦想钻";
+"MXRBookSNSViewControllerTipsUserHandleLogin"="登录后即可操作";
+"PAY_FOR_MXZ_BUY_MAKE_SURE" = "确认用%@梦想钻购买本书？";
+"PAY_FOR_MXB_BUY_MAKE_SURE" = "确认用%@梦想币购买本书？";
+"MXRUnlockBookView_fail"="解锁失败，请稍后重试";
+
+// 安全图书解锁
+"KID_UNLOCK_TITLE" = "解锁";
+"KID_NO_NETWORK_CANUSE" = "当前网络不可用，请检查您的网络设置";
+"KID_ID_USECOUNT_BEYOUND" = "该账号使用次数已经超过上限";
+"KID_CAN_NOT_USE_LOCKPSD" = "无效解锁密码";
+"KID_LOCKPSD_NULL_TIPS" = "解锁密码不能为空";
+// 蚕宝宝相关提示
+"CAN_Baby_dead_tips" = "蚕宝宝没有持续喂食，请重新领养";
+"CAN_Baby_Tips_Cancel" = "返回书架";
+"CAN_Baby_Tips_Sure" = "重新领养";
+
+//MXRSearchBookTableViewCell
+"BookClass"="图书分类";
+"Classification"="分类";
+
+//PreViewActivity
+"PreViewActivity_Prompt"="加载试读资源中...";
+"Please_Import_BookName"="请输入关键词搜索";
+//ReadTViewController
+"ReadTViewController_Read_Through"="通读";
+//MXRBookTopView
+"MXRBookTopView_Error"="报错";
+"MXRBookTopView_Hidden"="隐藏";
+
+//MXRBookShelfGroupViewController
+"MXRBookShelfGroupViewController_Back"="轻触返回";
+
+//MXRShelfHeaderNoDataView
+"MXRShelfHeaderNoDataView_Prompt"="暂无最近阅读";
+//URLInputViewController
+"URLInputViewController_Imput_URL"="网址输入";
+"URLInputViewController_Please_Imput_URL"="请输入网址";
+"URLInputViewController_Save"="确定";
+
+//MXRAddCommentViewController
+"MXRAddCommentViewController_PlaceHolder"="请输入您想要添加的文字，最多不超过30个字";
+
+//MXRUnlockCognitiveSuccessView
+"MXRUnlockCognitiveSuccessView_Prompt"="同时赠送您40元等值的梦想币！这些梦想币可用于购买4D认知卡所有系列的图书哦！";
+
+//MXRPayForBuyBookView
+"MXRPayForBuyBookView_Buy_Book"="购买图书";
+
+"Hot_Word"="为您推荐";
+"Search_History"="搜索历史";
+"Clean_History_Word"="清空";
+"SearchViewController_Prompt_Lable"="暂无搜索记录";
+"Search_Please_InputContent"="请输入搜索内容";
+
+"SearchViewController_Lable_NoFindBook"="找不到您要搜的图书哦";
+"NoFindBookFromClassification"="当前分类中没有找到哦";
+//MXRBandleListViewController
+"RegisterCount"="注册账号";
+"OtherLoginType"="其他登录方式";
+"UnBandled"="未绑定";
+"Phone"="手机号";
+"Email"="邮箱";
+"WeChat"="微信号";
+"SinaBlog"="新浪微博号";
+"CanCelBandel"="解除绑定";
+
+//MXRTopSearchView
+"MXRTopSearchView_Cancle"="取消";
+
+// MXRBandelPhoneSussViewController
+"MXRBandlePhoneSussViewControllerTitle"="绑定手机";
+"MXRBandlePhoneSussViewControllerTipsText"="绑定的手机号：";
+"MXRBandlePhoneSussViewControllerChangePsdBtnText"="重设密码";
+"MXRBandlePhoneSussViewControllerStopBindle"="解除绑定";
+// MXRchangePsdWithBindleViewController
+"MXRchangePsdWithBindleViewControllerTitle"="设置登录密码";
+"MXRchangePsdWithBindleViewControllerTipsText"="设置密码后，您可以用手机号＋密码登录";
+"MXRchangePsdWithBindleViewControllerInputPsdPlaceholder"="请输入6-16位密码";
+"MXRchangePsdWithBindleViewControllerInputSurePsdPlaceholder"="请再次输入密码";
+"MXRchangePsdWithBindleViewControllerNavBarItmeTitle"="跳过";
+"PhoneNumNotRight"="请输入正确的手机号";
+"CodeSending"="获取验证码";
+"CancelBandelSuccess"="解绑成功";
+"CancelBandelFail"="解绑失败";
+"SetPassWordFail"="设置密码失败";
+"ThirdBandelAlert"="因为平台限制，绑定账号功能即将开放";
+"BandelTitle"="账号绑定";
+"SetLoginPassWord"="设置登录密码";
+"BandelPhone"="绑定手机";
+"BandelSuccess"="绑定成功";
+"Recently_Add"="最近添加";
+"GET_IMAGE_LOCAL_NINE"="您当前已经选择了%ld张照片了";
+"GET_VIDEO_LOCAL_NINE"="你当前已经选择了%ld个视频了";
+"GET_IMAGE_LOCAL_MAX_NINE"="最多只能选择%ld张照片";
+"GET_IMAGE_LOCAL_Authority"="请在设备的\"设置-隐私-相机\"选项中，允许%@访问你的手机相机";
+
+"Sure_Delete_Message"="是否删除该条消息?";
+"Sure_Delete_AllMessage"="是否删除所有消息?";
+"Input_Message"="输入消息";
+
+
+//mxrCommonService
+"mxrCommonService_prompt"="建议在wifi环境下下载，土豪请自便。";
+"mxrCommonService_Down"="现在就下";
+"mxrCommonService_Later_Down"="回头再说";
+"mxrDownBookOnWWAN_prompt"="当前未连接WiFi，继续下载将消耗手机流量，是否立即下载？";
+"mxrDownBookOnWWAN_DownOne"="仅此一次";
+"mxrDownBookOnWWAN_GoSetting"="进入设置";
+"mxrCommonService_Introduce_Prompt"="好害羞哦，又把我介绍给别人，嘻嘻。送你一枚彩蛋表示一下感谢。";
+"mxrCommonService_Knock_Eggs"="敲彩蛋";
+"mxrCommonService_Send_Eggs"="哎呀呀，累死我啦。第一本书终于下完啦！初次见面，小梦就送你一枚彩蛋吧，以后多多关照哦！";
+"mxrCommonService_No_Eggs"="不好意思哈，小梦的彩蛋都发光了，下次有新彩蛋一定第一时间告诉你。";
+"mxrCommonService_Later_To_See"="稍后去看";
+"mxrCommonService_Go_And_See"="去看看";
+"mxrCommonService_Have_Down"="已经在下载啦，请耐心等待一会哦！";
+
+//MXRBookSNSViewController
+"MXRBookSNSViewControllerTabBarItemTitle"="梦想圈";
+"MXRBookSNSViewControllerSenderTypeDefault"="分享图书";
+"MXRBookSNSViewControllerSenderTypeTransmit"="转发";
+"MXRBookSNSViewControllerUserLike"="点赞";
+"MXRBookSNSViewControllerUserCancelLike"="取消点赞";
+"MXRBookSNSViewControllerUserComment"="评论";
+"MXRBookSNSViewControllerTipsUpdate"="更新了";
+"MXRBookSNSViewControllerTipsUpdatedetail"="条动态";
+"MXRBookSNSViewControllerTipsUserLogin"="登录后即可查看所有动态";
+"MXRBookSNSViewControllerTipsUserHandleLogin"="登录后即可操作";
+"MXRBookSNSViewControllerUserLoginBtnTitle"="立即登录";
+//动态详情
+
+"MXRBaseCommentViewComment"="评论";
+
+"MXRBookSNSDetailViewController_Title"="动态详情";
+"MXRBookSNSDetailVC_Section_Lable"="全部评论";
+"MXRBookSNSDetailVC_Section_NO_Comment"="暂无评论";
+"MXRBookSNSDetailVC_Zan"="赞:";
+
+//MXRTopicViewController
+"TopicTitle"="话题页";
+"PerpsonsJoin"="条动态";
+"SNSTopic"="分享话题";
+"FreeRefresh"="释放更新";
+"Load..."="加载中...";
+//MXRBookSNSUserHandleMomentView
+"MXRBookSNSUserHandleMomentView_delete"="删除";
+"MXRBookSNSUserHandleMomentView_NoInterest"="不感兴趣";
+"MXRBookSNSUserHandleMomentView_report"="举报";
+"MXRBookSNSUserHandleMomentView_cancle"="取消";
+//MXRSearchTopicViewController 新话题
+"MXRSearchTopicViewController_NoNet"="无可用网络";
+"MXRSsearchTopicViewController_Dynamic"="条动态";
+"MXRSearchTopicViewController_NewTopic"="新话题";
+"MXRSearchTopicViewController_Topic"="话题";
+"MXRSearchTopicViewController_HotTopic"="热门话题";
+"MXRSearchTopicViewController_AllTopic"="全部话题";
+"MXRSearchTopicViewController_MoreTopic"="更多话题";
+//MXRSelectImageLocalViewController
+"MXRSelectImageLocalViewController_Sure_Total"="确定(%ld)";
+"MXRSearchTopicViewController_Recomend"="为您推荐";
+//时间转换为制定格式时 使用
+"justNow"="刚刚";
+"minuteAgo"="分钟前";
+"hourAgo"="小时前";
+"dayAgo"="天前";
+"oneminuteAgo"="分钟前";
+"onehourAgo"="小时前";
+"onedayAgo"="天前";
+"yestday"="昨天";
+
+"GuideLogin_Letter"="登录后即可查看私信";
+"GuideLogin_Comment"="登录后即可查看评论回复";
+"GuideLogin_MyComment"="登录后即可查看我的评论";
+"Message_NoMessage"="当前暂无消息";
+
+"SearchTopic_NoTopic"="话题不存在";
+"4DBookStore_DefaultShareTitle"="4D书城分享";
+"4DBookStore_DefaultShareContent"="这里有丰富的科普读物；海量课外读物；主流教材4D点读，课后习题免费辅导";
+//MXRBookSNSDeleteForwardTableViewCell
+"MXRBookSNSDeleteForwardTableViewCellTipsLabelText"="原动态已删除";
+//MXRBookSNSSendDetail
+"MXRSNSSendStateViewController_sendDetail"="发布动态";
+"MXRSNSSendStateViewController_transitDetail"="转发动态";
+"MXRSNSSendStateViewController_send"="发布";
+"MXRSNSSendStateViewController_share_get"="说说分享心得...";
+"MXRBookSNSSearchBookBeforeView_Add_A_Book"="为你的动态添加一本图书吧";
+"MXRSNSSearchNoBookView_No_find_Book"="没有找到相关书籍";
+"MXRSearchBookFromBookStore_Search_From_Store"="在书城中搜索";
+"MXRTopicMainViewController_Join_Now"="立即参与";
+
+//MXRBookSNSPrompt
+"MXRBookSNSPromptFail"="操作失败";
+
+"MXSns"="梦想圈";
+"WeChatFriend"="微信好友";
+"Sina"="新浪微博";
+"DDYTipChangeNet"="网络真的连不上，换个网试试吧";
+"ShareLetter"="私信";
+"ShareMXQ"="梦想圈";
+"CaiDanUnlockPrompt"="当前图书需要购买后才能体验";
+"CaiDanPayForUnlock"="立即购买";
+"MXRBookSNSUserHandleMomentReportSuss"="您的举报已提交，我们会尽快处理。";
+"MXRBookSNSUserHandleMomentReportFail"="网络异常，举报失败。";
+"MXRTopicMainViewControllerTopicNoData"="此话题好像不见了呢";
+"MXRTopicMainViewControllerTopicNoDataFromSNSDetail"="此话题好像不见了呢";
+//BookStoreHomePageRecommend
+"MXRBookStoreHomePageRecommendViewController_Book_Select"="图书筛选";
+"MXRSearchNoResultPrompt"="书城中继续搜索";
+
+//BookStore
+"MXRBookStoreHomeRecommend"="为您推荐";
+"MXRBookStoreHomeShowAll"="更多";
+"MXRBookStoreHomeReadTimes"="阅读:%@";
+
+//选择好友
+"SelectFriend"="选择好友";
+"ShareSuccess"="已分享成功";
+"ShareTo"="分享给";
+
+
+//账号绑定
+"CANCEL_USER_BANDLE_TIP_1"="是否解除微信与当前账号的绑定？";
+"CANCEL_USER_BANDLE_TIP_2"="是否解除QQ与当前账号的绑定？";
+"CANCEL_USER_BANDLE_TIP_3"="是否解除新浪与当前账号的绑定？";
+"CANCEL_USER_BANDLE_IMM"="立即解除";
+
+//神灯AR
+"MXRARMagicLampVCLookBook"="查看图书";
+"Has_Activate"="该解锁密码使用次数已经超过上限";
+
+
+"SNSSendDetail_None_Empty"="输入不能为空";
+"SNSSendDetail_Overflow"="字数不能超过140";
+"SNSSendDetail_None_All_Space"="输入不能全为空格";
+"SNSSendDetail_Select_Book"="请选择一本图书";
+"SNSSendDetail_Send_Success"="动态发送成功";
+"SNSSendDetail_Bad_Net_Share_Upload_Fail"="网络不佳，分享内容上传失败";
+"SNSSendDetail_Bad_Net_Upload_Fail"="网络不佳,动态上传失败";
+"SNSSendDetail_Transmit_Success"="动态转发成功";
+
+// 分享
+"MXRNewShareViewCancleUploadBtntitle"="取消";
+"MXRNewShareViewUploadIngTips"="上传中...";
+"MXRNewShareViewShareVideoTipsContent"="快来看我在4D书城拍的创意AR视频吧";
+"MXRNewShareViewShareVideoTitle"="4D书城，专业的AR/VR少儿教育娱乐内容平台";
+
+// 知识树
+"TreeOfKnowledgeNoBookPrompt"="这里会呈现您做题的进度，记得经常过来查看一下学习成果哦";
+"ScanTitle" = "扫码";
+"Dynamic"="动态：";
+"KnowLedgeTree_MXRPromptViewLogin"="登录";
+"KnowLedgeTree_MXRPromptView_LoginToExame"="您需要登录才能答题，请登录";
+"KnowLedgeTree_MXRPromptView_ReadNeedFinishPreExam"="您需要完成上一阶段的检验才能继续阅读哦";
+"KnowLedgeTree_MXRPromptView_GoExame"="前去做题";
+"KnowLedgeTree_MXRPromptView_CheckExameWhenFinishAllRead"="您已完成全部阅读，检验一下学习成果吧";
+"KnowLedgeTree_MXRPromptView_ExitNotFinishExame"="现在退出将无法上传结果，确定要退出？";
+"KnowLedgeTree_PlsChooseOption"="请选择选项";
+"KnowLedgeTree_DoExameVC_Btn_Check"="检查";
+"KnowLedgeTree_ExameResult_SuccToUnlock"="共%ld道题，您答对%ld道题";
+"KnowLedgeTree_ExameResult_FailToUnlock"="很遗憾，没能达成解锁条件";
+//  我的动态
+"MXRMyBookSNSViewController"="我的动态";
+"MXRMyBookSNSViewController_noDataTipsUserStr"="您还没有发布过动态";
+
+"MXRVersion_technology"="梦想人科技    版权所有";
+"MXR_ShareBookStore"="分享书城";
+"MXR_Custom_Hot_Line"="客服热线";
+
+"MXRChatViewControllerMenuTextCopyQQGroup"="复制群号";
+"MXRChatViewControllerMenuTextCopyQQAccount"="复制QQ号";
+
+"MXRRankListSortView_Pull_Search"="上拉查看排行榜";
+"MXRRankList_Need_Download_Book"="该图书需要更新完成后才能做题";
+"MXRRankList_Need_Download_Done"="该图书需要下载完成后才能做题";
+"MXRRAnkList_Local_No_Book"="本地没有该图书,请先下载";
+"MXRRankList_Check_Next_Study"="检验一下本阶段的学习成果?";
+"MXRRankList_Book_Is_Download"="当前图书正在下载，下载完成后开启答题闯关。";
+"MXRRankList_Need_Complete"="需在上一阶段达成%@才能开启本阶段试题";
+"MXRRankList_Cancel_Download"="取消下载";
+"MXRRankList_Continue_Download"="继续下载";
+"MXRRankList_Suggest_Download"="当前是3/4G网络，建议在WiFi环境下载";
+
+"please_Put_In_Code"="请将二维码或条形码放入识别框";
+"MXRMedia_Util_PhotoAlbum"="您的照片权限没有开启，无法读取本地相册，请到（设置）-（隐私）-（照片）中选择4D书城开启即可。";
+"MXRMedia_Util_Video_Authority"="您的相机没有开启，无法使用摄像头。请到{设置}-{隐私}-{相机}，选择4D书城开启相机即可。";
+
+"MXRPreViewController_Only_Share_One"="一次最多只能分享一张照片哦";
+"MXRPreViewController_Delete_Image_From_Image"="是否从相册中删除选中图片";
+"MXRPreViewController_Go_To_Reload_Data"="NOTIFICATIONGOTORELOADDATA";
+"MXRHomePage_All_Subject"="所有专题";
+"MXRBookShelf_Has_BookUpdate_Prompt"="您有%li本书需要更新，全部更新？";
+"MXRBookShelf_Update_All"="全部更新";
+"MXRBookShelf_Prompt_BookUpdate_OnlyThisBook"="仅这本书";
+"MXRBookShelf_Prompt_BookUpdate_ALLBook"="全部";
+
+"DidNotCheckTheProvince"="未查到省份";
+"DidNotFindTheCity"="未查到市区";
+"DidNotFindIP"="未查到IP";
+
+
+"DownloadCompleted"="下载完成";
+"DownloadFail"="下载失败";
+"Recognizing"="识别中...";
+"Current"="当前";
+"HasBeenActivatedDownloadPrompt"="已为激活状态,是否立即下载";
+"HasBeenActivatedImmediatelyOpen"="已为激活状态,是否立即打开";
+"HasBeenActivatedImmediatelyToBookShelf"="已为激活状态\n正在下载,是否前往书架";
+"ActivateSuccessImmediatelyToBookShelf"="激活成功\n正在下载,是否前往书架";
+"later"="稍后";
+"DownloadBook"="下载";
+"YES"="是";
+"ActiveCodeMoreThanUseTime"="激活失败，当前剩余激活次数：0/4";
+"Feedback"="反馈";
+"FeedbackActiveCodeMoreThanUseTime"="你好，激活次数已用完\n如有疑问请拨打400-8282-711";
+"GoToBookshelf"="前往书架";
+"ActiveBooksSuccess"="本图书激活成功";
+"SureDownloadBook"="是否下载";
+"ActivePrompt"="激活: 已使用%ld次,剩余%ld次";
+"ActivePromptAndOpen"="激活成功，是否进入阅读";
+"HaveUseTimes"="激活: 已使用";
+"Residue"="次,剩余";
+"NumberOfTimes"="次";
+"ActiveSuccessAndDownload"="激活成功,是否下载";
+
+// 蚕宝宝分享界面
+"MXRCanBabyShareViewtipsFinishCourse"="您已完成全部阅读";
+"MXRCanBabyShareViewtipsFriendsLabel"="向小伙伴炫耀一下学习成果吧，分享后会获赠一定数量的梦想币。";
+"MXRCanBabyShareViewShareBtnTitle"="立即分享";
+"MXRCanBabyShareViewShareMXQContent"="我已完成领养蚕宝宝的所有答题，正确率100%，邀请你也来参与哦！";
+
+// 书架删除按钮
+"MXRBookManager_Cruel_To_Delete"="狠心删除";
+
+"MXRBookManager_Delete_Recent_Read"="删除后，你就失去我了，想好了吗？";
+"MXRBookManager_Cancel_Like_Msg"="删除后，你就失去我了，想好了吗？";
+"MXRBookManager_Comfirm_Deletion" = "提示";
+
+"MXRBookManager_Download_Complete"="《%@》下载完成"; // 下载完成toast
+"MXRBookManager_Download_Error" = "网络错误，《%@》下载失败";
+"MXR_File_Error_Prompt" = "文件已损坏无法打开";
+
+"MXRBookShelf_Title_Recent_Read"="最近阅读";
+"MXRBookShelf_Title_Local"="书架";
+"MXRBookShelf_Title_BookList"="书单";
+"MXRBookShelf_Title_ZoneList"="购买专区";
+"MXRBookShelf_Title_ZoneListUpdateTitle"="上新";
+
+// MXRBookShelf
+"MXRBookShelf_No_Downloaded_Books"="还没有收藏或下载过图书";
+"MXRBookShelf_Delete_Book"="删除图书";
+"MXRBookShelf_No_Collect_Books"="还没有图书哦";
+"MXRBookShelf_Cancel_Collect_Book"="删除图书";
+"MXRBookShelf_No_Recent_Read_Books"="暂无最近阅读";
+"MXRBookShelf_Delete_Recent_Read_Book"="删除图书";
+
+"ActiveCodeIsNoCorrect"="激活码不正确";
+"Go_To_Bookshelf"="前去书架";
+"Many_Books_Active_Success"="本图书激活成功!剩余激活次数";
+"One_Books_Active_Success"="激活成功！剩余激活次数";
+"Remaining_Time"="次。";
+"Mnay_Book_Downloaded"="图书已全部下载,前去书架打开图书?";
+"Need_Download_Complete"="下载完成即可体验。";
+"Immediately_Download"="立即下载";
+"Has_Downloaded_Whether_Open"="当前图书已下载，是否进入阅读？";
+"Bad_NetWork"="当前网络无法连接，请检查网络设置";
+"Error_Active_Code"="激活码不正确";
+"OneBookCodeMoreTime"="激活失败，剩余激活：0次，更换激活码重试？";
+"ManyBooksCodeMoreTime"="本图书激活失败，剩余激活：0次，更换激活码重试？";
+"Download_ManyBookDownloaded"="图书已全部下载，前去书架打开图书？";
+"Download_ManyBookDownloading"="本图书正在下载，前去书架查看？";
+"currently_Download"="现在下载";
+"Download_DownloadedWhetherOpen"="已下载,是否进入阅读?";
+"Download_Download_Pause"="下载已暂停，是否继续下载？";
+"Download_Downloading"="正在下载，前去书架查看？";
+"Download_ManyBooks"="本图书？";
+"Active_Downloading"="当前图书正在下载，前去书架查看？";
+"UnableToTdentify"="条形码无法识别";
+"TheServiceRequestFailed"="服务请求失败，请稍后重试";
+
+"MXRSelectOwnTasteView_Skip"="跳过";
+"MXRSelectOwnTasteView_SelectDone"="选好了,进入首页";
+"MXRSelectOwnTasteView_Acknowledge"="教育";
+"MXRSelectOwnTasteView_Recognized"="认知";
+"MXRSelectOwnTasteView_Minitrary"="军事";
+"MXRSelectOwnTasteView_Nature"="自然世界";
+"MXRSelectOwnTasteView_Science"="科普";
+// personchildrenFoucsViewController
+"personchildrenFoucsViewControllerFinishBtnTitle"="完成";
+"MXRSelectOwnTasteView_Science_ForeTitle"="选择你感";
+"MXRSelectOwnTasteView_Science_MediumTitle"="的内容";
+"MXRSelectOwnTasteView_Science_Taste"="兴趣";
+
+"MXRChatViewControllerRecognizedImage"="识别图片";
+
+"User_Agreement" = "4D书城用户协议";
+"User_Privacy" = "用户隐私政策";
+"Privacy_policy" = "隐私权政策";
+"Agreed_User_Agreement" = "点击创建新书按钮即代表同意 4D书城用户协议";
+//"MXRUploadDiyViewController_Agreed_User_Agreement"="上传图书即代表同意《4D书城用户上传协议》";
+//"MXRUploadDiyViewController_User_Agreement"="《4D书城用户上传协议》";
+//"MXRUploadDiyViewController_BookName"="书名";
+//"MXRUploadDiyViewController_Author"="作者";
+//"MXRUploadDiyViewController_description"="图书简介";
+//"MXRUploadDiyViewController_BookCover_msg"="浏览图书和编辑试读页";
+//"MXRUploadDiyViewController_uploadButton_title"="使用梦想币上传";
+//"MXD_DIY_BOOK_DEFAULT_DESCRIPTION" = "%@小朋友发布了一本%@页的精美图书哦~里面隐藏着小朋友什么样的内心世界呢？快进来听听小朋友的故事吧！";
+//"MXR_DIY_UPLOAD_PUBLISH" = "发布";
+//"MXR_DIY_NEED_ADD_BOOKNAME" = "小朋友需要先添加书名哦！";
+
+
+// MXROfflineUGCMenuManager
+"MXROfflineUGCMenuManagerEdit"="重新编辑";
+"MXROfflineUGCMenuManagerDelete"="删除";
+
+"camera" = "照相机";
+"Photo_Album" = "相簿";
+
+// MXROfflineUGCView
+"MXROfflineUGCViewAddPage"="书页";
+"MXROfflineUGCViewVideo"="视频";
+"MXROfflineUGCViewImage"="图片";
+"MXROfflineUGCViewFaceRec"="小视频";
+"MXROfflineUGCViewText"="文本";
+"MXROfflineUGCViewAudio"="语音";
+"MXROfflineUGCViewUrl"="网址";
+"MXROfflineUGCViewHelpVideo"="使用帮助";
+"MXROfflineUGCViewLoadingVideo"="正在加载视频，请稍等";
+"MXRAdvertisement_Imediately_Show" = "立即查看";
+
+// MXRBuyBookForDownLoadViewController
+"MXRBuyBookForDownLoadVC_Title_ActivityFree"        = "限时免费";
+"MXRBuyBookForDownLoadVC_Btn_PurchaseBook"          = "获取图书";
+"MXRBuyBookForDownLoadVC_Btn_PurchaseThisBook"      = "购买这本书";
+"MXRBuyBookForDownLoadVC_Btn_FreeReceive"           = "限免领取";
+"MXRBuyBookForDownLoadVC_Btn_ActiveCode"            = "我有二维码";
+"MXRBuyBookForDownLoadVC_Title_BookNeedActiveCode"  = "当前图书需要激活码";
+"MXRBuyBookForDownLoadVC_Description_RestNow"       = "当前剩余";
+"MXRBuyBookForDownLoadVC_Toast_PurchaseOK"          = "购买成功";
+"MXRBuyBookForDownLoadVC_Toast_BookException"       = "图书异常，请联系管理员！";
+"MXRGainMXBByTaskMXBNotEnough"                      = "哎呀！梦想币不足了";
+"MXRGainMXBExchangeMXB"                             = "兑换梦想币";
+"MXRGainMXBDoTaskForMXB"                            = "完成任务获取梦想币吧";
+"MXRGainMXBNowOwnMXBCount"                          = "当前剩余%@梦想币";
+
+"MXRInviteFriendsViewController_Invite_Text"="我在4D书城学习，你也一起加入吧。";
+"MXRInviteFriendsViewController_Get_MXB"="领取TA为你赠送50梦想币";
+"MXRInviteFriendsViewController_Long_Press"="长按二维码";
+"MXRInviteFriendsViewController_Book_To_Live"="让图书彻底活起来";
+"MXRInviteFriendsViewController_Invite_Success"="邀请好友成功";
+"MXRInviteFriendsViewController_Login_Invite_Success"="我们恭候多时了";
+"MXRInviteFriendsViewController_Already_Exist"="已入账";
+"MXRInviteFriendsViewController_Already_Invited"="邀请成功的好友";
+"MXRUserNotificationViewController_Systerm_Notification"="系统通知";
+"MXRUserNotificationViewController_Message_Center"="消息中心";
+"MXRUserNotificationViewController_CellTItle_NewerGuide"="新人引导";
+// mxrbutton
+"mxrButtonResourceIsLoading" = "资源加载中...";
+
+"OldUserComeBackPrompt"="亲爱的朋友，好久没有来“4D书城”读书啦，书城上架了好多品类的新书哦，小梦等着你来阅读，咱们不见不散哦！";
+"Praise"="赞";
+"Province"="省";
+
+// MXRMessageReplyViewController  用户消息回复相关
+"MXRMessageReplyViewControllerMyReplyStr"="回复";
+"MXRMessageReplyViewControllerMyReply"="我";
+"MXRMessageReplyViewControllerMyReplyOther"="你";
+"MXRMessageReplyViewControllerMyMoment"="的梦想圈";
+"MXRMessageReplyViewControllerMyEssay"="资讯";
+"MXRMessageReplyViewControllerMyBookType"="图书";
+"MXRMessageReplyViewControllerMyMomentType"="梦想圈";
+"MXRMessageReplyViewControllerNoCommentTips"="暂时没有评论哦，去别处看看吧";
+"MXRMessageReplyViewControllerNoZanTips"="暂时没有赞哦，去别处看看吧";
+
+// MXRShowTipsUserRestView
+"MXRShowTipsUserRestViewTipsUserCollectionMXB"="正在收集梦想币";
+"MXRShowTipsUserRestViewTipsUserFinishCollectionMXB"="已收集";
+"MXRShowTipsUserRestViewContinueRest"="继续休息";
+"MXRShowTipsUserRestViewStopRest"="休息够了";
+"MXRShowTipsUserRestViewSetting"="设置下次提示";
+"MXRShowTipsUserRestViewSureToLeave"="正在收集梦想币哦，确定离开？";
+"MXRShowTipsUserRestViewNoRemind"="不提示";
+"MXRShowTipsUserRestViewSettingTitle"="阅读时长提示";
+
+//
+
+"MXRDoNotUseXiaoMeng"="昵称不要使用小梦";
+
+//启动程序获取赠送梦想币
+"MXRPresentMXB"="赠送%ld个梦想币";
+//评论框提示文字
+"DDYCommentPlaceHolderText"="快来发表自己观点吧，写的好就能获得小梦姐姐的奖励哦！";
+"MXRDDYAddCommentViewPromptStarLable"="打个分:";
+
+//关于4d书城当中的审核
+"MXRNewAboutViewController_InReviewed"="审核";
+"MXRNewAboutViewController_NotInReviewed"="未审核";
+"MXRPerViewCont_SwitchServer"="切换服务器";
+
+//扫描界面内部解锁激活完体验提示
+"MXRQRScanInsideBookActivite"="赶紧来体验吧";
+"MXRQRScanLastUserTimes"="剩余激活次数";
+"MXRQRScanImmediatelyActivite"="立即激活";
+"ActivateAndDownload"="激活下载";
+"MXRQRScanDownloadBookAndActivite"="赶紧下载来体验吧";
+
+// 问答界面
+"MXRQAExerciseVC_ShareQAForHelp"="你的好友%@向你求助了，这题你会吗？\n赶紧长按二维码进行答题吧";
+"MXRQAExerciseVC_QANotFound"="该问答已下架";
+"MXRQAExerciseVC_NeedChoiceCorrectNumberAnswer"="此题需要选择%ld个答案哦";
+"MXRQAExerciseVC_ClickToJoin"="点击此处直接参与";
+"MXRQAExerciseVC_ShareContent_AskQestionForHelp"="哪位大侠可以帮助我解决这道难题？已被题目难倒，拜请各位大侠前来相助！";
+"MXRQAExerciseVC_ShareContent_WrongTopicAnalysis"="万万没想到，答案竟是这个！";
+"MXRQAExerciseVC_ShareContent_QRCodeText"="丰富的知识，真正“活”起来的图书\n赶紧长按二维码下载体验吧";
+"MXRQAExerciseVC_AskHelpForFriends"="求助好友";
+"MXRQAExerciseVC_NextQuestion"="下一题";
+"MXRQAExerciseVC_SubmitAnswer"="提交";
+"MXRQAExerciseVC_VCTitle"="第%ld题";
+"MXR_PromptDoExercise_Tip_CheckLearn"="检验一下学习成果，做几道题练习题吧\n正确率达成";
+"MXR_PromptDoExercise_Tip_UnlockNextChapter"="即可解锁下一章节";
+"MXRPercentView_Accuracy"="正确率";
+
+"NOT_ENOUGH_SPACE"="当前设备存储空间不足，会造成文件丢失，请释放内存后再进行操作。";
+
+//  MXRMissionCompleteShare
+"MXRMissionCompleteShare_Image_Accuracy_Above60" = "我刚刚完成了“%@”闯关挑战，答题成功率%@%%，你敢和我PK吗？";
+"MXRMissionCompleteShare_Image_Accuracy_Under60" = "我刚刚完成了“%@”闯关挑战，快来和我PK吧！";
+"MXRMissionCompleteShare_Long_Press_QRCODE" = "长按二维码，测试你能得几分吧";
+"MXRMissionCompleteShare_Text_Accuracy_Above60" = "哈哈，我的答题正确率在%@%%哦，你能更厉害吗？";
+"MXRMissionCompleteShare_Text_Accuracy_Under60" = "我正在参加脑力大挑战，快来和我PK吧！";
+"MXRMissionCompleteShare_Error" = "分享失败";
+
+//年龄选择
+"MXRChooseYourAgeText" = "请选择年龄";
+"MXRChooseAgeHint" = "选择年龄后，获取更适合你的书";
+"MXRChooseAgePlaceHolder" = "快来选择吧";
+"MXRAgeText" = "岁";
+"MXRCancelText" = "取消";
+"MXRDoneText" = "完成";
+"MXREnterText" = "进入";
+"MXRNextText" = "下一步";
+
+//内存提醒&清除缓存
+"MXRMemoryCleaning" = "清理中";
+"MXRMemoryCalculating" = "正在计算...";
+"MXRMemoryCleaned" = "已清理";
+"MXRMemoryCleanedCache" = "已清理缓存";
+"MXRMemoryUsedSpace"="已使用";
+"MXRMemoryLeftSpace" = "可用空间";
+"MXRMemoryCleanCache"="清除缓存";
+"MXRMemoryClearBook"="清理图书";
+"MXRMemoryNeverRemind"="不再提醒";
+"MXRMemoryWarning" = "内存空间不足啦，请手动清理释放空间吧";
+
+//分享到梦想圈提示登录
+"MXRAlertLoginBeforeShareToMXQ" = "登录后才可以分享到梦想圈哦";
+
+
+
+//MyTaskViewController
+"MyTaskViewController_Go_To"="去";
+"MyTaskViewController_MXRStore"="梦想币商城";
+"MyTaskViewController_Look_At_The_gift"="查看礼品";
+"MXRSNS_COMING_SOON"="即将来到!";
+"MXRHandpicked" = "精选";
+"MXRRetrieve_Password_Has_Send"="已发送";
+"MXRLoginVC_Password"="密码";
+"MXRSNSDetail_item"="条";
+
+//权限提示
+"MXRCameraUsageDescription"="开启后方可打开摄像头进行拍照/录制，建议开启";
+"MXRContactsUsageDescription"="开启后方可接受验证码，建议开启";
+"MXRMicrophoneUsageDescription"="开启后方可打开麦克风进行录音，建议开启";
+"MXRPhotoLibraryAdditionsUsageDescription"="开启后方可存储照片信息，建议开启";
+"MXRPhotoLibraryUsageDescription"="开启后方可读取照片信息，建议开启";
+
+"MXRBookShelf_Pop_ClearUp"="整理图书";
+"MXRBookShelf_Pop_UpdateBook"="更新图书";
+"MXRBookShelf_Pop_PurchaseHistory"="购买记录";
+"MXRBookShelf_Pop_Diy"="我要做书";
+
+"MXRLoadFailedView_No_Network"="好像网络连接有问题";
+"MXRLoadFailedView_Try_Again"="点击重试";
+  
+"MXRUGC_BE_READY"="准备中";
+"MXRUGC_RECORDING"="录音中";
+"MXRUGC_STOP_RECORDING"="停止录音";
+"MXR_ALERT_DEVICE_BAD"="您的设备配置较低，无法体验";
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+//翻译从这里往下添加⬆️
+
+//5.8.1 新增
+"MXRBookStoreViewController_More"="了解更多";
+
+"MXRBookCategoryTitle_Interest" = "兴趣";
+"MXRBookCategoryTitle_Category" = "分类";
+"MXRBookCategoryTitle_Publisher" = "出版社";
+
+// MXRBookCityHomeNaviTabViewController.h
+"HomeNaviTabVC_SearchTip"="请输入关键词搜索";
+"HomeNaviTabVC_Recommend"="为你推荐";
+"HomeNaviTabVC_Categories"="全部图书";
+
+//5.8.3新增
+"MXRPhoneBandelDetailVC_Prompt"="请输入手机号进行绑定";
+
+//Snaplearn Share
+"ShareTitle_Facebook" = "Facebook";
+"ShareTitle_Instagram" = "Instagram";
+"ShareTitle_WhatsApp" = "WhatsApp";
+"ShareTitle_Google" = "Google";
+"ShareTitle_Gmail" = "Gmail";
+
+//Reserve Share
+"ShareTitle_Twitter" = "Twitter";
+"ShareTitle_YouTube" = "YouTube";
+
+// 书架状态
+"Download_State_Wait"="等待";
+"Download_State_Download"="下载中";
+"Download_State_Pause"="暂停";
+"Download_State_Update"="更新";
+"Download_State_Upload"="上传中";
+"Download_State_Zip"="压缩中";
+
+//新版引导登录
+"Guide_Login"="手机注册/登录";
+"Guide_Register"="注册";
+"Guide_GuestLogin"="随便看看";
+
+
+//5.8.5  pk
+"MXRPKSearch_Refresh_Prompt"="很可能是网络问题，\n点击刷新按钮再试一次吧";
+"MXRPKMedalViewController_Medal"="勋章";
+"MXRPKMedalVC_Leave_For"="前往";
+"MXRPKMedalVC_Has_Obtain"="已获得";
+"MXRPKMedaiVC_Prompt_Has_Some_Medal"="已获得%ld个勋章，继续努力哦！";
+"MXRPKMedaiVC_Prompt_Obtain_All_Medal"="真棒，你已经集齐了全部勋章！";
+"MXRPKMedaiVC_Prompt_None_Medal"="还没有获得勋章，要努力哦！";
+
+// ph home
+"MXRPKHomeViewController_PK_Records" = "%@胜 %@负 %@平";
+"MXRPKHomeViewController_PK_Title" = "脑力大战";
+
+"MXRQAExerciseVC_ShareContent_DownloadApp"="长按二维码，下载4D书城和我一起答题吧！";
+
+// mxrtopView
+"MXRTopViewButtonShare" = "分享";
+"MXRTopViewButtonRotate" = "横竖屏切换";
+"MXRTopViewButtonCloseBackground" = "关闭地面";
+
+
+"MXRWifiPromptNO" = "取消";
+"MXRWifiPromptYES" = "继续";
+"MXRWifiPromptInfo" = "当前网络不是wifi环境，继续阅读将要消耗您的流量。确定继续？";
+
+"MXROfflineViewController_UGC_camera_record_tip"="请把头像对准摄像头点击录制";
+"MXRAddCommentViewController_button_finish"="完成";
+
+"MXRGuideLoginView_Login" = "立即登录";
+
+"MXRPurchaseSurplusOfLockTime" = "还可以解锁%@次";
+
+"LooseAndRefresh"="上拉加载";
+"MJRefreshLoading"="奋力加载中...";
+"MJRefreshLastUpdate"="最新加载";
+
+
+"MXRBandleDetailForSafetyLable"="为了您的账号安全，请绑定手机";
+"MXRBandleDetailPromptLable"="提示：绑定成功后，可以通过绑定手机号登录和找回密码";
+"MXRGoToBandle"="我要绑定";
+"MXRGoToBandleBeforePrompt"="同学，你还没绑定手机号码哦，为了你的账号安全，现在就绑定吧！";
+"MXRSearchResultRead"="阅读";
+
+"MXRUnityBottomView_Photo" = "照片";
+"MXRUnityBottomView_Video"= "视频";
+
+"Million" = "百万";
+"Rate" = "点评";
+
+"MomentHasBeenDeleted" = "该动态已删除";
+"CommentHasBeenDeleted" = "原评论已删除";
+
+//5.9.0 Version by shuai.wang
+"MXRAuthenticatingNameVC_Name_Prompt" = "昵称不可用，请重新输入";
+//5.9.1 Version
+"MXRFogertPassWordFirstStepVC_No_Exist_Email"="该邮箱未注册过";        //修改密码前判定是否注册过
+"MXRFogertPassWordFirstStepVC_No_Exist_Phone"="该手机号未注册过";      //修改密码前判定是否注册过
+"LoginViewController_Repeated_Account"="小朋友，请不要重复登录账号哦";    //切换账号优化
+
+//5.9.3 Version
+"MXRBookStoreSubjectDetailVC_Purchase"="一键优惠购买";
+"MXRBookStoreSubjectDetailConfirmPurchase_CurrentPriceLable"="%ld梦想钻限时体验";
+"MXRBookStoreSubjectDetailConfirmPurchase_OldPriceLable"="原价: %ld梦想钻";
+"MXRBookStoreSubjectDetailConfirmPurchase_PriceDetailLable"="共%ld本图书，平均每册仅%ld梦想钻";
+"MXRBookStoreSubjectDetailVC_PurchaseSuccess"="成功购买。购买记录可在“我 > 专题购买记录” 中查看";
+"MXRBookStoreSubjectDetailVC_HasPurchase"="已购买";
+"MXRBookStoreSubjectDetailVC_HasBuy"="已经购买过了哦";
+"MXRBookStoreSubjectDetailVC_HasDelete"="专区已下架";
+"MXRPerViewCont_Zone_Purchase_Record"="专题购买记录";
+"MXRZoneUnshelveMsg" = "该专题已下架";
+"MXRZoneUnshelveStatus" = "已下架";
+
+//5.9.4
+"MXRBookPresentCampaign_Title" = "限免领取";
+"MXRBookPresentCampaign_PresentToFriends" = "赠送好友";
+"MXRBookPresentCampaign_ShareTitle" = "送你一本书，立即领取";
+"MXRWebView_NeedLogin_Toast" = "登录后才可以参与活动哦~";
+//5.9.5
+"MXRBookGuideVideoPlayVC_Title" = "操作指南";
+//5.10.0
+"MXRBookShelfGroupName_Eggs" = "我的彩蛋";
+
+"MXRLoginVC_Input_Phone"="请输入手机号码";
+"MXRLoginVC_Input_Correct_Phone"="请输入正确的手机号码";
+"MXRLoginVC_Input_PhoneVerifyCode"="请输入验证码";
+"MXRLoginVC_Get_PhoneVerifyCode"="获取验证码";
+"MXRLoginVC_PhoneCode_Fail"="验证码错误";
+"MXRLoginVC_PhoneCode_Send_Succ"="验证码已发出";
+"MXRLoginVC_PhoneCode_Sended"="发送中(%lds’)";
+"MXRLoginVC_PhoneCode_Send_Fail"="验证码发送失败";
+"MXRLoginVC_Login_Failed"="登录失败";
+"MXRLoginVC_Login_Repeated"="小朋友，请不要重复登录账号哦";
+"LoginViewController_Repeated_Account"="小朋友，请不要重复登录账号哦";
+"MXRLoginVC_LoginTitle"="登录";
+"MXRLoginVC_VerifyCodeTitle"="验证码";
+"MXRLoginVC__Register_Now"="立即注册";
+"MXRLoginVC_Forget_PWD"="忘记密码";
+"MXRLoginVC_QuickLogin"="短信验证码登录";
+"MXRLoginVC_AccountPWDLogin"="账号密码登录";
+"MXRLoginVC_Third_Login"="第三方登录";
+"MXRLoginVC_QuickLogin_Tip"="未注册手机号登录，将自动注册";
+"MXRLoginVC_Code_Send_Succ"="验证码已发出";
+"MXRLoginVC_Code_Send_Fail"="验证码发送失败";
+
+"MXRSettingVC_APP_Score" = "APP评分";
+"MXRMyTaskVC_Normal_Task" = "常规任务";
+"MXRSearchFeedbackView_BookName" = "书名：";
+"MXRSearchFeedbackView_BookAuthor" = "作者：";
+"MXRSearchFeedbackView_Title" = "图书信息";
+"MXRSearchResult_NoResult" = "没有找到您要搜的图书哦~";
+"MXRSearchResult_Prompt" = "找不到的书？悄悄告诉小梦姐姐吧~";
+"MXR_XiaoMeng" = "小梦姐姐";
+"MXRSearchResultVC_FaceBackSuccess" = "提交成功，小梦姐姐收到啦！";
+"MXRSearchResultVC_FaceBackFailed" = "提交失败，可以待会再试一下";
+"MXRLaunchAdvertView_Skip" = "跳过";
+
+//5.11.0
+"MXR_Coupon" = "优惠券";
+"MXR_Coupon_Mine" = "我的优惠券";
+"MXR_Coupon_Centre" = "领券中心";
+"MXR_Coupon_Select" = "选择优惠券";
+"MXR_Coupon_UnSelect" = "不使用优惠券";
+"MXR_Coupon_Can_Choose" = "可使用优惠券:";
+"MXR_Coupon_Available_Time" = "领取后%ld天生效";
+"MXR_Coupon_Use" = "使用";
+"MXR_Coupon_To_Use" = "去使用";
+"MXR_Coupon_Available" = "立即领取";
+"MXR_Coupon_Unavailable" = "已领完";
+"MXR_Coupon_From_Recharge" = "充值赠送";
+"MXR_Coupon_From_Welfare" = "福利赠送";
+"MXR_Coupon_From_VIP" = "VIP赠送";
+"MXR_Instructions" = "使用说明";
+"MXR_Coupon_Usable" = "可使用";
+"MXR_Coupon_Invalid" = "已失效";
+"MXR_Coupon_Expired" = "已过期";
+"MXR_Coupon_Used" = "已使用";
+"MXR_Coupon_Inactive" = "未开始";
+"MXR_Coupon_None_Hint" = "还没有优惠券哦~";
+"MXR_Coupon_Present" = "送%ld钻券";
+"MXR_Coupon_Threshold" = "满%ld使用";
+"MXR_Coupon_AvailableDays" = "领取后%ld天有效";
+"MXR_Coupon_DrawSuccess" = "领取成功";
+
+"MXRSearchZoneStateView_Searching" = "加载中。。。";
+"MXRSearchZoneStateView_No_Data" = "什么也没找到。。。";
+
+//MXRBuyBookForDiamondViewController 补充的
+"MXR_Book_Price" = "图书价格:";
+"MXR_Book_Need_Pay" = "需支付";
+"MXR_Zone_Price" = "限时特惠:";
+"MXR_Zone_Old_Price" = "原       价:";
+"MXR_Zone_Buy" = "购买这专题";
+"MXRZoneDetail_Coupon_Num_Available" = "%ld张优惠券可领>";
+"MXRZoneDetail_Coupon_Num_Usable" = "%ld张优惠券可用>";
+"MXR_Diamond_Is_insufficient" = "梦想钻不足";
+"MXR_Diamond_Coupon_None" = "无";
+"MXR_Diamond_Coupon_Num" = "张可用";
+"MXR_Diamond_Coupon_Big" = "优惠券面值大于价格，使用后不找零";
+"MXR_Diamond_Subject_Warning" = "共%ld本图书，一键购买可阅读本专题全部图书";
+"MXR_Diamond_Book_Zone_Buy" = "购买整个专题（%ld钻）";
+"MXR_Tabbar_Coupon_Bubble" = "有优惠券即将过期";
+
+//5.12.0
+"MXR_Book_Rank_list_Title" = "热门图书榜";
+"MXR_Book_Rank_list_Read" = "阅读：";
+"MXR_Book_Rank_list_blank_Text" = "暂无榜单，敬请期待！";
+"MXR_Delete_Video_Text" = "是否删除视频";
+"MXR_Purchase_History_None" = "还没有购买记录哦";
+
+//5.13.0 version
+"MXR_VIP_BOOK" = "VIP图书";
+"MXR_VIP_Zone" = "VIP专题";
+"MXR_VIP_Member" = "VIP 会员";
+"MXRPersonVC_RechargeVIP_Tipe" = "开通会员，多重惊喜!";
+"MXRPersonVC_RechargeVIP_Residue" = "还剩";
+"MXRPersonVC_RechargeVIP_ResidueDay" = "天";
+"MXRPersonVC_Recharge_Receive_VIP" = "免费领取%ld天VIP";
+"MXRPersonVC_RechargeVIP_Recharge" = "立即续费";
+"MXRPersonVC_RechargeVIP_Dredge" = "立即开通";
+"MXRZoneDetailHeaderActiveHandleVIPTip" = "开通VIP,海量图书任你读 >";
+"MXRZoneDetailHeaderActiveRenewVIPTip" = "立即续费,享专属特权福利 >";
+"MXRZoneDetailHeaderActiveVIPFreeTip" = "尊贵的VIP,请尽情阅读吧";
+"MXRZoneDetailVC_Bottom_VIP" = "(VIP免费)";
+"MXRPersonVC_Receive_VIP_Fail" = "领取失败";
+"MXRPersonVC_Receive_VIP_Success_Tip" = "领取VIP成功！";
+"MXRPersonVC_Receive_VIP_End_Time" = "有效期至%@";
+"MXRSignInVC_Today" = "今天";
+"MXRSignInVC_ContinueSignIn" = "连续%ld天";
+"MXRSignInVC_ContinueSignIn_Every" = "连续N天";
+"MXRSignInVC_ContinueSignIn_How_Many_Days" = "第%ld天";
+"MXRSignInVC_ContinueSignIn_Vip_Dredge" = "开通VIP130%奖励";
+"MXRSignInVC_ContinueSignIn_Vip_Recharge" = "续费VIP畅享不停";
+"MXRBookStoreSubjectDetailVC_VIP_Download_Tip" = "请点图书下载哦";
+//认知卡模糊识别
+"MXR_SCAN_SIMILAR_CHOOSE_YOUR_NEED" = "请选择你需要的";
+
+//问答列表
+"MXR_PK_QUESTIONS" = "问答";
+"MXR_PK_QUESTIONS_SUBJECTS" = "题";
+"MXR_PK_AVERAGE_CORRECT_RATE" = "平均正确率";
+"MXR_PK_PARTICIPATE_PROMPT" = "还未参与哦，赶紧来吧";
+"MXR_PK_MINE_ACCURACY" = "我的正确率";
+
+//完成闯关
+"MXR_PK_MC_EMM_ACCURACY_RATE_ONLY" = "啊哦，答题正确率只有";
+"MXR_PK_MC_CHALLENGE_IT_AGAIN" = "，再挑战一次吧！";
+"MXR_PK_MC_RANKING" = "TOP10光荣榜";
+"MXR_PK_MC_MORE_KNOWLEDGE_InBook" = "这本书里还有很多意想不到的知识哦！";
+"MXR_PK_MC_TITLE" = "完成闯关";
+"MXR_PK_MC_WRONG_ANALYSIS" = "答案解析";
+"MXR_PK_MC_TRY_IT_AGAIN" = "再测一次";
+"MXR_PK_MC_INVITE_FRIENDS" = "邀请好友PK";
+"MXR_PK_MC_CONGRATULATIONS" = "真棒，答题正确率";
+"MXR_PK_MC_BETTER_THAN" = "超越了";
+"MXR_PK_MC_CHALLENGER" = "名挑战者";
+"MXR_PK_MC_MINE_RANK" = "我排在第";
+"MXR_PK_MC_RANK_POSITION" = "位";
+
+//错题解析
+"MXR_PK_WA_WRONG" = "呜呜，答错了！";
+"MXR_PK_WA_ANSWER" = "正确答案";
+"MXR_PK_WA_ANALYSIS" = "解析";
+"MXR_PK_WA_SINGLE_CHOICE" = "单选";
+"MXR_PK_WA_MULTIPLE_CHOICE" = "多选";
+"MXR_PK_WA_NEXT_QUESTION" = "下一题";
+"MXR_PK_WA_LAST_QUESTION" = "上一题";
+"MXR_PK_WA_SORT" = "第%@题";
+"MXR_PK_WA_ERROR" = "没有错题，无法解析！";
+
+//PK结果
+"MXR_PK_RESULT_TITLE" = "PK结果";
+"MXR_PK_RESULT_ACCURACY" = "正确率";
+"MXR_PK_RESULT_CONTINUE" = "继续PK";
+"MXR_PK_RESULT_RETRY" = "再战一局";
+"MXR_PK_RESULT_ANALYSIS" = "答案解析";
+"MXR_PK_RESULT_SUCCESS" = "PK获胜";
+"MXR_PK_RESULT_GAIN" = "赢得";
+"MXR_PK_RESULT_DRAW" = "领取";
+"MXR_PK_RESULT_SURE_TO_BUY" = "确认购买";
+"MXR_PK_RESULT_LACK_OF_MXB" = "您的梦想币不足，去获取";
+"MXR_PK_RESULT_SHOT_TO_SHARE" = "截图分享炫耀下战绩吧!";
+"MXR_PK_RESULT_GAINMXB" = "PK获胜，赢得%ld梦想币";
+
+//清理图书
+"MXR_CLEAR_BOOK_SELECT_ALL" = "全选";
+"MXR_CLEAR_BOOK_COMPLETE" = "完成";
+"MXR_CLEAR_BOOK_CLEAR" = "清理";
+"MXR_CLEAR_BOOK_PLEASE_SELECT" = "请选择需要清理的图书";
+"MXR_CLEAR_BOOK_ALERT" = "确认删除%ld本图书?";
+
+//5.14.0
+"MXR_Zone_Coupon_list_Git_Success"="领取成功";
+"MXRBrightnessVC_AdjustBrightness"="亮度调节";
+"MXRBrightnessVC_Slider_Dark"="暗";
+"MXRBrightnessVC_Slider_Light"="亮";
+
+//5.15.0
+//搜索
+"MXRSearchTypeAll" = "全部";
+"MXRSearchTypeBook" = "图书";
+"MXRSearchTypeZone" = "专区";
+"MXRSearchTypeClass" = "课程";
+"MXR_Course_SubscriberNum" = "%ld人已订阅学习";
+"MXR_Course_Description" = "共%ld课时 | %ld个课件 | %ld本配套图书";
+"MXRSearch_NoData" = "没有找到任何内容哦～";
+
+//书架
+"MXRBookShelf_Title_MineCourse" = "我的课程";
+"MXRBookShelf_Course_Empty_Hint" = "还没有订阅任何课程哦";
+"MXRBookShelf_Course_Jump_Title" = "去AR课堂看看";
+"MXRBookShelf_ARExtracurricular_Jump_Title" = "去AR课外看看";
+"MXR_Go_To_BookStore" = "去书城看看";
+
+//UNIT详情
+"MXRUnit_Title_PRBook" = "点读教辅";
+"MXRUnit_Title_Examination" = "单元测验";
+"MXRUnit_Title_ExtensionReading" = "延展阅读";
+"MXRUnit_Exam_Begin" = "立即测验";
+"MXRUnit_Exam_Desc" = "共%ld题 | 预计花费%ld分钟";
+
+// 课程选择
+"MXR_CourseSelected_Title" = "课程选择";
+"MXR_CourseSelected_All_Grade" = "全部年级";
+"MXR_CourseSelected_All_Subject" = "全部科目";
+"MXR_CourseSelected_All_Version" = "全部版本";
+"MXR_CourseSelected_AddCourse_Success" = "添加课程成功";
+"MXR_CourseSelected_Loading" = "页面加载中";
+"MXR_CourseSelected_Grade" = "年级";
+"MXR_CourseSelected_Subject" = "科目";
+"MXR_CourseSelected_Teaching_Version" = "教辅版本";
+
+//课程Course详情
+"MXR_CourseDetatil_Course_Pay" = "%ld梦想钻，开通完整课程";
+"MXR_CourseDetatil_Title" = "课程详情";
+"MXR_CourseDetatil_UnitList" = "单元列表";
+"MXR_CourseDetatil_MyRecord" = "我的成绩";
+"MXR_CourseDetatil_LearningReport" = "学习报告";
+"MXR_CourseDetatil_ExtendRead" = "延展阅读";
+"MXR_CourseDetatil_Purchase_Course" = "购买课程";
+"MXR_CourseDetatil_Free_Learn" = "免费学习";
+"MXR_CourseDetatil_Start_Learn" = "开始学习";
+"MXR_CourseDetatil_Continue_Learn" = "继续学习";
+"MXR_CourseDetatil_Again_Learn" = "重新学习";
+
+//5.16.0
+//选择优惠券
+"MXR_Coupon_Deselect_Success" = "已取消选择";
+
+//个人挑战赛
+"MXR_CHALLENGE_TITLE" = "个人挑战赛";
+"MXR_CHALLENGE_CHANCE" = "机会";
+"MXR_CHALLENGE_RANK_TITLE" = "排行榜>>";
+"MXR_CHALLENGE_WEEK_RANK" = "个人排名：";
+"MXR_CHALLENGE_WEEK_RANK_UNIT" = "名";
+"MXR_CHALLENGE_BEST_RANK" = "最佳纪录：";
+"MXR_CHALLENGE_BEST_RANK_UNIT" = "题";
+"MXR_CHALLENGE_PROP_TITLE" = "获取道具>>";
+"MXR_CHALLENGE_EXCLUDEERRORCARD" = "除错卡";
+"MXR_CHALLENGE_RESURGENCECARD" = "复活卡";
+"MXR_CHALLENGE_BEGIN" = "开始挑战";
+"MXR_CHALLENGE_ABILITY_RADAR" = "脑力图谱";
+"MXR_PK_BEGIN" = "开始PK";
+"MXR_PK_NO_CHANCE" = "机会用尽,明天再试吧";
+"MXR_PK_NOT_ON_RANKLIST" = "未上榜";
+"MXR_PK_RANK_NODATA" = "暂无数据";
+
+//道具商店
+"MXR_Prop_Title" = "道具商店";
+"MXR_Prop_Task" = "道具任务";
+"MXR_Prop_Share_Task" = "分享获取道具";
+"MXR_Prop_Share_Ruler" = "规则：每日首次分享，将获得1张复活卡和1张除错卡（会员2倍奖励）";
+"MXR_Prop_Purchase" = "道具购买";
+"MXR_Prop_Card_Unit" = "张";
+
+//5.17.0 激活码
+"MXR_ARClass_course_Activation" = "请输入激活码";
+"MXR_BandCode_Success_DidBand" = "你已绑定过邀请码\n不能重复绑定";
+"MXR_BandCode_Success_Success" = "恭喜你！\n成功绑定邀请码";
+"MXR_BandCode_Success_Login" = "你还未登录，请先登录哦";
+
+//通读
+"MXR_BOOK_DOWNLOAD_TOAST" = "《%@》还未下载，是否立即下载？";
+"MXR_BOOK_PURCHASE_TOAST" = "《%@》还未购买，请先在书城购买这本图书或专题哦";
+"MXR_BOOK_NO_LAST_BOOK" = "没有上一集哦";
+"MXR_BOOK_NO_NEXT_BOOK" = "没有下一集哦";
+
+//5.18.0
+//单元详情
+"MXR_UNIT_RESOURCE_READ" = "已读";
+//问答
+"MXR_PK_RECHARGE_VIP_DOUBLE_BONUS" = "成为VIP机会翻倍哦>";
+"MXR_PK_VIP_PRIVILEGE_TITLE" = "VIP特权";
+"MXR_PK_VIP_PRIVILEGE_CONTENT" = "成为VIP你将拥有以下特权:\n\n1、每日获赠5张除错卡和5张复活卡。 次日失效\n\n2、每日答题机会10次，为普通用户2倍\n\n3、分享功能，获赠道具数量翻倍";
+
+//5.19.0
+//离线阅读书签toast提示
+"MXR_READ_BOOKMARKER_ADD_SUCCESS" = "书签添加成功";
+"MXR_READ_BOOKMARKER_DELETE_SUCCESS" = "书签已取消";

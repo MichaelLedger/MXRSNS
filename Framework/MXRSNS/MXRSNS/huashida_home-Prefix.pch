@@ -1,0 +1,166 @@
+//
+// Prefix header for all source files of the 'huashida_home' target in the 'huashida_home' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "UtilMacro.h"
+    #import "DimensMacro.h"
+    #import "UserInformation.h"
+    #import "MXRDefaultViewController.h"
+    #import "MXRMacro.h"
+#endif
+
+#if  !TARGET_IPHONE_SIMULATOR
+//#include "Preprocessor.h"
+//#include "UnityTrampolineConfigure.h"
+//#include "iPhone_Common.h"
+//#include "UnityInterface.h"
+#endif
+
+#import "Notifications.h"
+
+#import "BUUtil.h"
+#import "MXRConstant.h"
+#import "UIImage+Extend.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+    void UnitySendMessage(const char* obj, const char* method, const char* msg);
+#ifdef __cplusplus
+}
+#endif
+
+#define mxr_dispatch_main_sync_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_sync(dispatch_get_main_queue(), block);\
+}
+
+#define mxr_dispatch_main_async_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+
+
+
+
+/**
+ zjs 2015\5\19
+ 定义日志宏*/
+#ifdef DEBUG
+/*
+ __PRETTY_FUNCTION__  非标准宏。这个宏比__FUNCTION__功能更强,  若用g++编译C++程序, __FUNCTION__只能输出类的成员名,不会输出类名;而__PRETTY_FUNCTION__则会以 <return-type>  <class-name>::<member-function-name>(<parameters-list>) 的格式输出成员函数的详悉信息(注: 只会输出parameters-list的形参类型, 而不会输出形参名).若用gcc编译C程序,__PRETTY_FUNCTION__跟__FUNCTION__的功能相同.
+ 
+ __LINE__ 宏在预编译时会替换成当前的行号
+ 
+ __VA_ARGS__ 是一个可变参数的宏，很少人知道这个宏，这个可变参数的宏是新的C99规范中新增的，目前似乎只有gcc支持（VC6.0的编译器不支持）。宏前面加上##的作用在于，当可变参数的个数为0时，这里的##起到把前面多余的","去掉的作用,否则会编译出错
+ 
+ Modified by MT.X
+ */
+//#define DLOG(...) NSLog(__VA_ARGS__);
+#define DLOG(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define DLOG_METHOD NSLog(@"%s",__func__);
+#define DERROR(fmt,...) NSLog((@"error:%s %d " fmt),__FUNCTION__,__LINE__,##__VA_ARGS__);
+#else
+
+#define DLOG(...) ;
+#define DLOG_METHOD ;
+#define DERROR(fmt,...) ;
+#endif
+
+//是否弹出alert view的错误提示
+#ifdef ALERT_ERROR
+    #define DALERTERROR(...) [[[UIAlertView alloc]initWithTitle:@"内测版提示" message:[NSString stringWithFormat:__VA_ARGS__] delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil] show];
+#else
+    #define DALERTERROR(...) ;
+#endif
+
+#define printf_console printf
+#define GREEN_LINE_COLOR RGB(34, 215, 151);
+#define RGB(r, g, b)    [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+#define RGBA(r, g, b, a)    [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:a]
+#define RGBHEX(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
+#define RGBHEXA(hex,a) [UIColor colorWithRed:((float)(((hex) & 0xFF0000) >> 16))/255.0 green:((float)(((hex) & 0xFF00)>>8))/255.0 blue: ((float)((hex) & 0xFF))/255.0 alpha:(a)]
+
+#define MXRMAINCOLOR RGBHEX(0x5BD800)  // 主色调 绿色
+#define BLUE_COLOR RGB(46,152,252) // 蓝色
+#define GRAY_COLOR_197 RGB(197,197,197) // 灰色
+#define BLUE_COLORA(a) RGBA(46,152,252,a)
+#define GRAY_COLOR_142 RGB(142,142,142) //#define ThemeColor      [UIColor colorWithRed:1.0/255 green:174.0/255 blue:240.0/255 alpha:1]
+#define BACKGROUND_COLOR_249 RGB(249,249,249) 
+
+#define ORANGE_COLOR [UIColor colorWithRed:246/255.f green:132/255.f blue:35/255.f alpha:1.f] // 橙色
+
+#define NAVI_TITLE_FONT     [UIFont fontWithName:@"Helvetica" size:18] // 导航栏title字体
+#define NAVI_TITLE_COLOR    MXRCOLOR_FFFFFF // 导航条颜色
+
+#define NAVI_TINT_COLOR     MXRCOLOR_FFFFFF
+#define NAVI_TINT_COLOR_PRESSED MXRCOLOR_FFFFFF_A(0.5)
+
+#define NAVI_BACKGROUND_COLOR MXRCOLOR_FFFFFF
+
+#define DIY_BOOK_TAG 10000
+#define DIY_BOOK_ICON_BOOKGUID [NSString stringWithFormat:@"%i",DIY_BOOK_TAG]
+
+
+#define DIY_NEW_TAGID @(2) // diy图书的tagID,新的TAG
+
+#define WOMENGAIKEXUE_TAG 8 // 我们爱科学
+
+
+#define FourDKeJianTemId @"18"
+
+#define WORDCOLOR [UIColor colorWithRed:51.0/255 green:51.0/255 blue:51.0/255 alpha:1]
+#define ThemeImage(imageName) MXRIMAGE(imageName)
+#define COMPILE_FOR_APP_STORE 1
+#define LITE_FOR_4DSHUCHENG 1
+
+#define MXRWeakObj(o) autoreleasepool{} __weak __typeof(o) o##Weak = o; // weak 宏 用法 @MXRWeakObj(self);
+#define MXRStrongObj(o) autoreleasepool{} __strong __typeof(o) o = o##Weak;// strong 宏
+
+// 根据错误信息快速创建NSError
+#define MXRErrorWithMessage(msg) [[NSError alloc] initWithDomain:@"MXRErrorDomain" code:0 userInfo:@{NSLocalizedDescriptionKey: autoString(msg)}]
+
+#define QiNiuUrl @"http://img.mxrcorp.cn"
+#define QiNiuUrlHttps @"https://img.mxrcorp.cn"
+#define QINiuUrlHttpsTest @"http://7xtg61.com1.z0.glb.clouddn.com"
+#define QiNiuShrink @"-scale.w.200"
+
+#define CHECK_PARAM_NOT_NIL(param) if (param == nil){DERROR("prarm is nil");assert(0);}
+
+#define MXRShotVersionKey @"CFBundleShortVersionString"
+
+
+/**
+ 性能检测相关 by Martin.liu
+ 宏 MXRPROFIlERANALYZE 表示开启性能检测
+ 开启条件： 模拟器 或者 Debug模式下开启性能检测
+ */
+
+//#ifndef CHANNEL_APPSTORE
+#ifdef DEBUG
+    #define MXRPROFIlERANALYZE
+#endif
+
+#ifndef SINGLE_INSTANCE_USING_BLOCK
+#define SINGLE_INSTANCE_USING_BLOCK(block)  \
+static dispatch_once_t pred = 0;        \
+static id _sharedObject = nil;          \
+dispatch_once(&pred, ^{                 \
+_sharedObject = block();            \
+});                                     \
+return _sharedObject;
+#endif

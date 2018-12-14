@@ -1,0 +1,6 @@
+framework module MXRSNS {
+  umbrella header "MXRSNS.h"
+
+  export *
+  module * { export * }
+}

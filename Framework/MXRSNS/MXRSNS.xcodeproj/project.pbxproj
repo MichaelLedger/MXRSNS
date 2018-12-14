@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AACB487421C3D43700D0B8B0 /* MXRSNSAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AACB487721C3D43700D0B8B0 /* Build configuration list for PBXAggregateTarget "MXRSNSAggregate" */;
+			buildPhases = (
+				AACB487821C3D44F00D0B8B0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = MXRSNSAggregate;
+			productName = MXRSNSAggregate;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		66ADA5A3AFB3B880E379A11B /* Pods_MXRSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8D217D9717999F4AA2EECD /* Pods_MXRSNS.framework */; };
 		A27C7CB1381F8236200614A0 /* Pods_MXRSNSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9074ADDFC733A664FBFEC8 /* Pods_MXRSNSTests.framework */; };
@@ -4285,6 +4299,9 @@
 					AA556E5D21C33CD200AD1CE4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					AACB487421C3D43700D0B8B0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = AA556E4F21C33CD200AD1CE4 /* Build configuration list for PBXProject "MXRSNS" */;
@@ -4301,6 +4318,7 @@
 			targets = (
 				AA556E5421C33CD200AD1CE4 /* MXRSNS */,
 				AA556E5D21C33CD200AD1CE4 /* MXRSNSTests */,
+				AACB487421C3D43700D0B8B0 /* MXRSNSAggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -4561,6 +4579,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		AACB487821C3D44F00D0B8B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
 		};
 		E2D4E29C49BBC1EE8B7CAFEC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5115,6 +5146,24 @@
 			};
 			name = Release;
 		};
+		AACB487521C3D43700D0B8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AACB487621C3D43700D0B8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5141,6 +5190,15 @@
 			buildConfigurations = (
 				AA556E6D21C33CD200AD1CE4 /* Debug */,
 				AA556E6E21C33CD200AD1CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACB487721C3D43700D0B8B0 /* Build configuration list for PBXAggregateTarget "MXRSNSAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACB487521C3D43700D0B8B0 /* Debug */,
+				AACB487621C3D43700D0B8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

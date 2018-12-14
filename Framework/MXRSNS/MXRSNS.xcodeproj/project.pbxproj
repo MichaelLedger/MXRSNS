@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		AACB487421C3D43700D0B8B0 /* MXRSNSAggregate */ = {
+		AACB488321C3E13200D0B8B0 /* MXRSNSAggregate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AACB487721C3D43700D0B8B0 /* Build configuration list for PBXAggregateTarget "MXRSNSAggregate" */;
+			buildConfigurationList = AACB488421C3E13200D0B8B0 /* Build configuration list for PBXAggregateTarget "MXRSNSAggregate" */;
 			buildPhases = (
-				AACB487821C3D44F00D0B8B0 /* ShellScript */,
+				AACB488B21C3E16C00D0B8B0 /* ShellScript */,
 			);
 			dependencies = (
 			);
@@ -4299,7 +4299,7 @@
 					AA556E5D21C33CD200AD1CE4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					AACB487421C3D43700D0B8B0 = {
+					AACB488321C3E13200D0B8B0 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -4318,7 +4318,7 @@
 			targets = (
 				AA556E5421C33CD200AD1CE4 /* MXRSNS */,
 				AA556E5D21C33CD200AD1CE4 /* MXRSNSTests */,
-				AACB487421C3D43700D0B8B0 /* MXRSNSAggregate */,
+				AACB488321C3E13200D0B8B0 /* MXRSNSAggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -4580,9 +4580,9 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AACB487821C3D44F00D0B8B0 /* ShellScript */ = {
+		AACB488B21C3E16C00D0B8B0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -4591,7 +4591,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=\"MXRSNS\"\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
 		};
 		E2D4E29C49BBC1EE8B7CAFEC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5146,20 +5146,68 @@
 			};
 			name = Release;
 		};
-		AACB487521C3D43700D0B8B0 /* Debug */ = {
+		AACB488521C3E13200D0B8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaHTTPServer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FMDB\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LKDBHelper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MAREXT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/pop\"",
+					"\"${PODS_ROOT}/AlicloudMAN/man\"",
+					"\"${PODS_ROOT}/AlicloudUT/ut\"",
+					"\"${PODS_ROOT}/AlicloudUTDID/utdid\"",
+					"\"${PODS_ROOT}/UMengAnalytics/umsdk_IOS_analyics_idfa_v4.2.4\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"MXRBOOKCITY=1",
+					"COCOAPODS=1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		AACB487621C3D43700D0B8B0 /* Release */ = {
+		AACB488621C3E13200D0B8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaHTTPServer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FMDB\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LKDBHelper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MAREXT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/pop\"",
+					"\"${PODS_ROOT}/AlicloudMAN/man\"",
+					"\"${PODS_ROOT}/AlicloudUT/ut\"",
+					"\"${PODS_ROOT}/AlicloudUTDID/utdid\"",
+					"\"${PODS_ROOT}/UMengAnalytics/umsdk_IOS_analyics_idfa_v4.2.4\"",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					"MXRBOOKCITY=1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -5194,11 +5242,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AACB487721C3D43700D0B8B0 /* Build configuration list for PBXAggregateTarget "MXRSNSAggregate" */ = {
+		AACB488421C3E13200D0B8B0 /* Build configuration list for PBXAggregateTarget "MXRSNSAggregate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AACB487521C3D43700D0B8B0 /* Debug */,
-				AACB487621C3D43700D0B8B0 /* Release */,
+				AACB488521C3E13200D0B8B0 /* Debug */,
+				AACB488621C3E13200D0B8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

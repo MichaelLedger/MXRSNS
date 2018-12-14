@@ -16,6 +16,8 @@
     #import "UserInformation.h"
     #import "MXRDefaultViewController.h"
     #import "MXRMacro.h"
+//区分Pods和MXRSNS，不在公共头文件中相互引用
+//    #import <LKDBHelper/LKDBHelper.h>
 #endif
 
 #if  !TARGET_IPHONE_SIMULATOR
@@ -30,6 +32,7 @@
 #import "BUUtil.h"
 #import "MXRConstant.h"
 #import "UIImage+Extend.h"
+
 
 #ifdef __cplusplus
 extern "C" {

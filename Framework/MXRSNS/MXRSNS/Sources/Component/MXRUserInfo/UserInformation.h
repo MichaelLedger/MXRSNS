@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NSObject+MXRModel.h"
-#import "LKDBHelper.h"
+
 //#import "MXRUserInfoResponseModel.h"
 #define PhoneString @"phone"
 #define QQString @"QQ"

@@ -7,6 +7,8 @@
 //
 
 #import "MXRUserBehaviour.h"
+//区分Pods和MXRSNS，不在公共头文件中相互引用
+#import <LKDBHelper/LKDBHelper.h>
 
 @implementation MXRUserBehaviour
 

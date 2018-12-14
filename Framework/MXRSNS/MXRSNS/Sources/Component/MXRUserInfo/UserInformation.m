@@ -6,6 +6,7 @@
 //  Copyright © 2016年 苏州梦想人软件科技有限公司. All rights reserved.
 //
 #import "UserInformation.h"
+//#import <LKDBHelper/LKDBHelper.h>
 //#import "MXRPromptView.h"
 //#import "MXRPhoneBandelDetailViewController.h"
 //#import "AppDelegate.h"
